@@ -43,7 +43,11 @@ know. It writes down your goals and the facts about your product that the
 site is allowed to state.
 
 **Phase 1: it looks at what already exists.** Your app, your current site,
-your docs, your competitors. It searches your brand name, asks ChatGPT,
+your docs, your competitors. If you have blog posts or other content
+already, it asks whether to import them as the starting point, shows you a
+list with a keep, merge, refresh, or drop recommendation for each, and asks
+how much it may change them: evolve freely, light touch, or frozen. Every
+imported page is fact-checked before it goes live on the new site. It searches your brand name, asks ChatGPT,
 Claude, Perplexity and the others your customers' questions, and records
 who gets cited today. Then it drafts your positioning: what category you
 are in, who you are for, and the two or three things that make you

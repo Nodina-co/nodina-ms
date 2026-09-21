@@ -64,6 +64,7 @@ content/
   social/                 social copy per published page
 research/
   discovery.md            intake answers and audit findings
+  import-inventory.md     existing content: keep, merge, refresh, drop, with the operator's picks
   competitors.md          competitor and substitute map, dated
   keywords.csv            master keyword list with intent, cluster, priority
   clusters.md             cluster to page mapping
@@ -501,7 +502,7 @@ before Phase 3 exists.
 | Phase | Name | Output | Section |
 |---|---|---|---|
 | 0 | Discovery and intake | `research/discovery.md`, `content/goals.md` (confirmed), `content/product-truth.md` (draft), `content/voice.md` (draft), design mode recorded | 5 |
-| 1 | Audit of what exists, positioning | audit findings in `discovery.md`, `research/serp-baseline.md`, `research/ai-citations.csv` (baseline), `research/competitors.md`, `content/positioning.md` (confirmed) | 6 |
+| 1 | Audit of what exists, content import (opt-in), positioning | audit findings in `discovery.md`, `research/serp-baseline.md`, `research/ai-citations.csv` (baseline), `research/competitors.md`, `research/import-inventory.md` when importing, `content/positioning.md` (confirmed) | 6 |
 | 2 | Technical foundation and design track | the site skeleton, every technical item in section 7, `tools/` and CI; the design decided per section 7.19 (Mode A: existing design preserved and componentized; Mode B: design system agreed with the operator) | 7, 18 |
 | 3 | Keyword and query research | `research/keywords.csv`, `research/clusters.md`, `research/ai-queries.md` | 8 |
 | 4 | Site architecture and page inventory | page inventory in `content/PLAN.md`, templates per page type | 9 |
@@ -604,6 +605,21 @@ answering, extract the answer yourself in Phase 1 and mark it
 23. Existing content anywhere: blog posts, docs, help center, videos,
     podcasts, slide decks, newsletters, README files, changelogs, case
     studies, webinars. Links.
+23a. **Import it?** (blocking if 23 is not empty) Do you want the existing
+    content imported into the new site as the baseline, or left behind?
+    Options: "import everything", "import, but let me pick from a list",
+    "leave it, start clean". (Default: import, from a list the agent
+    prepares in 6.2b, because published pages already carry impressions
+    and links that a new domain does not have.)
+23b. **May it change?** (only if importing) How much may the agent evolve
+    the imported content? Options: "evolve freely: rewrite, merge, retitle,
+    re-target for search, under the truth rules and with a per-page yes"
+    (default); "light touch: fix facts, metadata, structure and links, but
+    keep the writing as it is"; "frozen: import verbatim, metadata only".
+    The answer applies to every imported page unless the operator sets it
+    per page in the import list. Existing copy with an unverified claim is
+    flagged whatever the answer, because section 2 applies to what is
+    already live.
 24. Existing social handles and which platforms matter for this audience.
 25. Data the company owns that nobody else has (usage statistics,
     survey results, benchmarks). Original data is the strongest citation
@@ -848,6 +864,72 @@ exactly. Write `content/design.md` from the live site:
 Anything that cannot be found in the code is asked in intake question 33,
 never guessed.
 
+### 6.2b Importing existing content (opt-in, decided in intake 23a and 23b)
+
+The site is still built from scratch; imported content is the baseline it
+starts with instead of an empty blog. Skip this section entirely when the
+operator chose "leave it".
+
+1. **Inventory.** Crawl the existing content (`tools/crawl-audit.py` or the
+   platform's export: WordPress XML, Ghost JSON, Medium export, a docs
+   folder, a YouTube channel list). For every piece record: URL, title,
+   date, author, word count, format, and, where Search Console exists,
+   its impressions and clicks over 16 months and its inbound links. Write
+   `research/import-inventory.md` as one table sorted by value, with a
+   recommendation per row: **keep** (has traffic, links, or answers a
+   cluster query), **merge** (overlaps another piece; name the survivor),
+   **refresh** (keep but out of date), **drop** (thin, off-topic, or
+   duplicated; with the redirect target if it had any traffic).
+2. **The operator picks.** When the answer to 23a was "let me pick", the
+   inventory is posted as a checklist, one line per piece with the
+   recommendation, and the operator answers with the ids to keep or the
+   ones to drop. "Import everything" imports every row marked keep, merge,
+   or refresh and asks only about the drops. Every decision is logged in
+   the inventory and in `decisions.md`.
+3. **Import.** Each kept piece becomes a plan row in `content/PLAN.md`
+   (status `imported`, with the source URL and the date), a markdown file
+   in the new content structure with the original text preserved verbatim
+   in the repository history, its original `datePublished`, its author (a
+   `Person` entry, with the operator's confirmation that the name may be
+   used), and its images copied and renamed per 7.13. The URL is kept when
+   the old and new sites share a domain and the slug meets 7.1; otherwise
+   a 301 from the old URL is added to the redirect map (7.17). The plan
+   gets a section **Imported** listing every row.
+4. **Claims pass.** Every imported page goes through the fact-check
+   procedure (2.4) before it is indexable on the new site. Claims trace or
+   are removed; the page carries `noindex` until it passes. This happens
+   regardless of the 23b answer: a frozen page with a false claim is
+   published only after the operator decides what to do with that claim.
+5. **Evolution, by the 23b answer.**
+   - *Evolve freely:* each imported page is treated like a refresh
+     candidate. The agent proposes, per page and in priority order, the
+     changes that serve its target query: a new title and answer box,
+     merged siblings, question headings, added facts and sources, a CTA.
+     Each proposal is a before-and-after with the reasons, approved page
+     by page in the Monday message. The original stays retrievable in git.
+   - *Light touch:* the agent fixes head tags, schema, images, internal
+     links, dates, and broken links, corrects factual errors, and adds the
+     answer box and FAQ only when the operator says yes per page. The
+     prose is not rewritten.
+   - *Frozen:* metadata, schema, images, and links only. The text is
+     untouched. The agent may still say, once, in the weekly brief, which
+     frozen pages it believes are costing the site and why.
+6. **Where imported pages sit in the plan.** They count toward the
+   clusters they answer (so the research in Phase 3 does not plan a new
+   page for a query an imported one already covers), they get a
+   `refresh_due` date like any page, and pages with real impressions are
+   refreshed before new pages are written (10.2). Imported pages are also
+   the first style corpus: the agent reads them for voice before writing
+   anything new, and if the operator says the old voice is not the voice
+   they want, the agent notes which pages are excluded from the corpus.
+7. **Launch.** Imported pages that passed the claims pass go live with the
+   launch package. Redirects go live at the same time. Search Console keeps
+   the old property until the new one has data.
+
+Output: `research/import-inventory.md`, the Imported section of `PLAN.md`,
+the redirect map, and a line in `decisions.md` recording the 23a and 23b
+answers.
+
 ### 6.3 Brand SERP baseline
 
 Search the brand name, the brand name plus "reviews", "pricing",
@@ -935,6 +1017,8 @@ disagree, the agent shows both and recommends the customer's words for the
 titles and queries, and the operator's for the brand line.
 
 **Definition of done for Phase 1:** `product-truth.md` confirmed at the gate;
+the import decision made and, when importing, the inventory reviewed and
+the kept pages in the plan;
 `positioning.md` confirmed;
 audit written; baselines recorded with dates; competitor map exists.
 
@@ -1890,6 +1974,10 @@ Next up: <ids in order>.
 ## Backlog (prioritized)
 (same table, sorted by priority; no dates)
 
+## Imported (from <old site>, decided <date>: <evolve freely | light touch | frozen>)
+| id | title | source url | new url | cluster | status | claims pass | notes |
+|---|---|---|---|---|---|---|---|
+
 ## Published
 | id | title | url | cluster | published | modified | refresh due | rubric | notes |
 |---|---|---|---|---|---|---|---|---|
@@ -1932,7 +2020,13 @@ Rules for the file:
 backlog → briefed (agent) → approved (HUMAN) → drafting (agent) → review (agent)
 → ready (HUMAN, the go-live yes) → published (agent, after go-live) → refresh-due (agent, by rule)
 → refreshing (agent) → published … → archived (HUMAN)
+
+imported (agent, from 6.2b) → review (after the claims pass) → ready (HUMAN) → published …
 ```
+
+  Imported rows sit in their own **Imported** section of the plan until
+  they are published, then move to Published with their original
+  publication date and the import date in the notes.
 
   The agent never sets `approved`, `ready`, or `archived` on its own. When
   the operator gives that decision in chat, the agent edits the row and
@@ -3694,6 +3788,11 @@ steps only they can do. Every number here is an estimate, labeled as such.
   products, funnels and reports built by the browser agent,
   `content/analytics.md`; publish invariants as a required section of the
   generated AGENTS.md; conformance audit checks both.
+- 2026-09-21: added the opt-in import of existing content (intake 23a and
+  23b, section 6.2b): inventory with keep, merge, refresh, drop
+  recommendations, the operator's pick, a mandatory claims pass, and three
+  evolution levels (evolve freely, light touch, frozen) chosen by the
+  operator; an Imported section and status in `PLAN.md`.
 - 2026-09-21: replaced the CSV calendar and the Google Sheet mirror with
   `content/PLAN.md` as the single master content plan, with a Now block
   as the session handoff, month sections, duplicate guards, and the chat
