@@ -77,9 +77,14 @@ the research justifies.
 
 **Phase 5: the content plan.** A single file, `content/PLAN.md`, with
 everything planned, in progress, and published. It proposes how many
-articles to launch with and how many to publish per week. You approve
-briefs; each brief has the short answer already written and lists the one
-thing only you can supply.
+articles to launch with and you decide: typically the core pages plus 8 to
+12 articles for a new domain in a competitive category (a pillar page for
+each of the top three topics, two or three supporting pieces per pillar, a
+comparison, and a glossary batch), 4 to 6 for a narrow or local one, and a
+refresh of the top ten existing pages first if you imported content. It
+also proposes a weekly cadence, one new page and one refresh by default,
+and you can raise it any Monday. You approve briefs; each brief has the
+short answer already written and lists the one thing only you can supply.
 
 **Phase 6: it writes.** Every page answers the question in the first three
 sentences, uses question-shaped headings, cites real sources, states the
