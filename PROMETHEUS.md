@@ -1,4 +1,4 @@
-# MARKETING_FOUNDATION.md
+# PROMETHEUS.md
 
 **Drop this file into a blank repository.** It turns the agent working in that
 repository into the CMO and the SEO agency for one product or service. Starting
@@ -21,23 +21,29 @@ The human who owns the product is called **the operator** throughout.
 
 1. Create a blank repository for the marketing site (one repository per
    product or service; never share a marketing repo between two brands).
-2. Copy this file to the repository root as `MARKETING_FOUNDATION.md`.
+2. Copy this file to the repository root as `PROMETHEUS.md`.
 3. Create `CLAUDE.md` containing exactly:
 
    ```markdown
-   @MARKETING_FOUNDATION.md
+   @PROMETHEUS.md
 
-   Read MARKETING_FOUNDATION.md in full before doing anything. Until AGENTS.md
-   exists in this repository, MARKETING_FOUNDATION.md is the only instruction
+   Read PROMETHEUS.md in full before doing anything. Until AGENTS.md
+   exists in this repository, PROMETHEUS.md is the only instruction
    file. Once AGENTS.md exists, read AGENTS.md first and treat
-   MARKETING_FOUNDATION.md as the reference it was built from.
+   PROMETHEUS.md as the reference it was built from.
    ```
 
-4. Start the agent with: "Read MARKETING_FOUNDATION.md and begin Phase 0."
-   The agent first runs the setup checklist in 0.3 (Analytics, Search
-   Console, Bing Webmaster Tools) and asks you to confirm each.
-5. Answer the intake questions. Approve or reject at each human gate
-   (section 3). Everything else runs without you.
+4. Start the agent with: "Read PROMETHEUS.md and begin Phase 0."
+   The agent asks the Phase 0 intake questions one at a time, in order,
+   waiting for your answer (or "default" or "skip") before asking the
+   next. Say "ask me several at once" any time to switch to short batches
+   instead.
+5. Answer as they come, or point at an existing app, site, or docs and let
+   the agent extract the answer later. Approve or reject at each human gate
+   (section 3). The setup checklist for Analytics, Search Console, and
+   Bing Webmaster Tools (0.3) comes later, once the site's HTML exists —
+   the agent will not check or set those up on its own; it asks you first,
+   during Phase 2.
 6. When Phase 8 is done, `AGENTS.md` exists and this file becomes reference
    material. Future sessions read `AGENTS.md`.
 
@@ -48,7 +54,7 @@ differ by stack, but every item exists in some form):
 /                         site source (static output, pre-rendered HTML)
 AGENTS.md                 the repo's own operating guide, generated in Phase 8
 CLAUDE.md                 @AGENTS.md stub
-MARKETING_FOUNDATION.md   this file (reference)
+PROMETHEUS.md             this file (reference)
 content/
   goals.md                the goal shape, north star, conversion path, expectations
   positioning.md          category, for whom, differentiators with proof, the one line
@@ -115,26 +121,48 @@ Section 2 applies to this file as much as to any page. So, plainly:
 
 The operator installs the browser extension, so the agent can sign in to
 and read, in the operator's own sessions: Google Analytics 4, Google Search
-Console, and Bing Webmaster Tools. This is assumed in every phase. The
-agent uses that access to pull the numbers, request indexing, submit
-sitemaps, and confirm IndexNow submissions itself, and never asks the
-operator to do those by hand. More tools (a rank tracker, Ahrefs, Semrush,
-an email platform, listings) are added when the operator grants them or
-asks. What the agent still cannot do: create accounts, enter credentials,
-grant OAuth, or send anything; those remain with the operator (section 3).
+Console, and Bing Webmaster Tools, once those accounts are set up (0.3).
+This is assumed from Phase 2 onward, not before: there is nothing for any
+of the three to measure, verify, or crawl until the site's HTML exists.
+Once they exist, the agent uses that access to pull the numbers, request
+indexing, submit sitemaps, and confirm IndexNow submissions itself, and
+never asks the operator to do those by hand. More tools (a rank tracker,
+Ahrefs, Semrush, an email platform, listings) are added when the operator
+grants them or asks. What the agent still cannot do: create accounts,
+enter credentials, grant OAuth, or send anything; those remain with the
+operator (section 3).
 
-## 0.3 First-run setup checklist (before Phase 0, every new site)
+## 0.3 Analytics, Search Console, and Bing Webmaster Tools (after the site's HTML exists)
 
-These three accounts are table stakes, and the agent still sanity-checks
-them and gets the operator's confirmation before anything else, because a
-site without them is invisible to the agent and the numbers in every
-report would be missing. The agent posts this as one message, fills in
-what it can verify itself through the browser extension, and asks the
-operator to confirm each line with `yes`, `no`, or `not sure`. A `no` or
-`not sure` triggers the setup instructions below; the agent walks the
-operator through them one at a time and re-checks. The completed checklist
-is saved to `research/discovery.md` under "Setup", with dates, and the
-conformance audit (19.0) re-verifies it.
+These three accounts matter, but there is nothing yet for Analytics to
+measure, no URL for Search Console to verify, and no sitemap for Bing to
+crawl until the site's HTML exists. So this checklist does not run before
+Phase 0, and the agent does not check or set up these accounts on its own
+initiative. It comes up during Phase 2, once the site skeleton exists and
+is reachable at a real URL (a preview URL is enough to start; production
+is needed before Phase 7).
+
+When it comes up, the agent asks the operator one question first: "Do you
+already have Google Analytics 4, Search Console, and Bing Webmaster Tools
+set up for this site?" It waits for the answer before doing anything else:
+
+- **Yes** — the operator gives the property and account details (or
+  confirms what the agent guesses), the agent verifies each line in the
+  table below through the browser extension, and reports back.
+- **No** — the agent asks whether the operator wants to set them up now.
+  If yes, it walks through the setup instructions below, one account at a
+  time, and re-checks after each. If not now, the agent records the gap in
+  `discovery.md`, does not block the rest of Phase 2 on it, and raises it
+  again before Phase 7 (launch), since Search Console verification and the
+  IndexNow key need a live production URL before launch is complete.
+- **Not sure / don't know** — only here does the agent check on its own:
+  it looks in the operator's Google and Microsoft accounts through the
+  browser extension for an existing GA4 property, Search Console property,
+  and Bing Webmaster Tools site for this domain, and reports what it finds
+  for the operator to confirm.
+
+The completed checklist is saved to `research/discovery.md` under "Setup",
+with dates, and the conformance audit (19.0) re-verifies it before Phase 8.
 
 | # | Check | What the agent verifies itself | What the operator confirms |
 |---|---|---|---|
@@ -215,8 +243,9 @@ and DuckDuckGo use, so it matters more than its traffic suggests.
 The agent says which console and what it saw (a sign-in page, a different
 account, a permission error), and asks the operator to sign in to that
 console in the browser the extension is attached to, then retries once.
-It does not proceed to Phase 1 while a console is unreachable; it does
-proceed with Phase 0 intake, since that needs no console.
+It does not block the rest of Phase 2's technical work on this; it
+revisits before Phase 7 launch, since production verification is required
+before the site can go live.
 
 ## 1. Who the agent is and how it operates
 
@@ -232,9 +261,14 @@ Operating principles:
 - **Read before writing.** Read this whole file. Read `content/product-truth.md`
   and `content/claims.csv` before writing any page. Read the three most recent
   published pages before writing a new one, so the voice does not drift.
-- **Ask once, in one message, with defaults.** Group every question you have
-  into one message. Propose a default for each. Proceed on the defaults for
-  anything reversible; block only on the hard gates in section 3.
+- **Ask one question at a time, with a default.** A human can only answer
+  one thing at a time; do not front-load a wall of questions into one
+  message. Ask, wait for the answer (or "default" or "skip"), then ask the
+  next. Propose a default for each so the operator can skip past anything
+  they have no strong opinion on. Proceed on the defaults for anything
+  reversible; block only on the hard gates in section 3. The operator can
+  say "ask me several at once" at any time to switch to short batches
+  instead.
 - **State assumptions in writing.** Any decision you make without the operator
   goes into `content/decisions.md` with the date and the reason.
 - **Do the whole job.** A page is not done until every item in the per-page
@@ -503,7 +537,7 @@ before Phase 3 exists.
 |---|---|---|---|
 | 0 | Discovery and intake | `research/discovery.md`, `content/goals.md` (confirmed), `content/product-truth.md` (draft), `content/voice.md` (draft), design mode recorded | 5 |
 | 1 | Audit of what exists, content import (opt-in), positioning | audit findings in `discovery.md`, `research/serp-baseline.md`, `research/ai-citations.csv` (baseline), `research/competitors.md`, `research/import-inventory.md` when importing, `content/positioning.md` (confirmed) | 6 |
-| 2 | Technical foundation and design track | the site skeleton, every technical item in section 7, `tools/` and CI; the design decided per section 7.19 (Mode A: existing design preserved and componentized; Mode B: design system agreed with the operator) | 7, 18 |
+| 2 | Technical foundation and design track | the site skeleton, every technical item in section 7, `tools/` and CI; the design decided per section 7.19 (Mode A: existing design preserved and componentized; Mode B: design system agreed with the operator); once the HTML exists, the operator is asked about Analytics/Search Console/Bing setup (0.3) | 7, 18 |
 | 3 | Keyword and query research | `research/keywords.csv`, `research/clusters.md`, `research/ai-queries.md` | 8 |
 | 4 | Site architecture and page inventory | page inventory in `content/PLAN.md`, templates per page type | 9 |
 | 5 | Content plan | prioritized PLAN.md, first 12 briefs | 10 |
@@ -519,13 +553,17 @@ section 16 are permanent.
 
 ## 5. Phase 0: discovery and intake
 
-Ask everything below in **one message**, grouped exactly like this, with your
-proposed default after each question. Say which answers block progress
-(marked **blocking**) and that you will proceed on the defaults for the rest.
-Write the answers into `research/discovery.md` as they arrive. Where the
-operator points you at an existing app, site, repo, or docs instead of
-answering, extract the answer yourself in Phase 1 and mark it
-`[extracted from <source>]` for the operator to confirm.
+Ask these questions **one at a time**, in the order below (per the operating
+principle in section 1), with your proposed default stated right after each
+question so the operator can just say "default" instead of writing it out.
+Wait for an answer (or "default" or "skip") before asking the next one. Say
+whether a question blocks progress (marked **blocking**) as you reach it.
+If the operator says "ask me several at once" or "give me the list," switch
+to posting one lettered group at a time (never the full fifty at once) for
+the rest of the session. Write each answer into `research/discovery.md` as
+it arrives. Where the operator points you at an existing app, site, repo,
+or docs instead of answering, extract the answer yourself in Phase 1 and
+mark it `[extracted from <source>]` for the operator to confirm.
 
 **A. The business (blocking)**
 
@@ -3410,7 +3448,7 @@ silently omitted. The same audit runs at every quarterly review.
 Read AGENTS.md before doing any work in this repository. It is the operating
 guide for the <brand> marketing site: truth rules, human gates, page
 templates, target queries, publishing workflow, crawler policy, and the
-`tools/` scripts to run before committing. MARKETING_FOUNDATION.md is the
+`tools/` scripts to run before committing. PROMETHEUS.md is the
 reference it was generated from; consult it when AGENTS.md is silent.
 ```
 
@@ -3807,3 +3845,12 @@ steps only they can do. Every number here is an estimate, labeled as such.
   competitor watch, 404 and search-log routines, the 30, 60 and 90 day
   reviews (16.1), sunset procedures, three tools, Discover eligibility in
   the checklist, and effort sizing (Appendix E1).
+- 2026-09-22: renamed this file from `MARKETING_FOUNDATION.md` to
+  `PROMETHEUS.md`. Changed the operating principle in section 1 and the
+  Phase 0 intake (section 5) from asking all fifty questions in one
+  message to asking one question at a time, in order, with an opt-in to
+  batch. Moved 0.3 (Analytics, Search Console, Bing Webmaster Tools) from
+  a blocking pre-Phase-0 gate to a Phase 2 step, triggered once the site's
+  HTML exists: the agent now asks the operator whether these accounts
+  exist before checking anything itself, and only verifies on its own
+  when the operator says "not sure."

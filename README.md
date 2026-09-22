@@ -3,7 +3,7 @@
 One markdown file that turns a blank repository into a fully built,
 search-optimized marketing site with a content machine behind it.
 
-You drop `MARKETING_FOUNDATION.md` into a new repo, open Claude Code, and say
+You drop `PROMETHEUS.md` into a new repo, open Claude Code, and say
 "begin Phase 0." The agent becomes your marketing team: it interviews you,
 researches what people search for, designs the site with you, writes the
 pages, wires up analytics and lead capture, launches, and then keeps
@@ -13,34 +13,32 @@ your yes.
 ## How to use it
 
 1. Make a blank repo for the product's marketing site.
-2. Copy `MARKETING_FOUNDATION.md` into it.
+2. Copy `PROMETHEUS.md` into it.
 3. Add a `CLAUDE.md` with these lines:
 
    ```markdown
-   @MARKETING_FOUNDATION.md
+   @PROMETHEUS.md
 
-   Read MARKETING_FOUNDATION.md in full before doing anything. Until AGENTS.md
-   exists in this repository, MARKETING_FOUNDATION.md is the only instruction
+   Read PROMETHEUS.md in full before doing anything. Until AGENTS.md
+   exists in this repository, PROMETHEUS.md is the only instruction
    file. Once AGENTS.md exists, read AGENTS.md first and treat
-   MARKETING_FOUNDATION.md as the reference it was built from.
+   PROMETHEUS.md as the reference it was built from.
    ```
 
-4. Open Claude Code in the repo and say: **"Read MARKETING_FOUNDATION.md and
+4. Open Claude Code in the repo and say: **"Read PROMETHEUS.md and
    begin Phase 0."**
 5. Answer questions, look at what it shows you, say yes or no.
 
 ## What happens, in order
 
-**Setup check.** Before anything, it confirms Google Analytics, Google
-Search Console, and Bing Webmaster Tools exist and work. If one is missing,
-it walks you through creating it, step by step.
-
-**Phase 0: it interviews you.** One long message, about fifty questions,
-each with a sensible default. What the product is, who buys it, what the
-site is for (signups, leads, or sales), what you may and may not claim,
-how you want it to look, and what accounts you have. You answer what you
-know. It writes down your goals and the facts about your product that the
-site is allowed to state.
+**Phase 0: it interviews you.** One question at a time, about fifty in
+total, each with a sensible default so you can just say "default" and
+move on. What the product is, who buys it, what the site is for (signups,
+leads, or sales), what you may and may not claim, how you want it to
+look, and what accounts you have. You answer what you know, at your own
+pace — say "ask me several at once" if you'd rather go faster. It writes
+down your goals and the facts about your product that the site is
+allowed to state.
 
 **Phase 1: it looks at what already exists.** Your app, your current site,
 your docs, your competitors. If you have blog posts or other content
@@ -64,6 +62,13 @@ keeps the look exactly and asks page by page before touching any copy. If
 you are starting fresh, it shows you three directions side by side, you
 pick or mix, it shows a real homepage, you mark it up, and only then does
 it build the system.
+
+**Once the HTML site exists, a setup check.** It asks whether you already
+have Google Analytics, Search Console, and Bing Webmaster Tools for this
+site — it does not check or set these up on its own first. Say yes and it
+verifies the details with you; say no and it offers to walk you through
+creating each one, step by step; say you don't know and it checks for
+you and reports back.
 
 **Phase 3: keyword research.** It finds what people actually type into
 Google and ask AI assistants, groups the queries into topics, scores them
@@ -135,7 +140,7 @@ days, and a full audit every quarter.
 
 | File | What it is |
 |---|---|
-| `MARKETING_FOUNDATION.md` | The whole method. Long. You do not need to read it. |
+| `PROMETHEUS.md` | The whole method. Long. You do not need to read it. |
 | `AGENTS.md` | Generated at the end. The repo's standing rules. |
 | `content/PLAN.md` | The content plan. What is planned, in progress, published. Read this. |
 | `content/product-truth.md` | Every fact the site may state about your product. |
