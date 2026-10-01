@@ -1,0 +1,180 @@
+La qualification initiale des demandes sera pilotée par **JD**, avec l’objectif de rester rapide et sélectif tout en évitant que le traitement commercial ne devienne une dépendance opérationnelle permanente au fondateur.
+
+À terme, ce processus devra être suffisamment structuré pour pouvoir être partiellement délégué ou automatisé.
+
+### Capacité à préserver
+
+NODINA souhaite rester volontairement sélective et limiter le nombre de nouveaux engagements simultanés afin de préserver la qualité du delivery.
+
+En première approche, la capacité cible est de **1 à 3 nouveaux clients par trimestre**, selon :
+- la taille et la durée des missions ;
+- le nombre de profils nécessaires ;
+- le niveau d’implication demandé à l’équipe NODINA ;
+- la complexité technique et métier ;
+- les contraintes de sécurité ou d’intégration.
+
+Cette capacité pourra évoluer avec la taille de l’équipe, mais la croissance ne doit pas se faire au détriment des standards de sélection, de qualité ou de collaboration.
+
+### Informations à recueillir pour qualifier une demande
+
+Le formulaire initial doit rester court, mais permettre d’évaluer rapidement l’adéquation avec NODINA.
+
+Informations prioritaires :
+- entreprise ;
+- nom et rôle du contact ;
+- pays / marché ;
+- taille approximative de l’organisation ;
+- type de besoin :
+  - **AI-native Teams**
+  - **AI Systems & Transformation**
+  - besoin encore à qualifier ;
+- problème concret à résoudre ;
+- résultat attendu ;
+- niveau d’urgence / calendrier ;
+- équipe et compétences déjà disponibles en interne ;
+- niveau de maturité du projet : idée, POC, produit existant, système déjà en production ;
+- principales contraintes techniques ou de sécurité ;
+- ordre de grandeur du budget ou capacité d’investissement ;
+- préférence éventuelle concernant langue, localisation ou timezone des équipes.
+
+### Critères de qualification
+
+Une demande est prioritaire lorsqu’elle combine plusieurs des éléments suivants :
+- problème important et clairement identifié ;
+- impact économique ou stratégique significatif ;
+- sponsor décisionnaire impliqué ;
+- budget cohérent avec une prestation premium ;
+- volonté d’avancer rapidement ;
+- besoin réel d’expertise ou de capacité d’exécution ;
+- environnement où NODINA peut apporter une valeur différenciante ;
+- compatibilité avec les standards techniques, de sécurité et de collaboration de NODINA.
+
+### Processus après qualification
+
+Lorsqu’une demande est qualifiée, le processus doit être court, structuré et orienté vers une décision rapide.
+
+**1. Discovery call**
+
+Un premier échange de 30 à 45 minutes permet de :
+- comprendre le problème métier ou produit ;
+- préciser le résultat attendu ;
+- identifier les contraintes de délai, budget, sécurité et organisation ;
+- comprendre l’équipe existante ;
+- déterminer si le besoin relève plutôt de **AI-native Teams**, **AI Systems & Transformation**, ou d’une combinaison des deux ;
+- vérifier l’adéquation mutuelle entre le client et NODINA.
+
+L’objectif n’est pas de transformer ce premier échange en mission de conseil gratuite, mais d’obtenir suffisamment de contexte pour décider s’il est pertinent d’aller plus loin.
+
+**2. Qualification approfondie si nécessaire**
+
+Pour les besoins complexes, un second échange ciblé peut être organisé avec les personnes concernées côté client : CTO, DSI, responsable produit, responsable métier ou sécurité.
+
+Cette étape permet de clarifier :
+- l’architecture ou le workflow existant ;
+- les dépendances techniques ;
+- les contraintes d’intégration ;
+- les données manipulées ;
+- les critères de réussite ;
+- le niveau d’ownership attendu de NODINA.
+
+Elle doit rester courte et ne pas devenir un audit complet non facturé.
+
+**3. Définition du mode d’engagement**
+
+NODINA propose ensuite le format le plus adapté.
+
+Pour **AI-native Teams**, cela comprend notamment :
+- composition de l’équipe ;
+- profils et compétences recherchés ;
+- niveau de responsabilité de NODINA ;
+- date de démarrage envisagée ;
+- durée ou rythme de l’engagement ;
+- organisation avec les équipes internes du client.
+
+Pour **AI Systems & Transformation**, cela comprend notamment :
+- problème ou workflow ciblé ;
+- périmètre initial ;
+- phases de discovery, design, build et deployment ;
+- livrables attendus ;
+- hypothèses et dépendances ;
+- critères de succès ;
+- modalités de maintenance ou d’amélioration continue si nécessaire.
+
+**4. Proposition**
+
+Une proposition synthétique est préparée avec :
+- périmètre ;
+- équipe ;
+- approche ;
+- responsabilités respectives ;
+- calendrier indicatif ;
+- prix ;
+- hypothèses ;
+- exclusions ;
+- conditions de démarrage.
+
+L’objectif est de privilégier des propositions courtes, claires et orientées décision plutôt que des documents commerciaux très longs.
+
+**5. Validation technique et commerciale**
+
+Avant engagement définitif, NODINA vérifie :
+- disponibilité réelle des profils ;
+- compatibilité technique ;
+- niveau de sécurité requis ;
+- capacité de delivery ;
+- adéquation avec les standards NODINA ;
+- absence de dépendance excessive au temps du fondateur.
+
+Un projet ne doit pas être accepté uniquement parce qu’il est commercialement attractif s’il compromet la qualité du delivery ou crée une dépendance structurelle incompatible avec le modèle NODINA.
+
+**6. Contractualisation et onboarding**
+
+Après accord :
+- contrat / SOW ;
+- NDA ou exigences de confidentialité si nécessaire ;
+- validation des accès ;
+- interlocuteurs et responsabilités ;
+- outils de collaboration ;
+- environnement technique ;
+- sécurité et gestion des secrets ;
+- objectifs des premières semaines.
+
+**7. Kick-off**
+
+Le kick-off doit permettre d’aligner rapidement :
+- objectifs ;
+- scope ;
+- responsabilités ;
+- architecture ou contexte produit ;
+- backlog initial ;
+- critères de qualité ;
+- cadence de communication ;
+- indicateurs de réussite.
+
+L’objectif est que l’équipe puisse commencer à produire rapidement après le démarrage.
+
+### Principe de fonctionnement
+
+Le parcours commercial doit rester cohérent avec le positionnement NODINA :
+
+**qualifier vite → comprendre suffisamment → proposer clairement → démarrer rapidement.**
+
+Il faut éviter deux extrêmes :
+- un processus commercial lourd de grand cabinet de conseil ;
+- un processus de staffing où l’on envoie immédiatement une liste de CV.
+
+NODINA doit vendre une **capacité d’exécution structurée**, avec suffisamment de discovery pour comprendre le problème, mais sans transformer la vente en prestation gratuite.
+
+### Ce que le site ne doit pas promettre
+
+Le site ne doit pas annoncer :
+- de disponibilité immédiate garantie ;
+- de démarrage sous un délai fixe sans validation préalable ;
+- de capacité illimitée ;
+- d’acceptation automatique de toute demande.
+
+Le principe doit rester :
+
+**NODINA sélectionne ses clients comme elle sélectionne ses ingénieurs.**
+
+L’objectif n’est pas de remplir un maximum de missions, mais de choisir un nombre limité de projets où l’équipe peut réellement produire un niveau d’exécution élevé.

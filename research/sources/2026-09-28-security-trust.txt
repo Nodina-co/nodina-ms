@@ -1,0 +1,341 @@
+À ce stade, les prospects ne nous imposent pas systématiquement de questionnaires de sécurité formalisés, mais ce type de demande est attendu sur des projets impliquant des données sensibles, des SI d’entreprise ou des environnements réglementés.
+
+La sécurité constitue un sujet important pour NODINA dans les deux offres, mais **la nature de la responsabilité diffère selon que NODINA fournit une équipe ou prend en charge la conception et le développement d’un système IA.**
+
+---
+
+## Un socle de compétence commun aux deux offres
+
+Dans tous les cas, les équipes NODINA doivent maîtriser les enjeux de sécurité, de confidentialité, de gouvernance des données et de mise en production des systèmes IA.
+
+Cela comprend notamment :
+
+- privacy by design et minimisation des données ;
+- gestion des accès et des secrets ;
+- séparation des environnements ;
+- chiffrement en transit et au repos lorsque pertinent ;
+- contrôle des données transmises aux modèles externes ;
+- anonymisation ou pseudonymisation lorsque nécessaire ;
+- choix des fournisseurs de modèles selon leurs politiques de traitement des données ;
+- limitation de l’utilisation des données pour l’entraînement lorsque le fournisseur le permet ;
+- gestion des permissions des agents et des outils ;
+- observabilité et traçabilité ;
+- human-in-the-loop sur les opérations sensibles ;
+- évaluation des risques liés aux modèles, agents et automatisations ;
+- bonnes pratiques de développement sécurisé ;
+- prise en compte du RGPD et des exigences spécifiques au contexte client.
+
+La maîtrise de ces sujets fait partie du niveau d’expertise attendu des ingénieurs NODINA.
+
+En revanche, **la responsabilité opérationnelle de leur mise en œuvre dépend du mode d’engagement.**
+
+---
+
+# 1. AI-native Teams : NODINA apporte des compétences, le client garde la gouvernance
+
+Dans le cadre de **AI-native Teams**, les ingénieurs NODINA sont intégrés dans l’organisation, les processus, l’architecture et les règles de sécurité du client.
+
+Le client reste donc généralement responsable :
+- de son architecture globale ;
+- de ses politiques de sécurité ;
+- de ses choix d’hébergement ;
+- de ses exigences réglementaires ;
+- de ses fournisseurs autorisés ;
+- de ses politiques de traitement des données ;
+- de ses procédures internes ;
+- des décisions finales concernant le niveau de risque acceptable.
+
+L’équipe NODINA doit néanmoins être capable de :
+
+- comprendre rapidement les politiques de sécurité internes ;
+- s’approprier les pratiques et standards du client ;
+- identifier les risques ou incohérences ;
+- challenger une décision lorsqu’elle présente un risque technique ou de sécurité ;
+- recommander des architectures ou pratiques plus robustes ;
+- mettre correctement en œuvre les directives retenues ;
+- documenter les décisions importantes ;
+- signaler explicitement lorsqu’une demande entre en conflit avec une bonne pratique connue.
+
+Dans ce modèle, NODINA apporte donc **une capacité d’ingénierie et de conseil intégrée**, mais n’impose pas un modèle de sécurité unique au client.
+
+La logique est :
+
+> **Le client définit son cadre de gouvernance et de sécurité ; l’équipe NODINA l’applique, l’enrichit et le challenge lorsque nécessaire.**
+
+La qualité de l’offre repose notamment sur le fait que les ingénieurs NODINA doivent être suffisamment compétents pour ne pas exécuter aveuglément des décisions techniques sans comprendre leurs implications.
+
+---
+
+# 2. AI Systems & Transformation : responsabilité beaucoup plus forte de NODINA
+
+Dans le cadre de **AI Systems & Transformation**, lorsque NODINA conçoit, construit et déploie directement un système pour le client, son niveau de responsabilité est différent.
+
+NODINA devient responsable, dans le périmètre convenu, de la bonne intégration des pratiques de sécurité dans :
+
+- l’architecture ;
+- le développement ;
+- le traitement des données ;
+- les intégrations ;
+- la gestion des accès ;
+- les fournisseurs techniques ;
+- les agents et leurs permissions ;
+- l’observabilité ;
+- les mécanismes de contrôle ;
+- les tests ;
+- les procédures de déploiement.
+
+Ces choix sont définis **d’un commun accord avec le client**, en fonction :
+- de ses obligations réglementaires ;
+- de son niveau de risque acceptable ;
+- de ses politiques internes ;
+- de la sensibilité des données ;
+- de son infrastructure existante ;
+- des contraintes économiques et techniques.
+
+Dans ce modèle, NODINA doit pouvoir expliquer :
+- les risques identifiés ;
+- les options disponibles ;
+- les compromis associés ;
+- les mesures retenues ;
+- les responsabilités respectives.
+
+La sécurité fait donc partie intégrante du système livré, au même titre que son architecture fonctionnelle ou sa qualité logicielle.
+
+---
+
+# 3. La sécurité comme composante premium de l’offre
+
+NODINA doit faire de cette maîtrise un élément de confiance et de différenciation.
+
+Le message ne doit pas être :
+
+> « NODINA est 100 % secure. »
+
+mais plutôt :
+
+> **NODINA sait concevoir et opérer des systèmes IA en tenant compte des contraintes réelles de sécurité, de confidentialité, de gouvernance et de production.**
+
+Cela implique notamment une maîtrise des sujets suivants :
+
+- architecture sécurisée des systèmes IA ;
+- exposition des données aux fournisseurs de modèles ;
+- contrôle des tools accessibles aux agents ;
+- scopes et permissions ;
+- prompt injection et abus de tools ;
+- isolation des données ;
+- mémoire persistante ;
+- RAG et contrôle des sources ;
+- secrets ;
+- auditabilité ;
+- evals de sécurité ;
+- observabilité ;
+- human validation ;
+- modèles privés ou open source ;
+- hébergement dédié, européen ou on-premise lorsque nécessaire.
+
+Cette expertise doit exister aussi bien dans l’offre Teams que dans l’offre Systems, même si **la responsabilité finale de mise en œuvre n’est pas identique**.
+
+---
+
+# 4. Répartition simplifiée des responsabilités
+
+| Sujet | AI-native Teams | AI Systems & Transformation |
+|---|---|---|
+| Politique de sécurité globale | Client | Client + NODINA |
+| Architecture sécurité | Principalement client, conseillée par NODINA | Conçue avec NODINA |
+| Mise en œuvre technique | Team NODINA dans le cadre client | NODINA dans le périmètre livré |
+| Choix des fournisseurs | Client | Décision conjointe |
+| Traitement des données | Selon politiques client | Conçu et documenté avec NODINA |
+| Hébergement | Décidé par le client | Défini conjointement |
+| Conformité réglementaire | Responsabilité client, avec support NODINA | Responsabilité partagée selon le contrat |
+| Bonnes pratiques engineering | NODINA | NODINA |
+| Identification des risques | NODINA + client | NODINA + client |
+| Acceptation du risque final | Client | Client |
+
+Cette matrice devra naturellement être adaptée contractuellement à chaque mission.
+
+---
+
+# 5. Documentation et Trust Center : deux niveaux de discours
+
+La future page **Security & Trust** doit refléter cette distinction.
+
+## Pour AI-native Teams
+
+Mettre en avant :
+
+- ingénieurs formés aux pratiques de sécurité et privacy ;
+- capacité à travailler dans les environnements et politiques du client ;
+- maîtrise des risques spécifiques aux systèmes IA et agentiques ;
+- capacité à conseiller et challenger ;
+- respect des politiques, accès et processus internes ;
+- pratiques rigoureuses autour des secrets, données et modèles.
+
+Le message central :
+
+> **Security-aware engineers who can operate inside your standards from day one.**
+
+## Pour AI Systems & Transformation
+
+Mettre davantage en avant :
+
+- secure architecture ;
+- privacy by design ;
+- data handling ;
+- provider selection ;
+- deployment models ;
+- observability ;
+- evals ;
+- agent permissions ;
+- human-in-the-loop ;
+- threat modeling ;
+- options cloud privé / hébergement européen / client infrastructure / on-premise.
+
+Le message central :
+
+> **Security and data governance are designed into the system, not added after deployment.**
+
+---
+
+# Priorité 1 — Formaliser immédiatement
+
+## 1. Security Overview
+
+Créer un document court, avec une section distincte pour :
+
+**AI-native Teams**
+- compétences sécurité attendues ;
+- intégration aux standards client ;
+- règles d’accès et de confidentialité ;
+- responsabilités.
+
+**AI Systems & Transformation**
+- secure SDLC ;
+- architecture ;
+- gestion des données ;
+- agents et permissions ;
+- options d’hébergement ;
+- observabilité ;
+- responsabilités NODINA/client.
+
+## 2. Data Processing & Privacy Principles
+
+Formaliser :
+- minimisation des données ;
+- rétention ;
+- anonymisation / pseudonymisation ;
+- transferts ;
+- sous-traitants ;
+- traitement par les fournisseurs IA ;
+- principes RGPD.
+
+## 3. AI Provider & Data Handling Policy
+
+Définir :
+- les critères de choix des fournisseurs ;
+- quelles catégories de données peuvent être envoyées ;
+- les configurations minimales attendues ;
+- les conditions nécessitant un modèle privé, open source ou un déploiement client.
+
+## 4. Access & Secrets Management
+
+Formaliser :
+- permissions ;
+- moindre privilège ;
+- clés API ;
+- secrets ;
+- rotation ;
+- révocation ;
+- comptes utilisateurs ;
+- règles d’onboarding et d’offboarding.
+
+Ces documents constituent le **Minimum Viable Trust Package** de NODINA.
+
+---
+
+# Priorité 2 — Avant les premiers projets enterprise significatifs
+
+## 5. Shared Responsibility Model
+
+Créer un document NODINA explicitant les responsabilités respectives selon le mode d’engagement.
+
+Il devra notamment préciser :
+- ce que NODINA contrôle ;
+- ce que le client contrôle ;
+- ce qui relève d’une décision conjointe ;
+- les responsabilités en matière d’accès, données, hébergement, modèles et conformité.
+
+Ce document est particulièrement important car la distinction **Teams vs Systems** doit être comprise aussi bien commercialement que contractuellement.
+
+## 6. Modèle de DPA
+
+Préparer un accord de traitement des données lorsque NODINA agit comme sous-traitant.
+
+## 7. Subprocessor Register
+
+Maintenir une liste des principaux fournisseurs pouvant traiter des données client.
+
+## 8. Technical Security Practices
+
+Formaliser les pratiques techniques :
+- secure SDLC ;
+- code review ;
+- testing ;
+- dependencies ;
+- environments ;
+- deployment ;
+- logs ;
+- encryption ;
+- vulnerabilities ;
+- backups.
+
+## 9. Security Questionnaire Knowledge Base
+
+Créer une base interne de réponses aux questionnaires clients afin de ne pas repartir de zéro à chaque audit.
+
+---
+
+# Priorité 3 — Avec l’augmentation du volume et de la criticité
+
+- Incident Response Plan ;
+- Business Continuity / Disaster Recovery ;
+- Vendor Risk Management ;
+- security onboarding et training ;
+- access reviews ;
+- internal security controls ;
+- formal threat modeling methodology ;
+- agent security testing ;
+- AI red-teaming lorsque nécessaire.
+
+---
+
+# Priorité 4 — Certifications
+
+ISO 27001, SOC 2 ou toute autre certification ne doit être poursuivie que lorsqu’elle devient utile :
+
+- pour débloquer des deals ;
+- répondre à des exigences récurrentes ;
+- supporter des systèmes plus critiques ;
+- ou accompagner une augmentation significative du volume de données sensibles traité.
+
+---
+
+## Principe général
+
+La sécurité doit être présentée comme une **compétence structurelle de NODINA**, mais la communication doit toujours distinguer :
+
+> **expertise**
+
+de
+
+> **responsabilité opérationnelle**
+
+et de
+
+> **responsabilité réglementaire ou contractuelle**.
+
+Pour **AI-native Teams**, NODINA fournit des ingénieurs capables de comprendre, recommander et mettre en œuvre correctement les politiques du client.
+
+Pour **AI Systems & Transformation**, NODINA prend une responsabilité beaucoup plus directe dans la conception et l’application des pratiques de sécurité du système livré, conformément aux décisions prises avec le client.
+
+Dans les deux cas, la sécurité fait partie du niveau de qualité premium attendu de NODINA.
