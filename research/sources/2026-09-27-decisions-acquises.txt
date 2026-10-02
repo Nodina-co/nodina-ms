@@ -1,0 +1,125 @@
+Les décisions suivantes doivent être considérées comme acquises et ne pas être remises en discussion pendant le projet, sauf contrainte technique, juridique ou commerciale majeure nouvellement identifiée.
+
+### Positionnement et offres
+
+- NODINA est un **AI-native technology / execution partner premium**.
+- La marque repose sur **deux offres complémentaires** :
+  - **AI-native Teams**
+  - **AI Systems & Transformation**
+- NODINA ne doit pas être positionnée comme une ESN généraliste, une marketplace de talents, un cabinet de recrutement, une agence de freelances ou un cabinet de conseil pur.
+- NODINA vend avant tout une **capacité d’exécution collective**, et non le temps personnel de son fondateur.
+- Le positionnement doit refléter une équipe de professionnels qui collaborent depuis près de 15 ans, complétée par un réseau de profils senior sélectionnés selon des standards très élevés.
+- Le modèle est volontairement premium et sélectif : **Invitation-only · We partner with a limited number of ambitious companies each quarter.**
+
+### Définition de l’AI-native
+
+La définition de référence est acquise :
+
+> **AI-native signifie concevoir les logiciels, les workflows et les équipes autour de l’IA comme une couche d’exécution fondamentale, en pensant humains, agents, modèles, mémoire, outils, evals et observabilité comme les composants d’un même système.**
+
+Les distinctions suivantes doivent être conservées :
+
+- AI-assisted ≠ AI-native ;
+- AI feature ≠ AI-native product ;
+- LLM integration ≠ AI system ;
+- agent ≠ simple appel LLM ;
+- prototype ≠ production system ;
+- AI coding ≠ AI-native engineering.
+
+La vision NODINA s’articule autour de :
+
+**AI-native Engineer → AI-native Team → AI-native System → AI-native Organization.**
+
+### Talent et qualité
+
+- NODINA met en avant un processus de sélection extrêmement exigeant, formalisé progressivement sous la marque **NODINA AI Talent System**.
+- Le très faible taux de sélection, potentiellement inférieur à 1 %, doit être présenté comme une conséquence des standards élevés, et non comme un quota recherché.
+- L’évaluation couvre notamment software engineering, AI fluency, context engineering, architecture, product thinking, quality engineering, ownership, communication et team intelligence.
+- La capacité à collaborer au sein d’une équipe de très haut niveau, à maîtriser son ego et à travailler efficacement dans un environnement humains + agents constitue un critère central.
+- La qualité logicielle est indissociable de la vitesse : tests automatisés, tests E2E, evals, observabilité, tracing, monitoring, guardrails et validation humaine lorsque nécessaire.
+- Le principe éditorial associé est : **AI-native speed. Software craftsmanship quality.**
+
+### Modèle commercial
+
+- Les prix seront **sur devis**, sans grille tarifaire publique au lancement.
+- NODINA doit limiter au maximum la vente directe de temps du fondateur.
+- Les offres doivent être conçues pour être délivrables par l’équipe sans dépendance systématique à sa présence opérationnelle.
+- Le vocabulaire privilégié est celui d’**équipe, capacité d’exécution, ownership, delivery et partenariat de long terme**, plutôt que celui de jours/homme ou de ressources mises à disposition.
+- Des délais de staffing courts et compétitifs peuvent être annoncés, sous réserve qu’ils restent formulés comme objectifs ou engagements adaptés à chaque mission lorsqu’ils ne sont pas contractuellement garantis.
+
+### Marchés et langues
+
+- Le site sera **bilingue français de France / anglais américain dès le lancement**.
+- Les noms d’offres et les termes techniques pertinents restent en anglais.
+- La stratégie retenue est une **localisation éditoriale**, et non une traduction littérale.
+- Les versions française et anglaise doivent donner l’impression d’avoir été écrites directement dans leur langue.
+- Les marchés prioritaires sont la **France, l’Europe et les États-Unis**, avec possibilité d’intervenir sur d’autres marchés internationaux lorsque cela est pertinent.
+
+### Domaines et structure du site
+
+Les trois domaines sont déjà détenus :
+
+- `nodina.com`
+- `nodina.ai`
+- `nodina.fr`
+
+Le domaine canonique sera :
+
+- **`nodina.com`**
+
+avec :
+
+- `nodina.com/fr/`
+- `nodina.com/en/`
+
+`nodina.ai` et `nodina.fr` redirigeront vers le domaine principal.
+
+### Communication et preuve
+
+- Aucun résultat économique ne doit être garanti sans base contractuelle ou méthodologique solide.
+- Aucune sécurité absolue ne doit être revendiquée.
+- Aucune certification non détenue ne doit être mentionnée.
+- Aucun délai ne doit être présenté comme garanti hors engagement contractuel.
+- Aucune référence, logo, témoignage ou métrique client ne doit être utilisé sans autorisation.
+- Les affirmations fortes doivent être reliées à un processus, une métrique, une pratique technique ou une preuve vérifiable.
+- NODINA peut s’appuyer sur le track record historique de l’équipe, notamment les projets réalisés au sein d’AngelsBayTech, à condition de distinguer clairement cet historique des réalisations propres à NODINA.
+- Les contenus publics font l’objet d’une **relecture humaine**, y compris lorsqu’ils sont produits ou traduits avec l’aide de l’IA.
+
+### Voix et style
+
+La voix de NODINA est :
+
+- **précise**
+- **assurée**
+- **exigeante**
+
+Le ton est sobre, direct, premium et techniquement crédible, sans arrogance ni emphase marketing.
+
+Le principe éditorial est :
+
+**Calm confidence. High standards. Technical substance.**
+
+### Données et sécurité
+
+- Privacy by design et minimisation des données constituent des principes de base.
+- Les architectures peuvent privilégier hébergement européen, cloud dédié, infrastructure client, modèles privés ou open source selon les contraintes.
+- La conformité réglementaire ou sectorielle est évaluée projet par projet et ne doit jamais être supposée par défaut.
+
+### Signature éditoriale
+
+- Signature **NODINA** pour les méthodes, standards, doctrine et contenus institutionnels.
+- **Auteur nommé** lorsque l’expertise personnelle est déterminante.
+- Format **« Auteur, pour NODINA »** lorsque cela permet de combiner crédibilité individuelle et responsabilité de marque.
+
+### Points qui restent ouverts
+
+Les éléments suivants ne doivent pas être considérés comme définitivement figés s’ils n’ont pas encore été explicitement validés :
+
+- fournisseur d’hébergement du site ;
+- fournisseur DNS ;
+- stack technique exacte du site ;
+- budget de production et d’exploitation du site ;
+- CMS ou framework ;
+- outils analytics, CRM et formulaires ;
+- engagements contractuels précis de staffing et de remplacement ;
+- version finale du NODINA AI Talent System.

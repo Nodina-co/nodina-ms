@@ -1,0 +1,203 @@
+À ce stade, NODINA ne proposera pas de calculateur de ROI public.
+
+En revanche, chaque opportunité significative pourra être évaluée avec un **ROI Decision Framework** commun, destiné à répondre à une question simple :
+
+> **Le problème est-il suffisamment coûteux, fréquent et améliorable pour justifier une intervention NODINA ?**
+
+L’objectif n’est pas de produire une précision financière artificielle, mais de prendre de meilleures décisions commerciales et techniques à partir d’hypothèses explicites.
+
+## 1. Établir le coût actuel du problème
+
+Pour commencer, il faut mesurer ou estimer le coût du fonctionnement actuel.
+
+Selon le cas :
+
+- nombre de personnes impliquées ;
+- temps passé par opération ;
+- volume mensuel ou annuel ;
+- coût chargé du travail humain ;
+- coût des erreurs, reprises ou contrôles ;
+- temps d’attente ou de cycle ;
+- manque à gagner lié à une capacité insuffisante ;
+- coût d’un retard produit ou d’un recrutement non pourvu ;
+- coûts logiciels ou prestataires existants.
+
+Le résultat attendu est un **cost of status quo** suffisamment crédible.
+
+## 2. Identifier la valeur réellement adressable
+
+Tout le coût existant n’est pas nécessairement supprimable.
+
+Il faut donc distinguer :
+
+- ce qui peut être automatisé ;
+- ce qui peut seulement être accéléré ;
+- ce qui peut être amélioré qualitativement ;
+- ce qui doit rester humain ;
+- ce qui ne doit pas être modifié.
+
+On estime ensuite une **valeur adressable**, avec des hypothèses prudentes.
+
+Exemples :
+- 30 % du temps actuel pourrait être supprimé ;
+- 50 % des dossiers pourraient être prétraités automatiquement ;
+- 20 % de capacité engineering supplémentaire permettrait d’éviter un retard critique ;
+- le taux de reprise pourrait être réduit de manière mesurable.
+
+## 3. Calculer le coût complet de la solution
+
+Le business case doit inclure plus que le coût initial de développement.
+
+Il faut prendre en compte :
+
+- coût du projet ;
+- coût de l’équipe ;
+- infrastructure ;
+- modèles et inférence ;
+- licences ;
+- observabilité ;
+- maintenance ;
+- support ;
+- supervision humaine ;
+- coût d’intégration ;
+- coût du changement organisationnel.
+
+On cherche le **total cost of ownership**, pas uniquement le prix du build.
+
+## 4. Ajouter les bénéfices non directement financiers
+
+Certains projets sont justifiés même lorsque les économies directes sont limitées.
+
+NODINA doit pouvoir prendre en compte :
+
+- réduction du time-to-market ;
+- augmentation de capacité sans recrutement équivalent ;
+- amélioration de la qualité ;
+- réduction du risque opérationnel ;
+- meilleure traçabilité ;
+- réduction de dépendances critiques ;
+- amélioration de l’expérience client ou collaborateur ;
+- création d’une nouvelle capacité produit ;
+- apprentissage stratégique sur une technologie importante.
+
+Ces éléments doivent être distingués des gains financiers directs.
+
+## 5. Évaluer la confiance dans les hypothèses
+
+Chaque hypothèse importante doit recevoir un niveau de confiance :
+
+- **High** : donnée mesurée ou historique fiable ;
+- **Medium** : estimation crédible basée sur des données partielles ;
+- **Low** : hypothèse exploratoire à valider.
+
+Un business case très attractif mais basé uniquement sur des hypothèses faibles doit conduire à un **prototype, pilote ou phase de mesure**, pas directement à une transformation complète.
+
+## 6. Évaluer le risque d’exécution
+
+Le ROI théorique n’est utile que si le projet est réellement exécutable.
+
+Il faut donc examiner :
+
+- qualité et accessibilité des données ;
+- complexité du SI ;
+- dépendances externes ;
+- contraintes réglementaires ;
+- acceptabilité utilisateur ;
+- disponibilité des équipes internes ;
+- maturité du workflow ;
+- difficulté d’évaluation de la qualité ;
+- dépendance à des modèles externes ;
+- criticité des erreurs ;
+- capacité à opérer le système après livraison.
+
+## 7. Définir un seuil de décision
+
+Chaque opportunité est finalement classée selon quatre catégories :
+
+### Go
+Valeur significative, faisabilité crédible, hypothèses suffisamment solides.
+
+→ proposition ou cadrage détaillé.
+
+### Pilot first
+Potentiel élevé mais une ou plusieurs hypothèses critiques restent incertaines.
+
+→ pilote court destiné à mesurer les variables nécessaires.
+
+### Reframe
+Le problème existe mais le périmètre ou la solution envisagée ne crée pas assez de valeur.
+
+→ redéfinir le workflow, le scope ou le mode d’engagement.
+
+### No-go
+Valeur insuffisante, coût trop élevé, risque disproportionné ou absence de sponsor/budget.
+
+→ ne pas poursuivre.
+
+## 8. Critères spécifiques par offre
+
+### AI-native Teams
+
+Variables principales :
+- coût et délai du recrutement ;
+- coût du retard ;
+- pression sur la roadmap ;
+- capacité engineering manquante ;
+- durée prévisible du besoin ;
+- coût de l’équipe NODINA ;
+- valeur d’une mise en production plus rapide.
+
+Question centrale :
+
+> **La capacité gagnée et le temps économisé valent-ils davantage que le coût de l’équipe externe ?**
+
+### AI Systems & Transformation
+
+Variables principales :
+- coût actuel du workflow ;
+- volume ;
+- temps humain ;
+- erreurs et reprises ;
+- part automatisable ;
+- coût du système ;
+- coûts d’exploitation ;
+- risques ;
+- valeur stratégique du nouveau workflow.
+
+Question centrale :
+
+> **La valeur créée par le nouveau système justifie-t-elle son coût total et son niveau de risque ?**
+
+## 9. Les métriques à capturer systématiquement
+
+Lorsque possible, NODINA doit mesurer avant et après :
+
+- temps moyen par opération ;
+- coût par opération ;
+- volume traité ;
+- taux d’erreur ;
+- taux de reprise ;
+- délai de cycle ;
+- taux d’automatisation ;
+- taux d’escalade humaine ;
+- taux de réussite des workflows ;
+- coût d’inférence ;
+- disponibilité ;
+- satisfaction utilisateur ;
+- capacité engineering ou délai de delivery.
+
+Ces données permettent ensuite de construire progressivement des benchmarks propriétaires NODINA.
+
+## 10. Principe de communication
+
+Le site ne doit jamais dire :
+
+> « Nous garantissons X % de ROI. »
+
+Il peut en revanche dire :
+
+> **Nous quantifions le coût du problème, la valeur adressable, le coût complet de la solution et les hypothèses critiques avant de recommander un investissement.**
+
+Le principe NODINA est :
+
+**Measure the problem. Model the opportunity. Validate the assumptions. Then build.**

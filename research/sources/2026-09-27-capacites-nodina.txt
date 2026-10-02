@@ -1,0 +1,245 @@
+### AI-native Teams
+
+NODINA peut aujourd’hui mobiliser des profils senior en software engineering, product engineering et IA pour renforcer une équipe existante ou constituer une petite équipe projet autonome.
+
+**Prestations disponibles**
+
+- renfort d’équipes engineering et produit ;
+- développement full-stack, backend, API et intégrations ;
+- conception et développement de fonctionnalités IA ;
+- prototypage et développement de MVP ;
+- architecture logicielle et technique ;
+- mise en place de workflows de développement AI-native utilisant notamment des agents de coding ;
+- accompagnement engineering / product / fractional CTO selon les besoins.
+
+**Profils mobilisables**
+
+- software engineers / full-stack engineers senior ;
+- AI / ML engineers ;
+- profils architecture et engineering leadership ;
+- product management / product engineering ;
+- profils spécialisés mobilisables selon les besoins du projet.
+
+L’objectif est de privilégier des équipes autonomes capables de prendre en charge un périmètre de delivery, plutôt que de vendre uniquement des jours de conseil ou le temps du fondateur.
+
+### Un processus de sélection extrêmement exigeant
+
+NODINA ne cherche pas à atteindre artificiellement un taux de sélection donné. La très faible proportion de profils finalement retenus est simplement la conséquence d’un niveau d’exigence particulièrement élevé.
+
+Notre processus vise à identifier des ingénieurs qui combinent excellence technique, maîtrise réelle des nouveaux workflows AI-native, capacité à raisonner au niveau système et aptitude à fonctionner dans une équipe composée de profils de très haut niveau.
+
+En pratique, **moins de 1 % des profils examinés peuvent satisfaire l’ensemble de ces exigences**.
+
+Cette méthodologie a vocation à être formalisée dans le **NODINA AI Talent System**, notre système propriétaire d’évaluation et de qualification des ingénieurs AI-native.
+
+L’évaluation porte notamment sur :
+
+- **Software engineering** : capacité à concevoir et produire du code fiable, maintenable et exploitable en production ;
+- **AI fluency** : maîtrise effective des LLM, agents, coding agents et workflows AI-native ;
+- **Context engineering** : capacité à structurer le contexte, les instructions, les outils et les mécanismes de validation nécessaires à des systèmes IA fiables ;
+- **System architecture** : capacité à raisonner au-delà du code local et à concevoir des systèmes robustes et évolutifs ;
+- **Product thinking** : compréhension du problème métier, capacité à arbitrer et orientation vers l’impact plutôt que vers l’exécution mécanique de tickets ;
+- **Quality engineering** : tests, revue, observabilité, gestion des erreurs et vérification systématique des outputs humains et générés par l’IA ;
+- **Ownership & communication** : autonomie, clarté, capacité à identifier un problème et à en prendre la responsabilité ;
+- **Team intelligence** : capacité à collaborer avec d’autres profils exceptionnels sans transformer l’expertise individuelle en compétition improductive.
+
+Un profil NODINA ne doit donc pas seulement être un excellent développeur utilisant des outils IA. Il doit être capable de concevoir et livrer des systèmes logiciels de haute qualité dans un environnement où l’IA fait partie intégrante du processus de développement.
+
+### L’excellence individuelle ne suffit pas
+
+Une équipe constituée de profils rares et très performants ne fonctionne que si ses membres savent mettre leur expertise au service du collectif.
+
+Nous recherchons donc des personnalités capables de combiner deux qualités qui peuvent sembler contradictoires : **avoir pleinement conscience d’un niveau de compétence exceptionnel tout en sachant maîtriser leur ego**.
+
+Cela implique notamment de savoir :
+
+- défendre fermement une conviction technique sans chercher à avoir raison à tout prix ;
+- reconnaître rapidement lorsqu’un autre membre de l’équipe possède une meilleure solution ;
+- demander de l’aide sans percevoir cela comme une faiblesse ;
+- challenger un pair sans créer de friction inutile ;
+- partager information, contexte et crédit ;
+- privilégier systématiquement la qualité du résultat collectif à la visibilité individuelle.
+
+Cette capacité à fonctionner au sein d’une équipe de très haut niveau fait partie intégrante de notre définition du talent.
+
+### Travailler en équipe à l’ère des agents change profondément le modèle d’ingénierie
+
+Le développement AI-native ne consiste pas simplement à donner à chaque ingénieur un meilleur IDE ou un assistant de code.
+
+Lorsque chaque membre de l’équipe peut orchestrer plusieurs agents capables de coder, tester, rechercher, documenter ou analyser simultanément, la structure même du travail change.
+
+La répartition traditionnelle des tâches, des responsabilités et de la charge doit être repensée :
+
+- un ingénieur peut superviser plusieurs flux de travail parallèles ;
+- la capacité d’exécution brute augmente beaucoup plus vite que la capacité humaine de vérification ;
+- le bottleneck se déplace du coding vers l’architecture, le contexte, l’orchestration, la revue et la prise de décision ;
+- la coordination entre ingénieurs et agents devient une compétence spécifique ;
+- la répartition du travail doit prendre en compte non seulement la charge humaine mais également la capacité agentique disponible ;
+- la charge mentale peut augmenter malgré l’automatisation si trop de tâches parallèles doivent être supervisées ;
+- ownership, interfaces entre tâches et mécanismes de validation doivent être beaucoup plus explicites ;
+- le rôle de l’ingénieur évolue progressivement de producteur direct de code vers architecte, orchestrateur, reviewer et décideur.
+
+NODINA recherche donc des ingénieurs qui savent déjà évoluer dans ce nouveau paradigme et développe ses propres méthodes pour organiser efficacement des équipes hybrides **humains + agents**.
+
+Cette capacité organisationnelle fait partie du **NODINA AI Talent System** au même titre que les compétences techniques individuelles.
+
+### Une expertise également enseignée
+
+Une partie des principes qui structurent l’approche de NODINA est également enseignée par son fondateur, docteur en intelligence artificielle, dans le cadre de cours de niveau Master MIAGE à l’université.
+
+Ces enseignements couvrent notamment l’ingénierie logicielle moderne, l’architecture des systèmes, les nouvelles pratiques de développement assisté par IA, la conception de systèmes IA avancés, ainsi que les compétences nécessaires pour constituer et faire fonctionner des équipes techniques de très haut niveau.
+
+Cette activité académique ne constitue pas l’offre de NODINA, mais elle reflète le niveau de formalisation, d’exigence et de transmission associé aux méthodes utilisées au sein de l’entreprise.
+
+### Technologies et domaines maîtrisés
+
+- applications web, APIs et architectures backend ;
+- Python, JavaScript / TypeScript et écosystèmes modernes de développement web ;
+- LLM et APIs de modèles ;
+- RAG et recherche documentaire ;
+- agents et workflows agentiques ;
+- orchestration de systèmes multi-agents et de workflows hybrides humains + agents ;
+- OCR et traitement intelligent de documents ;
+- NLP et machine learning ;
+- bases de données, vector databases et pipelines de données ;
+- intégration de modèles et services IA dans des produits existants ;
+- coding agents et environnements modernes de développement assisté par IA ;
+- **AI coding harnesses** : environnements et systèmes permettant d’orchestrer efficacement des agents de développement logiciel ;
+- **AI harnesses et model orchestrators** : couches d’orchestration permettant de sélectionner, router et coordonner différents modèles, agents, outils et fournisseurs selon les tâches ;
+- **AI memory harnesses** : systèmes de mémoire persistante, contextuelle et récupérable pour assistants, agents et applications IA ;
+- **Company Brain / organizational memory systems** : architectures permettant de centraliser, structurer et rendre exploitable la connaissance d’une entreprise par des humains et des agents IA ;
+- **context engineering** : structuration du contexte, des instructions, des outils, de la mémoire et des sources de connaissance fournis aux agents ;
+- **AI observability** : traçabilité des exécutions, logs, traces, coûts, latence, appels modèles et outils, erreurs et comportements des agents ;
+- **evals et AI quality engineering** : définition de jeux d’évaluation, métriques, tests automatiques, regression testing et comparaison de modèles, prompts ou architectures ;
+- **agent workflow evaluation** : évaluation end-to-end des workflows agentiques, y compris qualité des décisions, utilisation des outils, fiabilité des trajectoires et taux de réussite ;
+- **tests E2E automatisés** : validation automatisée de parcours complets, depuis l’entrée utilisateur ou métier jusqu’au résultat final, y compris les interactions entre interfaces, APIs, agents, modèles, outils et systèmes tiers ;
+- **LLM / agent monitoring** : surveillance en production de la qualité, des dérives, des erreurs, des coûts et des performances ;
+- **prompt, model and workflow versioning** : versionnement et comparaison des prompts, modèles, configurations et workflows ;
+- **guardrails et validation** : contrôles déterministes, contraintes métier, structured outputs, validation humaine et mécanismes de fallback ;
+- **human-in-the-loop systems** : conception de workflows dans lesquels l’IA automatise ce qui peut l’être tout en conservant des points de contrôle humains sur les décisions critiques ;
+- **productionization of AI systems** : passage du prototype à des systèmes observables, testables, maintenables, sécurisés et exploitables en production.
+
+### Qualité
+
+L’accélération obtenue grâce à l’IA ne doit jamais être confondue avec une baisse des standards d’ingénierie.
+
+Au contraire, l’augmentation massive de la quantité de code et de décisions qu’une équipe AI-native peut produire rend les mécanismes de qualité, de vérification, d’architecture et d’observabilité encore plus importants.
+
+Selon les projets, NODINA applique notamment :
+
+- code review ;
+- automated testing ;
+- tests d’intégration ;
+- tests E2E automatisés ;
+- evals spécifiques aux composants IA ;
+- évaluation end-to-end des workflows agentiques ;
+- observabilité, tracing et logging ;
+- monitoring des agents et modèles ;
+- contrôle des régressions ;
+- versionnement des prompts, modèles, configurations et workflows ;
+- guardrails et validations déterministes ;
+- human-in-the-loop pour les décisions critiques ;
+- principes de software craftsmanship favorisant simplicité, maintenabilité et évolutivité.
+
+L’objectif est de combiner **AI-native speed avec software craftsmanship quality**.
+
+### Rapidité de constitution des équipes
+
+NODINA vise des délais de constitution d’équipe très courts par rapport au recrutement traditionnel.
+
+Pour les besoins correspondant aux compétences disponibles dans notre réseau, une première sélection de profils qualifiés peut être présentée en quelques jours et une équipe peut être opérationnelle en quelques semaines.
+
+Le contraste avec un recrutement traditionnel est important : celui-ci apporte généralement une personne après plusieurs mois de sourcing, d’entretiens et d’onboarding, avec les coûts et engagements associés.
+
+NODINA permet d’accéder à une équipe déjà qualifiée, constituée autour du problème à résoudre et pouvant évoluer rapidement lorsque les besoins changent.
+
+**Le client obtient une équipe produit et un partenaire de long terme, pas une simple ligne de staffing.**
+
+---
+
+### AI Systems & Transformation
+
+NODINA peut concevoir et développer de bout en bout des systèmes IA sur mesure intégrés aux workflows et aux outils existants de l’entreprise.
+
+**Prestations disponibles**
+
+- identification et cadrage de cas d’usage IA à fort impact ;
+- analyse et redesign de workflows métier ;
+- prototypage rapide et validation technique ;
+- développement de solutions IA métier sur mesure ;
+- copilotes et assistants spécialisés ;
+- systèmes RAG et recherche documentaire ;
+- traitement automatisé de documents, OCR et extraction structurée ;
+- agents et workflows multi-étapes ;
+- systèmes multi-agents ;
+- Company Brain et systèmes de mémoire organisationnelle ;
+- AI memory systems ;
+- orchestrateurs de modèles, agents et outils ;
+- intégration avec APIs, logiciels métier et systèmes existants ;
+- instrumentation d’observabilité et de monitoring ;
+- mise en place d’evals et de tests automatisés ;
+- tests E2E des parcours métier et agentiques ;
+- passage du prototype à une application exploitable en production ;
+- maintenance, monitoring et amélioration continue lorsque cela fait partie de la mission.
+
+NODINA dispose déjà d’expérience sur des projets mêlant notamment LLM, NLP, RAG, OCR, anonymisation de données sensibles, machine learning, reinforcement learning, systèmes agentiques et systèmes logiciels métier.
+
+Des réalisations antérieures de l’équipe comprennent par exemple des systèmes d’OCR et de RAG destinés à des professionnels de l’audit et de la comptabilité, des solutions d’anonymisation de données et de protection des informations sensibles, ainsi que des produits et prototypes IA développés pour des startups, entreprises et acteurs publics.
+
+NODINA peut prendre en charge la chaîne complète :
+
+**problème métier → architecture → prototype → développement → intégration → tests et evals → production → observabilité → amélioration continue.**
+
+### Une équipe construite dans la durée
+
+NODINA ne repose pas sur l’expertise d’une seule personne.
+
+Son noyau est constitué de professionnels qui collaborent sur des produits et projets technologiques depuis près de **15 ans**, auxquels viennent s’ajouter des ingénieurs et spécialistes sélectionnés selon les besoins des missions.
+
+Cette expérience commune permet de mobiliser rapidement une culture de travail, des standards techniques et des mécanismes de collaboration déjà éprouvés, plutôt que d’assembler à chaque mission un groupe de profils qui n’ont jamais travaillé ensemble.
+
+NODINA doit donc être comprise comme une **équipe d’exécution technologique**, et non comme une activité de conseil reposant principalement sur le temps de son fondateur.
+
+### Sécurité et hébergement
+
+La sécurité est traitée au niveau de l’architecture de chaque solution plutôt que comme une couche ajoutée après le développement.
+
+Selon le projet, NODINA peut notamment mettre en œuvre :
+
+- isolation des environnements et des données clients ;
+- contrôle des données transmises aux modèles externes ;
+- anonymisation, pseudonymisation ou suppression des informations sensibles avant traitement ;
+- gestion des secrets et des accès ;
+- chiffrement en transit et au repos selon l’infrastructure ;
+- journalisation et traçabilité des traitements lorsque nécessaire ;
+- architectures permettant de limiter la circulation des données vers des services tiers ;
+- contrôle des permissions des agents et outils ;
+- human-in-the-loop sur les opérations sensibles ;
+- choix des modèles et fournisseurs selon leurs politiques de confidentialité et de traitement des données ;
+- déploiements cloud dédiés ;
+- solutions hébergées dans l’environnement du client ;
+- hébergement européen lorsque nécessaire ;
+- utilisation de modèles privés ou open source lorsque les contraintes de confidentialité le justifient ;
+- architectures on-premise lorsque les contraintes du projet le nécessitent.
+
+NODINA a notamment déjà travaillé sur des solutions impliquant anonymisation d’IP/PII et sur des architectures OCR/RAG pouvant être déployées on-premise.
+
+NODINA ne revendique actuellement aucune certification de type ISO 27001, SOC 2 ou qualification équivalente.
+
+### Limites et engagements
+
+NODINA est volontairement une structure senior et sélective, et non une ESN cherchant à maintenir plusieurs centaines de consultants sur catalogue.
+
+La disponibilité exacte, la composition des équipes et les engagements de délai sont validés pour chaque mission.
+
+NODINA ne revendique pas :
+
+- une expertise profonde sur toute technologie ou tout secteur ;
+- des certifications de sécurité qu’elle ne détient pas ;
+- des SLA indépendants des contraintes du projet.
+
+En revanche, NODINA construit son modèle autour de trois engagements : **sélection extrêmement exigeante, constitution rapide d’équipes et standards élevés de qualité d’exécution.**
+
+La société travaille volontairement avec un nombre limité de clients simultanément afin de préserver ce niveau d’exigence.
+
+**Invitation-only · We partner with a limited number of ambitious companies each quarter.**
