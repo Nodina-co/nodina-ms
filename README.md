@@ -1,5 +1,9 @@
 # Prometheus File
 
+## Référence active pour NODINA
+
+Le projet utilise [PROMETHEUS mis à jour le 1er octobre 2026](prometheus_update_2026-10-01/PROMETHEUS.md), conformément à la décision de JD. Les fichiers `PROMETHEUS.md` et `MARKETING_FOUNDATION.md` à la racine sont conservés comme versions historiques. Le guide générique ci-dessous est également conservé ; pour poursuivre ce projet, utiliser la référence active et les décisions dans `content/decisions.md`.
+
 One markdown file that turns a blank repository into a fully built,
 search-optimized marketing site with a content machine behind it.
 
