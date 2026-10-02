@@ -139,3 +139,131 @@ Entretien de 50 questions terminé. Référentiel produit provisoire créé depu
 ## 2026-09-28 : objectifs confirmés et Phase 0 clôturée par JD
 
 Réponse explicite : « oui je confirme ». Confirmation du document goals.md consolidé, de la baseline avant cible chiffrée et du suivi commercial. Phase 1 engagée : audit, preuves et positionnement. Cette confirmation ne valide pas encore la description canonique, le design ou une publication. Les choix techniques laissés ouverts restent à traiter.
+
+## 2026-10-01 : nouvelle référence PROMETHEUS et reprise de Phase 1, décidées par JD
+
+JD désigne le dossier `prometheus_update_2026-10-01` comme contenant la version de PROMETHEUS à utiliser pour la suite du projet. Référence active : [PROMETHEUS.md dans ce dossier](../prometheus_update_2026-10-01/PROMETHEUS.md), version de fondation 2026-09-29. Cette instruction remplace la note de sauvegarde qui demandait d’attendre un mandat distinct pour utiliser la mise à jour. Les décisions propres à NODINA restent prioritaires ; tout conflit doit être exposé à JD.
+
+Après restauration du contexte, JD choisit « A — Reprendre le travail ». Reprendre la Phase 1 par le premier dossier de preuve. Le système OCR/RAG pour audit-comptabilité reste une proposition de priorité, sans sélection ni autorisation de publication présumées. Le fichier PROMETHEUS racine n’est pas remplacé dans cette reprise.
+
+## 2026-10-01 : parcours et expériences antérieures comme point de départ, précisés par JD
+
+JD indique ne pas avoir de véritable dossier de preuve NODINA à ce jour et propose son parcours, ses compétences et ses expériences dans d’autres structures ayant porté leurs propres projets clients. Partir de ces expériences réelles, avec attribution de la structure porteuse et du rôle exact de JD, sans les présenter comme des missions NODINA ni étendre son parcours à toute l’équipe.
+
+L’agent propose un [dossier d’expérience](../research/experience-evidence.md) et, comme possibilité distincte, un démonstrateur explicitement identifié. La suggestion d’inventer un dossier n’est pas retenue comme preuve réelle : aucun client, projet livré, témoignage ou résultat ne sera fabriqué. Aucune expérience précise ni construction de démonstrateur n’est encore sélectionnée ; droits et formulations publiques restent à valider.
+
+## 2026-10-01 : sites publics fournis par JD pour documenter le parcours
+
+JD demande d’examiner son site jdcollard.com et ceux de ses autres entreprises, angelsbaytech.com et checkia.fr. Revue et sources consultées consignées dans [public-experience-review-2026-10-01.md](../research/public-experience-review-2026-10-01.md). Cette demande autorise la recherche, pas la publication de profils, logos ou éléments de projets sur NODINA.
+
+Recommandation de l’agent : commencer par CheckIA pour illustrer un produit IA métier, puis documenter le travail collectif historique chez Angels Bay Tech. La contribution précise de JD reste à recueillir. Les chiffres de gain de temps et distinctions affichés restent soumis à leur propre vérification ; aucune revendication NODINA n’en découle automatiquement.
+
+## 2026-10-01 : contribution personnelle à CheckIA, confirmée par JD
+
+À la question sur ses responsabilités personnelles dans CheckIA, JD répond : « conception produit, architecture/IA, développement, pilotage de l’équipe et exploitation ». Consigner ces cinq domaines comme déclaration de l’opérateur dans le [dossier CheckIA](../research/cases/checkia.md), registre C208. Cette réponse ne précise pas les dates, la répartition détaillée de l’équipe, le stade du déploiement ou les résultats mesurés. L’expérience est attribuée à CheckIA ; aucune mission NODINA ni autorisation de publication n’est présumée.
+
+## 2026-10-01 : CheckIA en production et utilisé par des cabinets, confirmé par JD
+
+À la question sur le stade du produit, JD répond : « en production et utilisé par des cabinets ». Déclaration consignée dans le [dossier CheckIA](../research/cases/checkia.md), registre C209. Le stade de production et l’existence d’usages dans des cabinets sont déclarés par l’opérateur ; date de mise en production, nombre de cabinets, revenus, volumes et résultats mesurés restent non renseignés. Cette confirmation ne désigne aucun cabinet et ne constitue pas une autorisation de publication sur NODINA.
+
+## 2026-10-01 : début d’utilisation en production de CheckIA, précisé par JD
+
+À la question « Depuis quand CheckIA est-il utilisé en production ? », JD répond : « Q2 2026 ». Consigner le deuxième trimestre 2026 dans le [dossier CheckIA](../research/cases/checkia.md), registre C210, sans convertir le trimestre en date précise. Cette période concerne l’utilisation en production, pas la date de création de CheckIA, le début du travail de JD ou une ancienneté NODINA. Les chiffres et droits de publication restent distincts.
+
+## 2026-10-01 : continuité partielle des équipes, confirmée par JD
+
+À la question sur la mobilisation par NODINA de personnes ayant travaillé avec lui sur CheckIA, JD répond : « oui certains membre de l’équipe en partie », puis « idem pour angelsbaytech ». Consigner séparément le recouvrement partiel avec CheckIA (C211) et Angels Bay Tech (C212). Les personnes peuvent être les mêmes ou différentes ; aucun effectif, rôle individuel, disponibilité immédiate ou appartenance de toute une équipe n’est présumé.
+
+La continuité de certaines compétences peut étayer le positionnement collectif, sans transférer les projets et clients des structures porteuses à NODINA. Dossiers [CheckIA](../research/cases/checkia.md) et [Angels Bay Tech](../research/cases/angelsbaytech.md). Noms, visuels et formulations publiques restent à valider avant publication.
+
+## 2026-10-01 : domaines collectifs et ajout de TitanOne et ReadyPark, précisés par JD
+
+JD confirme les domaines « développement, architecture, IA, produit, design » pour les membres concernés par le recouvrement partiel des équipes, C213. Ne pas attribuer automatiquement ces cinq domaines à chaque membre ou à chaque structure.
+
+JD ajoute Titanone.ai et readypark.fr aux expériences à documenter. Les sites publics sont consultés et les dossiers [TitanOne](../research/cases/titanone.md) et [ReadyPark](../research/cases/readypark.md) ouverts. Cet ajout autorise la recherche et la préparation interne, sans confirmer le stade de chaque produit, les responsabilités détaillées, un nouveau recouvrement d’équipe ni une publication. ReadyPark reste un produit attribué à Angels Bay Tech, pas une référence cliente indépendante à compter en plus.
+
+## 2026-10-01 : statut de TitanOne précisé par JD
+
+À la question sur le stade actuel, JD répond : « projet publique arrêté mais utilisé en interne/privée par les équipes ». Consigner le projet public arrêté et la poursuite d’usages internes/privés dans le [dossier TitanOne](../research/cases/titanone.md), C216. Ne pas transformer cette réponse en offre publique active ou usage client externe, ni attribuer les équipes utilisatrices à NODINA sans précision. Fonctions utilisées, périodes, contribution de JD et éléments publiables restent à documenter.
+
+## 2026-10-01 : usage privé et recherche autour de ReadyPark, précisés par JD
+
+À la question sur le stade actuel de ReadyPark, JD répond : « utilisé dans un cadre privé et inspiration/base d'un projet de recherche (publications scientifiques annuelle) ». Consigner l’usage privé (C217) et le rôle de base/inspiration d’un projet de recherche avec cadence annuelle déclarée (C218) dans le [dossier ReadyPark](../research/cases/readypark.md). L’état du service public, les utilisateurs et les fonctions utilisées ne sont pas précisés.
+
+La recherche documentaire retrouve deux traces éditeurs de publications cosignées par JD (C219, C220). L’article LOD 2025 est désormais paru chez Springer en 2026, contrairement au statut historique « to appear » du site personnel. La sélection ne vérifie pas une publication pour chaque année ni des résultats opérationnels du produit. Attributions et formulations publiques restent à valider.
+
+## 2026-10-01 : rôle personnel sur ReadyPark confirmé par JD
+
+À la question « Pour ReadyPark, ton rôle était-il bien cocréateur, responsable produit et recherche, comme indiqué sur ton site ? », JD répond « oui ». Consigner ces trois responsabilités dans le [dossier ReadyPark](../research/cases/readypark.md), C221. Cette confirmation porte sur le rôle, sans ajouter de responsabilités de développement, d’architecture ou d’exploitation ni autoriser une publication. Période et exemples de contributions restent à documenter si utiles.
+
+## 2026-10-01 : rôle personnel sur TitanOne confirmé par JD
+
+À la question « Pour TitanOne, ton site indique cofondateur, responsable produit et recherche. Tu confirmes également ce périmètre ? », JD répond « oui ». Consigner ces trois responsabilités dans le [dossier TitanOne](../research/cases/titanone.md), C222. Cette confirmation porte sur le rôle, sans ajouter de responsabilités de développement, d’architecture ou d’exploitation ni autoriser une publication. Une synthèse des trois projets et de la continuité collective avec Angels Bay Tech est préparée dans [experience-evidence.md](../research/experience-evidence.md) pour validation éditoriale.
+
+## 2026-10-01 : citation des quatre marques remise en question par JD
+
+JD indique ne pas être certain de vouloir citer CheckIA, TitanOne, ReadyPark et Angels Bay Tech sur le futur site et demande l’avis de l’agent. Aucune validation de la proposition nominative précédente n’est acquise. Les dossiers internes et leurs attributions sont conservés.
+
+Recommandation de l’agent, en attente de décision : présenter les expériences par problèmes, contributions et stade sur la homepage, avec attribution générique explicite à d’autres structures ; ne pas afficher les quatre marques ou un bandeau de logos. CheckIA peut devenir un cas nommé sur une page détaillée si JD le souhaite. TitanOne peut étayer un exemple technique sans nom public ; ReadyPark peut étayer une bio ou un contenu de recherche avec références exactes ; Angels Bay Tech reste une source interne de l’historique collectif. Une référence scientifique peut révéler le nom ReadyPark : présentation sans nom dans le texte n’équivaut pas à anonymat garanti.
+
+Cette recommandation ne constitue ni un choix arrêté par JD ni une autorisation de publication. Proposition révisée dans [experience-evidence.md](../research/experience-evidence.md).
+
+## 2026-10-01 : aucune citation publique des projets ou structures pour l’instant, décidé par JD
+
+JD précise : « je préfère ne rien nommé pour l'instant ». Pour les expériences documentées, ne citer actuellement aucun des quatre noms CheckIA, TitanOne, ReadyPark et Angels Bay Tech sur le futur site NODINA, y compris dans les pages détaillées et les contenus de recherche. Cette décision remplace les propositions de citation sélective précédentes ; aucune nouvelle confirmation des noms n’est nécessaire.
+
+Préparer des présentations sans noms de projets ou de structures, centrées sur le problème, les contributions et le stade. Conserver une attribution explicite aux expériences acquises dans d’autres structures, ainsi que les noms et sources exacts dans les dossiers internes. Les logos, liens vers les produits et références scientifiques révélant ces noms ne sont pas intégrés à la version publique actuelle. Il s’agit d’un choix éditorial révisable par JD, pas d’une garantie que les projets ne puissent être reconnus à partir de leur description.
+
+Les formulations finales et la publication du site restent à valider dans les étapes prévues. La décision porte sur les projets et structures évoqués ; elle ne tranche pas la publication des noms des personnes de l’équipe.
+
+## 2026-10-01 : citation sélective de CheckIA et Angels Bay Tech, décidée par JD
+
+JD précise : « sinon on peut citer CheckIA et Angels Bay Tech mais sans dire que l'équipe CheckIA participe à Nodina ». Cette instruction remplace l’exclusion générale précédente : les noms CheckIA et Angels Bay Tech peuvent être cités dans le futur site, avec attribution exacte des expériences à leurs structures porteuses. TitanOne et ReadyPark restent sans nom public pour l’instant.
+
+Présenter CheckIA à travers la contribution personnelle de JD et le produit en production. Ne pas dire ni laisser entendre que l’équipe CheckIA participe à NODINA, que des membres CheckIA sont mobilisables par NODINA ou que le produit constitue une mission NODINA. La déclaration historique C211 reste consignée en interne et n’est pas utilisable comme message public. Le recouvrement partiel déclaré avec Angels Bay Tech reste documenté en C212 et peut soutenir une présentation collective attribuée, sans supposer une équipe entièrement commune.
+
+Cette autorisation porte sur les noms et le cadrage éditorial ; elle ne valide pas les textes finaux, les logos, les captures ni la publication du site. Aucun nouveau mandat concernant les deux noms autorisés n’est nécessaire.
+
+## 2026-10-02 : poursuite de la Phase 1 autorisée par JD
+
+JD indique « Go étape suivante ». Poursuivre la cartographie des alternatives, les relevés de visibilité et la consolidation du positionnement. Cette instruction ne valide pas automatiquement le référentiel produit ou le passage à la Phase 2 ; la revue du jalon reste à préparer.
+
+## 2026-10-02 : doctorat en IA et publications annuelles comme preuves du parcours, précisés par JD
+
+JD précise : « Pour les preuves il faut aussi s'appuyer sur le fait que je suis docteur en IA (phd AI) avec des plublications scientifiques annuelles ». Consigner son doctorat en IA en C223 et la cadence annuelle de ses publications en C224, classe `operator-stated`. Les publications documentées apportent une preuve de travaux scientifiques ; elles ne certifient pas à elles seules le diplôme ou une parution chaque année. [Dossier académique](../research/academic-evidence.md).
+
+Intégrer ce parcours comme appui d’expertise personnelle dans le positionnement et la future biographie, en conservant le positionnement collectif. Les noms de projets encore exclus ne sont pas réintroduits par les titres ou liens des publications. L’intitulé officiel, l’établissement et la date du doctorat restent à documenter avant la biographie finale ; aucune qualification supplémentaire, résultat client ou performance garantie n’est déduit du diplôme.
+
+## 2026-10-02 : observations de Phase 1 et dossier préparatoire, sans clôture
+
+Carte des alternatives et positionnement enrichis ; doctorat et publications annuelles intégrés à la proposition de biographie. [Revue préparatoire](../reports/phase-1-review.md). Google marque seule relevé en navigation privée ; 18 réponses d’assistants effectivement observées, dont 12 Perplexity couvrant les six questions deux fois, deux ChatGPT, deux Gemini et deux explorations Google hors répétitions standard. Les séries non testées restent indiquées comme telles.
+
+Une page publique nodina.com présente déjà une offre de conseil IA pour dirigeants. Son statut a été demandé à JD et reste à confirmer avant traitement des URLs ou contenus existants ; pas de modification de site ni de décision de migration. La session Chrome privée est interrompue par le verrouillage du Mac, déverrouillage demandé. Phase 1 reste ouverte ; aucun passage à la Phase 2 déclaré.
+
+## 2026-10-02 : expérience franco-américaine et projets à six chiffres, précisés par JD
+
+JD propose comme distinction son expérience passée et actuelle avec des équipes FR/US (franco-américaines), ses clients en France et aux États-Unis et des budgets de projet à six chiffres. Consigner ces trois déclarations personnelles en C225–C227. Intégrer cet angle au positionnement et au dossier préparatoire de revue, en lien avec son doctorat, ses publications et l’expérience produit/production.
+
+Préparer des formulations attribuées à son parcours ; ne pas déduire que tous les clients ou projets sont portés par NODINA, qu’une structure particulière a réalisé ces missions ou que ce budget constitue un tarif minimum. Devises et structures porteuses demandées à JD ; réponse en attente. [Dossier](../research/fr-us-experience.md). Les autorisations de noms et la restriction concernant l’équipe CheckIA restent acquises.
+
+## 2026-10-02 : page publique provisoire à remplacer intégralement, confirmé par JD
+
+À la question « la page actuelle de nodina.com est-elle une page provisoire destinée à être remplacée entièrement ? », JD répond « oui ». Son statut est désormais acquis : concevoir le futur site en Mode B, sans conserver par obligation le contenu ou le design de cette page et sans importer de corpus éditorial.
+
+Préparer le remplacement sur nodina.com après relevé des URLs et signaux techniques existants. La racine publique reste un point d’entrée à traiter dans le futur routage FR/EN. Cette réponse confirme le périmètre du remplacement ; elle ne valide pas automatiquement les brouillons de référentiel produit/positionnement, les futures modifications d’URL ou une publication immédiate. Ne pas redemander le statut de cette page.
+
+## 2026-10-02 : cadrage retenu et préparation de l’étape suivante
+
+Après présentation du référentiel produit et du positionnement avec demande d’accord avant la suite, JD répond « étape suivante ». L’agent explicite qu’il prend cette réponse comme accord sur le cadrage présenté et prépare l’arborescence FR/EN, la structure d’accueil et les choix techniques. Le référentiel et le positionnement sont retenus comme base de travail ; les précisions de preuves ouvertes et les relevés de visibilité partiels restent ouverts. Aucune approbation de contenu non présenté, de design ou de publication n’est déduite.
+
+Livrables préparés : [architecture](site-architecture.md), [brief d’accueil](briefs/homepage.md), [fondation technique](../research/technical-foundation.md). Les slugs, la requête cible d’accueil et l’anatomie sont proposés ; à fixer avant les textes finaux et URLs publiques.
+
+Astro statique retenu par l’agent conformément au défaut de PROMETHEUS 7.2 : HTML complet, gabarits et contenu séparés, validation à la construction. Cloudflare Workers Static Assets Free proposé comme service précis pour le nouveau site, sur documentation officielle consultée le 2026-10-02. Le choix Cloudflare gratuit et le budget supplémentaire de 0 € restent acquis. Aucune dépendance installée, code déployé, dépense ou création de compte.
+
+## 2026-10-02 : entrée française du domaine, choisie par JD
+
+Question : ouvrir directement la version française `/fr/`, avec sélecteur `/en/`, ou afficher une page de choix FR/EN. JD choisit **« Ouvrir directement la version française »**. Préparer `https://nodina.com/` en 301 vers `/fr/`, le sélecteur vers la page EN équivalente et le x-default vers `/fr/`. Pas de détection géographique automatique. Le traitement de la racine est choisi ; carte des autres routes, vérification des liens existants et mise en ligne restent à effectuer. Aucune redirection appliquée dans cette session.
+
+## 2026-10-02 : robots de recherche et d’IA autorisés, choisi par JD
+
+PROMETHEUS 3 et 7.7 : choix présenté une fois pendant la préparation technique, avec l’implication explicite que les contenus publics pourront aussi servir à l’entraînement des modèles. JD choisit **« Autoriser les robots de recherche et d’IA »**, pour favoriser la découverte et les citations. Préparer robots.txt et les paramètres Cloudflare sans blocage de ces robots sur les contenus publics approuvés. Les previews protégées et documents internes ne deviennent pas publics. Vérifier les paramètres effectifs de l’hébergement avant lancement ; aucune configuration du site actuel modifiée.

@@ -10,6 +10,10 @@ Statut : brouillon de Phase 0 établi à partir des consignes explicites de l’
 - Refléter une expertise distribuée dans l’équipe, avec plusieurs voix identifiables au fil du temps. Ne pas faire reposer la marque uniquement sur son fondateur.
 - Choisir la signature selon la contribution réelle. Ne pas inventer d’auteur, de qualification ou d’attribution ; recueillir les informations et autorisations avant publication. Aucun auteur individuel n’a encore été nommé dans l’intake.
 
+## Présentation des expériences — décision du 2026-10-01
+
+JD autorise désormais la citation de CheckIA et Angels Bay Tech. Présenter CheckIA à travers les contributions personnelles de JD, sans annoncer ni suggérer la participation de son équipe à NODINA. Angels Bay Tech peut étayer un historique collectif attribué. TitanOne et ReadyPark restent sans nom public pour l’instant ; ne pas insérer de logos ou liens révélant ces deux noms. Conserver les sources exactes en interne et distinguer les expériences acquises dans d’autres structures des missions NODINA. Les logos, captures et textes finaux restent à valider. Cette règle s’applique aux deux langues et aux pages détaillées. [Décision et propositions](../research/experience-evidence.md#présentations-pour-le-futur-site).
+
 ## Langues et localisation éditoriale
 
 - Site bilingue dès le lancement : français de France (`fr-FR`) et anglais américain (`en-US`). Le français adresse le marché français ; l’anglais sert les clients internationaux et européens et les équipes techniques travaillant en anglais.

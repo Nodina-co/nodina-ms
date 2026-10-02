@@ -1,9 +1,13 @@
+Phase actuelle : 1 — Audit et positionnement ; point de départ 1 — Site à créer.
+
 # Découverte : NODINA
 
 ## État
 
 Phase 0 clôturée : objectifs consolidés confirmés par JD le 2026-09-28. Phase 1 engagée.
 Questions 1 à 50 renseignées ou sans objet (23a, 23b, 32, 33). Dernière réponse : 2026-09-28. Langue principale de navigation et comportement de la racine `/` à confirmer avant l’architecture du site.
+
+Référence pour la suite, désignée par JD le 2026-10-01 : [PROMETHEUS mis à jour](../prometheus_update_2026-10-01/PROMETHEUS.md), version de fondation 2026-09-29. Lire sa carte de lecture (0.4), le socle commun et les sections de la phase actuelle. Les décisions NODINA déjà validées restent applicables.
 
 ## A. L’entreprise
 
@@ -714,3 +718,11 @@ Source : décision explicite de JD le 2026-09-28.
 ## Suite du cadrage
 
 Les 50 questions sont traitées. Voir [la synthèse de Phase 0](../reports/phase-0-review.md), [les objectifs](../content/goals.md) et [le référentiel produit provisoire](../content/product-truth.md). Objectifs confirmés par JD le 2026-09-28 ; confirmation détaillée du référentiel et du positionnement prévue en Phase 1.
+
+## 2026-10-02 : remplacement de la page provisoire et relevé HTTP
+
+JD confirme que la page actuelle nodina.com est provisoire et destinée à être entièrement remplacée. Mode B et absence d’import éditorial maintenus. [Inventaire de la page et relevé technique](live-site-baseline-2026-10-02.md) : une racine éditoriale avec navigation par ancres ; HTTP 200 ; variantes www et HTTP redirigées en 301 vers la racine HTTPS ; serveur répondant GitHub ; absence de H1, canonical, hreflang et JSON-LD dans le HTML. Pas de meta robots ni d’en-tête X-Robots-Tag observé.
+
+Les chemins robots.txt, sitemap.xml, llms.txt et la route de protection du lien de contact testés répondent 404. La racine répond 200 aux User-Agents GPTBot, ClaudeBot et PerplexityBot depuis l’origine de cet audit. Aucun flux annoncé dans le HTML ; environ 424 mots après exclusion des scripts et styles. Données de performance, Search Console, backlinks et comportement des cookies dans le navigateur non mesurés. Aucun envoi, connexion d’hébergement, changement d’URL ou remplacement en production effectué.
+
+Préparer le nouveau site sur le même domaine, expliciter le traitement FR/EN de la racine et vérifier le parcours de contact lors de la construction. Le statut de page provisoire est acquis et ne doit plus être redemandé.

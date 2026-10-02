@@ -1,16 +1,16 @@
 # Référentiel produit NODINA
 
-Statut : brouillon de Phase 0, consolidé le 2026-09-28. Confirmation détaillée par JD en Phase 1 en attente. Document interne ; aucune publication autorisée.
+Statut : référentiel de travail consolidé en Phase 1. Le 2026-10-02, JD demande « étape suivante » après la proposition de validation du référentiel et du positionnement ; le cadrage présenté est retenu pour préparer la fondation et le design. Les précisions factuelles encore ouvertes restent signalées. Document interne ; aucune publication autorisée.
 
 ## Provenance et usage
 
 Les faits ci-dessous sont des déclarations de JD, consignées dans [discovery.md](../research/discovery.md), questions 1 à 50, et les documents originaux de [research/sources](../research/sources/). Classe applicable : `operator-stated`, dates de chaque réponse conservées dans discovery.md. Les décisions de conception du futur site sont des exigences, pas des fonctionnalités déjà déployées. Aucun résultat client ou contrôle de sécurité n’a été vérifié indépendamment.
 
-## Description canonique proposée
+## Description canonique du cadrage
 
 NODINA est une société de services en ingénierie et IA qui mobilise des équipes senior et conçoit, construit et déploie des systèmes IA métier. Ses deux offres, AI-native Teams et AI Systems & Transformation, s’adressent aux entreprises ayant un besoin important de capacité technique ou de transformation de leurs workflows. NODINA intervient en priorité en France, en Europe et aux États-Unis, avec une approche collective associant software engineering, qualité et sécurité selon les contraintes du projet.
 
-Ce paragraphe reste à valider avant réutilisation canonique. Le positionnement premium et sélectif est acquis ; il ne constitue pas à lui seul une preuve de performance.
+Ce paragraphe constitue la description de travail du cadrage retenu. La rédaction finale et ses usages publics seront revus dans les pages préparées. Le positionnement premium et sélectif est acquis ; il ne constitue pas à lui seul une preuve de performance.
 
 ## Capacités disponibles aujourd’hui, déclarées par JD
 
@@ -56,6 +56,38 @@ Les quatre documents de [content/security](security/) sont des brouillons intern
 - Logos fournis dans `Nodina_logo/`. Aucun remplacement approuvé.
 - AngelsBayTech peut fournir un historique attribué de l’équipe, distinct des réalisations de NODINA, sous réserve de preuve et de droits. Pas de cross-promotion systématique.
 
+## Expérience dans une autre structure : CheckIA
+
+**Règle publique actualisée par JD le 2026-10-01 : CheckIA et Angels Bay Tech peuvent être nommés ; TitanOne et ReadyPark restent sans nom public pour l’instant.** Ces sections conservent les sources internes exactes. CheckIA doit être présenté à travers la contribution personnelle de JD, sans dire ou suggérer que son équipe participe à NODINA. Préserver l’attribution aux structures porteuses. La citation des noms ne vaut pas autorisation de reprise de logos ou de captures ; éviter les liens révélant les deux noms encore exclus. [Présentations proposées](../research/experience-evidence.md#présentations-pour-le-futur-site). Cette décision ne vaut pas validation globale du référentiel ou autorisation de publication.
+
+Déclarations de JD le 2026-10-01, classe `operator-stated` : conception produit, architecture/IA, développement, pilotage de l’équipe et exploitation de CheckIA (C208). Produit utilisé en production par des cabinets (C209) depuis le deuxième trimestre 2026 (C210). Attribution : expérience de JD au sein de CheckIA, distincte d’une mission NODINA. [Dossier et sources](../research/cases/checkia.md).
+
+JD confirme également un recouvrement partiel : certains membres ayant travaillé sur CheckIA font partie des personnes mobilisables par NODINA (C211). Cette déclaration reste interne et est exclue des textes publics à la demande ultérieure de JD. Identités et contributions individuelles restent à préciser. Ces déclarations ne confirment aucun nombre de cabinets, revenu, gain mesuré ni architecture RAG. Formulation publique centrée sur la contribution personnelle de JD et droit de reprise des éléments restent à valider.
+
+## Expérience collective dans une autre structure : Angels Bay Tech
+
+JD confirme le 2026-10-01 un recouvrement partiel entre des membres ayant travaillé chez Angels Bay Tech et les personnes mobilisables par NODINA, classe `operator-stated`, C212. [Dossier et sources](../research/cases/angelsbaytech.md). Cela ne transfère pas les projets ou clients d’Angels Bay Tech à NODINA. Rôles, contributions, périodes et droits de reprise restent à préciser ; aucune disponibilité immédiate présumée.
+
+## Compétences collectives et expériences complémentaires
+
+JD précise le 2026-10-01 que les membres concernés par la continuité partielle avec CheckIA et Angels Bay Tech couvrent développement, architecture, IA, produit et design (C213, `operator-stated`). Cette liste n’est pas une attribution de toutes les compétences à chaque personne ni une composition d’équipe garantie.
+
+JD demande également de documenter [TitanOne](../research/cases/titanone.md) et [ReadyPark](../research/cases/readypark.md). Leurs sites sont consultés comme sources de présentation publique. JD précise le 2026-10-01 que le projet public TitanOne est arrêté mais que des usages internes/privés se poursuivent par les équipes concernées (C216, `operator-stated`). Ne pas le présenter comme une offre publique active ni présumer que les utilisateurs sont des équipes NODINA. Contribution détaillée, fonctions utilisées et participation de membres mobilisables restent à préciser. Ces projets ne deviennent pas des missions NODINA par leur ajout au dossier.
+
+ReadyPark est déclaré utilisé dans un cadre privé (C217) et source d’inspiration/base d’un projet de recherche avec publications scientifiques annuelles selon JD (C218, `operator-stated`). Son dossier comprend deux traces éditeurs de travaux cosignés par JD : Smart Cities en 2021 (C219) et Springer en 2026, après LOD 2025 (C220). Cela étaye une expérience de recherche attribuée ; aucune cadence annuelle exhaustive, performance terrain, exploitation publique actuelle ou activité de recherche NODINA n’est vérifiée par ces sources.
+
+JD confirme également le 2026-10-01 son rôle de cocréateur, responsable produit et recherche de ReadyPark (C221, `operator-stated`). Aucun rôle personnel supplémentaire en développement, architecture ou exploitation n’est déduit de cette confirmation.
+
+JD confirme le même jour son rôle de cofondateur, responsable produit et recherche de TitanOne (C222, `operator-stated`). Les exemples détaillés de contribution restent à documenter ; ne pas lui attribuer automatiquement les responsabilités techniques déclarées pour CheckIA.
+
+## Parcours scientifique de JD
+
+JD déclare le 2026-10-02 être docteur en IA (PhD AI), C223, et publier des travaux scientifiques annuellement, C224. [Sources et éléments à consolider](../research/academic-evidence.md). Les références déjà documentées étayent une activité de recherche cosignée ; l’intitulé officiel du diplôme et un inventaire annuel exhaustif restent à vérifier. Utiliser cet appui comme expertise personnelle, sans l’étendre à toute l’équipe ni en déduire des résultats garantis. Conserver la restriction sur les noms de projets encore exclus.
+
+## Expérience franco-américaine de JD
+
+JD déclare le 2026-10-02 des collaborations passées et actuelles avec des équipes franco-américaines (C225), des clients en France et aux États-Unis (C226) et des projets aux budgets à six chiffres (C227). [Dossier d’expérience internationale](../research/fr-us-experience.md). Cette expérience personnelle peut étayer le positionnement France/US et l’échelle des projets abordés. Structures porteuses, devises, périodes et périmètres à préciser ; aucune référence client NODINA ni tarif minimum ajouté par cette déclaration.
+
 ## Site et contenus à construire
 
 FR-France et EN-US dès le lancement, localisation éditoriale et relecture humaine de chaque page. Cloudflare gratuit choisi, service précis et stack à définir. Budget supplémentaire de lancement : 0 €. Toute dépense nécessite proposition chiffrée et accord de JD.
@@ -64,6 +96,7 @@ Newsletter facultative, peu fréquente : NODINA, `insights@nodina.com`, envois v
 
 ## Preuves manquantes et limites
 
+- Précision de JD le 2026-10-01 (`operator-stated`) : aucun véritable dossier de preuve NODINA constitué à ce jour. Son parcours et ses contributions dans d’autres structures peuvent servir de point de départ, avec attribution exacte ; cela ne confirme aucune mission NODINA ni aucun résultat supplémentaire. Collecte dans [experience-evidence.md](../research/experience-evidence.md).
 - Aucune baseline commerciale mesurée ; aucun chiffre de performance exploitable fourni.
 - « Moins de 1 % » de sélection et « près de 15 ans » de collaboration : preuves traçables à obtenir avant tout usage public ; ne pas confondre ancienneté de l’équipe et de Nodina.
 - Aucune référence client, logo client, citation, étude de cas chiffrée, photo d’équipe, profil nommé ou démo publiable autorisé dans ce dossier à ce stade.
