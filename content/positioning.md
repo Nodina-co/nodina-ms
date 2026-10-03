@@ -69,3 +69,9 @@ Décision actualisée de JD le 2026-10-01 : CheckIA et Angels Bay Tech peuvent �
 ## Vocabulaire et révision
 
 Noms immuables : AI-native Teams et AI Systems & Transformation. AI-native décrit le système de travail humains/agents/modèles/mémoire/outils/evals/observabilité défini par NODINA. Voix et exclusions : voice.md. Réexaminer l’efficacité des messages lors de la revue à 90 jours après lancement, sans remettre automatiquement en cause les décisions de marque figées par JD.
+
+## Priorité d’acquisition confirmée — 2026-10-03
+
+JD choisit **AI-native Teams en priorité**. La proposition d’entrée doit nommer ce que le prospect obtient : une équipe d’ingénieurs senior sélectionnée et constituée autour de son produit, Europe/LATAM, intégrée à son environnement de travail. Démarrage possible dès trois semaines selon disponibilité ; sans prise de participation ni frais de recrutement. Les slogans généraux reliant talents et transformation IA ne doivent pas remplacer cette description concrète.
+
+AI Systems & Transformation reste une offre complémentaire explicite et combinable, destinée aux prospects qui veulent confier un périmètre de réalisation. Elle pourra recevoir des messages/pages de destination propres sans imposer une présentation à égalité dans chaque premier écran. Il s’agit d’une hiérarchie commerciale approuvée, pas d’une preuve de supériorité de conversion mesurée.

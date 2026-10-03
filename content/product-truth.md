@@ -1,5 +1,7 @@
 # Référentiel produit NODINA
 
+**Règle éditoriale en vigueur — 2026-10-02 :** JD ne veut plus faire référence à Angels Bay Tech / AngelsBayTech ni à CheckIA sur le site NODINA. Retirer ces références des maquettes et futurs contenus FR/EN : noms, cas, liens, logos et allusions identifiantes. Ne pas simplement anonymiser leurs exemples. Les sources et déclarations historiques restent internes pour la traçabilité. Cette décision remplace l’autorisation de citation du 2026-10-01 ; les exclusions antérieures de TitanOne et ReadyPark restent applicables.
+
 Statut : référentiel de travail consolidé en Phase 1. Le 2026-10-02, JD demande « étape suivante » après la proposition de validation du référentiel et du positionnement ; le cadrage présenté est retenu pour préparer la fondation et le design. Les précisions factuelles encore ouvertes restent signalées. Document interne ; aucune publication autorisée.
 
 ## Provenance et usage
@@ -8,7 +10,7 @@ Les faits ci-dessous sont des déclarations de JD, consignées dans [discovery.m
 
 ## Description canonique du cadrage
 
-NODINA est une société de services en ingénierie et IA qui mobilise des équipes senior et conçoit, construit et déploie des systèmes IA métier. Ses deux offres, AI-native Teams et AI Systems & Transformation, s’adressent aux entreprises ayant un besoin important de capacité technique ou de transformation de leurs workflows. NODINA intervient en priorité en France, en Europe et aux États-Unis, avec une approche collective associant software engineering, qualité et sécurité selon les contraintes du projet.
+NODINA constitue votre équipe d’ingénieurs senior avec **AI-native Teams**, son offre principale. Nous sélectionnons les talents en Europe et en Amérique latine et organisons leur intégration à vos projets. En complément, **AI Systems & Transformation** vous permet de nous confier la réalisation d’un système IA, du cadrage au déploiement. Les deux offres peuvent se combiner selon votre besoin.
 
 Ce paragraphe constitue la description de travail du cadrage retenu. La rédaction finale et ses usages publics seront revus dans les pages préparées. Le positionnement premium et sélectif est acquis ; il ne constitue pas à lui seul une preuve de performance.
 
@@ -23,15 +25,19 @@ Source : questions 10–11 et [document de capacités](../research/sources/2026-
 | F003 | Systèmes et workflows IA | Assistants, copilots, RAG, document intelligence/OCR, agents et multi-agent workflows, orchestration de modèles, Company Brain et mémoire organisationnelle. |
 | F004 | Pratiques d’ingénierie AI-native | Context engineering, AI coding harness, AI memory harness, coordination humains/agents, supervision et responsabilités explicites. |
 | F005 | Qualité logicielle et IA | Revue, tests automatisés et E2E, evals, observability, tracing, monitoring, régressions, guardrails, sorties structurées et mécanismes de repli selon le système. |
-| F006 | NODINA AI Talent System | Méthodes de sélection actuelles ; formalisation progressive et version finale encore ouverte (question 28). Évaluation technique, produit, qualité, ownership et collaboration. |
 | F007 | Sécurité adaptée au projet | Analyse des données, accès, secrets, fournisseurs, permissions et supervision ; architecture définie avec le client, sans architecture universelle présumée. |
 
 Les termes AI-native décrivent la doctrine de NODINA, conservée dans [voice.md](voice.md), pas une certification ni un standard universel. La qualité doit être reliée à des pratiques vérifiables.
 
+## Projet en conception — précision du 2026-10-03
+
+**F006 — NODINA AI Talent System / AITalentEval :** JD précise que la méthode et l’outil sont à concevoir. Ce statut remplace celui de méthodes opérationnelles en formalisation précédemment consigné. Six groupes d’évaluation et un parcours sont proposés dans la maquette ; ils ne sont ni exécutés ni validés. L’interface est une démonstration sans candidats ni évaluations réels. À la demande réitérée de JD, les pages de maquette utilisent une présentation cible au présent de la méthode et de l’outil ; ce choix éditorial ne modifie pas leur disponibilité réelle. [Brief de sélection](briefs/talent-selection.md).
+
 ## Action et tarification
 
 - CTA principal : **Discuter de votre projet** → formulaire sur le site ; possibilité complémentaire de réservation dans un agenda. Ces fonctions sont à construire.
-- Prestations **sur devis**, aucun montant public. Expliquer les facteurs du devis : problème et périmètre, équipe/compétences, contraintes, phases, livrables, calendrier indicatif, responsabilités et exploitation éventuelle. Proposition précise après qualification.
+- Prestations **sur devis**, aucun montant public. Précision demandée le 2026-10-03 : sans prise de participation ni frais de recrutement ; coûts d’outils et d’infrastructure à expliciter dans la proposition. Expliquer les facteurs du devis : problème et périmètre, équipe/compétences, contraintes, phases, livrables, calendrier indicatif, responsabilités et exploitation éventuelle. Proposition précise après qualification.
+- Démarrage d’une équipe possible dès **trois semaines selon disponibilité**, confirmé par JD le 2026-10-03 ; calendrier et périmètre à confirmer après cadrage.
 - Qualification pilotée par JD ; processus et critères dans [goals.md](goals.md). Modèle sélectif, nombre limité de clients ; aucun compteur de places ni disponibilité immédiate garantie.
 - Démonstration privée après qualification uniquement si un exemple pertinent et autorisé existe. Aucun environnement public générique fourni.
 
@@ -51,14 +57,15 @@ Les quatre documents de [content/security](security/) sont des brouillons intern
 
 - Nom déclaré : Nodina ; marque : NODINA. Immatriculation en France en 2026 déclarée par JD. Forme juridique, registre, numéro, siège et mentions légales à documenter ; aucun bureau ouvert au public présumé.
 - Aucun logiciel commercialisé présumé ; société de services.
+- Jean-David Collard est le **fondateur de NODINA**, précisé par JD le 2026-10-03.
 - JD est le seul valideur du projet et responsable éditorial à ce stade. Identité publique, biographies, diplômes et droits d’image des membres à vérifier avant publication.
 - Domaines déclarés achetés : nodina.com, nodina.ai, nodina.fr. Canonique choisi : nodina.com, versions `/fr/` et `/en/`. Redirections à configurer ; comptes/DNS non vérifiés.
 - Logos fournis dans `Nodina_logo/`. Aucun remplacement approuvé.
-- AngelsBayTech peut fournir un historique attribué de l’équipe, distinct des réalisations de NODINA, sous réserve de preuve et de droits. Pas de cross-promotion systématique.
+- Les dossiers d’expérience externes restent internes. La décision éditoriale du 2026-10-02 exclut toute référence publique à Angels Bay Tech et CheckIA.
 
 ## Expérience dans une autre structure : CheckIA
 
-**Règle publique actualisée par JD le 2026-10-01 : CheckIA et Angels Bay Tech peuvent être nommés ; TitanOne et ReadyPark restent sans nom public pour l’instant.** Ces sections conservent les sources internes exactes. CheckIA doit être présenté à travers la contribution personnelle de JD, sans dire ou suggérer que son équipe participe à NODINA. Préserver l’attribution aux structures porteuses. La citation des noms ne vaut pas autorisation de reprise de logos ou de captures ; éviter les liens révélant les deux noms encore exclus. [Présentations proposées](../research/experience-evidence.md#présentations-pour-le-futur-site). Cette décision ne vaut pas validation globale du référentiel ou autorisation de publication.
+**Historique interne, non utilisable dans les pages : l’autorisation de nommer CheckIA et Angels Bay Tech du 2026-10-01 a été retirée par JD le 2026-10-02.** Ces sections conservent les sources internes exactes. La présentation précédemment envisagée concernait la contribution personnelle de JD ; elle est retirée des contenus publics. Préserver l’attribution aux structures porteuses. La citation des noms ne vaut pas autorisation de reprise de logos ou de captures ; éviter les liens révélant les deux noms encore exclus. [Présentations proposées](../research/experience-evidence.md#présentations-pour-le-futur-site). Cette décision ne vaut pas validation globale du référentiel ou autorisation de publication.
 
 Déclarations de JD le 2026-10-01, classe `operator-stated` : conception produit, architecture/IA, développement, pilotage de l’équipe et exploitation de CheckIA (C208). Produit utilisé en production par des cabinets (C209) depuis le deuxième trimestre 2026 (C210). Attribution : expérience de JD au sein de CheckIA, distincte d’une mission NODINA. [Dossier et sources](../research/cases/checkia.md).
 
@@ -80,7 +87,13 @@ JD confirme également le 2026-10-01 son rôle de cocréateur, responsable produ
 
 JD confirme le même jour son rôle de cofondateur, responsable produit et recherche de TitanOne (C222, `operator-stated`). Les exemples détaillés de contribution restent à documenter ; ne pas lui attribuer automatiquement les responsabilités techniques déclarées pour CheckIA.
 
-## Parcours scientifique de JD
+## Précisions biographiques et réseau — 2026-10-03
+
+Le réseau de talents senior doit être présenté comme couvrant **l’Europe et l’Amérique latine**, sans nombre, taux de sélection ou disponibilité universelle. Le ciblage commercial France/Europe/États-Unis reste distinct de la localisation des talents.
+
+La biographie de JD mentionne un **doctorat en informatique**, avec recherche en modélisation à base d’agents et apprentissage par renforcement, et une formation d’ingénieur en énergie nucléaire aux Arts et Métiers ParisTech et au CEA. Domaines d’expérience personnels : impact environnemental, mobilité, confidentialité des données, opérations à fortes exigences de conformité françaises et européennes. Distinction : travaux entrepreneuriaux en mobilité reconnus au concours MyGalileoApp 2019 organisé par la GSA. Détail des sources et limites dans `research/academic-evidence.md`.
+
+## Parcours scientifique de JD — historique du 2026-10-02
 
 JD déclare le 2026-10-02 être docteur en IA (PhD AI), C223, et publier des travaux scientifiques annuellement, C224. [Sources et éléments à consolider](../research/academic-evidence.md). Les références déjà documentées étayent une activité de recherche cosignée ; l’intitulé officiel du diplôme et un inventaire annuel exhaustif restent à vérifier. Utiliser cet appui comme expertise personnelle, sans l’étendre à toute l’équipe ni en déduire des résultats garantis. Conserver la restriction sur les noms de projets encore exclus.
 
@@ -108,3 +121,26 @@ Newsletter facultative, peu fréquente : NODINA, `insights@nodina.com`, envois v
 Résultats économiques garantis ; sécurité absolue ; conformité ou certification non documentée ; délais fixes hors contrat ; taux de sélection non tracé ; expertise universelle ; absence d’erreur ou d’hallucination ; remplacement humain garanti ; capacités non mobilisables ; références sans autorisation ; comparaisons invérifiables ; qualité garantie par le seul mot AI-native ; « production-ready », « enterprise-grade » ou « secure by design » sans critères techniques précis.
 
 Les interdictions complètes et règles de vocabulaire figurent dans [voice.md](voice.md) et discovery.md, question 12. Ce référentiel ne remplace pas le registre de claims à constituer en Phase 1.
+
+## Précisions de JD après annotations — 2026-10-03
+
+- **C237 :** JD déclare plus de quinze ans en ingénierie logicielle et IA, recherche scientifique, recrutement de talents, management d’ingénieurs et entrepreneuriat. Cette ancienneté est personnelle, pas celle de NODINA.
+- **C227 :** les projets tech aux budgets à six chiffres FR/US sont expressément demandés dans la biographie locale. Aucun montant exact, devise, revenu ou tarif minimum n’en est déduit.
+- **C238 :** les évaluateurs/recruteurs sont des lead developers et CTO français/américains, dont des parcours dans de grandes entreprises de la Silicon Valley, avec qui JD a collaboré sur ses projets pendant ces quinze années. Déclaration opérateur, sans inventaire individuel vérifié.
+- **C239 :** stratégie/conseil, santé, LegalTech, logistique/entrepôts et finance/conformité/audit structurent les secteurs proposés. Ce sont des contextes cibles, pas une liste de missions ou clients prouvés. AuditTech est une interprétation provisoire de « AudiTech ».
+
+Les deux offres peuvent se combiner. Le prospect peut demander un échange pour définir le bon dispositif sans présélectionner une offre. Les nouvelles précisions d’ancienneté remplacent l’ancienne réserve générale sur les « près de quinze ans » pour la biographie cible ; elles ne justifient aucun taux de sélection ni maturité d’AITalentEval.
+
+### Précision ultérieure du 2026-10-03
+
+C238 : collaborations des évaluateurs avec JD sur ses projets entrepreneuriaux et pour des startups, scale-ups et PME clientes en Europe et aux États-Unis, sur quinze ans. C240 : JD demande de déclarer ses travaux entrepreneuriaux primés par l’Agence spatiale européenne, sans citer le concours. Cette attribution est désormais une déclaration opérateur reprise dans la maquette ; aucune source spécifique nouvelle n’a été fournie. Le fait historique C236/MyGalileoApp/GSA reste distinct et ne vérifie pas C240. La rédaction locale au nom de JD ne vaut pas vérification indépendante.
+
+## Priorité commerciale — 2026-10-03
+
+À la question explicite sur l’offre à vendre en priorité, JD choisit **AI-native Teams**. Cette offre devient l’entrée principale de l’accueil et des futurs messages d’acquisition. AI Systems & Transformation reste proposée comme offre complémentaire, achetable seule ou combinée. Le visiteur peut toujours solliciter un cadrage sans choisir d’offre. La description canonique de l’activité globale reste valable ; une priorité commerciale ne supprime pas la seconde capacité.
+
+## Enseignement et présentation du fondateur — 2026-10-03
+
+**C241 :** Jean-David Collard déclare enseigner l’ingénierie logicielle et l’IA en master MIAGE à l’université. Il souhaite présenter cet engagement comme une contribution à la formation des futurs talents et un contexte propice à l’identification de leur potentiel. Aucun établissement, statut d’enseignant, ancienneté d’enseignement, partenariat universitaire ou résultat de recrutement n’est déduit. La recherche est explicitement scientifique et distincte du recrutement.
+
+À sa première mention dans la sélection, employer « Jean-David Collard, fondateur de NODINA et docteur en informatique ». La biographie plus bas approfondit le parcours ; sa lecture préalable ne doit pas être nécessaire pour comprendre l’origine du réseau d’évaluateurs.

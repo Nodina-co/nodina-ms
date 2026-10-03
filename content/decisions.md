@@ -1,5 +1,7 @@
 # Décisions NODINA
 
+**Règle éditoriale en vigueur — 2026-10-02 :** JD ne veut plus faire référence à Angels Bay Tech / AngelsBayTech ni à CheckIA sur le site NODINA. Retirer ces références des maquettes et futurs contenus FR/EN : noms, cas, liens, logos et allusions identifiantes. Ne pas simplement anonymiser leurs exemples. Les sources et déclarations historiques restent internes pour la traçabilité. Cette décision remplace l’autorisation de citation du 2026-10-01 ; les exclusions antérieures de TitanOne et ReadyPark restent applicables.
+
 ## 2026-09-27 : décisions acquises, confirmées par l’opérateur
 
 Source intégrale : [document de la question 28](../research/sources/2026-09-27-decisions-acquises.txt). L’opérateur s’est identifié comme JD à la question 30.
@@ -267,3 +269,89 @@ Question : ouvrir directement la version française `/fr/`, avec sélecteur `/en
 ## 2026-10-02 : robots de recherche et d’IA autorisés, choisi par JD
 
 PROMETHEUS 3 et 7.7 : choix présenté une fois pendant la préparation technique, avec l’implication explicite que les contenus publics pourront aussi servir à l’entraînement des modèles. JD choisit **« Autoriser les robots de recherche et d’IA »**, pour favoriser la découverte et les citations. Préparer robots.txt et les paramètres Cloudflare sans blocage de ces robots sur les contenus publics approuvés. Les previews protégées et documents internes ne deviennent pas publics. Vérifier les paramètres effectifs de l’hébergement avant lancement ; aucune configuration du site actuel modifiée.
+
+## 2026-10-02 : exploration des trois directions autorisée
+
+JD demande « passe à l’étape suivante » après la restauration proposant la comparaison de trois directions. L’agent réalise A Précision, B Atelier et C Systèmes, avec le même contenu de travail en français et le logo existant. Les compositions HTML/CSS sont des propositions réversibles ; les textes, couleurs, familles et anatomies ne deviennent pas approuvés par leur rendu.
+
+Choix de réalisation par l’agent : comparaison locale sur 127.0.0.1, polices libres auto-hébergées, aucun appel de génération payant et aucun formulaire commercial actif. Le budget supplémentaire nul est conservé. Les retours sont stockés localement après une action de JD, sans approbation automatique. L’archive et les contrôles sont référencés dans [design.md](design.md). L’accueil complet, sa version anglaise et le système final suivent le choix de direction. Aucun changement Git distant, de routage, d’hébergement ou de publication.
+
+## 2026-10-02 : direction A choisie par JD
+
+Après présentation du comparatif A Précision, B Atelier et C Systèmes, JD répond **« A »**. Enregistrer A comme direction retenue, sans demander à nouveau ce choix clair. Inter Tight, fond off-white, anthracite, accent cobalt et composition structurée servent de base à l’affinage. Aucun commentaire supplémentaire, mélange ou rejet des autres variantes n’est déduit.
+
+Conformément au parcours déjà choisi (question 37), l’agent prépare ensuite la homepage complète desktop/mobile en FR et EN-US, avec une page de revue et un aperçu du contact. L’accord porte sur la direction présentée au premier tour ; la homepage complète attend son propre retour. Design system, pages détaillées, journal/article et publication restent les étapes suivantes selon le parcours validé. Liens, archive et vérifications dans [design.md](design.md). Aucune dépense, déploiement ou mutation Git distante.
+
+## 2026-10-02 : retrait des références à Angels Bay Tech et CheckIA
+
+En réaction à la homepage A et à la capture de ses trois encarts, JD demande : « je ne veux plus faire référence à AngelsBayTech et CheckIA ». L’autorisation de citation sélective du 2026-10-01 est révoquée. Supprimer leurs mentions et les blocs de cas des maquettes FR/EN, ainsi que les liens ou allusions qui les réintroduiraient. Ne pas contourner la décision en anonymisant les mêmes exemples.
+
+Les encarts sont recentrés sur les capacités d’ingénierie et le périmètre des missions de NODINA ; le parcours scientifique et franco-américain de JD demeure. Les faits historiques, leurs sources et anciennes décisions sont conservés en interne, explicitement hors usage public. La direction A reste retenue ; cette correction n’approuve pas l’ensemble de la homepage ni sa publication.
+
+## 2026-10-03 : fondateur, talents Europe/LATAM et AITalentEval
+
+JD demande une présentation explicite et développée de son rôle de fondateur : doctorat en informatique, recherche en modélisation à base d’agents et apprentissage par renforcement, formation en énergie nucléaire aux Arts et Métiers ParisTech et au CEA, expérience de produits IA dans l’impact environnemental, la mobilité, la confidentialité et les opérations à fortes contraintes de conformité. Cette expérience est personnelle et ne devient pas une liste de références clients NODINA.
+
+La demande reprend, avec une rédaction originale, les thèmes de FutureProofing : sélection senior Europe/Amérique latine, partenariats sur invitation en nombre limité par trimestre, sans prise de participation ni frais de recrutement, comparaison avec le recrutement interne, intégration et continuité, horaires, outils, démarrage et FAQ. JD confirme explicitement **« Démarrage possible selon disponibilité »** pour les trois semaines. Ne pas convertir ce délai en engagement garanti.
+
+**Correction de F006 :** JD précise que la méthode et l’outil AITalentEval sont à concevoir, tout en demandant une présentation comme s’ils existaient déjà. Le prototype expose donc le cadre envisagé et une maquette interactive clairement identifiés comme en conception. Ne pas affirmer qu’un outil opérationnel, des évaluations, des scores ou des candidats réels existent. La déclaration actuelle remplace la disponibilité antérieurement supposée du système formalisé.
+
+La distinction demandée est formulée **MyGalileoApp 2019 — Agence du GNSS européen (GSA)**. Les sources consultées distinguent ce concours du parcours ESA BIC de 2020 ; il ne s’agit pas d’un prix scientifique personnel de l’ESA. Sources et attribution dans `research/academic-evidence.md`. Aucun nom de projet exclu ni lien révélant ce nom n’est ajouté aux pages.
+
+Accueil FR/EN et nouvelle page de sélection préparés dans la maquette A existante, avec contact de démonstration. La page dédiée est explicitement demandée et peut donc être préparée dès cette itération. Le choix A reste acquis ; aucun accord global sur les pages ni autorisation de publication n’est déduit. Voir `content/briefs/talent-selection.md`.
+
+### Précision éditoriale ultérieure du 2026-10-03 — AITalentEval au présent
+
+JD réitère : « Présenté AITalentEval method and tool comme déjà développé ». La maquette est donc reformulée au présent comme **présentation cible** de la méthode et de l’outil. Retrait du libellé « en conception » dans les sections marketing, bandeau général « Maquette · Présentation cible » et démonstration explicitement illustrative. Le statut réel C235/F006 reste « méthode et outil à concevoir » dans les documents internes et la page de revue. Aucun score, candidat réel, performance ou disponibilité observée n’est inventé. Cette précision éditoriale remplace la proposition précédente d’afficher « en conception » dans les blocs marketing ; elle ne constitue pas une autorisation de publication ni une preuve d’existence de l’outil.
+
+## 2026-10-03 : deux offres orientées par le besoin, retours annotés
+
+JD relève que l’accueil développe surtout AI-native Teams et demande d’aider les prospects à choisir, y compris sans connaître leur besoin exact, avec possibilité de combiner les deux offres. La révision part de deux situations : renforcer une équipe ou construire un système IA. Chacune dispose d’un développement distinct, complété par un bloc de combinaison et un contact « À définir ensemble ». Méthode, fondateur, secteurs, démarrage et FAQ servent aux deux offres.
+
+Fond blanc demandé et appliqué. Comparatif réservé à AI-native Teams, titre « L’expertise senior. Une collaboration simplifiée. », six axes, colonne traditionnelle barrée et badge « Recommandé ». Les trois semaines restent une possibilité selon disponibilité. Aucun remplacement en quelques jours garanti, frais de prestation supprimés ou coût du recrutement systématique n’est déduit de l’exemple concurrent.
+
+JD précise plus de quinze ans en ingénierie logicielle/IA, recherche, recrutement, management d’ingénieurs et entrepreneuriat ; il demande explicitement la mention des projets à six chiffres entre France et États-Unis. La maquette donne la priorité à ce parcours, avec recherche, formation nucléaire et distinction en second plan. Elle conserve l’attribution vérifiée MyGalileoApp/GSA ; ESA BIC correspond à un autre événement. Les évaluateurs sont présentés suivant sa déclaration : lead developers et CTO français/américains, dont des parcours dans de grandes entreprises de la Silicon Valley, collaborateurs de ses projets sur ces quinze années.
+
+Les secteurs sont présentés comme contextes d’intervention, sans inventer de références : stratégie/conseil, santé, LegalTech, logistique/entrepôts, finance/conformité/audit. « AudiTech » est provisoirement interprété comme AuditTech, clarification demandée. Les déclarations sont consignées en C237–C239 et C227 est actualisé. Le statut réel d’AITalentEval ne change pas ; la présentation cible au présent reste signalée. Aucun taux de réussite ni « méthode éprouvée » non étayé n’est ajouté.
+
+Accueil, sélection et contact FR/EN mis à jour dans la maquette locale. Cette révision remplace les choix d’anatomie antérieurs lorsqu’ils diffèrent ; aucune validation de l’ensemble ou publication n’est présumée.
+
+## 2026-10-03 : seconde série d’annotations, accroche et précision des parcours
+
+Cinq corrections demandées : supprimer le nom du concours et reprendre la formulation ESA de JD ; professionnaliser « Logistique & entrepôts » ; renforcer le H1 commun aux offres ; formuler positivement les horaires ; préciser les collaborations des évaluateurs.
+
+La maquette FR/EN utilise désormais « Les talents pour construire. L’IA pour transformer. » / « The talent to build. The AI to transform. ». Le soutien décrit équipes senior pour le produit et systèmes IA pour les opérations. Le secteur devient « Supply chain & logistique ». Les horaires communs facilitent échanges, décisions et revues, avec un rythme de livraison fluide. Les collaborateurs sont reliés explicitement aux projets entrepreneuriaux de JD et aux startups, scale-ups et PME clientes en Europe/États-Unis, sur quinze ans (C238 actualisé).
+
+JD réitère expressément la formulation « travaux entrepreneuriaux primés par l’Agence spatiale européenne ». Cette phrase est reprise comme déclaration opérateur dans la maquette de biographie, sans le nom du concours (C240). Cela remplace le choix éditorial précédent de conserver GSA dans la page. Les sources historiques C236 continuent de documenter MyGalileoApp/GSA et l’incubation ESA BIC séparément ; elles ne sont pas transformées en preuve du nouvel énoncé ESA. L’identité et la source d’une éventuelle autre distinction ESA ne sont pas précisées. Aucune validation indépendante ou autorisation de publication n’est déduite.
+
+Version locale FR/EN corrigée. Dix rendus accueil (320/375/768/1024/1440) sans débordement horizontal ; espaces préservées quand les retours forcés du H1 disparaissent sur tablette. Les textes des évaluateurs sont synchronisés avec la page de sélection.
+
+## 2026-10-03 : priorité d’acquisition AI-native Teams, confirmée par JD
+
+JD juge que le hero commun « Les talents pour construire. L’IA pour transformer. » ne permet pas de comprendre assez vite ce qu’achète le prospect. Il refuse de privilégier la symétrie des offres au détriment de la clarté et de l’acquisition. À la question sur l’offre à vendre en priorité, il choisit explicitement **« AI-native Teams en priorité »**.
+
+La maquette FR/EN est recentrée : hero « Votre équipe IA senior. Constituée sur mesure. » ; Europe/Amérique latine, ingénieurs sélectionnés, pratique des outils IA, intégration au code et aux outils du client. Conditions sans participation au capital ni frais de recrutement ; démarrage possible dès trois semaines, avec disponibilité/périmètre explicités à proximité. CTA principal « Constituer mon équipe » vers contact Teams ; secondaire vers la sélection. Suppression de l’index des deux offres au même niveau dans le hero et des trois arguments répétés sous ce dernier.
+
+AI Systems & Transformation reste une offre complémentaire visible via un lien distinct sous le hero, son développement dans la page et la combinaison possible. Les visiteurs qui hésitent gardent l’entrée « À définir ensemble ». L’offre Systems n’est ni abandonnée ni présumée réservée aux clients Teams. Cette décision fixe la priorité d’acquisition, pas la validation de tous les textes ni une autorisation de déploiement. Le ciblage des prospects et les pages de destination spécifiques restent à décliner dans les étapes suivantes.
+
+## 2026-10-03 : description alignée et propositions de distinction visuelle
+
+JD demande d’aligner le paragraphe « NODINA en quelques mots » sur la priorité AI-native Teams et le rôle complémentaire de Systems. La description canonique FR/EN est réécrite : constitution de l’équipe, sélection Europe/LATAM et intégration aux projets d’abord ; réalisation d’un système du cadrage au déploiement en complément ; combinaison possible.
+
+JD demande des propositions pour distinguer visuellement les offres dans le reste du site. Trois pistes sont présentées dans un comparatif séparé : A blanc/cobalt pour Teams et bleu très pâle pour Systems (recommandée) ; B fonds blancs, cobalt Teams et vert pétrole Systems ; C Teams clair et Systems anthracite. Noms d’offre et repères graphiques restent explicites dans les trois. Les contenus communs restent neutres. Ces lettres désignent des variations de distinction des offres au sein de la direction A déjà retenue, pas une nouvelle sélection de direction de marque.
+
+Aucune piste visuelle n’est encore choisie ni appliquée à l’accueil. Le comparatif local se trouve à `/assets/offer-directions.html`. Sa consultation ou ses boutons de filtre ne constituent pas une décision. Aucun retour utilisateur existant n’est modifié. Détail dans `content/offer-visual-proposals.md`.
+
+## 2026-10-03 : choix explicite de la piste A pour distinguer les offres
+
+JD répond « A » au comparatif. Cette décision remplace le statut d’attente ci-dessus. Application aux six pages locales FR/EN : Teams blanc/cobalt/repère rond, Systems bleu très pâle/cobalt/repère carré, libellés explicites, contenus communs neutres. Teams reste l’offre d’acquisition prioritaire. Le contact reprend le code de l’offre sélectionnée, y compris après changement de langue. Le comparatif demeure accessible avec A marquée retenue.
+
+Ce choix concerne les repères des offres au sein de la direction de marque acquise. Aucun déploiement, validation éditoriale globale ou changement du statut réel d’AITalentEval n’en découle. Captures et contrôle ciblé `qa-offer-a.json` conservés dans le dossier du prototype.
+
+## 2026-10-03 : fondateur identifiable, recherche scientifique et enseignement
+
+JD demande quatre corrections : nom complet et contexte dès la première mention dans les évaluateurs ; titre de biographie plus valorisant ; recherche explicitement scientifique ; ajout de son enseignement de l’ingénierie logicielle et de l’IA en master MIAGE à l’université, relié à la formation et à l’identification des futurs talents.
+
+Application FR/EN : le bloc évaluateurs introduit Jean-David Collard, fondateur de NODINA et docteur en informatique, avant de présenter son réseau ; synchronisé avec la page de sélection. Titre de biographie « Plus de 15 ans à bâtir des produits et des équipes. ». Recherche scientifique précisée dans l’introduction et l’encart d’expérience. Nouveau paragraphe enseignement après la recherche, avant les éléments secondaires nucléaire/distinction. Enseignement consigné comme déclaration opérateur C241, sans inventer d’université, de statut, de durée ni de partenariat.
+
+Seul le contenu change : code visuel A et priorité Teams conservés. Sauvegarde locale `history/20261003-before-founder-clarity/`. Vérification des quatre pages concernées sur 320, 375, 768 et 1440 pixels, sans débordement horizontal. Aucun déploiement effectué.

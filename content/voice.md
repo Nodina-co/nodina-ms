@@ -10,9 +10,11 @@ Statut : brouillon de Phase 0 établi à partir des consignes explicites de l’
 - Refléter une expertise distribuée dans l’équipe, avec plusieurs voix identifiables au fil du temps. Ne pas faire reposer la marque uniquement sur son fondateur.
 - Choisir la signature selon la contribution réelle. Ne pas inventer d’auteur, de qualification ou d’attribution ; recueillir les informations et autorisations avant publication. Aucun auteur individuel n’a encore été nommé dans l’intake.
 
-## Présentation des expériences — décision du 2026-10-01
+## Présentation des expériences — décision du 2026-10-02
 
-JD autorise désormais la citation de CheckIA et Angels Bay Tech. Présenter CheckIA à travers les contributions personnelles de JD, sans annoncer ni suggérer la participation de son équipe à NODINA. Angels Bay Tech peut étayer un historique collectif attribué. TitanOne et ReadyPark restent sans nom public pour l’instant ; ne pas insérer de logos ou liens révélant ces deux noms. Conserver les sources exactes en interne et distinguer les expériences acquises dans d’autres structures des missions NODINA. Les logos, captures et textes finaux restent à valider. Cette règle s’applique aux deux langues et aux pages détaillées. [Décision et propositions](../research/experience-evidence.md#présentations-pour-le-futur-site).
+**Règle éditoriale en vigueur — 2026-10-02 :** JD ne veut plus faire référence à Angels Bay Tech / AngelsBayTech ni à CheckIA sur le site NODINA. Retirer ces références des maquettes et futurs contenus FR/EN : noms, cas, liens, logos et allusions identifiantes. Ne pas simplement anonymiser leurs exemples. Les sources et déclarations historiques restent internes pour la traçabilité. Cette décision remplace l’autorisation de citation du 2026-10-01 ; les exclusions antérieures de TitanOne et ReadyPark restent applicables.
+
+Les textes peuvent présenter les capacités de NODINA, les méthodes d’ingénierie et le parcours scientifique ou franco-américain de JD selon les faits déjà consignés, sans rattachement aux deux structures écartées ni nouveau résultat déduit. Cette règle vaut pour les deux langues, les pages détaillées, les métadonnées et les supports associés.
 
 ## Langues et localisation éditoriale
 
@@ -156,3 +158,9 @@ Les projections générales sur les gains de capacité ou l’évolution du mét
 - AI coding ≠ AI-native engineering.
 
 Règle centrale : **les mécanismes plutôt que les adjectifs**. AI-native décrit un mode d’ingénierie et d’organisation, jamais un simple adjectif marketing.
+
+## 2026-10-03 — rédaction de l’accueil et de la sélection
+
+Nommer **le fondateur**, au singulier, quand la section présente uniquement Jean-David Collard. Employer « docteur en informatique » et expliciter ses thèmes de recherche et sa formation nucléaire. Attribuer les domaines et distinctions à son parcours, sans référence aux sociétés et projets exclus.
+
+Utiliser une rédaction originale pour les thèmes issus de FutureProofing. Éviter les performances ou disponibilités empruntées : pas de top 1 %, faux profils, volumes, compteurs de places, scores ou délais garantis. « Dès trois semaines » est accompagné de la disponibilité et du cadrage. AITalentEval reste à concevoir selon JD. Après sa demande réitérée, la maquette présente la méthode et l’outil au présent comme rédaction cible, avec bandeau de maquette explicite et interface illustrative. Ne pas transformer cette rédaction en preuve de disponibilité, ni ajouter des évaluations ou des résultats fictifs présentés comme réels.

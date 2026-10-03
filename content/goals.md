@@ -120,3 +120,7 @@ Ces fenêtres sont des jalons de revue proposés, pas une prévision de résulta
 ## Acquisition
 
 Aucune publicité payante au lancement. Organique, réseau, recommandations, contenu expert, SEO, partenariats et outbound ciblé constituent les priorités définies par JD. Maintenir la possibilité future de pages `/lp/`, sans activer de campagne ni de pixel. Pour tout test payant ultérieur : objectif défini, accord budgétaire et évaluation par coût du lead qualifié, conversion et pipeline.
+
+## Décision d’acquisition — 2026-10-03
+
+Offre à vendre en priorité confirmée par JD : **AI-native Teams**. Aligner le premier écran de l’accueil et les futurs messages d’acquisition sur cette offre. Garder AI Systems & Transformation visible comme complément et alternative, avec possibilité de combinaison et de qualification sans offre présélectionnée. Aucun objectif chiffré, campagne ou budget supplémentaire décidé par cette précision.

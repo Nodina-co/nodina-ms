@@ -1,11 +1,11 @@
-Phase actuelle : 1 — Audit et positionnement ; point de départ 1 — Site à créer.
+Phase actuelle : 2 — Direction A retenue ; accueil FR/EN enrichi et page de sélection AITalentEval préparés pour revue le 2026-10-03. Méthode et outil à concevoir selon JD. Aucune publication. Lacunes de recherche de Phase 1 toujours ouvertes.
 
 # Découverte : NODINA
 
 ## État
 
-Phase 0 clôturée : objectifs consolidés confirmés par JD le 2026-09-28. Phase 1 engagée.
-Questions 1 à 50 renseignées ou sans objet (23a, 23b, 32, 33). Dernière réponse : 2026-09-28. Langue principale de navigation et comportement de la racine `/` à confirmer avant l’architecture du site.
+Phase 0 clôturée : objectifs consolidés confirmés par JD le 2026-09-28. Cadrage de Phase 1 retenu pour poursuivre le 2026-10-02 ; relevés de visibilité et précisions factuelles incomplets restent ouverts. JD choisit A au premier tour visuel ; accueil complet FR/EN préparé pour revue, voir `content/design.md`.
+Questions 1 à 50 renseignées ou sans objet (23a, 23b, 32, 33). Navigation française par défaut et racine vers `/fr/` choisies par JD le 2026-10-02 ; aucune redirection appliquée.
 
 Référence pour la suite, désignée par JD le 2026-10-01 : [PROMETHEUS mis à jour](../prometheus_update_2026-10-01/PROMETHEUS.md), version de fondation 2026-09-29. Lire sa carte de lecture (0.4), le socle commun et les sections de la phase actuelle. Les décisions NODINA déjà validées restent applicables.
 
@@ -726,3 +726,23 @@ JD confirme que la page actuelle nodina.com est provisoire et destinée à être
 Les chemins robots.txt, sitemap.xml, llms.txt et la route de protection du lien de contact testés répondent 404. La racine répond 200 aux User-Agents GPTBot, ClaudeBot et PerplexityBot depuis l’origine de cet audit. Aucun flux annoncé dans le HTML ; environ 424 mots après exclusion des scripts et styles. Données de performance, Search Console, backlinks et comportement des cookies dans le navigateur non mesurés. Aucun envoi, connexion d’hébergement, changement d’URL ou remplacement en production effectué.
 
 Préparer le nouveau site sur le même domaine, expliciter le traitement FR/EN de la racine et vérifier le parcours de contact lors de la construction. Le statut de page provisoire est acquis et ne doit plus être redemandé.
+
+## 2026-10-03 : fondateur, talents Europe/LATAM et AITalentEval
+
+JD demande une présentation explicite et développée de son rôle de fondateur : doctorat en informatique, recherche en modélisation à base d’agents et apprentissage par renforcement, formation en énergie nucléaire aux Arts et Métiers ParisTech et au CEA, expérience de produits IA dans l’impact environnemental, la mobilité, la confidentialité et les opérations à fortes contraintes de conformité. Cette expérience est personnelle et ne devient pas une liste de références clients NODINA.
+
+La demande reprend, avec une rédaction originale, les thèmes de FutureProofing : sélection senior Europe/Amérique latine, partenariats sur invitation en nombre limité par trimestre, sans prise de participation ni frais de recrutement, comparaison avec le recrutement interne, intégration et continuité, horaires, outils, démarrage et FAQ. JD confirme explicitement **« Démarrage possible selon disponibilité »** pour les trois semaines. Ne pas convertir ce délai en engagement garanti.
+
+**Correction de F006 :** JD précise que la méthode et l’outil AITalentEval sont à concevoir, tout en demandant une présentation comme s’ils existaient déjà. Le prototype expose donc le cadre envisagé et une maquette interactive clairement identifiés comme en conception. Ne pas affirmer qu’un outil opérationnel, des évaluations, des scores ou des candidats réels existent. La déclaration actuelle remplace la disponibilité antérieurement supposée du système formalisé.
+
+La distinction demandée est formulée **MyGalileoApp 2019 — Agence du GNSS européen (GSA)**. Les sources consultées distinguent ce concours du parcours ESA BIC de 2020 ; il ne s’agit pas d’un prix scientifique personnel de l’ESA. Sources et attribution dans `research/academic-evidence.md`. Aucun nom de projet exclu ni lien révélant ce nom n’est ajouté aux pages.
+
+Accueil FR/EN et nouvelle page de sélection préparés dans la maquette A existante, avec contact de démonstration. La page dédiée est explicitement demandée et peut donc être préparée dès cette itération. Le choix A reste acquis ; aucun accord global sur les pages ni autorisation de publication n’est déduit. Voir `content/briefs/talent-selection.md`.
+
+### Précision éditoriale ultérieure du 2026-10-03 — AITalentEval au présent
+
+JD réitère : « Présenté AITalentEval method and tool comme déjà développé ». La maquette est donc reformulée au présent comme **présentation cible** de la méthode et de l’outil. Retrait du libellé « en conception » dans les sections marketing, bandeau général « Maquette · Présentation cible » et démonstration explicitement illustrative. Le statut réel C235/F006 reste « méthode et outil à concevoir » dans les documents internes et la page de revue. Aucun score, candidat réel, performance ou disponibilité observée n’est inventé. Cette précision éditoriale remplace la proposition précédente d’afficher « en conception » dans les blocs marketing ; elle ne constitue pas une autorisation de publication ni une preuve d’existence de l’outil.
+
+## Retour de maquette — 2026-10-03, annotations
+
+JD demande un fond blanc, un comparatif recrutement plus explicite et un meilleur équilibre des deux offres. Le besoin doit guider le parcours, les offres doivent pouvoir se combiner et un rendez-vous permettre de définir le dispositif. Quinze ans d’expérience du fondateur, projets à six chiffres FR/US et évaluateurs lead dev/CTO expérimentés sont précisés. Révision locale réalisée ; décisions dans `content/decisions.md`, anatomie actuelle dans `content/briefs/homepage.md`. Clarification « AudiTech » demandée, interprétation provisoire AuditTech. Aucun accord de publication ou d’ensemble de la homepage déduit.
