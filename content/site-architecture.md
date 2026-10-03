@@ -10,7 +10,7 @@ Le visiteur identifie son besoin dès l’accueil : renforcer sa capacité de r�
 
 Le parcours de réassurance passe par l’approche de travail et les personnes. Les expériences acquises dans d’autres structures sont attribuées au rôle réel de JD ou des professionnels concernés. Le doctorat, les publications et l’expérience franco-américaine soutiennent cette présentation.
 
-Navigation proposée : **Offres · Approche · À propos · Journal**, puis le CTA de contact et le sélecteur FR/EN. Les deux offres restent directement accessibles dans le menu. En mobile, préserver le CTA et l’accès aux langues sans surcharger l’en-tête.
+Navigation proposée : **Offres · Approche · Le fondateur / À propos · Sélection des talents · Journal**, puis le CTA de contact et le sélecteur FR/EN. Les deux offres restent directement accessibles dans le menu. En mobile, préserver le CTA et l’accès aux langues sans surcharger l’en-tête.
 
 ## Inventaire proposé
 
@@ -20,7 +20,8 @@ Navigation proposée : **Offres · Approche · À propos · Journal**, puis le C
 | AI-native Teams | `/fr/equipes-engineering-ia/` | `/en/ai-engineering-teams/` | Renfort ou équipe autonome ; profils, intégration à l’équipe cliente, responsabilités, sélection et qualité sans statistiques non étayées |
 | AI Systems & Transformation | `/fr/systemes-ia-sur-mesure/` | `/en/custom-ai-systems/` | Cadrage, architecture, construction, intégration, évaluation et exploitation dans le périmètre convenu ; exemples de workflows sans faux cas client |
 | Approche | `/fr/notre-approche/` | `/en/our-approach/` | Façon de travailler, coordination humains/agents, responsabilités, tests, evals et exploitation ; méthodes déclarées et artefacts réels quand disponibles |
-| À propos | `/fr/a-propos-de-nodina/` | `/en/about-nodina/` | Collectif, parcours de JD, doctorat et recherche, expérience FR/US ; CheckIA et Angels Bay Tech avec attribution exacte |
+| À propos | `/fr/a-propos-de-nodina/` | `/en/about-nodina/` | Fondateur, doctorat en informatique, recherche, formation Arts et Métiers/CEA et expérience FR/US ; références exclues absentes |
+| Sélection des talents | `/fr/selection-des-talents/` | `/en/vetting/` | AITalentEval : présentation cible au présent de la méthode et de l’outil, avec maquette illustrative ; statut réel à concevoir consigné en interne |
 | Modalités de collaboration | `/fr/modalites-de-collaboration/` | `/en/working-with-nodina/` | Tarification sur devis, facteurs de coût, modalités à convenir, périmètre et critères de qualification ; aucun tarif minimum déduit des budgets passés |
 | Contact | `/fr/discuter-de-votre-projet/` | `/en/discuss-your-project/` | Besoin, contexte, coordonnées professionnelles ; réservation si le service retenu est disponible ; aucun délai de réponse inventé |
 | Journal | `/fr/journal/` | `/en/journal/` | Articles signés et datés sur la réalisation, l’architecture et l’IA ; hub et gabarit d’article à concevoir, premiers textes à préparer |
@@ -44,12 +45,11 @@ Le relevé actuel ne remplace pas l’inventaire Search Console et des backlinks
 
 ## Règles pour les preuves
 
-- **CheckIA :** contribution personnelle de Jean-David Collard, du produit à l’exploitation ; usage en production par des cabinets depuis Q2 2026 déclaré par JD. Ne pas présenter le produit comme une mission NODINA et ne pas annoncer ou suggérer la participation de l’équipe CheckIA à NODINA.
-- **Angels Bay Tech :** expérience acquise par une partie des professionnels mobilisables. Développement, architecture, IA, produit et design couvrent l’expérience collective déclarée ; ce n’est pas une composition garantie pour chaque mission.
-- **Recherche :** doctorat et publications annuelles attribués à JD. Titres, biographies et références publiques ne doivent pas dévoiler les noms de projets que JD souhaite garder privés.
-- **FR/US :** collaborations et clients attribués au parcours de JD. Les budgets à six chiffres restent dans le dossier interne tant que devises et structures porteuses ne sont pas précisées pour la formulation publique.
+Depuis le 2026-10-02, CheckIA et Angels Bay Tech ne doivent plus être cités, liés ou repris comme cas anonymisés. Les autres exclusions de projets restent applicables. Les sources historiques demeurent internes.
 
-Les noms CheckIA et Angels Bay Tech sont autorisés pour la préparation. Aucun bandeau « clients NODINA », logo, capture, témoignage ou photographie d’équipe n’est ajouté sans les permissions correspondantes.
+Depuis le 2026-10-03, le parcours de fondateur de JD peut être développé avec sa formation et ses domaines d’expérience déclarés. Le prix MyGalileoApp 2019 est attribué à la GSA et aux travaux entrepreneuriaux concernés, sans devenir un prix scientifique de l’ESA ni une distinction NODINA. Les sources révélant des noms exclus restent internes.
+
+Le réseau Europe/LATAM, les partenariats limités par trimestre et les modalités commerciales demandées sont déclarés par JD. Trois semaines désigne un démarrage possible selon disponibilité. AITalentEval est en conception. Aucun profil réel, taux d’acceptation, quota de places, résultat de sélection ou certification n’est inventé.
 
 ## Ordre de réalisation
 
@@ -60,3 +60,15 @@ Les noms CheckIA et Angels Bay Tech sont autorisés pour la préparation. Aucun 
 5. Effectuer les vérifications éditoriales, techniques, de contact, de migration et de découverte avant la demande de mise en ligne.
 
 Le [brief d’accueil](briefs/homepage.md) détaille la hiérarchie proposée. La [fondation technique](../research/technical-foundation.md) traduit cette architecture en exigences de construction.
+
+## Ajustement de parcours — 2026-10-03
+
+La maquette d’accueil fournit deux entrées par besoin et deux sections détaillées (`#teams-detail`, `#systems-detail`), puis leur combinaison. Contact localisé : `?offer=teams`, `systems`, `combined` ou `unknown`. Le dernier choix signifie « À définir ensemble ». Le comparatif recrutement et AITalentEval appartiennent au parcours Teams ; méthode, expérience du fondateur et diagnostic restent communs. Aucun nouveau slug public fixé par cet ajustement.
+
+## Hiérarchie d’entrée — décision du 2026-10-03
+
+AI-native Teams devient l’entrée commerciale prioritaire de l’accueil. CTA hero vers `/fr/contact/?offer=teams` ou `/en/contact/?offer=teams`, second lien vers la page de sélection localisée. Une entrée complémentaire sous le hero rejoint `#systems-detail`. L’aide au choix et les deux développements demeurent dans l’accueil. Les futures pages d’offre peuvent servir d’entrées ciblées ; aucune nouvelle route, campagne ou publication créée à ce stade.
+
+## Repères d’offre et contact — piste A choisie le 2026-10-03
+
+L’identité visuelle accompagne chaque parcours existant : Teams blanc, Systems bleu pâle, cobalt commun et noms d’offre explicites. Le contact reprend l’offre reçue dans `?offer=` puis suit le choix manuel. Les liens de langue préservent teams, systems ou combined ; unknown ouvre un contact neutre. Les besoins combinés et à préciser restent neutres. Aucun nouveau slug ni transmission de formulaire n’est introduit.

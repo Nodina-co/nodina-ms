@@ -1,5 +1,7 @@
 # Expérience et preuves mobilisables pour NODINA
 
+**Règle éditoriale en vigueur — 2026-10-02 :** JD ne veut plus faire référence à Angels Bay Tech / AngelsBayTech ni à CheckIA sur le site NODINA. Retirer ces références des maquettes et futurs contenus FR/EN : noms, cas, liens, logos et allusions identifiantes. Ne pas simplement anonymiser leurs exemples. Les sources et déclarations historiques restent internes pour la traçabilité. Cette décision remplace l’autorisation de citation du 2026-10-01 ; les exclusions antérieures de TitanOne et ReadyPark restent applicables.
+
 2026-10-01. Document interne de Phase 1 ; aucune publication autorisée.
 
 ## Point de départ déclaré par JD
@@ -40,7 +42,7 @@ JD confirme le 2026-10-01 une continuité partielle avec les équipes de CheckIA
 - Le parcours de JD contribue à la crédibilité de NODINA sans prouver à lui seul les compétences ou réalisations de toute l’équipe. Le positionnement collectif reste applicable.
 - Un dossier peut documenter une contribution réelle sans logo client, témoignage ou résultat chiffré. Aucun de ces éléments n’est ajouté pour combler un manque.
 - Une déclaration de JD reste identifiée comme telle jusqu’à sa vérification ; les formulations publiques seront soumises à sa validation.
-- La déclaration C211 sur les membres ayant travaillé sur CheckIA est interne uniquement : JD demande de ne pas annoncer ni suggérer une participation de l’équipe CheckIA à NODINA. CheckIA peut être nommé pour documenter la contribution personnelle de JD ; Angels Bay Tech peut être cité séparément pour l’historique collectif.
+- La déclaration C211 sur les membres ayant travaillé sur CheckIA est interne uniquement : JD demande de ne pas annoncer ni suggérer une participation de l’équipe CheckIA à NODINA. Depuis le 2026-10-02, aucun de ces deux dossiers ne doit être repris dans les pages, même sous forme anonymisée.
 
 ## Expériences complémentaires et compétences collectives
 
@@ -54,7 +56,7 @@ Les résultats d’un démonstrateur concernent exclusivement ses tests document
 
 ## Ancienne proposition nominative — matériau interne uniquement
 
-Le périmètre actuel permet de préparer trois présentations qualitatives, attribuées aux structures porteuses. Les preuves de résultats et les visuels pourront enrichir ces présentations ultérieurement ; ils ne sont pas nécessaires pour décrire les rôles et stades déjà déclarés. Les textes nominatifs ci-dessous sont conservés pour la traçabilité interne et ne constituent pas la proposition publique active. La citation sélective actuellement autorisée et ses contraintes sont définies dans la section suivante.
+Le périmètre actuel permet de préparer trois présentations qualitatives, attribuées aux structures porteuses. Les preuves de résultats et les visuels pourront enrichir ces présentations ultérieurement ; ils ne sont pas nécessaires pour décrire les rôles et stades déjà déclarés. Les textes nominatifs ci-dessous sont conservés pour la traçabilité interne et ne constituent pas la proposition publique active. La citation sélective du 2026-10-01 est maintenant révoquée ; les anciennes formulations ci-dessous restent uniquement des archives internes.
 
 Introduction proposée : « NODINA mobilise notamment des professionnels ayant acquis de l’expérience au sein de CheckIA et d’Angels Bay Tech. Le parcours de Jean-David Collard comprend également des responsabilités produit et recherche sur TitanOne et ReadyPark. » C211, C212, C221, C222. Les contributions des autres membres ne sont pas étendues aux trois projets par cette introduction.
 
@@ -70,11 +72,11 @@ Introduction proposée : « NODINA mobilise notamment des professionnels ayant a
 
 « Jean-David Collard a cocréé ReadyPark et en a porté les responsabilités produit et recherche. Ce projet de stationnement collaboratif, porté par Angels Bay Tech et utilisé dans un cadre privé, a servi de base et d’inspiration à des travaux de recherche en IA qu’il a cosignés. » C205, C215, C217–C221 ; [dossier](cases/readypark.md). Les références scientifiques documentées pourront être liées, avec leurs coauteurs et dates.
 
-Les noms, responsabilités et sources restent conservés pour la traçabilité interne. L’ancienne introduction reliant simultanément CheckIA et Angels Bay Tech aux personnes mobilisables par NODINA est écartée ; seules les présentations ci-dessous sont proposées pour le futur site.
+Les noms, responsabilités et sources restent conservés pour la traçabilité interne. L’ancienne introduction reliant simultanément CheckIA et Angels Bay Tech aux personnes mobilisables par NODINA est écartée ; les anciennes présentations ci-dessous sont conservées comme historique interne et ne constituent plus des propositions actives.
 
 ## Présentations pour le futur site
 
-JD autorise le 2026-10-01 la citation de CheckIA et Angels Bay Tech, sans annoncer ni suggérer une participation de l’équipe CheckIA à NODINA. TitanOne et ReadyPark restent sans nom public pour l’instant. Les formulations ci-dessous restent des propositions à valider ; les noms autorisés ne nécessitent plus de confirmation. Aucun logo ou visuel n’est autorisé par cette seule décision.
+**Propositions historiques retirées le 2026-10-02, à ne pas reprendre.** JD avait autorisé le 2026-10-01 la citation de CheckIA et Angels Bay Tech, sans annoncer ni suggérer une participation de l’équipe CheckIA à NODINA. TitanOne et ReadyPark restent sans nom public pour l’instant. Les formulations ci-dessous sont retirées de la rédaction publique. Aucun logo ou visuel n’est autorisé par cette seule décision.
 
 Cadrage proposé : « Des expériences acquises dans d’autres structures. » Les exemples de produits ci-dessous documentent les contributions personnelles de JD et ne sont pas attribués indistinctement aux membres mobilisables par NODINA.
 
@@ -104,7 +106,7 @@ Provenance interne : C217–C221, [dossier](cases/readypark.md). Les publication
 
 ## Règles de présentation
 
-- CheckIA et Angels Bay Tech peuvent être cités avec les attributions ci-dessus ; les noms des deux autres projets et leurs sources révélatrices restent internes.
+- Aucune référence à CheckIA ou Angels Bay Tech dans les pages FR/EN, y compris cas anonymisés et liens identifiants. Les deux autres noms déjà exclus et leurs sources révélatrices restent internes.
 - Aucun texte public ne doit dire ou laisser entendre que l’équipe CheckIA participe à NODINA. C211 reste exclu de la rédaction publique.
 - Les textes décrivent les expériences acquises dans d’autres structures ; aucune référence cliente ou mission NODINA n’en est déduite.
 - Le choix de ne pas citer les noms ne garantit pas que les projets soient impossibles à reconnaître à partir du contexte. Il ne modifie ni les contributions ni les stades documentés.
@@ -112,4 +114,4 @@ Provenance interne : C217–C221, [dossier](cases/readypark.md). Les publication
 
 ## Suite de la Phase 1
 
-Le niveau d’exposition des noms est décidé : CheckIA et Angels Bay Tech peuvent être cités selon le cadrage ci-dessus ; les deux autres projets restent sans noms. Poursuivre la consolidation du positionnement et de l’audit ; les formulations finales seront revues au jalon prévu. Les contributions collectives détaillées et les artefacts autorisés pourront enrichir les dossiers lorsqu’ils sont disponibles. Aucun changement de phase ni lancement du site n’est engagé par cette décision.
+La décision actuelle du 2026-10-02 exclut les références à CheckIA et Angels Bay Tech. Les propositions antérieures ci-dessus ne doivent plus être utilisées ; les deux autres projets restent sans noms. Poursuivre la consolidation du positionnement et de l’audit ; les formulations finales seront revues au jalon prévu. Les contributions collectives détaillées et les artefacts autorisés pourront enrichir les dossiers lorsqu’ils sont disponibles. Aucun changement de phase ni lancement du site n’est engagé par cette décision.

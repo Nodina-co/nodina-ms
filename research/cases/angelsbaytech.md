@@ -1,6 +1,8 @@
 # Angels Bay Tech — expérience collective mobilisable
 
-2026-10-01. Dossier interne de Phase 1 ; texte public à valider ultérieurement.
+**Règle éditoriale en vigueur — 2026-10-02 :** JD ne veut plus faire référence à Angels Bay Tech / AngelsBayTech ni à CheckIA sur le site NODINA. Retirer ces références des maquettes et futurs contenus FR/EN : noms, cas, liens, logos et allusions identifiantes. Ne pas simplement anonymiser leurs exemples. Les sources et déclarations historiques restent internes pour la traçabilité. Cette décision remplace l’autorisation de citation du 2026-10-01 ; les exclusions antérieures de TitanOne et ReadyPark restent applicables.
+
+2026-10-01. Dossier interne de Phase 1 ; dossier exclu des contenus publics depuis le 2026-10-02.
 
 ## Attribution et sources
 
@@ -22,7 +24,7 @@ Angels Bay Tech présente des activités de logiciel sur mesure, ingénierie IA,
 
 « Certains professionnels mobilisables par NODINA disposent d’une expérience acquise chez Angels Bay Tech. »
 
-Cette formulation reprend la déclaration de JD sans annoncer que toute l’équipe est commune. JD autorise désormais la citation d’Angels Bay Tech, distinctement de la contribution personnelle à CheckIA ; ne pas y ajouter de participation de l’équipe CheckIA à NODINA. Projet précis, période, compétences démontrées et éléments publiables restent à établir avant une étude de cas.
+Cette formulation reprend la déclaration de JD sans annoncer que toute l’équipe est commune. L’autorisation du 2026-10-01 de citer Angels Bay Tech a été retirée le 2026-10-02 ; la formulation ci-dessus reste interne ; ne pas y ajouter de participation de l’équipe CheckIA à NODINA. Projet précis, période, compétences démontrées et éléments publiables restent à établir avant une étude de cas.
 
 ## Prochaine information utile
 

@@ -1,8 +1,10 @@
 # Parcours et réalisations publiques : revue pour NODINA
 
+**Règle éditoriale en vigueur — 2026-10-02 :** JD ne veut plus faire référence à Angels Bay Tech / AngelsBayTech ni à CheckIA sur le site NODINA. Retirer ces références des maquettes et futurs contenus FR/EN : noms, cas, liens, logos et allusions identifiantes. Ne pas simplement anonymiser leurs exemples. Les sources et déclarations historiques restent internes pour la traçabilité. Cette décision remplace l’autorisation de citation du 2026-10-01 ; les exclusions antérieures de TitanOne et ReadyPark restent applicables.
+
 Consultation : 2026-10-01. Phase 1, document interne. Sources publiques consultées sur demande de JD ; aucune reprise sur le site NODINA ni publication autorisée.
 
-Décision actualisée de JD le même jour : CheckIA et Angels Bay Tech peuvent être cités, sans annoncer ni suggérer la participation de l’équipe CheckIA à NODINA. TitanOne et ReadyPark restent sans nom public pour l’instant. Les sources ci-dessous assurent la traçabilité interne ; elles ne valent pas autorisation de reprise de visuels ou de publication. Voir [les présentations proposées](experience-evidence.md#présentations-pour-le-futur-site).
+Décision historique du 2026-10-01, remplacée par celle du 2026-10-02 : CheckIA et Angels Bay Tech pouvaient alors être cités, sans annoncer ni suggérer la participation de l’équipe CheckIA à NODINA. TitanOne et ReadyPark restent sans nom public pour l’instant. Les sources ci-dessous assurent la traçabilité interne ; elles ne valent pas autorisation de reprise de visuels ou de publication. Voir [les présentations proposées](experience-evidence.md#présentations-pour-le-futur-site).
 
 ## Conclusion de travail
 

@@ -1,6 +1,8 @@
 # CheckIA — expérience de JD
 
-2026-10-01. Premier dossier d’expérience en cours, Phase 1 NODINA. Document interne ; texte public à valider ultérieurement.
+**Règle éditoriale en vigueur — 2026-10-02 :** JD ne veut plus faire référence à Angels Bay Tech / AngelsBayTech ni à CheckIA sur le site NODINA. Retirer ces références des maquettes et futurs contenus FR/EN : noms, cas, liens, logos et allusions identifiantes. Ne pas simplement anonymiser leurs exemples. Les sources et déclarations historiques restent internes pour la traçabilité. Cette décision remplace l’autorisation de citation du 2026-10-01 ; les exclusions antérieures de TitanOne et ReadyPark restent applicables.
+
+2026-10-01. Premier dossier d’expérience en cours, Phase 1 NODINA. Document interne ; dossier exclu des contenus publics depuis le 2026-10-02.
 
 ## Attribution et sources
 
@@ -30,7 +32,7 @@ Cette déclaration décrit une implication sur le cycle du produit. Elle n’imp
 
 JD confirme le 2026-10-01 que certains membres ayant travaillé avec lui sur CheckIA font partie des personnes que NODINA peut mobiliser. Classe : `operator-stated`, registre C211. La continuité est partielle ; identités, compétences et contributions individuelles restent à préciser. Cela ne signifie pas que toute l’équipe CheckIA rejoint NODINA, qu’une personne est immédiatement disponible ou que CheckIA est une mission NODINA.
 
-Instruction éditoriale ultérieure de JD le même jour : CheckIA peut être nommé, mais aucun message public ne doit annoncer ou suggérer une participation de son équipe à NODINA. C211 est conservé pour la traçabilité interne et exclu des textes publics. Présenter la contribution personnelle de JD sans l’étendre aux autres membres NODINA.
+Instruction éditoriale ultérieure de JD le même jour : CheckIA pouvait alors être nommé (autorisation retirée le 2026-10-02), mais aucun message public ne doit annoncer ou suggérer une participation de son équipe à NODINA. C211 est conservé pour la traçabilité interne et exclu des textes publics. Présenter la contribution personnelle de JD sans l’étendre aux autres membres NODINA.
 
 JD précise ensuite les domaines couverts par les membres concernés : développement, architecture, IA, produit et design (C213). Cette liste décrit le périmètre collectif déclaré ; elle n’est pas attribuée à chaque personne ni intégralement à CheckIA sans précision supplémentaire.
 
@@ -44,7 +46,7 @@ Le cas peut étayer une expérience de conception et d’exécution d’un produ
 
 « Au sein de CheckIA, Jean-David Collard a pris en charge la conception produit, l’architecture et l’IA, contribué au développement, piloté l’équipe et assuré l’exploitation du produit. CheckIA est utilisé en production par des cabinets de commissariat aux comptes depuis le deuxième trimestre 2026. »
 
-JD autorise la citation du nom CheckIA avec ce cadrage de contribution personnelle. La formulation doit apparaître comme expérience acquise dans une autre structure, sans participation de l’équipe CheckIA à NODINA suggérée. Texte final à valider ; aucun gain chiffré, témoignage, statut de client ou engagement de sécurité ajouté.
+Autorisation historique du 2026-10-01, révoquée le 2026-10-02 : le texte ci-dessus reste interne et ne doit plus être repris. La formulation doit apparaître comme expérience acquise dans une autre structure, sans participation de l’équipe CheckIA à NODINA suggérée. Texte final à valider ; aucun gain chiffré, témoignage, statut de client ou engagement de sécurité ajouté.
 
 ## À compléter
 

@@ -23,4 +23,8 @@ La mention budgétaire n’est pas un tarif NODINA ni un seuil commercial. Ne pa
 - Devise, budget par projet ou programme, estimation ou montant engagé, périmètre couvert ; aucun chiffre confidentiel publié sans autorisation.
 - Artefact ou trace autorisée permettant d’étayer le rôle et l’échelle du projet ; une présentation sans nom public reste possible avec attribution interne exacte.
 
-Question envoyée à JD sur les devises et structures porteuses ; réponse en attente. Les règles actuelles de citation sélective des structures et d’exclusion du lien d’équipe CheckIA/NODINA restent applicables.
+Question envoyée à JD sur les devises et structures porteuses ; réponse en attente. La décision du 2026-10-02 exclut désormais toute référence publique à CheckIA et Angels Bay Tech ; présenter ce parcours franco-américain indépendamment.
+
+## Mise à jour du 2026-10-03
+
+JD demande explicitement de mettre en avant plus de quinze ans d’ingénierie logicielle/IA, recherche, recrutement, management d’ingénieurs et entrepreneuriat, ainsi que des projets tech aux budgets à six chiffres entre France et États-Unis. La biographie FR/EN de la maquette locale reprend cette échelle qualitative. Ni devise, ni structure porteuse, ni montant exact ne sont inventés. C227 et C237 ; les autres précisions de preuve restent ouvertes.
