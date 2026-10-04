@@ -746,3 +746,36 @@ JD réitère : « Présenté AITalentEval method and tool comme déjà développ
 ## Retour de maquette — 2026-10-03, annotations
 
 JD demande un fond blanc, un comparatif recrutement plus explicite et un meilleur équilibre des deux offres. Le besoin doit guider le parcours, les offres doivent pouvoir se combiner et un rendez-vous permettre de définir le dispositif. Quinze ans d’expérience du fondateur, projets à six chiffres FR/US et évaluateurs lead dev/CTO expérimentés sont précisés. Révision locale réalisée ; décisions dans `content/decisions.md`, anatomie actuelle dans `content/briefs/homepage.md`. Clarification « AudiTech » demandée, interprétation provisoire AuditTech. Aucun accord de publication ou d’ensemble de la homepage déduit.
+
+## Messagerie du contact projets — 2026-10-04
+
+- Google Workspace Nodina, domaine principal `nodina.com`, compte existant `jd@nodina.com`, accès vérifié dans l’onglet Google Admin fourni par JD.
+- JD approuve `build@nodina.com` pour les demandes de projet puis confirme explicitement sa création comme alias de `jd@nodina.com`.
+- Alias enregistré et visible dans les adresses secondaires ; confirmation Google « Alternate email addresses updated ». Aucun nouvel utilisateur ni licence achetée.
+- Formulaire vérifié après déploiement Apps Script par JD : stockage et confirmation, puis notification en Inbox via la boîte principale `jd@nodina.com`. Trois essais techniques autorisés sont conservés ; aucun droit OAuth du script accordé par l’agent.
+- `insights@nodina.com` reste l’adresse choisie pour les publications ; son acheminement et le Reply-To de la newsletter restent à configurer.
+
+### Préparation Apps Script — 2026-10-04
+
+JD demande de poursuivre le raccordement. Projet autonome [NODINA — Contact](https://script.google.com/home/projects/19uwBWro4LmwnL0KrK1G4BxV329Ss5aj820jXiIjfZWVF-hV_fWqkf3Gb/edit) créé dans son compte `jd@nodina.com`. Code et manifeste enregistrés, comparaison textuelle avec le dépôt réussie. `CONTACT_NOTIFICATION_EMAIL=build@nodina.com` enregistré.
+
+JD choisit, installe et connecte le plugin Google Drive ; profil connecté vérifié `jd@nodina.com`. Le classeur [NODINA — Contact](https://docs.google.com/spreadsheets/d/1o3HpWGkOjSePSdr8kZJYXWsaS4XgYbgL9Y2rcQ3tgHw/edit) est importé au format Google natif dans le dossier `ChatGPT` (ID `1Mk1Wfko2o6P8_sxoKRf24r0LMwwA6Vlj`). Propriétaire seul, partage privé, onglet `Contact`, 17 en-têtes exacts en A1:Q1, aucune demande : vérifiés par le connecteur et rendu Chrome. Locale `fr_FR`, fuseau `Europe/Paris`, première ligne figée. `CONTACT_SHEET_ID=1o3HpWGkOjSePSdr8kZJYXWsaS4XgYbgL9Y2rcQ3tgHw` enregistré et relu dans le projet existant.
+
+Déploiement Web app préparé, exécution `Me (jd@nodina.com)`. Après le refus initial de la sélection `Anyone` par le contrôle automatique, JD valide lui-même l’accès public et le consentement OAuth du script, conformément à PROMETHEUS §3. Son consentement au plugin Drive reste distinct de celui du script de formulaire.
+
+### Déploiement Google et raccordement local — 2026-10-04, 20:04
+
+JD fournit les captures des étapes de configuration, du consentement et du succès. Google confirme la version 1 à 20:04 (Europe/Paris). URL relevée dans le dialogue Chrome : `https://script.google.com/macros/s/AKfycbx6mizMLNx3gR4oIexuMAaIEzT-iDncqUBOdY62JbqkZ950bUxxqGWbxQBdj9-XN_ad/exec`. Le propriétaire d’exécution est `jd@nodina.com`, le service est accessible sans authentification et le classeur reste privé.
+
+URL renseignée dans `.env` local (ignoré par Git), build reconstruit et prévisualisation relancée sur `127.0.0.1:4179`. 12 tests et audit des 10 pages réussis. Un POST invalide, sans donnée personnelle, retourne HTTP 200 et `{"ok":false,"code":"invalid"}` ; vérification complémentaire Chrome : réponse `type=cors`, JSON lisible avec les mêmes options réseau que le formulaire. Lecture `Contact!A1:Q3` : seuls les en-têtes, aucune demande créée. Le formulaire local FR est activé, destination `/exec` vérifiée et essai `TEST — Formulaire NODINA` préparé avec l’adresse `jd@nodina.com`. Envoi réel et notification à `build@nodina.com` en attente d’accord explicite. Aucun déploiement du site.
+
+
+### Recette réelle et routage des notifications — 2026-10-04
+
+JD répond explicitement « Oui, envoyer le test » à la demande d’essai préparée. La demande JavaScript est confirmée dans l’interface, enregistrée dans `Contact!A2:Q2` à 18:10:52 UTC (20:10 Paris), identifiant `47045d9e-3d50-464d-a30a-77c00251a451`, statut `sent`. La notification vers `build@nodina.com` est retrouvée dans Gmail mais hors Inbox. Google documente ce comportement pour un envoi vers son propre alias : https://knowledge.workspace.google.com/admin/support/troubleshooting/messages-sent-to-email-alias-or-group-arent-in-my-inbox?hl=en.
+
+Correction tentée : ajout de `build@nodina.com` aux adresses « Send mail as » de `jd@nodina.com`, avec « Treat as an alias » coché. Sauvegarde vérifiée ; le nom existant JD COLLARD et l’adresse par défaut `jd@nodina.com` sont conservés. L’essai suivant, `4ba80dca-d982-437a-b2e3-e5b274e56950`, à 18:15:37 UTC, est enregistré en ligne 3 et envoyé, mais reste également hors Inbox.
+
+Le destinataire technique `CONTACT_NOTIFICATION_EMAIL` est donc réglé sur la boîte principale `jd@nodina.com`, même compte propriétaire et destinataire final de l’alias, pour l’acheminement direct des alertes. L’adresse publique choisie `build@nodina.com` reste inchangée. Aucun changement de code ou droit supplémentaire ; propriété enregistrée et relue.
+
+Essai final à 18:18:36 UTC (20:18 Paris), depuis une copie temporaire du HTML réel dont tous les scripts ont été retirés : POST natif, sans horodatage ni UUID client. Google affiche « Demande enregistrée ». Ligne `Contact!A4:Q4`, identifiant `7bfea04d-9a27-4b86-9151-a8c59e3eebb7`, accord `contact-v1`, page `/fr/contact/`, statut `sent`. La notification correspondante apparaît dans la recherche `in:inbox` et porte le libellé Inbox ; référence et contenu vérifiés dans Gmail. Trois lignes TEST restent dans le classeur et sont à exclure du suivi des prospects. Les fichiers temporaires de recette sont retirés de `dist` ; aucune publication du site.

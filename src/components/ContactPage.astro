@@ -1,0 +1,42 @@
+---
+import { content, route, type Locale } from '../lib/site';
+interface Props { locale: Locale }
+const { locale: l } = Astro.props;
+const c = content[l];
+const f = c.fields;
+const endpoint = import.meta.env.PUBLIC_CONTACT_ENDPOINT?.trim() || '';
+if (endpoint && !/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(endpoint)) {
+  throw new Error('PUBLIC_CONTACT_ENDPOINT must be a deployed Google Apps Script /exec URL.');
+}
+const ready = Boolean(endpoint);
+const consent = l === 'fr' ? 'J’accepte que NODINA utilise ces informations pour répondre à ma demande.' : 'I agree that NODINA may use this information to respond to my inquiry.';
+const submit = l === 'fr' ? 'Envoyer ma demande' : 'Send my inquiry';
+---
+<main id="content" class="contact-page wrap" data-offer="unknown">
+  <a class="text-link back" href={route(l)}>← {c.back}</a>
+  <div class="contact-grid"><div>
+    <p class="contact-offer service-label" id="contact-offer" data-service="unknown" data-label-unknown={c.contact_context_unknown} data-label-teams="AI-native Teams" data-label-systems="AI Systems & Transformation" data-label-combined={c.contact_context_combined} aria-live="polite"><span class="service-mark" aria-hidden="true"></span><span data-contact-label>{c.contact_context_unknown}</span></p>
+    <h1 set:html={c.contact_h1}/><p class="contact-lead">{c.contact_lead}</p>
+    <div class="contact-facts">{c.contact_facts.map(([title, body]) => <p><strong>{title}</strong>{body}</p>)}</div>
+  </div>
+  <form class="contact-form" action={ready ? endpoint : undefined} method="post" data-ready={String(ready)} data-locale={l} aria-label={c.contact_short} aria-describedby="form-note">
+    <p class="form-note" id="form-note">{ready ? (l === 'fr' ? 'Les champs sont obligatoires, sauf indication contraire.' : 'Fields are required unless marked optional.') : c.form_note}</p>
+    <div class="form-row">
+      <div class="field"><label for="name">{f[0]}</label><input id="name" name="name" autocomplete="name" type="text" required maxlength="120"/></div>
+      <div class="field"><label for="email">{f[1]}</label><input id="email" name="email" autocomplete="email" type="email" required maxlength="254"/></div>
+    </div>
+    <div class="field"><label for="organization">{f[2]}</label><input id="organization" name="organization" autocomplete="organization" type="text" required maxlength="160"/></div>
+    <div class="field"><label for="offer">{f[3]}</label><select id="offer" name="offer">{['unknown', 'teams', 'systems', 'combined'].map((value, i) => <option value={value}>{c.offer_options[i]}</option>)}</select></div>
+    <div class="field"><label for="project">{f[4]}</label><textarea id="project" name="project" rows="5" required minlength="10" maxlength="5000" aria-describedby="project-help"></textarea><small id="project-help">{c.project_help}</small></div>
+    <div class="field"><label for="timing">{f[5]}</label><input id="timing" name="timing" type="text" autocomplete="off" maxlength="200"/></div>
+    <div class="form-trap" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" tabindex="-1" autocomplete="off" type="text"/></div>
+    <input type="hidden" name="locale" value={l}/><input type="hidden" name="ref" value={route(l, 'contact')}/>
+    <input type="hidden" name="started_at" value=""/><input type="hidden" name="request_id" value=""/>
+    <input type="hidden" name="consent_version" value="contact-v1"/>
+    <input type="hidden" name="utm_source" value=""/><input type="hidden" name="utm_medium" value=""/><input type="hidden" name="utm_campaign" value=""/>
+    <label class="contact-consent"><input type="checkbox" name="consent" value="yes" required/><span>{consent}</span></label>
+    <button class="button" type="submit" disabled={!ready}>{ready ? submit : c.disabled}<span class="arrow" aria-hidden="true">↗</span></button>
+    <p class="form-status" role="status" aria-live="polite" tabindex="-1" hidden></p>
+    <p class="bottom-note">{ready ? (l === 'fr' ? 'Ces informations servent uniquement à traiter votre demande. Elles ne vous inscrivent à aucune newsletter. Ne transmettez pas de données confidentielles dans ce formulaire.' : 'This information is used only to handle your inquiry. You will not be subscribed to a newsletter. Do not include confidential information in this form.') : c.form_bottom}</p>
+  </form></div>
+</main>

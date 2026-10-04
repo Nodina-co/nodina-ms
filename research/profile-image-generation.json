@@ -1,0 +1,81 @@
+{
+  "mode": "built-in imagegen",
+  "purpose": "Original fictional editorial sketch portraits for the local NODINA profile mockup",
+  "prompts": [
+    {
+      "id": "lucia",
+      "prompt": "Use case: stylized-concept. Asset type: square editorial portrait avatar for a fictional engineer profile in the NODINA website mockup. Generate one original fictional adult; do not resemble any reference person or famous person. Style: refined hand-drawn pen-and-pencil editorial sketch, visible fine graphite and ink hatching, predominantly charcoal lines with a very restrained cobalt blue #244BC5 accent in the clothing. White #FFFFFF background, no texture outside the drawing. Head and shoulders centered, generous white margin around head, whole head visible, consistent eye-level framing. Natural proportion, understated professional, approachable, not caricature, not photorealistic. No text, logos, watermark, decorative border or objects. A single square portrait only. Subject: A woman around 35, shoulder-length wavy dark hair, relaxed direct gaze, simple open-collar shirt."
+    },
+    {
+      "id": "rafael",
+      "prompt": "Use case: stylized-concept. Asset type: square editorial portrait avatar for a fictional engineer profile in the NODINA website mockup. Generate one original fictional adult; do not resemble any reference person or famous person. Style: refined hand-drawn pen-and-pencil editorial sketch, visible fine graphite and ink hatching, predominantly charcoal lines with a very restrained cobalt blue #244BC5 accent in the clothing. White #FFFFFF background, no texture outside the drawing. Head and shoulders centered, generous white margin around head, whole head visible, consistent eye-level framing. Natural proportion, understated professional, approachable, not caricature, not photorealistic. No text, logos, watermark, decorative border or objects. A single square portrait only. Subject: A man around 38, close-cropped curly black hair, neatly trimmed beard, warm expression, plain crew-neck sweater."
+    },
+    {
+      "id": "ines",
+      "prompt": "Use case: stylized-concept. Asset type: square editorial portrait avatar for a fictional engineer profile in the NODINA website mockup. Generate one original fictional adult; do not resemble any reference person or famous person. Style: refined hand-drawn pen-and-pencil editorial sketch, visible fine graphite and ink hatching, predominantly charcoal lines with a very restrained cobalt blue #244BC5 accent in the clothing. White #FFFFFF background, no texture outside the drawing. Head and shoulders centered, generous white margin around head, whole head visible, consistent eye-level framing. Natural proportion, understated professional, approachable, not caricature, not photorealistic. No text, logos, watermark, decorative border or objects. A single square portrait only. Subject: A woman around 33, short dark bob haircut, round eyeglasses, thoughtful slight smile, simple high-neck top."
+    },
+    {
+      "id": "mateo",
+      "prompt": "Use case: stylized-concept. Asset type: square editorial portrait avatar for a fictional engineer profile in the NODINA website mockup. Generate one original fictional adult; do not resemble any reference person or famous person. Style: refined hand-drawn pen-and-pencil editorial sketch, visible fine graphite and ink hatching, predominantly charcoal lines with a very restrained cobalt blue #244BC5 accent in the clothing. White #FFFFFF background, no texture outside the drawing. Head and shoulders centered, generous white margin around head, whole head visible, consistent eye-level framing. Natural proportion, understated professional, approachable, not caricature, not photorealistic. No text, logos, watermark, decorative border or objects. A single square portrait only. Subject: A man around 32, medium-length wavy brown hair, clean-shaven, friendly confident expression, casual open shirt."
+    },
+    {
+      "id": "sofia",
+      "prompt": "Use case: stylized-concept. Asset type: square editorial portrait avatar for a fictional engineer profile in the NODINA website mockup. Generate one original fictional adult; do not resemble any reference person or famous person. Style: refined hand-drawn pen-and-pencil editorial sketch, visible fine graphite and ink hatching, predominantly charcoal lines with a very restrained cobalt blue #244BC5 accent in the clothing. White #FFFFFF background, no texture outside the drawing. Head and shoulders centered, generous white margin around head, whole head visible, consistent eye-level framing. Natural proportion, understated professional, approachable, not caricature, not photorealistic. No text, logos, watermark, decorative border or objects. A single square portrait only. Subject: A woman around 40, long curly hair tied loosely back, oval glasses, calm expression, plain jacket over a T-shirt."
+    },
+    {
+      "id": "tomas",
+      "prompt": "Use case: stylized-concept. Asset type: square editorial portrait avatar for a fictional engineer profile in the NODINA website mockup. Generate one original fictional adult; do not resemble any reference person or famous person. Style: refined hand-drawn pen-and-pencil editorial sketch, visible fine graphite and ink hatching, predominantly charcoal lines with a very restrained cobalt blue #244BC5 accent in the clothing. White #FFFFFF background, no texture outside the drawing. Head and shoulders centered, generous white margin around head, whole head visible, consistent eye-level framing. Natural proportion, understated professional, approachable, not caricature, not photorealistic. No text, logos, watermark, decorative border or objects. A single square portrait only. Subject: A man around 36, straight dark hair with side part, medium complexion, short beard and square eyeglasses, plain shirt."
+    },
+    {
+      "id": "elena",
+      "prompt": "Use case: stylized-concept. Asset type: square editorial portrait avatar for a fictional engineer profile in the NODINA website mockup. Generate one original fictional adult; do not resemble any reference person or famous person. Style: refined hand-drawn pen-and-pencil editorial sketch, visible fine graphite and ink hatching, predominantly charcoal lines with a very restrained cobalt blue #244BC5 accent in the clothing. White #FFFFFF background, no texture outside the drawing. Head and shoulders centered, generous white margin around head, whole head visible, consistent eye-level framing. Natural proportion, understated professional, approachable, not caricature, not photorealistic. No text, logos, watermark, decorative border or objects. A single square portrait only. Subject: A woman around 42, short swept-back dark hair with a few grey strands, composed expression, dark crew-neck sweater."
+    },
+    {
+      "id": "diego",
+      "prompt": "Use case: stylized-concept. Asset type: square editorial portrait avatar for a fictional engineer profile in the NODINA website mockup. Generate one original fictional adult; do not resemble any reference person or famous person. Style: refined hand-drawn pen-and-pencil editorial sketch, visible fine graphite and ink hatching, predominantly charcoal lines with a very restrained cobalt blue #244BC5 accent in the clothing. White #FFFFFF background, no texture outside the drawing. Head and shoulders centered, generous white margin around head, whole head visible, consistent eye-level framing. Natural proportion, understated professional, approachable, not caricature, not photorealistic. No text, logos, watermark, decorative border or objects. A single square portrait only. Subject: A man around 34, short curly hair, medium-dark complexion, clean-shaven, light smile, plain casual shirt."
+    },
+    {
+      "id": "clara",
+      "prompt": "Use case: stylized-concept. Asset type: square editorial portrait avatar for a fictional engineer profile in the NODINA website mockup. Generate one original fictional adult; do not resemble any reference person or famous person. Style: refined hand-drawn pen-and-pencil editorial sketch, visible fine graphite and ink hatching, predominantly charcoal lines with a very restrained cobalt blue #244BC5 accent in the clothing. White #FFFFFF background, no texture outside the drawing. Head and shoulders centered, generous white margin around head, whole head visible, consistent eye-level framing. Natural proportion, understated professional, approachable, not caricature, not photorealistic. No text, logos, watermark, decorative border or objects. A single square portrait only. Subject: A woman around 31, straight medium-length hair tucked behind one ear, faint freckles, thoughtful friendly gaze, plain sweater."
+    }
+  ],
+  "assets": {
+    "lucia": {
+      "source": "/Users/jdc/.codex/generated_images/01a0fdf3-6262-7582-9a19-1add1f3a45fc/exec-76456a65-ea2d-42cf-91cc-dd7dff271aaa.png",
+      "saved": "/Users/jdc/.gstack/projects/Nodina-co-nodina-ms/designs/homepage-20261002-round-2/assets/profiles/lucia.png"
+    },
+    "rafael": {
+      "source": "/Users/jdc/.codex/generated_images/01a0fdf3-6262-7582-9a19-1add1f3a45fc/exec-8dac6c1d-b3f3-4083-83fb-7f134318aacb.png",
+      "saved": "/Users/jdc/.gstack/projects/Nodina-co-nodina-ms/designs/homepage-20261002-round-2/assets/profiles/rafael.png"
+    },
+    "ines": {
+      "source": "/Users/jdc/.codex/generated_images/01a0fdf3-6262-7582-9a19-1add1f3a45fc/exec-d8c6b6fe-5ec1-4015-81ee-69fa20aa3d45.png",
+      "saved": "/Users/jdc/.gstack/projects/Nodina-co-nodina-ms/designs/homepage-20261002-round-2/assets/profiles/ines.png"
+    },
+    "mateo": {
+      "source": "/Users/jdc/.codex/generated_images/01a0fdf3-6262-7582-9a19-1add1f3a45fc/exec-c7ef5c17-eb64-4d7e-8987-d08fcdd5bb74.png",
+      "saved": "/Users/jdc/.gstack/projects/Nodina-co-nodina-ms/designs/homepage-20261002-round-2/assets/profiles/mateo.png"
+    },
+    "sofia": {
+      "source": "/Users/jdc/.codex/generated_images/01a0fdf3-6262-7582-9a19-1add1f3a45fc/exec-49d0009f-12fd-456d-bde5-4e76f0c18f55.png",
+      "saved": "/Users/jdc/.gstack/projects/Nodina-co-nodina-ms/designs/homepage-20261002-round-2/assets/profiles/sofia.png"
+    },
+    "tomas": {
+      "source": "/Users/jdc/.codex/generated_images/01a0fdf3-6262-7582-9a19-1add1f3a45fc/exec-7c150d69-2ed8-404c-8e98-5ab2445c3a4f.png",
+      "saved": "/Users/jdc/.gstack/projects/Nodina-co-nodina-ms/designs/homepage-20261002-round-2/assets/profiles/tomas.png"
+    },
+    "elena": {
+      "source": "/Users/jdc/.codex/generated_images/01a0fdf3-6262-7582-9a19-1add1f3a45fc/exec-de8c6bfb-f259-4c00-8d37-017f7f483972.png",
+      "saved": "/Users/jdc/.gstack/projects/Nodina-co-nodina-ms/designs/homepage-20261002-round-2/assets/profiles/elena.png"
+    },
+    "diego": {
+      "source": "/Users/jdc/.codex/generated_images/01a0fdf3-6262-7582-9a19-1add1f3a45fc/exec-38114896-68a0-4221-bf9c-100cdb25c88d.png",
+      "saved": "/Users/jdc/.gstack/projects/Nodina-co-nodina-ms/designs/homepage-20261002-round-2/assets/profiles/diego.png"
+    },
+    "clara": {
+      "source": "/Users/jdc/.codex/generated_images/01a0fdf3-6262-7582-9a19-1add1f3a45fc/exec-f87e0088-0d54-4ac9-89a2-5f8fe8d0782c.png",
+      "saved": "/Users/jdc/.gstack/projects/Nodina-co-nodina-ms/designs/homepage-20261002-round-2/assets/profiles/clara.png"
+    }
+  },
+  "disclosure": "All nine portraits and profiles are fictional demonstration content. They do not depict the engineers in the supplied competitor screenshot, NODINA employees, or confirmed availability."
+}

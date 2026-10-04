@@ -408,3 +408,42 @@ JD apprécie également le bandeau concurrent « 3 places / 48 h / 3 semaines »
 JD remplace les 48 heures par **une semaine pour choisir et valider l’équipe**, puis précise **deux semaines supplémentaires** pour qu’elle soit prête à travailler et à produire des PR, soit **trois semaines au total** (C244). Le délai précédent « moins d’une semaine » est remplacé dans la maquette FR/EN. Le bandeau de l’accueil expose les trois repères : 1 semaine de choix et validation, +2 semaines de préparation et intégration, 3 semaines au total pour les premières PR. Le parcours commun aux pages accueil, sélection, profils et manifeste décrit les mêmes étapes ; la FAQ et le comparatif sont alignés. Le titre conserve le démarrage dès trois semaines et le calendrier reste confirmé selon disponibilité, brief et préparation des accès.
 
 Les trois places trimestrielles n’ont pas été confirmées : aucun chiffre de places n’est ajouté. La mention existante de collaborations limitées par trimestre est conservée. Aucun déploiement.
+
+## 2026-10-04 : reprise du lot d’intégration locale
+
+Après restauration du contexte, JD choisit A, continuer sur les éléments restants. Le lot technique de la maquette stabilisée est repris dans le dépôt : Astro statique, dix routes FR/EN, composants communs et contenus localisés. Le commit de départ observé est `c528fde` et le dépôt est propre au début de cette intégration ; les cinq modifications du checkpoint ont donc déjà été enregistrées par ailleurs.
+
+La source effective du prototype est importée sans exécuter les migrations anciennes. Les originaux externes restent intacts. `content/site/fr.json` et `content/site/en.json` deviennent les sources éditoriales du site Astro. Les contraintes antérieures sur les noms publics, les profils illustratifs, NODINA Select et le calendrier en trois semaines restent applicables. Les documents de cadrage sont alignés sur les corrections déjà demandées, sans nouvelle affirmation produit.
+
+Pour le formulaire, le traitement préparé suit le défaut Google Apps Script / Google Sheet / notification de PROMETHEUS 13.5. Il est testé hors ligne ; l’adresse de réception a été demandée, mais aucun destinataire, compte, classeur ou déploiement n’est configuré à ce stade. La variable publique d’endpoint vide maintient l’envoi désactivé. Le mode sans JavaScript reçoit une confirmation HTML hébergée par Apps Script avec un lien fixe de retour ; aucune redirection HTTP que cette API ne fournit pas n’est revendiquée.
+
+Le travail est local. Aucun push, déploiement, e-mail externe, création de compte, autorisation OAuth ou passage en index n’est effectué. La configuration Cloudflare, la réception réelle du formulaire et les éléments requis avant publication restent ouverts dans `research/prototype-integration.md`.
+
+## 2026-10-04 : build@nodina.com pour les projets
+
+Après rappel du choix de phase 1 (`insights@nodina.com` pour les publications), JD approuve la recommandation **`build@nodina.com` pour les demandes de projet et le contact commercial**, et **`insights@nodina.com` pour les publications et la newsletter**. `build@nodina.com` devient le destinataire prévu des notifications du formulaire ; la valeur est préparée dans `tools/forms/script-properties.example.json` et le guide de raccordement.
+
+Cette décision choisit une adresse ; elle ne confirme pas l’existence d’une boîte ou d’un alias. La lecture publique du MX de `nodina.com` renvoie `1 smtp.google.com.` le même jour. La boîte ou l’alias, sa surveillance et sa réception effective restent à vérifier côté Google avant activation du formulaire. Aucun compte, alias, déploiement ni e-mail externe n’est créé ou envoyé lors de cette préparation. Le Reply-To de la newsletter reste à choisir lors de sa configuration. La décision historique distincte sur le contact média n’est pas modifiée par cette validation du contact projets.
+
+## 2026-10-04 : création de l’alias build dans Google Workspace
+
+JD fournit l’onglet Google Admin de Nodina, puis répond explicitement « oui » à la confirmation de création de **`build@nodina.com` rattaché à `jd@nodina.com`**. L’alias est enregistré sur le compte existant. Google confirme « Alternate email addresses updated » et affiche `build@nodina.com` dans la liste des adresses secondaires.
+
+Aucun nouvel utilisateur ni achat de licence. Les futurs messages reçus par cet alias sont destinés à la boîte existante de JD. La réception effective n’a pas encore été testée ; aucun message externe envoyé, aucune autorisation OAuth accordée et aucun formulaire déployé. `insights@nodina.com` reste un choix éditorial dont la configuration n’a pas été effectuée dans cette étape.
+
+## 2026-10-04 : raccordement du classeur de contact
+
+JD demande de poursuivre, choisit l’installation du plugin Google Drive et confirme l’avoir terminée. Le profil connecté est `jd@nodina.com`. Le classeur natif privé **NODINA — Contact** est créé dans son dossier `ChatGPT`, avec l’onglet `Contact` et les 17 en-têtes du traitement préparé, sans demande fictive. Son identifiant et `build@nodina.com` sont enregistrés dans les propriétés du projet Apps Script existant. Structure, permissions et rendu vérifiés.
+
+Le dialogue de déploiement du service est préparé sous le compte JD. Le contrôle automatique d’approbation refuse la sélection `Anyone`, faute d’accord explicite sur cette exposition publique ; l’accès reste `Only myself`. La validation du déploiement et des droits OAuth du script est laissée à JD. Aucun test externe, e-mail, déploiement du service ou du site ni passage en index. Détails et liens dans `tools/forms/README.md` et `research/discovery.md`.
+
+## 2026-10-04 : déploiement du service Google par JD
+
+JD poursuit lui-même le déploiement **Web app**, choisit l’accès public et accorde les droits OAuth Google Sheets et envoi d’e-mails sur `jd@nodina.com`. Ses captures montrent les étapes puis le succès **Version 1, 20:04**. Le service Google est raccordé au formulaire du build local via `.env` ignoré par Git. Réponse HTTP/JSON et lecture CORS vérifiées avec une requête invalide, sans créer de demande ni envoyer de notification. Aucun accord de publication du site n’est déduit. L’essai d’envoi réel, marqué TEST et destiné à `build@nodina.com`, fait l’objet d’une demande d’autorisation distincte.
+
+
+## 2026-10-04 : recette autorisée du formulaire et notification dans Inbox
+
+JD autorise explicitement « Oui, envoyer le test ». L’essai est enregistré et notifié, mais Gmail classe hors Inbox les messages envoyés par JD à son propre alias. L’alias `build@nodina.com` est ajouté aux adresses d’envoi Gmail ; le nouvel essai reste hors Inbox. L’acheminement technique des notifications est donc dirigé vers la boîte principale du même compte, `jd@nodina.com`, afin de garantir une alerte visible. Le contact public choisi reste `build@nodina.com` et l’adresse d’envoi Gmail par défaut reste JD.
+
+L’essai final confirme la ligne Sheets, la réponse HTML sans JavaScript et la notification portant le libellé Inbox à 20:18. La confirmation JSON avait déjà été vérifiée dans Chrome. Trois lignes marquées TEST sont conservées comme preuves ; le dépôt documente leur exclusion du suivi commercial. Aucun autre destinataire, compte, droit OAuth ou coût ajouté, aucun déploiement du site ni passage en index.

@@ -1,5 +1,25 @@
 # Prometheus File
 
+## Site NODINA : version locale intégrée
+
+Les dix pages FR/EN de la maquette sont maintenant construites avec Astro. Utiliser Node 24 (`.nvmrc`) et Python 3 pour les contrôles :
+
+```sh
+npm ci
+npm run dev
+# ou construire puis servir la version statique :
+npm run build
+npm run preview
+# vérifier build, traitement du formulaire et liens :
+npm run check
+```
+
+La prévisualisation statique écoute sur `http://127.0.0.1:4179/fr/`. Les contenus sont dans `content/site/`, les composants dans `src/components/` et le gabarit commun dans `src/layouts/`. `dist/` est généré et ne doit pas être édité.
+
+Le site reste une prévisualisation locale avec `noindex`. Le contact public est `build@nodina.com` ; les notifications internes arrivent directement dans la boîte `jd@nodina.com`. `insights@nodina.com` reste l’adresse des publications. JD a déployé le service Google et le `.env` local active le formulaire ; enregistrement Sheets, confirmations avec/sans JavaScript et réception Gmail sont vérifiés. Sans endpoint configuré, l’envoi est désactivé. Voir [le raccordement du formulaire](tools/forms/README.md) et [le rapport d’intégration](research/prototype-integration.md). Le site reste non publié ; trois lignes TEST sont conservées dans le classeur après la recette autorisée.
+
+Les profils de démonstration, le statut réel de NODINA Select et les éléments légaux doivent être résolus avant publication. Les documents internes ne sont jamais copiés dans le build.
+
 ## Référence active pour NODINA
 
 Le projet utilise [PROMETHEUS mis à jour le 1er octobre 2026](prometheus_update_2026-10-01/PROMETHEUS.md), conformément à la décision de JD. Les fichiers `PROMETHEUS.md` et `MARKETING_FOUNDATION.md` à la racine sont conservés comme versions historiques. Le guide générique ci-dessous est également conservé ; pour poursuivre ce projet, utiliser la référence active et les décisions dans `content/decisions.md`.

@@ -1,0 +1,43 @@
+---
+import { content, route, contactPath, type Locale } from '../lib/site';
+import Action from './Action.astro';
+import ServiceLabel from './ServiceLabel.astro';
+import SectionHeading from './SectionHeading.astro';
+import ProfileTeaser from './ProfileTeaser.astro';
+import QuickStart from './QuickStart.astro';
+import CloseSelect from './CloseSelect.astro';
+import TeamQuote from './TeamQuote.astro';
+interface Props { locale: Locale }
+const { locale: l } = Astro.props;
+const s = content[l].select;
+const tools = [['claudecode', 'Claude Code'], ['codex', 'Codex'], ['cursor', 'Cursor'], ['github', 'GitHub'], ['python', 'Python'], ['typescript', 'TypeScript'], ['postgresql', 'PostgreSQL']];
+---
+<main id="content" class="select-page">
+  <section class="select-hero wrap" aria-labelledby="vet-title"><p class="label"><ServiceLabel kind="teams" text={s.eyebrow}/></p>
+    <div class="select-hero-grid"><h1 id="vet-title" set:html={s.hero_title}/><div class="select-hero-copy"><p>{s.hero_lead}</p><div class="actions"><Action href={contactPath(l)} label={s.primary} button/><Action href="#criteria" label={s.secondary}/></div></div></div>
+    <dl class="signals">{s.signals.map(([title, body]) => <div><dt>{title}</dt><dd>{body}</dd></div>)}</dl>
+  </section>
+  <section class="select-experience section wrap" aria-labelledby="select-experience-title"><SectionHeading label={s.experience_label} title={s.experience_title} id="select-experience-title"/>
+    <div class="editorial-grid"><div><p class="select-stat">15<span>+</span></p><p class="fine-note">{l === 'fr' ? 'ans d’expérience du fondateur' : 'years of founder experience'}</p></div><div><p class="section-lead">{s.experience_body}</p><Action href={route(l, 'manifesto')} label={s.experience_link}/></div></div>
+  </section>
+  <section class="evaluators section wrap" aria-labelledby="evaluators-title"><SectionHeading label={l === 'fr' ? 'Les évaluateurs' : 'The evaluators'} title={s.evaluators_title} id="evaluators-title"/>
+    <div class="editorial-grid"><div><p class="label">{l === 'fr' ? 'France / États-Unis' : 'France / United States'}</p></div><div><p class="section-lead">{s.evaluators_lead}</p><p class="evaluator-note">{s.evaluators_body}</p><Action href={route(l) + '#experience'} label={s.founder_link}/></div></div>
+  </section>
+  <section class="selection-process" id="criteria" aria-labelledby="process-title"><div class="wrap"><SectionHeading label={s.process_label} title={s.process_title} id="process-title"/>
+    <p class="section-intro">{s.process_intro}</p><ol class="selection-stages">{s.stages.map(([title, body, output], i) => <li><span class="number" aria-hidden="true">0{i + 1}</span><h3>{title}</h3><div><p>{body}</p><p class="stage-output">{output}</p></div></li>)}</ol>
+    <div class="selection-gate"><h3>{s.gate_title}</h3><p>{s.gate_body}</p></div>
+  </div></section>
+  <section class="evaluation section wrap" aria-labelledby="evaluation-title"><SectionHeading label={s.assessment_label} title={s.assessment_title} id="evaluation-title"/>
+    <p class="section-intro">{s.assessment_intro}</p><div class="assessment"><div class="assessment-top"><span>NODINA Select</span><span>{s.sample_badge}</span></div><div class="assessment-body"><h3>{s.sample_title}</h3><p class="assessment-context">{s.sample_context}</p>
+      <section class="criterion-explorer" aria-label={l === 'fr' ? 'Exemple d’évaluation' : 'Example assessment'}>
+        <div class="criterion-buttons" hidden>{s.sample_tabs.map((title, i) => <button type="button" class="criterion-button" aria-pressed={i === 0 ? 'true' : 'false'} aria-controls={'criterion-' + i} data-criterion={i}>{title}</button>)}</div>
+        <div class="criterion-detail" aria-live="polite">{s.sample_findings.map(([a, b, c, d], i) => <div class="criterion-panel" id={'criterion-' + i}><h4>{s.sample_tabs[i]}</h4><dl><div><dt>{a}</dt><dd>{b}</dd></div><div><dt>{c}</dt><dd>{d}</dd></div></dl></div>)}</div>
+      </section>
+      <div class="assessment-verdict"><h4>{s.sample_conclusion_title}</h4><p>{s.sample_conclusion}</p></div>
+    </div></div>
+  </section>
+  <section class="tool-section section wrap" aria-labelledby="tools-title"><SectionHeading label={s.tools_label} title={s.tools_title} id="tools-title"/><p class="section-intro">{s.tools_intro}</p>
+    <ul class="tool-logos" aria-label={l === 'fr' ? 'Outils et technologies' : 'Tools and technologies'}>{tools.map(([file, name]) => <li><img src={'/assets/tools/' + file + '.svg'} width="40" height="40" loading="lazy" alt=""/><span>{name}</span></li>)}</ul><p class="fine-note">{s.tools_note}</p>
+  </section>
+  <ProfileTeaser locale={l}/><TeamQuote locale={l} kind="selection"/><QuickStart locale={l}/><CloseSelect locale={l}/>
+</main>

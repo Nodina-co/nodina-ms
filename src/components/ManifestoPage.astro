@@ -1,0 +1,22 @@
+---
+import { content, route, type Locale } from '../lib/site';
+import Action from './Action.astro';
+import ServiceLabel from './ServiceLabel.astro';
+import SectionHeading from './SectionHeading.astro';
+import QuickStart from './QuickStart.astro';
+import CloseSelect from './CloseSelect.astro';
+import TeamQuote from './TeamQuote.astro';
+interface Props { locale: Locale }
+const { locale: l } = Astro.props;
+const s = content[l].select;
+---
+<main id="content" class="manifesto-page">
+  <section class="select-hero manifesto-hero wrap" aria-labelledby="manifesto-title"><p class="label">{s.manifesto_eyebrow}</p><h1 id="manifesto-title" set:html={s.manifesto_h1}/><p class="page-hero-lead">{s.manifesto_lead}</p><div class="actions"><Action href="#convictions" label={l === 'fr' ? 'Nos convictions' : 'Our convictions'}/><Action href="#start" label={l === 'fr' ? 'Comment commencer' : 'How to get started'}/></div></section>
+  <section class="manifesto-letter section wrap" aria-labelledby="letter-title"><SectionHeading label={l === 'fr' ? 'Notre point de départ' : 'Our starting point'} title={s.manifesto_open_title} id="letter-title"/>
+    <div class="editorial-grid"><div><span class="label">Jean-David Collard<br/>{l === 'fr' ? 'Fondateur de NODINA' : 'Founder of NODINA'}</span></div><div class="letter-copy">{s.manifesto_open.map(paragraph => <p>{paragraph}</p>)}<Action href={route(l) + '#experience'} label={s.founder_link}/></div></div>
+  </section>
+  <section class="manifesto-convictions wrap" id="convictions" aria-label={l === 'fr' ? 'Nos convictions' : 'Our convictions'}><ol>{s.manifesto_principles.map(([title, body], i) => <li><span class="number" aria-hidden="true">0{i + 1}</span><div><h2>{title}</h2><p>{body}</p></div></li>)}</ol></section>
+  <TeamQuote locale={l} kind="manifesto"/><QuickStart locale={l}/>
+  <section class="manifesto-systems wrap"><p class="label"><ServiceLabel kind="systems" text="AI Systems & Transformation"/></p><p>{s.manifesto_bridge}</p><Action href={route(l) + '#systems-detail'} label={s.manifesto_bridge_cta}/></section>
+  <CloseSelect locale={l}/>
+</main>

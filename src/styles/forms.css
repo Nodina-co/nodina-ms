@@ -1,0 +1,6 @@
+.form-trap { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.contact-consent { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; line-height: 1.5; margin: 20px 0; }
+.contact-consent input { width: 18px; height: 18px; flex: 0 0 18px; margin-top: 2px; accent-color: #2354e5; }
+.form-status { margin-top: 16px; padding: 16px; border-left: 3px solid #2354e5; background: #f0f4ff; line-height: 1.5; }
+.form-status[data-error="true"] { border-color: #a32222; background: #fff3f3; }
+[hidden] { display: none !important; }

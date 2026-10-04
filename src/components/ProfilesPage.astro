@@ -1,0 +1,23 @@
+---
+import { content, route, contactPath, type Locale } from '../lib/site';
+import Action from './Action.astro';
+import ServiceLabel from './ServiceLabel.astro';
+import SectionHeading from './SectionHeading.astro';
+import ProfileCards from './ProfileCards.astro';
+import QuickStart from './QuickStart.astro';
+import CloseSelect from './CloseSelect.astro';
+interface Props { locale: Locale }
+const { locale: l } = Astro.props;
+const s = content[l].select;
+---
+<main id="content" class="profiles-page">
+  <section class="select-hero profiles-hero wrap" aria-labelledby="profiles-hero-title"><p class="label"><ServiceLabel kind="teams" text={'AI-native Teams · ' + s.profiles_nav}/></p><h1 id="profiles-hero-title" set:html={s.profiles_h1}/><p class="page-hero-lead">{s.profiles_page_lead}</p><div class="actions"><Action href={contactPath(l)} label={s.primary} button/><Action href={route(l, 'vetting')} label={s.secondary}/></div></section>
+  <section class="profile-catalog wrap" aria-label={l === 'fr' ? 'Exemples de profils' : 'Example profiles'}><p class="profile-overview">{s.profile_overview}</p>
+    <div class="profile-toolbar" hidden><div class="profile-filters" role="group" aria-label={l === 'fr' ? 'Filtrer les profils de démonstration' : 'Filter demo profiles'}>
+      {s.profile_filters.map(([status, label]) => <button type="button" data-profile-filter={status} aria-pressed={status === 'all' ? 'true' : 'false'} aria-controls="profile-grid">{label} <span>{status === 'all' ? s.profiles.length : s.profiles.filter(p => p.status === status).length}</span></button>)}
+    </div><p class="profile-result" aria-live="polite"><span data-profile-count>{s.profiles.length}</span> {s.profile_results}</p></div>
+    <ProfileCards locale={l} full/>
+  </section>
+  <section class="profile-decisions section wrap" aria-labelledby="profile-decisions-title"><SectionHeading label={l === 'fr' ? 'Pour votre projet' : 'For your project'} title={s.profiles_explain_title} id="profile-decisions-title"/><p class="section-intro">{s.profiles_explain_body}</p><dl class="signals">{s.profiles_facts.map(([title, body]) => <div><dt>{title}</dt><dd>{body}</dd></div>)}</dl></section>
+  <QuickStart locale={l}/><CloseSelect locale={l}/>
+</main>

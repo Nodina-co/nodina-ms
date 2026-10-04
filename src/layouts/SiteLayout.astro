@@ -1,0 +1,47 @@
+---
+import { content, metadata, origin, route, type Locale, type PageId } from '../lib/site';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import '../styles/site.css';
+import '../styles/talent.css';
+import '../styles/refinement.css';
+import '../styles/select.css';
+import '../styles/forms.css';
+interface Props { locale: Locale; page: PageId; title?: string; description?: string }
+const { locale, page } = Astro.props;
+const c = content[locale];
+const { title, description, canonical } = { ...metadata(locale, page), ...Astro.props };
+const graph = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'Organization', '@id': origin + '/#organization', name: 'NODINA', url: origin, logo: origin + '/assets/logomark.svg' },
+    { '@type': 'WebSite', '@id': origin + '/#website', url: origin, name: 'NODINA', publisher: { '@id': origin + '/#organization' }, inLanguage: ['fr-FR', 'en-US'] },
+    { '@type': 'WebPage', '@id': canonical + '#webpage', url: canonical, name: title, description, inLanguage: c.lang, isPartOf: { '@id': origin + '/#website' } },
+  ],
+};
+---
+<!doctype html>
+<html lang={c.lang}>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="robots" content="noindex,nofollow,noarchive"/>
+  <meta name="theme-color" content="#ffffff"/>
+  <title>{title}</title><meta name="description" content={description}/>
+  <link rel="canonical" href={canonical}/>
+  <link rel="alternate" hreflang="fr-FR" href={origin + route('fr', page)}/>
+  <link rel="alternate" hreflang="en-US" href={origin + route('en', page)}/>
+  <link rel="alternate" hreflang="x-default" href={origin + route('fr', page)}/>
+  <meta property="og:type" content="website"/><meta property="og:site_name" content="NODINA"/>
+  <meta property="og:locale" content={c.lang.replace('-', '_')}/><meta property="og:url" content={canonical}/>
+  <meta property="og:title" content={title}/><meta property="og:description" content={description}/>
+  <link rel="icon" href="/assets/logomark.svg" type="image/svg+xml"/>
+  <link rel="preload" href="/assets/intertight.ttf" as="font" type="font/ttf" crossorigin/>
+  <script type="application/ld+json" set:html={JSON.stringify(graph).replace(/</g, '\\u003c')}/>
+</head>
+<body id="top">
+  <a class="skip" href="#content">{c.skip}</a>
+  <SiteHeader locale={locale} page={page}/><slot/><SiteFooter locale={locale}/>
+  <script>import '../scripts/site.js'; import '../scripts/contact.js';</script>
+</body>
+</html>

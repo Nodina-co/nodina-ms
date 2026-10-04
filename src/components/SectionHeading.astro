@@ -1,0 +1,6 @@
+---
+import ServiceLabel from './ServiceLabel.astro';
+interface Props { label: string; title: string; id: string; service?: string }
+const { label, title, id, service } = Astro.props;
+---
+<div class="section-heading"><p class="label">{service ? <ServiceLabel kind={service} text={label}/> : label}</p><h2 id={id}>{title.split('\n').map((line, index) => <>{index > 0 && <br/>}{line}</>)}</h2></div>
