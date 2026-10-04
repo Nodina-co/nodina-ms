@@ -72,3 +72,16 @@ AI-native Teams devient l’entrée commerciale prioritaire de l’accueil. CTA 
 ## Repères d’offre et contact — piste A choisie le 2026-10-03
 
 L’identité visuelle accompagne chaque parcours existant : Teams blanc, Systems bleu pâle, cobalt commun et noms d’offre explicites. Le contact reprend l’offre reçue dans `?offer=` puis suit le choix manuel. Les liens de langue préservent teams, systems ou combined ; unknown ouvre un contact neutre. Les besoins combinés et à préciser restent neutres. Aucun nouveau slug ni transmission de formulaire n’est introduit.
+
+
+## Extensions réalisées dans la maquette — 2026-10-03
+
+| Page | FR local | EN local | Rôle |
+|---|---|---|---|
+| NODINA Select | `/fr/selection-des-talents/` | `/en/vetting/` | Preuves de compétences, évaluateurs, méthode, exemple commenté, outils |
+| Profils | `/fr/profils/` | `/en/engineers/` | Fiches destinées à des profils réels anonymisés ; actuellement gabarits explicitement signalés, données attendues de JD |
+| Manifeste | `/fr/manifeste/` | `/en/manifesto/` | Convictions d’ingénierie et parcours de sélection/validation en moins d’une semaine |
+
+Navigation active du prototype : Offres, La sélection, Les profils, Manifeste, Contact et langues. L’approche, le fondateur et la FAQ restent accessibles dans le pied de page ; le fondateur est également lié depuis le manifeste, la sélection et le menu mobile. Liens de langue conservent la page équivalente. Tous les CTA des nouvelles pages rejoignent le contact Teams ; le manifeste conserve un lien explicite vers Systems.
+
+La portée du délai est sélection et validation de l’équipe, confirmée par JD, avec brief complet, disponibilité et créneaux convenus. Démarrage possible dès trois semaines distinct. Aucune route publique déployée : dix pages locales servies par le prototype.
