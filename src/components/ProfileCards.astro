@@ -1,0 +1,25 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import { content, route, contactPath, type Locale } from '../lib/site';
+import Action from './Action.astro';
+interface Props { locale: Locale; full?: boolean }
+const { locale: l, full = false } = Astro.props;
+const s = content[l].select;
+const profiles = full ? s.profiles : [s.profiles[0], s.profiles[6], s.profiles[8]];
+const portraits = import.meta.glob<{ default: ImageMetadata }>('../assets/profiles/*.png', { eager: true });
+---
+<div class="profile-grid" id={full ? 'profile-grid' : undefined}>
+  {profiles.map(p => <article class="profile-card" id={p.id} data-profile-status={p.status}>
+    <div class="profile-identity">
+      <Image src={portraits['../assets/profiles/' + p.portrait.split('/').pop()].default} width={80} height={80} densities={[1, 2]} format="webp" alt="" loading="lazy" decoding="async"/>
+      <p class="profile-experience">{p.years} {l === 'fr' ? 'ans' : 'years'}<span class="profile-experience-context"> {l === 'fr' ? 'd’expérience' : 'of experience'}</span></p>
+      <span class={'profile-status ' + p.status}>{s.profile_status[p.status as keyof typeof s.profile_status]}</span>
+    </div>
+    <h3>{p.role}</h3><dl class="profile-industry"><dt>{l === 'fr' ? 'Industrie' : 'Industry'}</dt><dd>{p.industry}</dd></dl>
+    <div class="profile-project"><p class="profile-project-label">{s.profile_mission}</p><p>{p.mission}</p></div>
+    <ul class="stack-tags" aria-label="Technologies">{p.stack.map(tag => <li>{tag}</li>)}</ul>
+    {full && <details class="profile-more"><summary>{s.profile_detail}</summary><p>{p.strength}</p><ul>{p.details.map(detail => <li>{detail}</li>)}</ul></details>}
+    <Action href={full ? contactPath(l) : route(l, 'profiles') + '#' + p.id} label={full ? s.profile_cta : l === 'fr' ? 'Explorer ce profil' : 'Explore this profile'}/>
+  </article>)}
+</div>

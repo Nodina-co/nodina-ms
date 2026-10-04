@@ -1,0 +1,1056 @@
+{
+  "lang": "en-US",
+  "title": "NODINA — Your senior AI-native engineering team",
+  "description": "Senior engineers selected across Europe and Latin America. One week to approve your team, then two weeks of preparation before the first pull requests, subject to availability.",
+  "preview": "Mockup · Target presentation",
+  "review": "Share feedback",
+  "skip": "Skip to content",
+  "home": "NODINA home",
+  "nav": [
+    "Services",
+    "Approach",
+    "The founder"
+  ],
+  "contact": "Discuss your project",
+  "contact_short": "Let’s talk about your project",
+  "category": "AI-native Teams · Senior engineers across Europe & Latin America",
+  "h1": "Your senior AI team, built for you.<br><span>Ready to build in as little as 3 weeks.</span>",
+  "lead": "NODINA brings together senior engineers selected across Europe and Latin America to build your product. Your team is fluent in AI tools and works directly in your codebase and workflows.",
+  "explore": "Find the right support",
+  "glance": "NODINA at a glance.",
+  "canonical": "NODINA builds your senior engineering team through <strong>AI-native Teams</strong>, our core offering. We select talent across Europe and Latin America and integrate engineers into your projects. As a complementary service, <strong>AI Systems & Transformation</strong> lets you entrust us with an AI system, from scoping through deployment. The two services can be combined around your needs.",
+  "proofs": [
+    [
+      "Selection",
+      "Skills examined in practice.",
+      "NODINA Select: code, AI practice and collaboration reviewed by experienced peers."
+    ],
+    [
+      "Delivery",
+      "An AI system connected to your business.",
+      "From scoping to evaluation, we build AI systems around your data, tools, and ways of working."
+    ],
+    [
+      "Experience",
+      "Engineering and teamwork.",
+      "The founder brings 15+ years in engineering, AI, scientific research, recruiting, and leading tech projects across France and the United States."
+    ]
+  ],
+  "offers_label": "01 / Start with your need",
+  "offers_title": "What do you need to move forward?",
+  "offers": [
+    {
+      "id": "teams",
+      "name": "AI-native Teams",
+      "sub": "Expand your engineering capacity.",
+      "body": "Senior engineers embedded in your team or working as a dedicated team with an agreed scope. The team is shaped around your technical and product needs.",
+      "items": [
+        "Software and product engineering, full-stack",
+        "AI/ML, architecture, and technical leadership",
+        "AI-native practices: context, tools, and oversight"
+      ],
+      "meta": "<strong>Working together.</strong> Priorities, collaboration with your teams, and responsibilities are defined with you.",
+      "cta": "Discuss your team"
+    },
+    {
+      "id": "systems",
+      "name": "AI Systems & Transformation",
+      "sub": "Bring AI into your operations.",
+      "body": "Design, build, and integrate an AI system around a business need. Architecture, evaluation, and operations are defined within the agreed scope.",
+      "items": [
+        "Assistants, document search, and RAG",
+        "Document processing and agentic workflows",
+        "Integration, testing, evals, and observability"
+      ],
+      "meta": "<strong>Working together.</strong> Deliverables, evaluation criteria, data, access, and operational responsibilities are agreed upfront.",
+      "cta": "Discuss your system"
+    }
+  ],
+  "method_label": "04 / A shared standard of delivery",
+  "method_title": "From scoping to operations.",
+  "method_intro": "The business need sets the direction. Real constraints — data, integrations, quality, and access — guide the technical decisions.",
+  "steps": [
+    [
+      "Scope",
+      "Understand the work to be done, the users, the available data, and the constraints.",
+      "Need · criteria · scope"
+    ],
+    [
+      "Design",
+      "Define the team, architecture, and how we work with your organization.",
+      "Team · architecture · responsibilities"
+    ],
+    [
+      "Build & evaluate",
+      "Develop, test, and evaluate the system against representative use cases.",
+      "Software · tests · evals"
+    ],
+    [
+      "Integrate & operate",
+      "Connect the system to its environment and plan ongoing monitoring within the engagement.",
+      "Integration · monitoring · handover"
+    ]
+  ],
+  "method_note": "Phases, deliverables, and responsibilities depend on the engagement. The proposal sets out the agreed scope.",
+  "native_label": "AI-native in practice",
+  "native_title": "Give AI the right context. Keep people accountable.",
+  "native_body": "We connect AI tools, project context, and coordination between people and agents. Review, tests, evaluations, and explicit responsibilities are part of the engineering process.",
+  "native_tags": [
+    "Context engineering",
+    "Review & evaluation",
+    "Human oversight"
+  ],
+  "exp_label": "05 / The founder",
+  "exp_title": "15+ years building\nproducts and teams.",
+  "person_title": "Jean-David Collard",
+  "person_sub": "Founder of NODINA\nEngineering, AI & entrepreneurship",
+  "exp_intro": "Jean-David Collard, founder of NODINA, brings more than 15 years of experience in software and AI engineering, scientific research, talent recruitment, engineering team leadership, and entrepreneurship.",
+  "scope_title": "A first conversation.\nA clear path forward.",
+  "scope_lead": "Start with your objective and constraints. The right setup may be a team, an AI system to deliver, or both.",
+  "scope_items": [
+    [
+      "Understand your situation",
+      "Product, processes, team, data, and timing: we identify what is holding you back and what needs to change."
+    ],
+    [
+      "Choose the right approach",
+      "Together, we define the skills, delivery scope, responsibilities, and combination of services that fit."
+    ],
+    [
+      "Prepare the start",
+      "You receive a proposal, a schedule, and an initial scope of work. Team composition and deliverables reflect your project."
+    ]
+  ],
+  "scope_note": "AI-native Teams: one week for selection and approval, then two weeks of preparation before the first pull requests, subject to availability. An AI system’s timeline is established after scoping the need, data and integrations.",
+  "faq_label": "06 / Common questions",
+  "faq_title": "Before we start.",
+  "faqs": [
+    [
+      "Do I need to choose a service before getting in touch?",
+      "No. Tell us your objective, what is holding you back, and the resources you already have. The first conversation helps identify whether you need a team, a system to build, or a combination of both."
+    ],
+    [
+      "What does AI Systems & Transformation cover?",
+      "Business scoping, architecture, implementation, integration, tests and evaluations, followed by handover and support within the agreed scope. Deliverables, responsibilities, and success criteria are defined in the proposal."
+    ],
+    [
+      "Can the two services be combined?",
+      "Yes. A team can add capacity while a system is being built, or continue evolving it afterward. We define a shared setup to coordinate the work and responsibilities."
+    ],
+    [
+      "Can I start with one engineer?",
+      "Yes. The composition follows your need: a focused senior addition or several complementary skills. We also define how the engineers work with your team, along with coordination and responsibilities."
+    ],
+    [
+      "How do you select talent?",
+      "NODINA Select brings together the method and tool behind the NODINA Select. It structures evaluation around six dimensions: engineering, AI, context, architecture, product, and collaboration. The tool brings the evidence together to support reviewer discussions and decisions."
+    ],
+    [
+      "What does the first week cover?",
+      "The first week is for choosing and approving your team: scoping the need, proposing profiles, meeting engineers and approving the team composition. The process starts from a complete brief, with suitable engineers available and interview slots agreed."
+    ],
+    [
+      "What happens at the end of the three weeks?",
+      "After one week of selection and approval, two additional weeks prepare onboarding: repository access, development environment, tools, product context and initial priorities. At the end of three weeks in total, the team is ready to work and produce its first pull requests (PRs), meaning code changes submitted for review. The timeline depends on availability and access preparation, and is agreed together."
+    ],
+    [
+      "Why Europe and Latin America?",
+      "These regions let us assemble teams for European and American companies. Skills, communication, and the shared working hours required for each engagement guide the selection."
+    ],
+    [
+      "What happens if the team needs to change?",
+      "We examine difficulties promptly and arrange an adjustment or handover when needed. Documentation and shared context help maintain continuity. Replacement terms and notice periods are defined in the contract."
+    ],
+    [
+      "What are the costs and commitments?",
+      "The service is priced through a tailored proposal, with no equity stake or recruitment fees. Scope, duration, coordination, change terms, and any tool or infrastructure costs are set out explicitly."
+    ],
+    [
+      "How do you handle code, data, and intellectual property?",
+      "We favor working in your environment. Access, confidentiality, approved tools, responsibilities, and intellectual property terms are addressed before work begins."
+    ],
+    [
+      "What does ‘by invitation’ mean?",
+      "You are welcome to tell us about your project. We assess the fit between your needs, our available capacity, and the proposed working relationship, then invite selected projects to proceed. We limit new partnerships each quarter to stay closely involved."
+    ],
+    [
+      "Which tools do the engineers use?",
+      "The choice depends on your stack and policies. We assess their ability to use the development assistants, models, agent workflows, and quality tools relevant to the engagement."
+    ]
+  ],
+  "cta_title": "Let’s work through your project.",
+  "cta_body": "You may know exactly what needs to be built, or still be looking for the right starting point. The first conversation helps define a useful next step.",
+  "cta_note": "France · Europe · United States — Tailored proposals",
+  "footer_desc": "Software & AI engineering",
+  "footer_note": "NODINA · France / United States",
+  "top": "Back to top ↑",
+  "back": "Back to home",
+  "contact_h1": "Let’s talk about<br> your project.",
+  "contact_lead": "Whether you need a team, an AI system, or help defining the scope, let’s start with your objective.",
+  "contact_facts": [
+    [
+      "To get started",
+      "Your objective, current situation, and main constraints."
+    ],
+    [
+      "A scope to define",
+      "AI-native Teams, AI Systems & Transformation, or a need to explore together."
+    ],
+    [
+      "A tailored proposal",
+      "A proposal based on the agreed scope and responsibilities."
+    ]
+  ],
+  "form_note": "Form preview. Submission is not enabled in this mockup.",
+  "fields": [
+    "Name",
+    "Work email",
+    "Organization",
+    "Your need",
+    "Objective and context",
+    "Expected timing (optional)"
+  ],
+  "offer_options": [
+    "Define together",
+    "AI-native Teams",
+    "AI Systems & Transformation",
+    "Combine both services"
+  ],
+  "project_help": "The problem to solve, the people involved, and the main constraints.",
+  "disabled": "Submission not enabled",
+  "form_bottom": "You can try the fields. This page does not transmit or store any information.",
+  "vetting_nav": "Selection",
+  "partnership": "Partnerships by invitation",
+  "partnership_body": "We take on a limited number of new partnerships each quarter so we can stay closely involved in every project. An initial conversation helps us explore the fit.",
+  "signals": [
+    [
+      "Europe + LATAM",
+      "Senior talent for your projects"
+    ],
+    [
+      "A team from 3 weeks",
+      "A possible start, depending on scope and availability"
+    ],
+    [
+      "A clear proposal",
+      "No equity stake or recruitment fees"
+    ]
+  ],
+  "model_label": "02 / AI-native Teams",
+  "model_title": "The right team.\nA clear working agreement.",
+  "commitments": [
+    [
+      "Integrated with your team",
+      "Engineers work in your repositories, with your tools, priorities, and routines. Responsibilities and documentation remain visible."
+    ],
+    [
+      "Room to adapt",
+      "A focused addition or a dedicated team: scope and pace evolve with your needs. Duration, notice periods, and terms are set out in the proposal."
+    ],
+    [
+      "Aligned working hours",
+      "Nearby time zones and shared working hours support clear communication, timely decisions, and code reviews for a smooth delivery rhythm."
+    ],
+    [
+      "Continuity by preparation",
+      "Code review, shared context, and knowledge transfer support continuity. Handover and replacement arrangements are defined together."
+    ]
+  ],
+  "compare_title": "Senior expertise.\nA simpler way to work together.",
+  "compare_heads": [
+    "Your need",
+    "Traditional hiring",
+    "AI-native Teams"
+  ],
+  "compare_rows": [
+    [
+      "Capacity",
+      "One individual hire at a time.",
+      "An operational team assembled around your product."
+    ],
+    [
+      "Getting started",
+      "Search, interviews, notice periods, and onboarding to organize.",
+      "One week to choose and approve the team, then two weeks of preparation: first pull requests from three weeks in total, subject to availability."
+    ],
+    [
+      "Equity",
+      "An equity stake may be part of compensation.",
+      "No equity stake."
+    ],
+    [
+      "Recruitment",
+      "Recruiter fees may add to the cost of hiring.",
+      "No recruitment fees. A scoped service priced through a clear proposal."
+    ],
+    [
+      "Continuity",
+      "Replacement and handover managed internally.",
+      "NODINA coordinates handovers and shared context under the agreed terms."
+    ],
+    [
+      "AI practice",
+      "Skills to assess and training to organize.",
+      "Structured selection with NODINA Select, covering AI tool fluency and teamwork."
+    ]
+  ],
+  "compare_note": "With NODINA, you bring in a product team assembled for your needs and selected through NODINA Select, with first pull requests possible from three weeks in total, subject to availability. No equity stake or recruitment fees. We stay involved in coordination, knowledge transfer, and how the team evolves: a technical partner for the long term, with clear working terms.",
+  "talent_label": "AI-native Teams · Talent selection",
+  "talent_title": "The right skills. The right people.",
+  "talent_intro": "We select senior engineers in Europe and Latin America for European and US clients. Experienced CTOs and lead developers assess their code, their use of AI and their ability to work as part of a team.",
+  "talent_points": [
+    [
+      "Code reviewed",
+      "Quality, tests and architecture decisions."
+    ],
+    [
+      "AI put into practice",
+      "Context, tools and verification of results."
+    ],
+    [
+      "Collaboration assessed",
+      "Communication, autonomy and accountability."
+    ]
+  ],
+  "talent_cta": "Explore our selection process",
+  "bio": [
+    "He has built and led tech projects across France and the United States with six-figure budgets. His experience combines product delivery, team building, and collaboration with French and American lead developers and CTOs.",
+    "With a PhD in Computer Science, he conducts research in agent-based modeling and reinforcement learning. This research practice informs how he evaluates technical decisions, results, and the limitations of AI systems.",
+    "He also teaches software engineering and AI in a university MIAGE master’s program. This commitment helps develop the next generation of talent and provides an opportunity to recognize their potential as they learn.",
+    "His background also includes engineering training in nuclear energy at Arts et Métiers ParisTech and the CEA. His entrepreneurial work has also received an award from the European Space Agency."
+  ],
+  "award_label": "European recognition · 2019",
+  "award_text": "His entrepreneurial work has also received an award from the European Space Agency.",
+  "domains_label": "The founder’s areas of experience",
+  "domains": [
+    "Environmental impact",
+    "Mobility",
+    "Data privacy",
+    "Operations & compliance"
+  ],
+  "vetting": {
+    "title": "NODINA Select — Talent selection",
+    "description": "We select senior engineers in Europe and Latin America for European and US clients. Experienced CTOs and lead developers assess their code, their use of AI and their ability to work as part of a team.",
+    "eyebrow": "AI-native Teams · Our selection",
+    "h1": "Engineers selected to <span>move your product forward.</span>",
+    "lead": "We select senior engineers in Europe and Latin America for European and US clients. Experienced CTOs and lead developers assess their code, their use of AI and their ability to work as part of a team.",
+    "jump": "Explore the criteria",
+    "principles": [
+      [
+        "Senior",
+        "Experience examined through practice"
+      ],
+      [
+        "AI-native",
+        "Tools used with judgment"
+      ],
+      [
+        "Teamwork",
+        "Skills that work well together"
+      ]
+    ],
+    "rubric_label": "01 / The evaluation framework",
+    "rubric_title": "Six perspectives on engineering practice.",
+    "rubric_intro": "The evaluation framework covers the quality of the work and the ability to deliver it with others. Criteria are adapted to the role and engagement.",
+    "rubric_heads": [
+      "Dimension",
+      "What we look to understand",
+      "Evidence to examine"
+    ],
+    "dimensions": [
+      [
+        "Engineering & quality",
+        "Build maintainable code and know how to verify its behavior.",
+        "Code, tests, review, diagnosis, and regression management."
+      ],
+      [
+        "AI fluency",
+        "Choose appropriate tools, verify their output, and recognize their limits.",
+        "Models, agents, evaluations, cost, and latency."
+      ],
+      [
+        "Context & instructions",
+        "Give systems useful information and explicit boundaries.",
+        "Context, sources, instructions, tools, and error analysis."
+      ],
+      [
+        "Architecture & reliability",
+        "Connect technical decisions to system constraints.",
+        "Data, integrations, access, observability, and operations."
+      ],
+      [
+        "Product & ownership",
+        "Understand the need, prioritize, and own the consequences of decisions.",
+        "Success criteria, trade-offs, scope, and outcome tracking."
+      ],
+      [
+        "Communication & teamwork",
+        "Explain, listen, and move shared work forward.",
+        "Peer review, feedback, documentation, and human / agent coordination."
+      ]
+    ],
+    "process_label": "02 / The selection journey",
+    "process_title": "Understand how the person works.",
+    "process_intro": "The journey connects experience, practice, and project fit. Each step adds concrete evidence and points to explore to the evaluation tool.",
+    "stages": [
+      [
+        "Examine the track record",
+        "Revisit delivered projects, actual responsibilities, and decisions made.",
+        "Clarify: contributions and level of autonomy."
+      ],
+      [
+        "Explore the engineering",
+        "Discuss code, architecture choices, and how to test a system under real constraints.",
+        "Examine: reasoning and engineering quality."
+      ],
+      [
+        "Work with AI",
+        "Observe how the candidate provides context, uses tools, and verifies their output.",
+        "Observe: judgment, verification, and awareness of limits."
+      ],
+      [
+        "Discuss teamwork",
+        "Explore feedback, documentation, asking for help, and handling disagreement.",
+        "Understand: collaboration and ownership."
+      ],
+      [
+        "Match the profile to the project",
+        "Consider skills alongside the product, your team, communication needs, and availability.",
+        "Decide together: suitability for the engagement and conditions for success."
+      ]
+    ],
+    "example_label": "03 / The NODINA Select tool",
+    "example_title": "A shared view of engineering ability.",
+    "example_intro": "The tool brings together exercise context, criteria, and discussion points. Reviewers share a common view to support their conclusions and prepare the conversation with your team.",
+    "sample_label": "NODINA Select · Interface demonstration",
+    "sample_title": "Engagement: a document research assistant",
+    "sample_note": "Illustrative example: the content below does not represent a real evaluation.",
+    "sample_rows": [
+      [
+        "Situation",
+        "Design an assistant that answers from an internal document collection and cites its sources."
+      ],
+      [
+        "Evidence to gather",
+        "Source selection, access controls, evaluation cases, and handling uncertain answers."
+      ],
+      [
+        "Technical discussion",
+        "How would you diagnose a poor answer? What are the trade-offs in cost, latency, and quality?"
+      ],
+      [
+        "Team discussion",
+        "How would you explain limitations to product colleagues, document decisions, and hand work over?"
+      ]
+    ],
+    "roles_label": "04 / Assembling the team",
+    "roles_title": "Choose the skills together.",
+    "roles_intro": "Examples of roles based on your needs. Composition and availability are discussed for each engagement.",
+    "roles": [
+      [
+        "AI / ML engineering",
+        "Models, RAG, agents, and evaluation protocols.",
+        "Connect experimentation, quality, and use."
+      ],
+      [
+        "Software & product engineering",
+        "Applications, APIs, interfaces, and integrations.",
+        "Build the product around the AI system."
+      ],
+      [
+        "Architecture & leadership",
+        "Technical decisions, reliability, and coordination.",
+        "Bring the system and the team together."
+      ]
+    ],
+    "tools_title": "Your environment shapes the evaluation.",
+    "tools_intro": "We select profiles with your stack in mind. Examples of tools and practices to examine, depending on the engagement:",
+    "tools": [
+      [
+        "Assisted development",
+        "Claude Code · Codex · Cursor"
+      ],
+      [
+        "AI systems",
+        "LLMs · RAG · agent workflows · evaluations"
+      ],
+      [
+        "Product engineering",
+        "Python · TypeScript · APIs · GitHub · CI/CD"
+      ],
+      [
+        "Data & operations",
+        "PostgreSQL · cloud · observability · access controls"
+      ]
+    ],
+    "close_title": "Start with the team you need.",
+    "close_body": "Product, skills, technical maturity, and working hours help us propose the right people and an effective working arrangement.",
+    "sample_tab": "Explore the criteria",
+    "sample_context": "Exercise context",
+    "sample_prompt": "Evidence to examine",
+    "evaluators_label": "The evaluators",
+    "evaluators_title": "Assessed by people who have built and led.",
+    "evaluators_body": "Our selection draws on the network of Jean-David Collard, NODINA’s founder, who holds a PhD in Computer Science: senior lead developers and French and American CTOs, including professionals with experience at major Silicon Valley companies. He has worked with them over the past fifteen years on entrepreneurial ventures and for startup, scale-up, and SME clients across Europe and the United States.",
+    "evaluators_note": "Selection connects technical assessment to the reality of teamwork: explaining decisions, receiving feedback, and taking responsibility for what is delivered."
+  },
+  "talent_status": "NODINA Select",
+  "offer_cards": [
+    {
+      "id": "teams",
+      "need": "Expand your team.",
+      "name": "AI-native Teams",
+      "body": "You have a product, a roadmap, or an existing team. You need senior skills or more capacity to make progress.",
+      "items": [
+        "Engineers working with your priorities and tools",
+        "A team assembled for your needs, across Europe and Latin America",
+        "Capacity that evolves with the project"
+      ],
+      "outcome": "You set the priorities. We bring the talent together and organize the collaboration.",
+      "cta": "Explore AI-native Teams",
+      "target": "#teams-detail"
+    },
+    {
+      "id": "systems",
+      "need": "Build an AI system.",
+      "name": "AI Systems & Transformation",
+      "body": "You want to improve a business process or bring AI into your product. You need a partner to scope, build, and deploy the solution.",
+      "items": [
+        "A business need translated into a delivery scope",
+        "A system connected to your data and tools",
+        "Evaluation and handover planned from the outset"
+      ],
+      "outcome": "You define the objective. We take responsibility for delivery within the agreed scope.",
+      "cta": "Explore AI Systems & Transformation",
+      "target": "#systems-detail"
+    }
+  ],
+  "help_title": "Still working out what you need?",
+  "help_body": "You do not have to choose a service before speaking with us. A first conversation helps clarify your objective, resources, and what needs to be built. We define the right approach together.",
+  "help_cta": "Clarify my project",
+  "compare_intro": "Expand your product capacity with a team assembled around your needs, with selection and coordination taken care of.",
+  "compare_badge": "Recommended",
+  "compare_badge_context": "For expanding your product capacity",
+  "evaluators_title": "Selected by CTOs and lead developers.",
+  "evaluators_body": "Jean-David Collard, NODINA’s founder and a PhD in computer science, has worked with these professionals over fifteen years of entrepreneurial projects and client engagements for startups, scale-ups and SMEs in Europe and the United States.",
+  "founder_stat": "15+",
+  "founder_stat_label": "years of experience in technology",
+  "sectors_label": "Business contexts",
+  "sectors_title": "Your challenges set the direction.",
+  "sectors_intro": "The skills and architecture follow your business, workflows, and constraints.",
+  "sectors": [
+    [
+      "Strategy & consulting",
+      "Analysis, document research, and decision-support tools."
+    ],
+    [
+      "Healthcare",
+      "Information, coordination, and workflows in demanding healthcare environments."
+    ],
+    [
+      "LegalTech",
+      "Research, analysis, and processing of legal documents."
+    ],
+    [
+      "Supply chain & logistics",
+      "Operational flows, planning, and integration of field data."
+    ],
+    [
+      "Finance, compliance & audit",
+      "FinTech, RegTech, and AuditTech: data, controls, and traceability."
+    ]
+  ],
+  "systems_detail": {
+    "label": "03 / AI Systems & Transformation",
+    "title": "A business need.\nA system ready for real operations.",
+    "lead": "From the initial idea to everyday use, we take responsibility for scoping, architecture, development, and integration. The objective is a useful, evaluated AI system your organization can operate.",
+    "cases_title": "What do you want to make possible?",
+    "cases": [
+      [
+        "Find the right information",
+        "A document assistant that searches your sources, cites its references, and respects access permissions.",
+        "Document search · RAG"
+      ],
+      [
+        "Put documents to work",
+        "A workflow that extracts, structures, and checks information, with human review at the points that matter.",
+        "Document intelligence · Validation"
+      ],
+      [
+        "Connect your operations",
+        "A system that coordinates actions across your tools, with explicit responsibilities, boundaries, and monitoring.",
+        "Integrations · Agent workflows"
+      ]
+    ],
+    "deliverables_title": "A complete scope. Tangible deliverables.",
+    "deliverables": [
+      [
+        "Scoping & success criteria",
+        "Use cases, users, data, and constraints. We define what the system should do and how to verify it."
+      ],
+      [
+        "Architecture & implementation",
+        "Code, integrations, and documented technical decisions. Existing tools are considered before custom development."
+      ],
+      [
+        "Evaluation & reliability",
+        "Tests, evaluation cases, error monitoring, and access controls. Quality is checked against your actual use."
+      ],
+      [
+        "Deployment & handover",
+        "Integration into your environment, documentation, and onboarding. Support and operations are scoped to the engagement."
+      ]
+    ],
+    "note": "These examples describe possible systems, to be scoped around your data and constraints.",
+    "cta": "Discuss the system you want to build"
+  },
+  "combined": {
+    "title": "A team and a system.\nOne shared project.",
+    "body": "Both services can work together: we can scope and build an initial system, then embed the engineers who will evolve it with your team. Or add capacity while the system is being built. The setup follows your need.",
+    "cta": "Combine both services"
+  },
+  "hero_terms": "No equity · No recruitment fees",
+  "hero_timing": "Your team chosen and approved in one week.",
+  "hero_timing_note": "From a complete brief, subject to available engineers and access prepared with your team. Timeline agreed together.",
+  "hero_cta": "Build my team",
+  "hero_secondary": "Explore our selection process",
+  "hero_systems_prompt": "Looking for a partner to deliver a complete AI system?",
+  "hero_systems_cta": "Explore AI Systems & Transformation",
+  "contact_context_unknown": "Define together",
+  "contact_context_combined": "Both services",
+  "select": {
+    "selection_nav": "Selection",
+    "profiles_nav": "Profiles",
+    "manifesto_nav": "Manifesto",
+    "hero_title": "Engineers selected to <span>move your product forward.</span>",
+    "hero_lead": "We select senior engineers in Europe and Latin America for European and US clients. Experienced CTOs and lead developers assess their code, their use of AI and their ability to work as part of a team.",
+    "primary": "Build my team",
+    "secondary": "See how we evaluate",
+    "eyebrow": "AI-native Teams · Our selection",
+    "signals": [
+      [
+        "Code reviewed",
+        "Quality, tests and architecture decisions."
+      ],
+      [
+        "AI put into practice",
+        "Context, tools and verification of results."
+      ],
+      [
+        "Collaboration assessed",
+        "Communication, autonomy and accountability."
+      ]
+    ],
+    "experience_label": "Experience at the service of your team",
+    "experience_title": "Fifteen years in the field. Better judgment for your team.",
+    "experience_body": "Developing products, hiring engineers and leading teams teaches you to recognize the skills that matter on a real project. We put that experience to work for your team: technical judgment, AI proficiency, autonomy and collaboration.",
+    "experience_link": "Read our manifesto",
+    "evaluators_title": "Selected by CTOs and lead developers.",
+    "evaluators_lead": "Veterans of software and AI engineering review code quality, architecture decisions and the ability to deliver as a team. Based in France and the US, some have worked at major Silicon Valley companies.",
+    "evaluators_body": "Jean-David Collard, NODINA’s founder and a PhD in computer science, has worked with these professionals over fifteen years of entrepreneurial projects and client engagements for startups, scale-ups and SMEs in Europe and the United States.",
+    "founder_link": "Explore the founder’s background",
+    "process_label": "NODINA Select · The method",
+    "process_title": "Rigorous selection, grounded in real work.",
+    "process_intro": "Five stages connect technical ability with the demands of your project. Each recommendation draws on observable evidence and identifies areas to explore further.",
+    "stages": [
+      [
+        "Verify experience",
+        "Discuss past projects, personal contributions and responsibilities actually held.",
+        "What matters: explaining what was delivered and the decisions behind it."
+      ],
+      [
+        "Review code and architecture",
+        "Examine concrete work: readability, tests, debugging and technical trade-offs.",
+        "What matters: explaining decisions and knowing how to evolve a system."
+      ],
+      [
+        "Work with AI",
+        "Observe tool use, context preparation and verification of results.",
+        "What matters: spotting an incorrect output, testing it and correcting it."
+      ],
+      [
+        "Collaborate with a peer",
+        "Review work, discuss a disagreement and share useful context.",
+        "What matters: moving the work forward together and owning decisions."
+      ],
+      [
+        "Confirm the fit for the engagement",
+        "Match skills with your product, stack, working hours and team composition.",
+        "What matters: a clear role, shared expectations and confirmed availability."
+      ]
+    ],
+    "gate_title": "What can rule out a candidate",
+    "gate_body": "Code the person cannot explain, AI outputs accepted without verification or difficulty acting on a review. Technical strength alone is not enough if the skills and working relationship do not fit the engagement.",
+    "assessment_label": "NODINA Select · Worked example",
+    "assessment_title": "Understand why a profile fits your project.",
+    "assessment_intro": "A useful recommendation explains strengths, limitations and conditions for success. Here is how that can translate into an assessment.",
+    "sample_badge": "Illustrative example · No real candidate",
+    "sample_title": "Backend & AI · Internal document assistant",
+    "sample_context": "The engagement involves creating an assistant that cites its sources and respects document access permissions.",
+    "sample_tabs": [
+      "Engineering",
+      "AI practice",
+      "Collaboration"
+    ],
+    "sample_findings": [
+      [
+        "Observed evidence",
+        "The code separates retrieval from generation. Tests cover missing documents and denied access.",
+        "Explore further",
+        "Recovery after a processing error still needs to be defined."
+      ],
+      [
+        "Observed evidence",
+        "The person compares responses on representative cases and includes abstention when sources are insufficient.",
+        "Explore further",
+        "Latency budgets and request cost tracking need to be defined."
+      ],
+      [
+        "Observed evidence",
+        "Decisions are explained to the product team. Review feedback leads to simpler permission handling.",
+        "Explore further",
+        "Plan a review with the person responsible for operations."
+      ]
+    ],
+    "sample_conclusion_title": "Assessment for this engagement",
+    "sample_conclusion": "A relevant profile for backend development and AI integration, with architecture support for operations. The final decision depends on your context and the conversation with your team.",
+    "tools_label": "Your working environment",
+    "tools_title": "Teams that know your tools.",
+    "tools_intro": "We bring together the skills your stack needs to work directly in your repositories, platforms and delivery processes.",
+    "tools_note": "Team composition depends on your project’s tools. AI use goes hand in hand with reviews, tests and evaluations.",
+    "profiles_title": "Engineers. Specialties. Concrete work.",
+    "profiles_lead": "From backend engineering to AI architecture, explore the skills and work your team could bring together.",
+    "profiles_cta": "Explore all 9 profiles",
+    "profile_note": "Demo profiles: fictional portraits, backgrounds, industries and availability. Real anonymized profiles will be added after validation.",
+    "profile_badge": "Demo profile",
+    "profile_detail": "Explore the skills",
+    "profile_mission": "Example project",
+    "profile_strength": "Contribution to the team",
+    "profile_cta": "Discuss this need",
+    "profiles": [
+      {
+        "id": "backend-ai",
+        "years": 8,
+        "status": "assigned",
+        "stack": [
+          "Python",
+          "FastAPI",
+          "PostgreSQL",
+          "pgvector",
+          "Claude API"
+        ],
+        "role": "Backend & AI",
+        "mission": "Document assistant with sourced answers, team-level permissions and response evaluation.",
+        "strength": "Turn business documents into a reliable, operable service.",
+        "details": [
+          "Document structuring and hybrid retrieval.",
+          "Regression testing and monitoring unsupported answers."
+        ],
+        "portrait": "/assets/profiles/profile-01.png",
+        "industry": "LegalTech"
+      },
+      {
+        "id": "workflows",
+        "years": 9,
+        "status": "assigned",
+        "stack": [
+          "Python",
+          "LangGraph",
+          "Temporal",
+          "Kafka",
+          "PostgreSQL"
+        ],
+        "role": "Backend & AI agents",
+        "mission": "Case-processing workflow combining AI agents, human review and recovery from failures.",
+        "strength": "Keep complex processes manageable as integrations grow.",
+        "details": [
+          "Durable orchestration and asynchronous events.",
+          "Decision traceability and exception handling."
+        ],
+        "portrait": "/assets/profiles/profile-02.png",
+        "industry": "Finance, compliance & audit"
+      },
+      {
+        "id": "product",
+        "years": 7,
+        "status": "assigned",
+        "stack": [
+          "TypeScript",
+          "React",
+          "Next.js",
+          "PostgreSQL",
+          "Codex"
+        ],
+        "role": "Full-stack & AI product",
+        "mission": "Workspace integrating assisted search, AI suggestions and user approval.",
+        "strength": "Connect user needs, interfaces and backend services.",
+        "details": [
+          "User journeys and integration into an existing product.",
+          "AI-assisted development, testing and code review."
+        ],
+        "portrait": "/assets/profiles/profile-03.png",
+        "industry": "Strategy & consulting"
+      },
+      {
+        "id": "full-stack",
+        "years": 6,
+        "status": "assigned",
+        "stack": [
+          "TypeScript",
+          "React",
+          "Python",
+          "FastAPI",
+          "Cursor"
+        ],
+        "role": "Full-stack product engineering",
+        "mission": "Conversational search interface connected to a catalog and its business rules.",
+        "strength": "Turn a product need into a usable feature, end to end.",
+        "details": [
+          "Accessible interfaces and documented APIs.",
+          "Incremental delivery and user feedback."
+        ],
+        "portrait": "/assets/profiles/profile-04.png",
+        "industry": "Supply chain & logistics"
+      },
+      {
+        "id": "mlops",
+        "years": 10,
+        "status": "assigned",
+        "stack": [
+          "Python",
+          "PyTorch",
+          "Kubernetes",
+          "Terraform",
+          "AWS"
+        ],
+        "role": "Platform & MLOps",
+        "mission": "Model deployment pipeline with reproducible environments, version tracking and monitoring.",
+        "strength": "Prepare models and services for day-to-day operation.",
+        "details": [
+          "Infrastructure as code and automated deployments.",
+          "Monitoring model quality, costs and behavior."
+        ],
+        "portrait": "/assets/profiles/profile-05.png",
+        "industry": "Healthcare"
+      },
+      {
+        "id": "data",
+        "years": 8,
+        "status": "assigned",
+        "stack": [
+          "Python",
+          "SQL",
+          "dbt",
+          "Airflow",
+          "PostgreSQL"
+        ],
+        "role": "Data engineering & AI",
+        "mission": "Business data pipelines with quality checks and lineage, ready to support AI applications.",
+        "strength": "Give teams a trustworthy, understandable data foundation.",
+        "details": [
+          "Data modeling and pipeline orchestration.",
+          "Documentation, alerts and recovery of interrupted data flows."
+        ],
+        "portrait": "/assets/profiles/profile-06.png",
+        "industry": "Supply chain & logistics"
+      },
+      {
+        "id": "lead",
+        "years": 11,
+        "status": "assigned",
+        "stack": [
+          "Python",
+          "TypeScript",
+          "RAG",
+          "OpenTelemetry",
+          "CI/CD"
+        ],
+        "role": "Tech lead & AI architecture",
+        "mission": "Architecture for an AI service integrated into an existing system, with evaluation criteria and a team handover.",
+        "strength": "Guide technical decisions and the team through to production.",
+        "details": [
+          "Architecture reviews, access security and observability.",
+          "Engineer mentoring and documented technical decisions."
+        ],
+        "portrait": "/assets/profiles/profile-07.png",
+        "industry": "Finance, compliance & audit"
+      },
+      {
+        "id": "applied-ai",
+        "years": 7,
+        "status": "available",
+        "stack": [
+          "Python",
+          "FastAPI",
+          "pgvector",
+          "LangChain",
+          "GitHub"
+        ],
+        "role": "Backend & applied AI",
+        "mission": "Retrieval-augmented API over a document collection, with retrieval comparisons and quality tests.",
+        "strength": "Bridge AI experimentation and production API requirements.",
+        "details": [
+          "Vector retrieval, business filters and response evaluation.",
+          "API contracts, integration tests and instrumentation."
+        ],
+        "portrait": "/assets/profiles/profile-08.png",
+        "industry": "LegalTech"
+      },
+      {
+        "id": "ai-product",
+        "years": 6,
+        "status": "available",
+        "stack": [
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Cursor",
+          "PostgreSQL"
+        ],
+        "role": "Full-stack & AI experience",
+        "mission": "AI-assisted creation flow for reviewing, comparing and approving suggestions before use.",
+        "strength": "Make AI features understandable and useful in everyday work.",
+        "details": [
+          "Review interfaces and intermediate-state handling.",
+          "Front-to-back integration and product design collaboration."
+        ],
+        "portrait": "/assets/profiles/profile-09.png",
+        "industry": "Healthcare"
+      }
+    ],
+    "profiles_page_title": "Engineer profiles — NODINA",
+    "profiles_h1": "Your next product. <span>The talent to ship it.</span>",
+    "profiles_page_lead": "Backend, full-stack, data, AI and technical leadership: nine example backgrounds to help you picture the team that will move your product forward.",
+    "profiles_explain_title": "A recommendation you can act on.",
+    "profiles_explain_body": "For your engagement, we clarify the role, relevant skills, shareable work and areas to explore further. You meet the proposed engineers to confirm the fit with your team.",
+    "profiles_facts": [
+      [
+        "Role & contribution",
+        "What the person will take responsibility for on your project."
+      ],
+      [
+        "Assessment evidence",
+        "Work reviewed, reasoning and areas requiring attention."
+      ],
+      [
+        "Working arrangement",
+        "Working language, shared hours and availability to confirm."
+      ]
+    ],
+    "quick_label": "AI-native Teams · Getting started",
+    "quick_title": "One week to choose. Three to start delivering.",
+    "quick_intro": "Choose and approve your team in one week. The next two weeks prepare its integration into your project. From three weeks in total, the team is ready to work and produce its first pull requests.",
+    "quick_steps": [
+      [
+        "01",
+        "Choose and approve your team",
+        "From your brief, we define the roles and propose engineers. You meet them and approve the team composition and working arrangement."
+      ],
+      [
+        "02",
+        "We prepare onboarding with you",
+        "Repository access, development environment, tools and product context: we prepare the work and initial priorities with your team."
+      ],
+      [
+        "03",
+        "Your team produces its first pull requests",
+        "Engineers work in your codebase and submit their first changes for review, following your priorities and practices."
+      ]
+    ],
+    "quick_note": "Three weeks in total from a complete brief: one week for selection and approval, followed by two weeks of preparation. Timeline confirmed based on engineer availability, interview slots and access preparation.",
+    "close_title": "Let’s talk about the team you need.",
+    "close_body": "Share your product, stack and priorities. We help you define the roles and the working arrangement.",
+    "manifesto_page_title": "Our manifesto — NODINA",
+    "manifesto_eyebrow": "The NODINA manifesto",
+    "manifesto_h1": "AI changes the tools. <span>Talent makes the difference.</span>",
+    "manifesto_lead": "We believe in teams that understand what they develop, know how to work with AI and take responsibility for the result.",
+    "manifesto_open_title": "Experience should lead to better decisions.",
+    "manifesto_open": [
+      "Fifteen years of projects, hiring and team leadership have shaped the perspective of Jean-David Collard, NODINA’s founder: a team’s quality shows in its decisions, its work and its ability to move forward together.",
+      "NODINA puts that experience at your service. We bring together senior engineers in Europe and Latin America for European and US clients, with a shared standard: work that is useful, understandable and built to last."
+    ],
+    "manifesto_principles": [
+      [
+        "Ability shows in the work.",
+        "A background starts the conversation. Code, technical choices and delivered projects take it further. NODINA Select places this practice, and the ability to explain decisions, at the heart of selection."
+      ],
+      [
+        "AI accelerates the work. Engineers own the result.",
+        "Providing context, choosing tools, reviewing outputs and testing results are part of the job. An agent’s autonomy needs explicit boundaries and appropriate oversight."
+      ],
+      [
+        "A strong team helps everyone progress.",
+        "Individual ability matters as much as collaboration. We look for engineers who share context, welcome review and pass on their knowledge."
+      ],
+      [
+        "The work fits into your organization.",
+        "Your repositories, tools and priorities: the team works in your environment. Responsibilities, working arrangements and price are defined in the proposal. No equity or recruitment fees."
+      ],
+      [
+        "High standards are passed on.",
+        "Scientific research helps question AI results and limitations. Teaching software engineering and AI in a university MIAGE master’s program allows Jean-David Collard to help develop future talent and recognize its potential."
+      ]
+    ],
+    "manifesto_signoff": "Jean-David Collard · Founder of NODINA",
+    "manifesto_bridge": "Looking for us to deliver a complete AI system? AI Systems & Transformation complements our team offering, from scoping to deployment.",
+    "manifesto_bridge_cta": "Explore AI Systems & Transformation",
+    "team_quotes": {
+      "selection": [
+        "You have a product to ship. We select engineers who can make decisions, execute and ",
+        "take it through to production."
+      ],
+      "manifesto": [
+        "AI changes how we develop software. Our responsibility remains the same: deliver work that is ",
+        "useful, reliable and understandable."
+      ]
+    },
+    "profile_status": {
+      "assigned": "On assignment",
+      "available": "Available"
+    },
+    "profile_filters": [
+      [
+        "all",
+        "All"
+      ],
+      [
+        "assigned",
+        "On assignment"
+      ],
+      [
+        "available",
+        "Available"
+      ]
+    ],
+    "profile_results": "demo profiles shown",
+    "profile_overview": "9 demo profiles · 7 on assignment · 2 available",
+    "profile_years": "years of experience",
+    "quick_periods": [
+      "Week 1",
+      "Weeks 2 and 3",
+      "At the end of 3 weeks"
+    ]
+  },
+  "sectors_references_title": "Your context first. Relevant references next.",
+  "sectors_references_body": "We share relevant references on the first call, under a non-disclosure agreement.",
+  "hero_timeline_label": "From team selection to the first pull requests",
+  "hero_timeline": [
+    [
+      "Selection & approval",
+      "1",
+      "week",
+      "To choose and approve your team."
+    ],
+    [
+      "Preparation & onboarding",
+      "+ 2",
+      "weeks",
+      "To prepare access, tools and priorities."
+    ],
+    [
+      "First pull requests",
+      "3",
+      "weeks in total",
+      "Your team starts delivering code for your product."
+    ]
+  ]
+}

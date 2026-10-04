@@ -1,0 +1,8 @@
+---
+import { content, contactPath, type Locale } from '../lib/site';
+import Action from './Action.astro';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const s = content[locale].select;
+---
+<section class="final-cta wrap" aria-labelledby="select-contact"><h2 id="select-contact">{s.close_title}</h2><div><p>{s.close_body}</p><div class="actions"><Action href={contactPath(locale)} label={s.primary} button/></div></div></section>

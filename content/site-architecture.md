@@ -80,7 +80,7 @@ L’identité visuelle accompagne chaque parcours existant : Teams blanc, System
 |---|---|---|---|
 | NODINA Select | `/fr/selection-des-talents/` | `/en/vetting/` | Preuves de compétences, évaluateurs, méthode, exemple commenté, outils |
 | Profils | `/fr/profils/` | `/en/engineers/` | Fiches destinées à des profils réels anonymisés ; actuellement gabarits explicitement signalés, données attendues de JD |
-| Manifeste | `/fr/manifeste/` | `/en/manifesto/` | Convictions d’ingénierie et parcours de sélection/validation en moins d’une semaine |
+| Manifeste | `/fr/manifeste/` | `/en/manifesto/` | Convictions d’ingénierie ; une semaine de sélection/validation, puis deux semaines de préparation, premières PR dès trois semaines au total selon les conditions convenues |
 
 Navigation active du prototype : Offres, La sélection, Les profils, Manifeste, Contact et langues. L’approche, le fondateur et la FAQ restent accessibles dans le pied de page ; le fondateur est également lié depuis le manifeste, la sélection et le menu mobile. Liens de langue conservent la page équivalente. Tous les CTA des nouvelles pages rejoignent le contact Teams ; le manifeste conserve un lien explicite vers Systems.
 

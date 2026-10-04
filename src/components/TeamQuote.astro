@@ -1,0 +1,7 @@
+---
+import { content, type Locale } from '../lib/site';
+interface Props { locale: Locale; kind: 'selection' | 'manifesto' }
+const { locale, kind } = Astro.props;
+const [lead, emphasis] = content[locale].select.team_quotes[kind];
+---
+<figure class="team-quote wrap" id={'team-quote-' + kind}><blockquote><p>{locale === 'fr' ? '« ' : '“'}{lead}<em>{emphasis}</em>{locale === 'fr' ? ' »' : '”'}</p></blockquote><figcaption>NODINA team</figcaption></figure>

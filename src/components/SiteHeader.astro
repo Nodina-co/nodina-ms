@@ -1,0 +1,26 @@
+---
+import { content, route, contactPath, type Locale, type PageId } from '../lib/site';
+import Languages from './Languages.astro';
+interface Props { locale: Locale; page: PageId }
+const { locale: l, page } = Astro.props;
+const c = content[l];
+const s = c.select;
+const links = [
+  { id: 'home', href: route(l) + '#offers', label: c.nav[0] },
+  { id: 'vetting', href: route(l, 'vetting'), label: s.selection_nav },
+  { id: 'profiles', href: route(l, 'profiles'), label: s.profiles_nav },
+  { id: 'manifesto', href: route(l, 'manifesto'), label: s.manifesto_nav },
+];
+---
+<div class="preview-strip"><div class="wrap"><span>{c.preview}</span></div></div>
+<header class="site-header wrap">
+  <a class="brand" href={route(l)} aria-label={c.home}><img src="/assets/logo-black.svg" width="146" height="32" alt="NODINA"/></a>
+  <nav class="desktop-nav" aria-label={l === 'fr' ? 'Navigation principale' : 'Main navigation'}>
+    {links.map(item => <a href={item.href} aria-current={page === item.id && page !== 'home' ? 'page' : undefined}>{item.label}</a>)}
+    <a class="header-contact" href={contactPath(l)}>Contact</a><Languages locale={l} page={page}/>
+  </nav>
+  <details class="mobile-menu"><summary>Menu</summary><nav aria-label={l === 'fr' ? 'Navigation mobile' : 'Mobile navigation'}>
+    {links.map(item => <a href={item.href} aria-current={page === item.id && page !== 'home' ? 'page' : undefined}>{item.label}</a>)}
+    <a href={route(l) + '#experience'}>{c.nav[2]}</a><a href={contactPath(l)}>Contact</a><Languages locale={l} page={page}/>
+  </nav></details>
+</header>

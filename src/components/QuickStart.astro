@@ -1,0 +1,14 @@
+---
+import { content, contactPath, type Locale } from '../lib/site';
+import Action from './Action.astro';
+import ServiceLabel from './ServiceLabel.astro';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const s = content[locale].select;
+---
+<section class="quick-start" id="start" aria-labelledby="start-title"><div class="wrap">
+  <p class="label"><ServiceLabel kind="teams" text={s.quick_label}/></p>
+  <div class="quick-grid"><div><h2 id="start-title">{s.quick_title}</h2><p class="quick-intro">{s.quick_intro}</p><div class="actions"><Action href={contactPath(locale)} label={s.primary} button/></div></div>
+  <ol class="quick-steps">{s.quick_steps.map(([n, title, body], i) => <li><span class="number" aria-hidden="true">{n}</span><div><p class="quick-period">{s.quick_periods[i]}</p><h3>{title}</h3><p>{body}</p></div></li>)}</ol></div>
+  <p class="quick-note">{s.quick_note}</p>
+</div></section>
