@@ -355,3 +355,56 @@ JD demande quatre corrections : nom complet et contexte dès la première mentio
 Application FR/EN : le bloc évaluateurs introduit Jean-David Collard, fondateur de NODINA et docteur en informatique, avant de présenter son réseau ; synchronisé avec la page de sélection. Titre de biographie « Plus de 15 ans à bâtir des produits et des équipes. ». Recherche scientifique précisée dans l’introduction et l’encart d’expérience. Nouveau paragraphe enseignement après la recherche, avant les éléments secondaires nucléaire/distinction. Enseignement consigné comme déclaration opérateur C241, sans inventer d’université, de statut, de durée ni de partenariat.
 
 Seul le contenu change : code visuel A et priorité Teams conservés. Sauvegarde locale `history/20261003-before-founder-clarity/`. Vérification des quatre pages concernées sur 320, 375, 768 et 1440 pixels, sans débordement horizontal. Aucun déploiement effectué.
+
+
+## 2026-10-03 : NODINA Select, profils et manifeste
+
+JD autorise la mise en œuvre des recommandations de l’analyse comparative de FutureProofing : promesse client plus directe, renommage public AITalentEval en **NODINA Select**, évaluateurs présentés par leur rôle et leurs contributions, cinq étapes de sélection, exemple d’évaluation commenté et logos d’outils. La maquette conserve la priorité commerciale AI-native Teams et la direction visuelle A. Le tableau détaillé des six dimensions, qui répétait le parcours et la démonstration, est remplacé par une lecture plus concise. Aucun taux « 1 % », volume de candidatures, disponibilité ou résultat client non documenté n’est ajouté.
+
+JD demande également des pages **Profils** et **Manifeste**, inspirées dans leur fonction commerciale par les pages FutureProofing, avec des textes originaux propres à NODINA. Création locale en FR/EN ; liens depuis la navigation, le pied de page, l’accueil et la sélection. Le manifeste développe l’expérience du fondateur, l’exigence technique, la responsabilité humaine dans l’usage de l’IA, le collectif, l’intégration chez le client et la transmission.
+
+À la question sur la portée de « moins d’une semaine », JD choisit explicitement **Sélection et validation de l’équipe**. Cette étape est séparée du démarrage possible dès trois semaines. Le brief complet, la disponibilité des profils et les créneaux d’entretien convenus encadrent l’énoncé. Promesse commerciale opérateur (C243), sans preuve de délai historiquement mesuré. Le délai figure dans le hero, la FAQ et le parcours commun aux pages Teams.
+
+JD choisit **Profils réels, détails à fournir**. Les premières fiches sont donc des gabarits de présentation clairement signalés, avec rôles et missions types ; elles ne représentent pas des personnes anonymisées existantes. Rôle, expérience, région, technologies, contribution et réalisation publiable ont été demandés. Aucune ancienne entreprise, durée, photo, résultat ni disponibilité individuelle n’est inventé. Les fiches réelles restent à compléter à réception des données.
+
+Le statut réel de la méthode et de l’outil reste celui de C235 : à concevoir. La présentation cible au présent demeure explicitement une maquette. Aucun déploiement ni envoi de formulaire. Sauvegarde du prototype : `history/20261003-before-nodina-select/`.
+
+
+## 2026-10-03 : citations signées NODINA team
+
+JD souhaite des citations de marque utilisées avec parcimonie, signées « Nodina team ». Deux textes originaux sont ajoutés, chacun une fois par langue : sur la sélection, avant le parcours commercial, et sur le manifeste, après les convictions. Signature « NODINA team », grande typographie, quelques mots en italique cobalt, fond blanc et espace. Ce sont des prises de parole éditoriales de NODINA, sans présentation comme témoignage client ou citation historique. La signature collective clôt les convictions du manifeste ; Jean-David Collard reste identifié comme fondateur dans l’introduction. Aucun ajout sur l’accueil, les profils ou le contact.
+
+FR sélection : « Votre énergie mérite d’aller à votre produit. Notre rôle : réunir l’équipe qui le fera avancer avec vous. »
+FR manifeste : « L’IA change notre façon de développer. Notre responsabilité reste la même : livrer un travail utile, fiable et compréhensible. »
+
+Versions anglaises synchronisées. Douze rendus contrôlés sur les quatre pages concernées (320, 375 et 1440 pixels), sans débordement. Sauvegarde locale `history/20261003-before-team-quotes/` ; captures et contrôle `qa-team-quotes.json`.
+## 2026-10-04 : neuf profils de démonstration et nouvelle citation
+
+JD fournit une capture de six profils FutureProofing et demande neuf fiches originales, sans anciens employeurs, avec d’autres noms et visuels, sept « placés » et deux disponibles. La maquette utilise **En mission / Disponible** (EN : On assignment / Available), neuf identités fictives et neuf portraits sketch originaux générés via imagegen. Les rôles, pays, anciennetés, réalisations et statuts sont des exemples inventés, explicitement signalés sur chaque fiche et au-dessus du catalogue. Ils ne constituent pas des profils NODINA réels anonymisés ni un stock d’ingénieurs disponible. Cette démonstration remplace les trois gabarits sans identité ; les données réelles restent à fournir et valider.
+
+Catalogue de neuf fiches filtrable ; accueil et sélection limités à trois aperçus. Aucun employeur, visage, nom, client, chiffre de performance ou accomplissement individuel concurrent n’est transplanté. FR/EN synchronisés. Sources des portraits et prompts conservés dans `assets/profiles/generation.json` du prototype local ; originaux conservés dans le dossier imagegen.
+
+La citation de sélection rejetée par JD est remplacée par : « Vous avez un produit à livrer. Nous sélectionnons des ingénieurs qui savent décider, exécuter et aller jusqu’à la production. » Signature NODINA team ; la citation du manifeste est inchangée. Aucun déploiement autorisé ou réalisé par cette révision.
+## 2026-10-04 : profils sans noms ni pays, industries de l’accueil
+
+JD demande de supprimer les noms et pays d’origine des profils et d’ajouter leur industrie parmi les secteurs de la homepage. Les neuf fiches de démonstration et leurs aperçus FR/EN affichent désormais le portrait, l’ancienneté, le rôle et une industrie : Stratégie & conseil, Healthcare, LegalTech, Supply chain & logistique, ou Finance/conformité/audit. Les champs nom/pays sont retirés du contenu généré ; les portraits utilisent des chemins neutres. Sept « En mission » et deux « Disponible » sont conservés. L’attribution des industries reste illustrative, comme les autres données des fiches, jusqu’à validation des profils réels.
+
+## 2026-10-04 : ancienneté discrète et retrait des badges répétés
+
+JD demande une ancienneté plus discrète, inspirée de la référence fournie, et le retrait de « Profil de démonstration » sur chaque carte. FR/EN : ancienneté courte, petite et grise à côté du portrait ; statut à droite dans la même rangée. La note commune au-dessus du catalogue et des aperçus conserve le caractère illustratif des profils. Les noms et pays restent absents, les industries et la répartition sept en mission / deux disponibles restent inchangées.
+
+## 2026-10-04 : retrait de la note commune des profils
+
+À la demande suivante de JD, le paragraphe « Profils de démonstration : portraits, parcours, industries et disponibilités fictifs… » est retiré du catalogue et des aperçus FR/EN. Les données restent des exemples ; les autres libellés existants ne sont pas modifiés.
+
+## 2026-10-04 : délai de démarrage dans le titre et références confidentielles
+
+JD souhaite faire apparaître les trois semaines dans le titre de l’accueil. La maquette FR/EN adopte « Votre équipe IA senior sur mesure. Prête à démarrer dès 3 semaines. » Le périmètre et les disponibilités restent précisés à proximité ; la sélection et la validation en moins d’une semaine restent une étape distincte. La section des secteurs ajoute « Votre contexte d’abord. Les références ensuite. » avec un partage des références pertinentes dès le premier échange sous accord de confidentialité, selon la demande éditoriale de JD. Aucun nom ni logo de partenaire n’est ajouté.
+
+JD apprécie également le bandeau concurrent « 3 places / 48 h / 3 semaines ». Une question reste ouverte sur le nombre réel de places NODINA ce trimestre et la portée des 48 heures (cadrage, profils ou réponse). Ces deux valeurs ne sont pas reprises comme des faits NODINA en attendant la réponse. Contrôle FR/EN à 1440, 768 et 320 pixels, plus revue visuelle FR à 375 pixels : aucun débordement horizontal. Aucun déploiement.
+
+## 2026-10-04 : une semaine + deux semaines = premières PR à trois semaines
+
+JD remplace les 48 heures par **une semaine pour choisir et valider l’équipe**, puis précise **deux semaines supplémentaires** pour qu’elle soit prête à travailler et à produire des PR, soit **trois semaines au total** (C244). Le délai précédent « moins d’une semaine » est remplacé dans la maquette FR/EN. Le bandeau de l’accueil expose les trois repères : 1 semaine de choix et validation, +2 semaines de préparation et intégration, 3 semaines au total pour les premières PR. Le parcours commun aux pages accueil, sélection, profils et manifeste décrit les mêmes étapes ; la FAQ et le comparatif sont alignés. Le titre conserve le démarrage dès trois semaines et le calendrier reste confirmé selon disponibilité, brief et préparation des accès.
+
+Les trois places trimestrielles n’ont pas été confirmées : aucun chiffre de places n’est ajouté. La mention existante de collaborations limitées par trimestre est conservée. Aucun déploiement.

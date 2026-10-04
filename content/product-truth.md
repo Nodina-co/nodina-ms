@@ -144,3 +144,14 @@ C238 : collaborations des évaluateurs avec JD sur ses projets entrepreneuriaux 
 **C241 :** Jean-David Collard déclare enseigner l’ingénierie logicielle et l’IA en master MIAGE à l’université. Il souhaite présenter cet engagement comme une contribution à la formation des futurs talents et un contexte propice à l’identification de leur potentiel. Aucun établissement, statut d’enseignant, ancienneté d’enseignement, partenariat universitaire ou résultat de recrutement n’est déduit. La recherche est explicitement scientifique et distincte du recrutement.
 
 À sa première mention dans la sélection, employer « Jean-David Collard, fondateur de NODINA et docteur en informatique ». La biographie plus bas approfondit le parcours ; sa lecture préalable ne doit pas être nécessaire pour comprendre l’origine du réseau d’évaluateurs.
+
+
+## Clarifications opérateur — sélection, 2026-10-03
+
+- **NODINA Select** est le nom éditorial retenu dans la présentation cible pour la méthode et l’outil auparavant appelés AITalentEval. Le statut réel « à concevoir » (C235) demeure.
+- **Une semaine** couvre la sélection et la validation de l’équipe, puis **deux semaines supplémentaires** préparent son intégration. Au terme de **trois semaines au total**, elle est prête à travailler et à produire ses premières pull requests (PR). Cette clarification explicite du 2026-10-04 (C244) remplace « moins d’une semaine » (C243). Le parcours part d’un brief complet, avec profils disponibles, entretiens convenus et accès préparés ; le calendrier est confirmé ensemble. Il s’agit d’un engagement déclaré, pas d’une performance historiquement mesurée.
+- Les fiches doivent présenter des **profils réels anonymisés**. JD doit fournir les données ; seules des maquettes de fiches signalées sont actuellement présentes. Aucun stock d’ingénieurs ni disponibilité inféré.
+- Aucun taux de sélection à 1 % n’est documenté ou affiché.
+## Clarification de la maquette — 2026-10-04
+
+Les neuf fiches de profils ajoutées à la demande de JD sont **fictives et explicitement présentées comme démonstration** : identités, portraits, anciennetés, pays, compétences, réalisations et statuts. Sept sont étiquetées « En mission », deux « Disponible » pour illustrer le catalogue et ses filtres. Aucun de ces chiffres ou détails n’est une preuve de capacité, de recrutement ou de disponibilité NODINA. Les profils réels anonymisés restent à documenter. La capture concurrente sert de référence de présentation et de catégories de compétences uniquement.

@@ -43,3 +43,21 @@ C238 est précisé par JD : il a travaillé avec les évaluateurs au cours des q
 ### Présentation autonome du fondateur — annotation ultérieure du 2026-10-03
 
 Le bloc introduit maintenant le réseau de **Jean-David Collard, fondateur de NODINA et docteur en informatique**, puis les lead developers senior et CTO concernés. Le lecteur n’a pas à connaître Jean-David ou à lire la biographie de l’accueil pour comprendre cette référence. Texte synchronisé FR/EN entre accueil et sélection.
+
+
+## Refonte autorisée — 2026-10-03
+
+Nom public retenu pour la maquette : **NODINA Select** (anciennement AITalentEval). Le nom désigne la méthode et l’outil de sélection ; l’eyebrow reste « AI-native Teams · Notre sélection ». Cette décision éditoriale ne valide ni disponibilité juridique du nom ni maturité opérationnelle.
+
+H1 : « Des ingénieurs sélectionnés pour faire avancer votre produit. » Introduction : sélection en Europe et Amérique latine pour clients européens et américains, avec revue du code, de la pratique IA et de la collaboration par CTO et lead developers. CTA de contact Teams dès le premier écran.
+
+Ordre réalisé : promesse et trois dimensions observables ; quinze ans de terrain du fondateur ; évaluateurs ; cinq étapes de sélection et motifs d’inadéquation ; évaluation commentée illustrative à trois panneaux interactifs ; logos des outils ; accès aux profils ; parcours commercial ; contact. L’exemple montre des observations, limites et conditions de réussite, sans score ni faux candidat. Les logos viennent des SVG LobeHub (MIT) et Devicon (MIT), avec sources et licences dans `assets/tools/`. Ils signalent des outils mobilisables selon l’équipe, pas des partenaires ou des certifications.
+
+Selon la clarification de JD du 2026-10-04, le parcours commercial couvre la sélection **et la validation en une semaine**, puis **deux semaines supplémentaires de préparation et d’intégration**. Au terme de **trois semaines au total**, l’équipe est prête à travailler et à produire ses premières PR. Le calendrier part d’un brief complet, avec profils disponibles, entretiens convenus et préparation des accès. Cette formulation remplace « moins d’une semaine » ; aucun délai de 48 heures n’est promis. Aucun « top 1 % » ou taux mesuré tant que ses données ne sont pas fournies.
+
+Profils réels anonymisés demandés par JD, données à recevoir. Les fiches locales restent des gabarits explicites. Routes : `/fr/profils/`, `/en/engineers/`. Manifeste : `/fr/manifeste/`, `/en/manifesto/`. La page de sélection est synchronisée avec l’accueil et ces nouvelles pages en FR/EN.
+## Profils de démonstration — 2026-10-04
+
+La demande ultérieure de JD remplace les trois gabarits par neuf exemples de profils originaux : sept « En mission », deux « Disponible », avec noms fictifs et portraits sketch générés. Ce sont des données de démonstration, pas neuf candidats réels anonymisés. Mention explicite sur chaque fiche et au-dessus du catalogue ; aucune disponibilité réelle déduite de la capture concurrente. Les futures fiches réelles nécessitent toujours des parcours et réalisations validés.
+
+FR/EN : filtres par statut sur `/fr/profils/` et `/en/engineers/`, trois aperçus sur l’accueil et la sélection, liens vers les fiches et contact Teams. Pas de références « ex-… » ni de photos concurrentes. Citation de sélection : « Vous avez un produit à livrer. Nous sélectionnons des ingénieurs qui savent décider, exécuter et aller jusqu’à la production. »
