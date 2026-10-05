@@ -1,39 +1,8 @@
 # Prometheus File
 
-# Prometheus File
-
 One markdown file that turns a repository into a search-optimized
 marketing site with a content machine behind it, or adds the content
 machine to a site you already love.
-
-## Site NODINA : version locale intégrée
-
-Les dix pages FR/EN de la maquette sont maintenant construites avec Astro. Utiliser Node 24 (`.nvmrc`) et Python 3 pour les contrôles :
-
-```sh
-npm ci
-npm run dev
-# ou construire puis servir la version statique :
-npm run build
-npm run preview
-# vérifier build, traitement du formulaire et liens :
-npm run check
-```
-
-La prévisualisation statique écoute sur `http://127.0.0.1:4179/fr/`. Les contenus sont dans `content/site/`, les composants dans `src/components/` et le gabarit commun dans `src/layouts/`. `dist/` est généré et ne doit pas être édité.
-
-Le site est disponible en [préproduction privée](https://nodina-preproduction.jd-fd3.workers.dev/fr/) depuis le 5 octobre 2026, avec `noindex` et Cloudflare Access réservé à `jd@nodina.com` (session de six heures). Le contact public est `build@nodina.com` ; les notifications internes arrivent directement dans la boîte `jd@nodina.com`. `insights@nodina.com` reste l’adresse des publications. JD a déployé le service Google et le `.env` local active le formulaire ; enregistrement Sheets, confirmations avec/sans JavaScript et réception Gmail sont vérifiés depuis la recette locale du 4 octobre. Sans endpoint configuré, l’envoi est désactivé. Voir [le raccordement du formulaire](tools/forms/README.md) et [le rapport d’intégration](research/prototype-integration.md). Trois lignes TEST sont conservées dans le classeur ; aucun nouvel envoi réel depuis la préproduction.
-
-Les profils de démonstration, le statut réel de NODINA Select et les éléments légaux doivent être résolus avant publication. Les documents internes ne sont jamais copiés dans le build.
-
-Le [parcours Cloudflare privé](tools/cloudflare/README.md) fournit la configuration isolée et les commandes `npm run preproduction:check` et `npm run preproduction:dry-run`. Le fichier d'envoi conserve les URL désactivées : après chaque déploiement, relire Access puis réactiver uniquement l'adresse protégée dans Cloudflare. Voir le [rapport de mise en ligne et de vérification](reports/cloudflare-preproduction-20261005.md).
-
-## Référence active pour NODINA
-
-Le projet utilise [PROMETHEUS mis à jour le 1er octobre 2026](prometheus_update_2026-10-01/PROMETHEUS.md), conformément à la décision de JD. Les fichiers `PROMETHEUS.md` et `MARKETING_FOUNDATION.md` à la racine sont conservés comme versions historiques. Le guide générique ci-dessous est également conservé ; pour poursuivre ce projet, utiliser la référence active et les décisions dans `content/decisions.md`.
-
-One markdown file that turns a blank repository into a fully built,
-search-optimized marketing site with a content machine behind it.
 
 You drop `PROMETHEUS.md` into a repo, open Claude Code, and say "begin
 Phase 0." The agent becomes your marketing team: it interviews you,

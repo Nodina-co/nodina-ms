@@ -1,0 +1,345 @@
+### À privilégier
+
+Le vocabulaire de NODINA doit refléter trois idées : **exécution, ingénierie et transformation structurelle rendue possible par l’IA**.
+
+#### Positionnement général
+
+- AI-native ;
+- AI-native engineering ;
+- AI-native execution ;
+- AI-native systems ;
+- AI-native teams ;
+- partenaire technologique ;
+- partenaire d’exécution ;
+- engineering partner ;
+- long-term partner ;
+- équipe ;
+- ingénierie ;
+- engineering ;
+- exécution ;
+- delivery ;
+- ownership ;
+- architecture ;
+- produit ;
+- production.
+
+Conserver comme noms d’offres :
+
+- **AI-native Teams**
+- **AI Systems & Transformation**
+
+Pour désigner NODINA dans son ensemble, privilégier :
+
+- **AI-native technology partner**
+- **AI-native execution partner**
+- **partenaire technologique AI-native**
+- **partenaire d’exécution AI-native**
+
+### Pour parler des équipes
+
+- senior engineers ;
+- product engineers ;
+- AI engineers ;
+- autonomous teams ;
+- product teams ;
+- équipes autonomes ;
+- équipe d’excellence ;
+- engineering excellence ;
+- technical judgment ;
+- ownership ;
+- team intelligence ;
+- collaboration ;
+- standards élevés ;
+- sélection exigeante ;
+- software craftsmanship ;
+- human + agent teams ;
+- hybrid human-agent teams.
+
+Préférer des formulations qui décrivent les capacités :
+
+> « ingénieurs capables d’orchestrer plusieurs agents et de vérifier leur travail »
+
+plutôt que des étiquettes vagues comme :
+
+> « talents exceptionnels ».
+
+### Pour parler du nouveau paradigme de développement
+
+- AI coding harness ;
+- coding agents ;
+- agent orchestration ;
+- AI harness ;
+- model orchestration ;
+- model routing ;
+- context engineering ;
+- human–AI systems design ;
+- agentic workflows ;
+- multi-agent systems ;
+- human-agent collaboration ;
+- parallel execution ;
+- agent supervision ;
+- verification ;
+- evaluation.
+
+### Pour parler de systèmes IA
+
+- systèmes IA métier ;
+- AI-native systems ;
+- custom AI systems ;
+- production AI systems ;
+- agents ;
+- workflows agentiques ;
+- RAG ;
+- retrieval ;
+- Company Brain ;
+- organizational memory ;
+- AI memory harness ;
+- persistent memory ;
+- tools ;
+- APIs ;
+- orchestration ;
+- guardrails ;
+- human-in-the-loop ;
+- structured outputs.
+
+### Pour parler de qualité
+
+- software craftsmanship ;
+- quality engineering ;
+- evals ;
+- agent evals ;
+- automated testing ;
+- automated E2E testing ;
+- regression testing ;
+- observability ;
+- tracing ;
+- monitoring ;
+- logging ;
+- verification ;
+- reliability ;
+- maintainability ;
+- production readiness ;
+- versioning ;
+- guardrails ;
+- human validation.
+
+Le vocabulaire de qualité est particulièrement important : NODINA doit montrer que l’accélération offerte par les agents est indissociable d’une augmentation des capacités de vérification et de contrôle.
+
+### Pour parler de transformation
+
+Privilégier :
+
+- redesign des workflows ;
+- transformation des workflows ;
+- process redesign ;
+- AI-native operating model ;
+- automation ;
+- augmentation ;
+- orchestration ;
+- intégration ;
+- production ;
+- impact métier ;
+- execution layer ;
+- capacity layer ;
+- human–AI operating model.
+
+La question centrale doit être moins :
+
+> « Où pouvons-nous ajouter de l’IA ? »
+
+et davantage :
+
+> « Comment ce workflow serait-il conçu aujourd’hui si l’IA était disponible comme capacité d’exécution fondamentale ? »
+
+---
+
+## Termes à bannir ou utiliser avec une extrême parcimonie
+
+Éviter les expressions marketing génériques qui pourraient apparaître sur n’importe quel site d’agence IA :
+
+- révolutionnaire ;
+- game-changing ;
+- disruptive ;
+- seamless ;
+- cutting-edge ;
+- next-generation ;
+- state-of-the-art, sauf dans un contexte technique précis ;
+- supercharge ;
+- booster ;
+- unlock ;
+- « libérer tout le potentiel de l’IA » ;
+- « révolutionner votre entreprise » ;
+- « transformer radicalement votre business » ;
+- « l’IA au service de votre succès » ;
+- « solution innovante » sans préciser pourquoi ;
+- « expertise de pointe » sans preuve ;
+- « technologie de pointe » ;
+- « futur du travail » utilisé comme slogan générique ;
+- « IA magique » ou toute formulation anthropomorphique excessive.
+
+Éviter également les superlatifs non étayés :
+
+- world-class ;
+- best-in-class ;
+- elite ;
+- top 1% ;
+- 10x engineer ;
+- exceptional talent ;
+
+lorsqu’ils sont utilisés comme simples affirmations marketing.
+
+La qualité doit être démontrée par le processus de sélection, les pratiques d’ingénierie et les standards d’exécution.
+
+---
+
+## À éviter pour désigner NODINA
+
+NODINA ne doit pas être présentée comme :
+
+- une marketplace de talents ;
+- un cabinet de recrutement ;
+- une agence de freelances ;
+- une société de staffing ;
+- une ESN généraliste ;
+- un fournisseur de ressources ;
+- une agence IA ;
+- un cabinet de conseil pur ;
+- un intégrateur généraliste ;
+- un vendeur de « jours/homme » ;
+- une société reposant principalement sur le temps ou l’expertise personnelle de son fondateur.
+
+Même lorsqu’un engagement ressemble opérationnellement à du staff augmentation, NODINA doit parler d’**équipe, capacité d’exécution, ownership et partenariat**, pas de mise à disposition de ressources.
+
+---
+
+## Termes à manier avec précision
+
+### AI-native
+
+Le terme doit rester central, mais ne jamais signifier simplement « utilise l’IA ».
+
+Pour NODINA :
+
+> **AI-native signifie que l’IA fait partie de l’architecture fondamentale du produit, du workflow ou de l’équipe.**
+
+Un ingénieur utilisant Copilot n’est pas automatiquement AI-native.
+
+Un SaaS avec un chatbot n’est pas automatiquement AI-native.
+
+Une entreprise qui déploie ChatGPT Enterprise n’est pas automatiquement AI-native.
+
+### Agent
+
+Ne pas appeler « agent » toute interaction avec un LLM.
+
+Le terme doit être réservé à des systèmes capables d’effectuer une partie significative d’une boucle d’exécution : décider, utiliser des outils, observer un résultat et poursuivre ou adapter leur action.
+
+### Autonomous
+
+Utiliser avec prudence.
+
+La majorité des systèmes réellement exploitables en entreprise nécessitent des contraintes, des permissions, des mécanismes de validation ou des escalades humaines.
+
+Préférer lorsque nécessaire :
+
+- bounded autonomy ;
+- supervised autonomy ;
+- human-in-the-loop.
+
+### Transformation
+
+Éviter le mot lorsqu’il reste abstrait.
+
+Préférer expliquer ce qui est réellement transformé :
+
+- workflow ;
+- architecture ;
+- processus ;
+- organisation ;
+- capacité d’exécution ;
+- logiciel ;
+- circulation de l’information.
+
+### Enterprise-grade
+
+Utiliser uniquement lorsque les critères correspondants sont explicitables : sécurité, observabilité, tests, disponibilité, gouvernance, maintenabilité, contrôle des accès, etc.
+
+### Production-ready
+
+Réserver ce terme aux systèmes disposant réellement des mécanismes nécessaires :
+
+- tests ;
+- E2E ;
+- evals ;
+- observabilité ;
+- monitoring ;
+- sécurité ;
+- gestion des erreurs ;
+- versioning ;
+- mécanismes de rollback ou fallback adaptés.
+
+### Secure by design
+
+Utiliser uniquement lorsque la sécurité est effectivement intégrée dans l’architecture et peut être décrite par des pratiques concrètes.
+
+---
+
+## Distinctions terminologiques importantes
+
+NODINA devrait maintenir explicitement les distinctions suivantes :
+
+**AI-assisted ≠ AI-native**
+
+**AI feature ≠ AI-native product**
+
+**LLM integration ≠ AI system**
+
+**agent ≠ simple LLM call**
+
+**prototype ≠ production system**
+
+**speed ≠ quality**
+
+**automation ≠ autonomy**
+
+**individual excellence ≠ high-performing team**
+
+**AI coding ≠ AI-native engineering**
+
+Ces distinctions peuvent devenir une partie importante de la pédagogie et de la différenciation de la marque.
+
+---
+
+## Principe éditorial central
+
+NODINA doit privilégier :
+
+> **les mécanismes plutôt que les adjectifs.**
+
+Plutôt que :
+
+> « Nos ingénieurs sont exceptionnels. »
+
+préférer :
+
+> « Notre sélection évalue software engineering, architecture, AI fluency, product thinking, quality engineering, ownership et capacité à collaborer dans une équipe de très haut niveau. »
+
+Plutôt que :
+
+> « Nous construisons des systèmes IA ultra-fiables. »
+
+préférer :
+
+> « Nous combinons evals, observabilité, tests E2E automatisés, guardrails et validation humaine lorsque le niveau de risque l’exige. »
+
+Plutôt que :
+
+> « Nous développons des solutions AI-native. »
+
+préférer :
+
+> « Nous concevons ensemble humains, agents, modèles, mémoire, outils, evals et observabilité comme les composants d’un même système d’exécution. »
+
+### Règle de fond
+
+**AI-native doit être une description précise d’un mode d’ingénierie et d’organisation, jamais un simple adjectif marketing.**

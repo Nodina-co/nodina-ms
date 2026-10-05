@@ -1,0 +1,8 @@
+---
+import type { Copy } from '../lib/site';
+interface Props { c: Copy }
+const { c } = Astro.props;
+---
+<div class="hero-timeline"><dl aria-label={c.hero_timeline_label}>
+  {c.hero_timeline.map(([label, value, unit, detail]) => <div><dt>{label}</dt><dd><span class="timeline-number">{value}</span>{' '}<span class="timeline-unit">{unit}</span></dd><dd class="timeline-detail">{detail}</dd></div>)}
+</dl><p class="timeline-note">{c.hero_timing_note}</p></div>

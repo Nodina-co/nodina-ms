@@ -1,0 +1,1056 @@
+{
+  "lang": "fr-FR",
+  "title": "NODINA — Votre équipe d’ingénieurs AI-native",
+  "description": "Des ingénieurs senior sélectionnés en Europe et en Amérique latine. Une semaine pour valider l’équipe, puis deux semaines de préparation avant les premières PR, selon disponibilité.",
+  "preview": "Maquette · Présentation cible",
+  "review": "Donner un retour",
+  "skip": "Aller au contenu",
+  "home": "NODINA, accueil",
+  "nav": [
+    "Offres",
+    "Approche",
+    "Le fondateur"
+  ],
+  "contact": "Discuter de votre projet",
+  "contact_short": "Parlons de votre projet",
+  "category": "AI-native Teams · Ingénieurs senior en Europe & Amérique latine",
+  "h1": "Votre équipe IA senior sur mesure.<br><span>Prête à démarrer dès 3 semaines.</span>",
+  "lead": "NODINA réunit des ingénieurs senior, sélectionnés en Europe et en Amérique latine, pour développer votre produit. Une équipe qui maîtrise les outils IA et travaille directement dans votre code et vos outils.",
+  "explore": "Trouver le bon accompagnement",
+  "glance": "NODINA en quelques mots.",
+  "canonical": "NODINA constitue votre équipe d’ingénieurs senior avec <strong>AI-native Teams</strong>, son offre principale. Nous sélectionnons les talents en Europe et en Amérique latine et organisons leur intégration à vos projets. En complément, <strong>AI Systems & Transformation</strong> vous permet de nous confier la réalisation d’un système IA, du cadrage au déploiement. Les deux offres peuvent se combiner selon votre besoin.",
+  "proofs": [
+    [
+      "La sélection",
+      "Des compétences vérifiées.",
+      "NODINA Select : le code, la pratique de l’IA et la collaboration examinés par des pairs expérimentés."
+    ],
+    [
+      "La réalisation",
+      "Un système utile, intégré à votre métier.",
+      "Du cadrage aux évaluations, nous construisons des systèmes IA connectés à vos données, vos outils et vos usages."
+    ],
+    [
+      "L’expérience",
+      "La technique et le collectif.",
+      "Plus de 15 ans d’expérience du fondateur en ingénierie, IA, recherche scientifique, recrutement et conduite de projets tech entre la France et les États-Unis."
+    ]
+  ],
+  "offers_label": "01 / Partir de votre besoin",
+  "offers_title": "Qu’est-ce qui vous manque pour avancer ?",
+  "offers": [
+    {
+      "id": "teams",
+      "name": "AI-native Teams",
+      "sub": "Pour renforcer votre capacité d’exécution.",
+      "body": "Des ingénieurs senior intégrés à votre équipe ou réunis autour d’un périmètre autonome. La composition répond à votre besoin technique et produit.",
+      "items": [
+        "Software et product engineering, full-stack",
+        "AI/ML, architecture et leadership technique",
+        "Pratiques AI-native : contexte, outils et supervision"
+      ],
+      "meta": "<strong>Cadre de travail.</strong> Priorités, interfaces avec vos équipes et responsabilités définies avec vous.",
+      "cta": "Parler de votre équipe"
+    },
+    {
+      "id": "systems",
+      "name": "AI Systems & Transformation",
+      "sub": "Pour intégrer l’IA à vos opérations.",
+      "body": "Concevoir, construire et intégrer un système IA autour d’un besoin métier. L’architecture, les évaluations et l’exploitation se définissent selon le périmètre convenu.",
+      "items": [
+        "Assistants, recherche documentaire et RAG",
+        "Traitement de documents et workflows agentiques",
+        "Intégration, tests, evals et observability"
+      ],
+      "meta": "<strong>Cadre de travail.</strong> Livrables, critères d’évaluation, données, accès et exploitation précisés ensemble.",
+      "cta": "Parler de votre système"
+    }
+  ],
+  "method_label": "04 / Une même exigence de réalisation",
+  "method_title": "Du cadrage à l’exploitation.",
+  "method_intro": "Le besoin métier donne la direction. Les contraintes réelles — données, intégrations, qualité, accès — guident les choix techniques.",
+  "steps": [
+    [
+      "Cadrer",
+      "Comprendre le travail à accomplir, les utilisateurs, les données disponibles et les contraintes.",
+      "Besoin · critères · périmètre"
+    ],
+    [
+      "Concevoir",
+      "Définir l’équipe, l’architecture et les interfaces avec votre organisation.",
+      "Équipe · architecture · responsabilités"
+    ],
+    [
+      "Construire & évaluer",
+      "Développer, tester et confronter le système à des cas d’usage représentatifs.",
+      "Logiciel · tests · evals"
+    ],
+    [
+      "Intégrer & exploiter",
+      "Connecter le système à son environnement et organiser son suivi selon la mission.",
+      "Intégration · suivi · transmission"
+    ]
+  ],
+  "method_note": "Les phases, livrables et responsabilités s’adaptent à la mission. Le devis précise le périmètre convenu.",
+  "native_label": "AI-native, dans la pratique",
+  "native_title": "Donner du contexte à l’IA. Garder la maîtrise du travail.",
+  "native_body": "Nous articulons outils IA, contexte du projet et coordination humains/agents. La revue, les tests, les évaluations et les responsabilités explicites font partie du travail d’ingénierie.",
+  "native_tags": [
+    "Context engineering",
+    "Revue & évaluation",
+    "Supervision humaine"
+  ],
+  "exp_label": "05 / Le fondateur",
+  "exp_title": "Plus de 15 ans à bâtir\ndes produits et des équipes.",
+  "person_title": "Jean-David Collard",
+  "person_sub": "Fondateur de NODINA\nIngénierie, IA & entrepreneuriat",
+  "exp_intro": "Jean-David Collard, fondateur de NODINA, réunit plus de 15 ans d’expérience en ingénierie logicielle et IA, recherche scientifique, recrutement de talents, management d’équipes d’ingénieurs et entrepreneuriat.",
+  "scope_title": "Un premier échange.\nUn chemin clair pour avancer.",
+  "scope_lead": "Partons de votre objectif et de vos contraintes. Le bon dispositif peut être une équipe, un système à réaliser ou les deux.",
+  "scope_items": [
+    [
+      "Comprendre votre situation",
+      "Produit, processus, équipe, données et calendrier : nous identifions ce qui bloque et ce qui doit changer."
+    ],
+    [
+      "Choisir le bon dispositif",
+      "Nous définissons ensemble les compétences, le périmètre de réalisation, les responsabilités et la combinaison d’offres pertinente."
+    ],
+    [
+      "Préparer le démarrage",
+      "Vous disposez d’une proposition, d’un calendrier et d’un premier périmètre de travail. L’équipe et les livrables sont adaptés à votre projet."
+    ]
+  ],
+  "scope_note": "AI-native Teams : une semaine de sélection et validation, puis deux semaines de préparation avant les premières PR, selon disponibilité. Pour un système IA, le calendrier est établi après cadrage du besoin, des données et des intégrations.",
+  "faq_label": "06 / Questions fréquentes",
+  "faq_title": "Avant de commencer.",
+  "faqs": [
+    [
+      "Dois-je choisir une offre avant de prendre contact ?",
+      "Non. Présentez-nous votre objectif, ce qui bloque et vos ressources actuelles. Le premier rendez-vous permet d’identifier si vous avez besoin d’une équipe, d’un système à construire ou d’une combinaison des deux."
+    ],
+    [
+      "Que prend en charge AI Systems & Transformation ?",
+      "Le cadrage du besoin métier, l’architecture, la construction, l’intégration, les tests et évaluations, puis la transmission et le suivi selon le périmètre convenu. Les livrables, responsabilités et critères de réussite sont définis dans la proposition."
+    ],
+    [
+      "Les deux offres peuvent-elles se combiner ?",
+      "Oui. Une équipe peut renforcer votre capacité pendant la construction d’un système, ou prendre le relais pour le faire évoluer. Nous définissons une organisation commune pour coordonner le travail et les responsabilités."
+    ],
+    [
+      "Puis-je commencer avec un seul ingénieur ?",
+      "Oui. La composition part de votre besoin : un renfort senior ciblé ou plusieurs compétences complémentaires. Nous définissons aussi les interactions avec votre équipe, le pilotage et les responsabilités."
+    ],
+    [
+      "Comment sélectionnez-vous les talents ?",
+      "NODINA Select associe la méthode et l’outil du NODINA Select. Il structure l’évaluation autour de six dimensions : ingénierie, IA, contexte, architecture, produit et collaboration. L’outil réunit les éléments observés pour étayer la discussion et la décision des évaluateurs."
+    ],
+    [
+      "Que couvre la première semaine ?",
+      "La première semaine sert à choisir et valider votre équipe : cadrage du besoin, proposition de profils, échanges avec les ingénieurs et validation de la composition. Le parcours commence à réception d’un brief complet, avec des profils adaptés disponibles et des créneaux d’entretien convenus."
+    ],
+    [
+      "Que se passe-t-il au terme des trois semaines ?",
+      "Après la semaine de sélection et de validation, deux semaines supplémentaires servent à préparer l’intégration : accès aux dépôts, environnement de développement, outils, contexte produit et premières priorités. Au terme des trois semaines au total, l’équipe est prête à travailler et à produire ses premières pull requests (PR), c’est-à-dire des propositions de modifications de code soumises à revue. Le calendrier dépend des disponibilités et de la préparation des accès ; il est confirmé ensemble."
+    ],
+    [
+      "Pourquoi des talents en Europe et en Amérique latine ?",
+      "Ces deux régions permettent de composer des équipes pour les entreprises européennes et américaines. Nous regardons les compétences, la communication et les plages horaires communes nécessaires à chaque mission."
+    ],
+    [
+      "Comment se passent les changements d’équipe ?",
+      "Nous examinons rapidement les difficultés et organisons, si nécessaire, un ajustement ou un relais. La documentation et le partage du contexte facilitent la transmission. Les conditions de remplacement et les préavis sont définis au contrat."
+    ],
+    [
+      "Quels sont les coûts et les engagements ?",
+      "La prestation est définie sur devis, sans prise de participation ni frais de recrutement. Le périmètre, la durée, la coordination, les conditions d’évolution et les éventuels coûts d’outils ou d’infrastructure sont explicités dans la proposition."
+    ],
+    [
+      "Comment abordez-vous le code, les données et la propriété intellectuelle ?",
+      "Nous privilégions le travail dans votre environnement. Les accès, la confidentialité, les outils autorisés, les responsabilités et les dispositions relatives à la propriété intellectuelle sont cadrés avant le démarrage."
+    ],
+    [
+      "Que signifie « sur invitation » ?",
+      "Vous pouvez nous présenter votre projet librement. Nous étudions l’adéquation entre votre besoin, notre capacité disponible et la collaboration envisagée, puis proposons la suite aux projets retenus. Nous limitons les nouveaux partenariats chaque trimestre pour maintenir notre implication."
+    ],
+    [
+      "Quels outils les ingénieurs utilisent-ils ?",
+      "Le choix dépend de votre stack et de vos règles. Nous évaluons leur capacité à travailler avec les assistants de développement, les modèles, les workflows agentiques et les outils de qualité pertinents pour la mission."
+    ]
+  ],
+  "cta_title": "Faisons le point sur votre projet.",
+  "cta_body": "Vous savez ce qu’il faut construire, ou vous cherchez encore par où commencer. Dans les deux cas, le premier échange sert à définir la prochaine étape utile.",
+  "cta_note": "France · Europe · États-Unis — Sur devis",
+  "footer_desc": "Ingénierie logicielle & IA",
+  "footer_note": "NODINA · France / États-Unis",
+  "top": "En haut ↑",
+  "back": "Retour à l’accueil",
+  "contact_h1": "Parlons de<br> votre projet.",
+  "contact_lead": "Que vous cherchiez une équipe, un système IA ou un avis pour préciser votre besoin, commençons par votre objectif.",
+  "contact_facts": [
+    [
+      "Pour commencer",
+      "Un objectif, votre situation actuelle et les principales contraintes."
+    ],
+    [
+      "Un périmètre à définir",
+      "AI-native Teams, AI Systems & Transformation, ou un besoin à préciser."
+    ],
+    [
+      "Sur devis",
+      "Une proposition adaptée au périmètre et aux responsabilités convenus."
+    ]
+  ],
+  "form_note": "Aperçu du formulaire. Aucun envoi n’est activé dans cette maquette.",
+  "fields": [
+    "Nom",
+    "Email professionnel",
+    "Organisation",
+    "Votre besoin",
+    "Objectif et contexte",
+    "Calendrier envisagé (facultatif)"
+  ],
+  "offer_options": [
+    "À définir ensemble",
+    "AI-native Teams",
+    "AI Systems & Transformation",
+    "Combiner les deux offres"
+  ],
+  "project_help": "Le problème à résoudre, les utilisateurs et les contraintes importantes.",
+  "disabled": "Envoi non activé",
+  "form_bottom": "Vous pouvez tester les champs. Aucune donnée n’est transmise ni conservée par cette page.",
+  "vetting_nav": "La sélection",
+  "partnership": "Partenariats sur invitation",
+  "partnership_body": "Nous ouvrons un nombre limité de collaborations chaque trimestre, pour nous investir pleinement dans chaque projet. Un premier échange permet d’envisager la suite ensemble.",
+  "signals": [
+    [
+      "Europe + LATAM",
+      "Des talents senior pour vos projets"
+    ],
+    [
+      "Équipe dès 3 semaines",
+      "Démarrage possible selon le périmètre et les disponibilités"
+    ],
+    [
+      "Un devis clair",
+      "Sans prise de participation ni frais de recrutement"
+    ]
+  ],
+  "model_label": "02 / AI-native Teams",
+  "model_title": "La bonne équipe.\nUn cadre de travail clair.",
+  "commitments": [
+    [
+      "Une équipe intégrée",
+      "Les ingénieurs travaillent dans vos dépôts, avec vos outils, vos priorités et vos rituels. Les responsabilités et la documentation restent visibles."
+    ],
+    [
+      "Une collaboration adaptable",
+      "Renfort ciblé ou équipe dédiée : le périmètre et le rythme évoluent avec votre besoin. Durée, préavis et conditions sont définis dans la proposition."
+    ],
+    [
+      "Des horaires alignés",
+      "Des fuseaux horaires proches et des plages de travail communes facilitent les échanges, les décisions et les revues pour un rythme de livraison fluide."
+    ],
+    [
+      "La continuité se prépare",
+      "Revue de code, partage du contexte et transmission des connaissances soutiennent la continuité. Les modalités de relais ou de remplacement sont cadrées ensemble."
+    ]
+  ],
+  "compare_title": "L’expertise senior.\nUne collaboration simplifiée.",
+  "compare_heads": [
+    "Votre besoin",
+    "Recrutement traditionnel",
+    "AI-native Teams"
+  ],
+  "compare_rows": [
+    [
+      "Capacité",
+      "Un recrutement individuel à la fois.",
+      "Une équipe opérationnelle, composée sur mesure pour votre produit."
+    ],
+    [
+      "Démarrage",
+      "Recherche, entretiens, préavis et intégration à organiser.",
+      "Une semaine pour choisir et valider l’équipe, puis deux semaines de préparation : premières PR dès trois semaines au total, selon disponibilité."
+    ],
+    [
+      "Capital",
+      "Une participation au capital peut entrer dans la rémunération.",
+      "Aucune prise de participation au capital."
+    ],
+    [
+      "Recrutement",
+      "Des honoraires de recrutement peuvent s’ajouter aux coûts d’embauche.",
+      "Aucun frais de recrutement. Une prestation et un périmètre définis sur devis."
+    ],
+    [
+      "Continuité",
+      "Remplacement et transmission à organiser en interne.",
+      "NODINA coordonne les relais et le partage du contexte, selon les modalités convenues."
+    ],
+    [
+      "Pratique de l’IA",
+      "Compétences à évaluer et montée en compétence à organiser.",
+      "Une sélection structurée avec NODINA Select, attentive à la maîtrise des outils IA et au travail en équipe."
+    ]
+  ],
+  "compare_note": "Avec NODINA, vous mobilisez une équipe produit sur mesure, sélectionnée avec NODINA Select, qui peut produire ses premières PR dès trois semaines au total, selon disponibilité. Sans prise de participation ni frais de recrutement. Nous restons impliqués dans la coordination, la transmission et l’évolution de l’équipe : un partenaire technique dans la durée, avec un cadre clair.",
+  "talent_label": "AI-native Teams · La sélection",
+  "talent_title": "Le bon niveau. Les bonnes personnes.",
+  "talent_intro": "Nous sélectionnons des ingénieurs senior en Europe et en Amérique latine pour des clients européens et américains. Leur code, leur maîtrise de l’IA et leur capacité à travailler en équipe sont évalués par des CTO et des lead developers expérimentés.",
+  "talent_points": [
+    [
+      "Le code examiné",
+      "Qualité, tests et décisions d’architecture."
+    ],
+    [
+      "L’IA mise en pratique",
+      "Contexte, outils, vérification des résultats."
+    ],
+    [
+      "La collaboration évaluée",
+      "Communication, autonomie et responsabilité."
+    ]
+  ],
+  "talent_cta": "Découvrir notre sélection",
+  "bio": [
+    "Il a construit et piloté des projets tech entre la France et les États-Unis, avec des budgets à six chiffres. Son expérience associe la réalisation de produits, la constitution d’équipes et la collaboration avec des lead developers et CTO français et américains.",
+    "Docteur en informatique, il mène des travaux en modélisation à base d’agents et en apprentissage par renforcement. Cette pratique de la recherche nourrit sa façon d’évaluer les choix techniques, les résultats et les limites des systèmes IA.",
+    "Il enseigne également l’ingénierie logicielle et l’IA en master MIAGE à l’université. Cet engagement contribue à former les futurs talents et offre un cadre privilégié pour identifier leur potentiel.",
+    "Son parcours comprend également une formation d’ingénieur en énergie nucléaire aux Arts et Métiers ParisTech et au CEA. Ses travaux entrepreneuriaux ont également été primés par l’Agence spatiale européenne."
+  ],
+  "award_label": "Distinction européenne · 2019",
+  "award_text": "Ses travaux entrepreneuriaux ont également été primés par l’Agence spatiale européenne.",
+  "domains_label": "Domaines d’expérience du fondateur",
+  "domains": [
+    "Impact environnemental",
+    "Mobilité",
+    "Confidentialité des données",
+    "Opérations et conformité"
+  ],
+  "vetting": {
+    "title": "NODINA Select — Sélection des talents",
+    "description": "Nous sélectionnons des ingénieurs senior en Europe et en Amérique latine pour des clients européens et américains. Leur code, leur maîtrise de l’IA et leur capacité à travailler en équipe sont évalués par des CTO et des lead developers expérimentés.",
+    "eyebrow": "AI-native Teams · Notre sélection",
+    "h1": "Des ingénieurs sélectionnés pour <span>faire avancer votre produit.</span>",
+    "lead": "Nous sélectionnons des ingénieurs senior en Europe et en Amérique latine pour des clients européens et américains. Leur code, leur maîtrise de l’IA et leur capacité à travailler en équipe sont évalués par des CTO et des lead developers expérimentés.",
+    "jump": "Explorer les critères",
+    "principles": [
+      [
+        "Senior",
+        "L’expérience confrontée à la pratique"
+      ],
+      [
+        "AI-native",
+        "Des outils maîtrisés avec discernement"
+      ],
+      [
+        "Collectif",
+        "Des compétences qui fonctionnent ensemble"
+      ]
+    ],
+    "rubric_label": "01 / Le cadre d’évaluation",
+    "rubric_title": "Six regards sur une même pratique.",
+    "rubric_intro": "Le cadre d’évaluation couvre la qualité du travail autant que la capacité à le mener en équipe. Les critères sont adaptés au rôle et au contexte de la mission.",
+    "rubric_heads": [
+      "Dimension",
+      "Ce que l’on cherche à comprendre",
+      "Éléments à examiner"
+    ],
+    "dimensions": [
+      [
+        "Ingénierie & qualité",
+        "Construire un code maintenable et savoir en vérifier le comportement.",
+        "Code, tests, revue, diagnostic et gestion des régressions."
+      ],
+      [
+        "Maîtrise de l’IA",
+        "Choisir les bons outils, vérifier leurs résultats et reconnaître leurs limites.",
+        "Usage des modèles, agents, évaluations, coûts et latence."
+      ],
+      [
+        "Contexte & instructions",
+        "Donner aux systèmes les informations utiles et des limites explicites.",
+        "Contexte, sources, instructions, outils et analyse des erreurs."
+      ],
+      [
+        "Architecture & fiabilité",
+        "Relier les choix techniques aux contraintes du système.",
+        "Données, intégrations, accès, observabilité et exploitation."
+      ],
+      [
+        "Produit & responsabilité",
+        "Comprendre le besoin, prioriser et assumer les conséquences de ses décisions.",
+        "Critères de réussite, arbitrages, périmètre et suivi des résultats."
+      ],
+      [
+        "Communication & collectif",
+        "Expliquer, écouter et faire progresser le travail commun.",
+        "Revue avec les pairs, feedback, documentation et coordination humains / agents."
+      ]
+    ],
+    "process_label": "02 / Le parcours de sélection",
+    "process_title": "Comprendre comment la personne travaille.",
+    "process_intro": "Le parcours relie expérience, pratique et adéquation au projet. Chaque étape alimente l’outil avec des éléments concrets et des points à approfondir.",
+    "stages": [
+      [
+        "Relire le parcours",
+        "Revenir sur les projets réalisés, le rôle réellement tenu et les décisions prises.",
+        "À éclaircir : contributions et niveau d’autonomie."
+      ],
+      [
+        "Approfondir la technique",
+        "Discuter du code, des choix d’architecture et de la façon de tester un système dans des contraintes réelles.",
+        "À examiner : solidité du raisonnement et qualité d’ingénierie."
+      ],
+      [
+        "Travailler avec l’IA",
+        "Observer comment le candidat fournit le contexte, utilise les outils et vérifie ce qu’ils produisent.",
+        "À observer : jugement, vérification et maîtrise des limites."
+      ],
+      [
+        "Échanger avec les pairs",
+        "Explorer la façon de donner du feedback, de documenter, de demander de l’aide et de gérer un désaccord.",
+        "À comprendre : coopération et responsabilité."
+      ],
+      [
+        "Relier le profil au projet",
+        "Confronter les compétences au produit, à votre équipe, aux contraintes de communication et aux disponibilités.",
+        "À décider ensemble : adéquation à la mission et conditions de réussite."
+      ]
+    ],
+    "example_label": "03 / L’outil NODINA Select",
+    "example_title": "Une lecture partagée du savoir-faire.",
+    "example_intro": "L’outil rassemble le contexte de l’exercice, les critères et les éléments à discuter. Les évaluateurs disposent d’une lecture commune pour étayer leurs conclusions et préparer l’échange avec votre équipe.",
+    "sample_label": "NODINA Select · Interface de démonstration",
+    "sample_title": "Mission : assistant de recherche documentaire",
+    "sample_note": "Exemple illustratif : les contenus ci-dessous ne correspondent pas à une évaluation réelle.",
+    "sample_rows": [
+      [
+        "Situation",
+        "Concevoir un assistant qui répond à partir d’un corpus interne et cite ses sources."
+      ],
+      [
+        "Preuves à recueillir",
+        "Choix des sources, contrôle des accès, cas d’évaluation et traitement d’une réponse incertaine."
+      ],
+      [
+        "Discussion technique",
+        "Comment diagnostiquer une mauvaise réponse ? Quels compromis sur le coût, la latence et la qualité ?"
+      ],
+      [
+        "Discussion d’équipe",
+        "Comment expliquer les limites au produit, documenter les décisions et passer le relais ?"
+      ]
+    ],
+    "roles_label": "04 / Composer l’équipe",
+    "roles_title": "Les compétences se choisissent ensemble.",
+    "roles_intro": "Exemples de rôles selon votre besoin. La composition et la disponibilité sont discutées pour chaque mission.",
+    "roles": [
+      [
+        "AI / ML engineering",
+        "Modèles, RAG, agents et protocoles d’évaluation.",
+        "Relier expérimentation, qualité et usage."
+      ],
+      [
+        "Software & product engineering",
+        "Applications, API, interfaces et intégrations.",
+        "Construire le produit autour du système IA."
+      ],
+      [
+        "Architecture & leadership",
+        "Choix techniques, fiabilité et coordination.",
+        "Faire tenir ensemble le système et l’équipe."
+      ]
+    ],
+    "tools_title": "Votre environnement fait partie de l’évaluation.",
+    "tools_intro": "Nous choisissons les profils en fonction de votre stack. Exemples d’outils et de pratiques à examiner selon la mission :",
+    "tools": [
+      [
+        "Développement assisté",
+        "Claude Code · Codex · Cursor"
+      ],
+      [
+        "Systèmes IA",
+        "LLM · RAG · workflows agentiques · évaluations"
+      ],
+      [
+        "Ingénierie produit",
+        "Python · TypeScript · API · GitHub · CI/CD"
+      ],
+      [
+        "Données & exploitation",
+        "PostgreSQL · cloud · observabilité · contrôle des accès"
+      ]
+    ],
+    "close_title": "Commençons par l’équipe dont vous avez besoin.",
+    "close_body": "Produit, compétences, maturité technique et horaires : ces éléments nous aident à proposer les bonnes personnes et un cadre de travail adapté.",
+    "sample_tab": "Explorer les critères",
+    "sample_context": "Contexte de l’exercice",
+    "sample_prompt": "Points à examiner",
+    "evaluators_label": "Les évaluateurs",
+    "evaluators_title": "Évalués par des professionnels qui ont construit et dirigé.",
+    "evaluators_body": "La sélection s’appuie sur le réseau de Jean-David Collard, fondateur de NODINA et docteur en informatique : des lead developers senior et des CTO français et américains, dont des professionnels issus de grandes entreprises de la Silicon Valley. Il a collaboré avec eux ces quinze dernières années, sur des projets entrepreneuriaux et pour des startups, scale-ups et PME clientes en Europe et aux États-Unis.",
+    "evaluators_note": "La sélection relie l’évaluation technique à la réalité du travail en équipe : expliquer ses décisions, recevoir du feedback et prendre la responsabilité de ce que l’on livre."
+  },
+  "talent_status": "NODINA Select",
+  "offer_cards": [
+    {
+      "id": "teams",
+      "need": "Renforcer votre équipe.",
+      "name": "AI-native Teams",
+      "body": "Vous avez un produit, une roadmap ou une équipe en place. Il vous manque des compétences senior ou de la capacité pour avancer.",
+      "items": [
+        "Des ingénieurs intégrés à vos priorités et à vos outils",
+        "Une équipe constituée sur mesure, en Europe et en Amérique latine",
+        "Une capacité qui évolue avec le projet"
+      ],
+      "outcome": "Vous pilotez les priorités. Nous réunissons les talents et organisons la collaboration.",
+      "cta": "Découvrir AI-native Teams",
+      "target": "#teams-detail"
+    },
+    {
+      "id": "systems",
+      "need": "Construire un système IA.",
+      "name": "AI Systems & Transformation",
+      "body": "Vous voulez transformer un processus ou intégrer l’IA à votre produit. Vous cherchez un partenaire pour cadrer, construire et déployer la solution.",
+      "items": [
+        "Un besoin métier traduit en périmètre de réalisation",
+        "Un système connecté à vos données et à vos outils",
+        "Des évaluations et une prise en main préparées dès le départ"
+      ],
+      "outcome": "Vous définissez l’objectif. Nous prenons en charge la réalisation dans le périmètre convenu.",
+      "cta": "Découvrir AI Systems & Transformation",
+      "target": "#systems-detail"
+    }
+  ],
+  "help_title": "Votre besoin reste à préciser ?",
+  "help_body": "Vous n’avez pas à choisir une offre avant de nous parler. Un premier rendez-vous permet de clarifier votre objectif, vos ressources et ce qu’il faut construire. Nous définissons ensemble le bon accompagnement.",
+  "help_cta": "Clarifier mon projet",
+  "compare_intro": "Pour renforcer votre capacité produit, accédez à une équipe composée autour de votre besoin, avec la sélection et la coordination prises en charge.",
+  "compare_badge": "Recommandé",
+  "compare_badge_context": "Pour renforcer votre capacité produit",
+  "evaluators_title": "Sélectionnés par des CTO et des lead developers.",
+  "evaluators_body": "Jean-David Collard, fondateur de NODINA et docteur en informatique, a travaillé avec ces professionnels au fil de quinze années de projets entrepreneuriaux et de missions pour des startups, scale-ups et PME clientes en Europe et aux États-Unis.",
+  "founder_stat": "15+",
+  "founder_stat_label": "années d’expérience dans la tech",
+  "sectors_label": "Les contextes métier",
+  "sectors_title": "Vos enjeux donnent la direction.",
+  "sectors_intro": "Les compétences et l’architecture se définissent à partir de votre métier, de vos flux de travail et de vos contraintes.",
+  "sectors": [
+    [
+      "Stratégie & conseil",
+      "Analyse, recherche documentaire et outils d’aide à la décision."
+    ],
+    [
+      "Healthcare",
+      "Information, coordination et workflows dans des environnements de santé exigeants."
+    ],
+    [
+      "LegalTech",
+      "Recherche, analyse et traitement de documents juridiques."
+    ],
+    [
+      "Supply chain & logistique",
+      "Flux opérationnels, planification et intégration des données terrain."
+    ],
+    [
+      "Finance, conformité & audit",
+      "FinTech, RegTech et AuditTech : données, contrôles et traçabilité."
+    ]
+  ],
+  "systems_detail": {
+    "label": "03 / AI Systems & Transformation",
+    "title": "Un besoin métier.\nUn système qui tient en production.",
+    "lead": "De l’idée à l’usage quotidien, nous prenons en charge le cadrage, l’architecture, le développement et l’intégration. L’objectif : un système IA utile, évalué et exploitable dans votre organisation.",
+    "cases_title": "Que voulez-vous rendre possible ?",
+    "cases": [
+      [
+        "Accéder à la bonne information",
+        "Un assistant documentaire qui recherche dans vos sources, cite ses références et respecte les droits d’accès.",
+        "Recherche documentaire · RAG"
+      ],
+      [
+        "Exploiter vos documents",
+        "Un flux qui extrait, structure et vérifie les informations, avec des contrôles humains aux étapes utiles.",
+        "Document intelligence · Validation"
+      ],
+      [
+        "Relier vos opérations",
+        "Un système qui orchestre des actions entre vos outils, avec des responsabilités, des limites et un suivi explicites.",
+        "Intégrations · Workflows agentiques"
+      ]
+    ],
+    "deliverables_title": "Un périmètre complet, des livrables concrets.",
+    "deliverables": [
+      [
+        "Cadrage & critères de réussite",
+        "Cas d’usage, utilisateurs, données et contraintes. Nous définissons ce que le système doit faire et comment le vérifier."
+      ],
+      [
+        "Architecture & construction",
+        "Code, intégrations et choix techniques documentés. Les outils existants sont examinés avant de décider du sur-mesure."
+      ],
+      [
+        "Évaluation & fiabilité",
+        "Tests, cas d’évaluation, suivi des erreurs et contrôle des accès. La qualité se vérifie sur votre usage."
+      ],
+      [
+        "Déploiement & transmission",
+        "Intégration à votre environnement, documentation et prise en main. Le suivi et l’exploitation sont définis selon la mission."
+      ]
+    ],
+    "note": "Ces exemples décrivent des systèmes possibles, à cadrer selon vos données et vos contraintes.",
+    "cta": "Discuter du système à construire"
+  },
+  "combined": {
+    "title": "Une équipe et un système.\nUn même projet.",
+    "body": "Les deux offres se combinent : nous pouvons cadrer et construire un premier système, puis intégrer les ingénieurs qui le feront évoluer avec votre équipe. Ou renforcer vos capacités pendant la réalisation. Le dispositif suit votre besoin.",
+    "cta": "Combiner les deux offres"
+  },
+  "hero_terms": "Sans prise de participation · Sans frais de recrutement",
+  "hero_timing": "Votre équipe choisie et validée en une semaine.",
+  "hero_timing_note": "À partir d’un brief complet, selon les profils disponibles et les accès préparés avec votre équipe. Calendrier confirmé ensemble.",
+  "hero_cta": "Constituer mon équipe",
+  "hero_secondary": "Découvrir notre sélection",
+  "hero_systems_prompt": "Vous préférez nous confier la réalisation d’un système IA ?",
+  "hero_systems_cta": "Découvrir AI Systems & Transformation",
+  "contact_context_unknown": "À définir ensemble",
+  "contact_context_combined": "Les deux offres",
+  "select": {
+    "selection_nav": "La sélection",
+    "profiles_nav": "Les profils",
+    "manifesto_nav": "Manifeste",
+    "hero_title": "Des ingénieurs sélectionnés pour <span>faire avancer votre produit.</span>",
+    "hero_lead": "Nous sélectionnons des ingénieurs senior en Europe et en Amérique latine pour des clients européens et américains. Leur code, leur maîtrise de l’IA et leur capacité à travailler en équipe sont évalués par des CTO et des lead developers expérimentés.",
+    "primary": "Constituer mon équipe",
+    "secondary": "Voir comment nous évaluons",
+    "eyebrow": "AI-native Teams · Notre sélection",
+    "signals": [
+      [
+        "Le code examiné",
+        "Qualité, tests et décisions d’architecture."
+      ],
+      [
+        "L’IA mise en pratique",
+        "Contexte, outils, vérification des résultats."
+      ],
+      [
+        "La collaboration évaluée",
+        "Communication, autonomie et responsabilité."
+      ]
+    ],
+    "experience_label": "L’expérience au service de votre équipe",
+    "experience_title": "Quinze ans de terrain pour mieux choisir votre équipe.",
+    "experience_body": "Développer des produits, recruter des ingénieurs et diriger des équipes apprend à reconnaître les compétences qui comptent dans un projet réel. Nous mettons cette expérience au service de votre équipe : jugement technique, maîtrise de l’IA, autonomie et capacité à collaborer.",
+    "experience_link": "Lire notre manifeste",
+    "evaluators_title": "Sélectionnés par des CTO et des lead developers.",
+    "evaluators_lead": "Des vétérans de l’ingénierie logicielle et de l’IA examinent la qualité du code, les décisions d’architecture et la capacité à livrer en équipe. Français et américains, certains ont exercé dans de grandes entreprises de la Silicon Valley.",
+    "evaluators_body": "Jean-David Collard, fondateur de NODINA et docteur en informatique, a travaillé avec ces professionnels au fil de quinze années de projets entrepreneuriaux et de missions pour des startups, scale-ups et PME clientes en Europe et aux États-Unis.",
+    "founder_link": "Découvrir le parcours du fondateur",
+    "process_label": "NODINA Select · La méthode",
+    "process_title": "Une sélection exigeante, fondée sur le travail réel.",
+    "process_intro": "Cinq étapes pour relier le niveau technique aux exigences de votre projet. Chaque recommandation s’appuie sur des éléments observables et précise les points à approfondir.",
+    "stages": [
+      [
+        "Vérifier l’expérience",
+        "Revenir sur les projets, la contribution personnelle et les responsabilités réellement tenues.",
+        "Ce qui compte : pouvoir expliquer ce que l’on a livré et les choix qui l’ont permis."
+      ],
+      [
+        "Examiner le code et l’architecture",
+        "Discuter d’un travail concret : lisibilité, tests, diagnostic et compromis techniques.",
+        "Ce qui compte : justifier ses décisions et savoir faire évoluer un système."
+      ],
+      [
+        "Travailler avec l’IA",
+        "Observer l’usage des outils, la préparation du contexte et la vérification des résultats.",
+        "Ce qui compte : repérer une réponse incorrecte, la tester et la corriger."
+      ],
+      [
+        "Collaborer avec un pair",
+        "Mener une revue, discuter d’un désaccord et transmettre les informations utiles.",
+        "Ce qui compte : faire progresser le travail commun et assumer ses décisions."
+      ],
+      [
+        "Confirmer l’adéquation à la mission",
+        "Relier les compétences à votre produit, votre stack, vos horaires et la composition de l’équipe.",
+        "Ce qui compte : un rôle clair, des attentes partagées et une disponibilité confirmée."
+      ]
+    ],
+    "gate_title": "Ce qui peut écarter une candidature",
+    "gate_body": "Un code que la personne ne sait pas expliquer, des résultats IA acceptés sans vérification ou des difficultés à intégrer une revue. Un bon niveau technique ne suffit pas si les compétences et la collaboration ne correspondent pas à la mission.",
+    "assessment_label": "NODINA Select · Exemple commenté",
+    "assessment_title": "Comprendre pourquoi un profil correspond à votre projet.",
+    "assessment_intro": "Une recommandation utile expose les points forts, les limites et les conditions de réussite. Voici comment cette lecture peut se traduire dans une évaluation.",
+    "sample_badge": "Exemple illustratif · Aucun candidat réel",
+    "sample_title": "Backend & IA · Assistant documentaire interne",
+    "sample_context": "La mission consiste à créer un assistant qui cite ses sources et respecte les droits d’accès aux documents.",
+    "sample_tabs": [
+      "Ingénierie",
+      "Pratique de l’IA",
+      "Collaboration"
+    ],
+    "sample_findings": [
+      [
+        "Ce qui est observé",
+        "Le code sépare recherche documentaire et génération. Des tests couvrent les documents absents et les accès refusés.",
+        "À approfondir",
+        "La gestion des reprises après une erreur de traitement reste à préciser."
+      ],
+      [
+        "Ce qui est observé",
+        "La personne compare des réponses sur des cas représentatifs et prévoit une abstention lorsque les sources sont insuffisantes.",
+        "À approfondir",
+        "Le budget de latence et le suivi du coût des requêtes doivent être définis."
+      ],
+      [
+        "Ce qui est observé",
+        "Les choix sont expliqués au produit. Une remarque de revue conduit à simplifier le traitement des permissions.",
+        "À approfondir",
+        "Prévoir une revue avec la personne responsable de l’exploitation."
+      ]
+    ],
+    "sample_conclusion_title": "Lecture pour cette mission",
+    "sample_conclusion": "Profil pertinent pour le développement backend et l’intégration IA, avec un appui architecture sur l’exploitation. La décision finale dépend de votre contexte et de l’échange avec votre équipe.",
+    "tools_label": "Votre environnement de travail",
+    "tools_title": "Des équipes qui maîtrisent vos outils.",
+    "tools_intro": "Nous réunissons les compétences adaptées à votre stack pour travailler directement dans vos dépôts, vos plateformes et vos processus de livraison.",
+    "tools_note": "La composition de l’équipe dépend des outils de votre projet. La pratique de l’IA s’accompagne de revues, de tests et d’évaluations.",
+    "profiles_title": "Des ingénieurs. Des spécialités. Du concret.",
+    "profiles_lead": "Du backend à l’architecture IA, découvrez les compétences et les réalisations que peut réunir votre équipe.",
+    "profiles_cta": "Découvrir les 9 profils",
+    "profile_note": "Profils de démonstration : portraits, parcours, industries et disponibilités fictifs. Les fiches réelles anonymisées seront ajoutées après validation.",
+    "profile_badge": "Profil de démonstration",
+    "profile_detail": "Voir les compétences",
+    "profile_mission": "Exemple de réalisation",
+    "profile_strength": "Apport à l’équipe",
+    "profile_cta": "Parler de ce besoin",
+    "profiles": [
+      {
+        "id": "backend-ai",
+        "years": 8,
+        "status": "assigned",
+        "stack": [
+          "Python",
+          "FastAPI",
+          "PostgreSQL",
+          "pgvector",
+          "Claude API"
+        ],
+        "role": "Backend & IA",
+        "mission": "Assistant documentaire avec réponses sourcées, permissions par équipe et évaluation des résultats.",
+        "strength": "Transformer un corpus métier en un service fiable et exploitable.",
+        "details": [
+          "Structuration des documents et recherche hybride.",
+          "Tests de non-régression et suivi des réponses sans source."
+        ],
+        "portrait": "/assets/profiles/profile-01.png",
+        "industry": "LegalTech"
+      },
+      {
+        "id": "workflows",
+        "years": 9,
+        "status": "assigned",
+        "stack": [
+          "Python",
+          "LangGraph",
+          "Temporal",
+          "Kafka",
+          "PostgreSQL"
+        ],
+        "role": "Backend & agents IA",
+        "mission": "Workflow de traitement de dossiers associant agents IA, validation humaine et reprise après erreur.",
+        "strength": "Garder la maîtrise des processus lorsque les intégrations se multiplient.",
+        "details": [
+          "Orchestration durable et événements asynchrones.",
+          "Traçabilité des décisions et gestion des exceptions."
+        ],
+        "portrait": "/assets/profiles/profile-02.png",
+        "industry": "Finance, conformité & audit"
+      },
+      {
+        "id": "product",
+        "years": 7,
+        "status": "assigned",
+        "stack": [
+          "TypeScript",
+          "React",
+          "Next.js",
+          "PostgreSQL",
+          "Codex"
+        ],
+        "role": "Full-stack & produit IA",
+        "mission": "Espace de travail intégrant recherche assistée, suggestions IA et validation par les utilisateurs.",
+        "strength": "Relier les usages, l’interface et les services backend.",
+        "details": [
+          "Parcours utilisateur et intégration dans un produit existant.",
+          "Développement assisté par l’IA, tests et revue de code."
+        ],
+        "portrait": "/assets/profiles/profile-03.png",
+        "industry": "Stratégie & conseil"
+      },
+      {
+        "id": "full-stack",
+        "years": 6,
+        "status": "assigned",
+        "stack": [
+          "TypeScript",
+          "React",
+          "Python",
+          "FastAPI",
+          "Cursor"
+        ],
+        "role": "Ingénierie produit full-stack",
+        "mission": "Interface de recherche conversationnelle reliée à un catalogue et à ses règles métier.",
+        "strength": "Passer d’un besoin produit à une fonctionnalité utilisable de bout en bout.",
+        "details": [
+          "Interfaces accessibles et API documentées.",
+          "Livraison incrémentale et retours des utilisateurs."
+        ],
+        "portrait": "/assets/profiles/profile-04.png",
+        "industry": "Supply chain & logistique"
+      },
+      {
+        "id": "mlops",
+        "years": 10,
+        "status": "assigned",
+        "stack": [
+          "Python",
+          "PyTorch",
+          "Kubernetes",
+          "Terraform",
+          "AWS"
+        ],
+        "role": "Plateforme & MLOps",
+        "mission": "Chaîne de déploiement de modèles avec environnements reproductibles, suivi des versions et supervision.",
+        "strength": "Préparer les modèles et leurs services à une exploitation quotidienne.",
+        "details": [
+          "Infrastructure as code et automatisation des déploiements.",
+          "Suivi de la qualité, des coûts et du comportement des modèles."
+        ],
+        "portrait": "/assets/profiles/profile-05.png",
+        "industry": "Healthcare"
+      },
+      {
+        "id": "data",
+        "years": 8,
+        "status": "assigned",
+        "stack": [
+          "Python",
+          "SQL",
+          "dbt",
+          "Airflow",
+          "PostgreSQL"
+        ],
+        "role": "Data engineering & IA",
+        "mission": "Pipelines de données métier avec contrôles de qualité et traçabilité, prêts à alimenter les applications IA.",
+        "strength": "Donner aux équipes une base de données compréhensible et fiable.",
+        "details": [
+          "Modélisation des données et orchestration des traitements.",
+          "Documentation, alertes et reprise des flux interrompus."
+        ],
+        "portrait": "/assets/profiles/profile-06.png",
+        "industry": "Supply chain & logistique"
+      },
+      {
+        "id": "lead",
+        "years": 11,
+        "status": "assigned",
+        "stack": [
+          "Python",
+          "TypeScript",
+          "RAG",
+          "OpenTelemetry",
+          "CI/CD"
+        ],
+        "role": "Tech lead & architecture IA",
+        "mission": "Architecture d’un service IA intégré au système existant, avec critères d’évaluation et passage de relais à l’équipe.",
+        "strength": "Arbitrer les choix techniques et accompagner l’équipe jusqu’à la production.",
+        "details": [
+          "Revues d’architecture, sécurité des accès et observabilité.",
+          "Accompagnement des ingénieurs et transmission des décisions."
+        ],
+        "portrait": "/assets/profiles/profile-07.png",
+        "industry": "Finance, conformité & audit"
+      },
+      {
+        "id": "applied-ai",
+        "years": 7,
+        "status": "available",
+        "stack": [
+          "Python",
+          "FastAPI",
+          "pgvector",
+          "LangChain",
+          "GitHub"
+        ],
+        "role": "Backend & IA appliquée",
+        "mission": "API de recherche augmentée sur une base documentaire, avec comparaison des stratégies de recherche et tests de qualité.",
+        "strength": "Faire le lien entre expérimentation IA et contraintes d’une API en production.",
+        "details": [
+          "Recherche vectorielle, filtres métier et évaluation des réponses.",
+          "Contrats d’API, tests d’intégration et instrumentation."
+        ],
+        "portrait": "/assets/profiles/profile-08.png",
+        "industry": "LegalTech"
+      },
+      {
+        "id": "ai-product",
+        "years": 6,
+        "status": "available",
+        "stack": [
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Cursor",
+          "PostgreSQL"
+        ],
+        "role": "Full-stack & expérience IA",
+        "mission": "Parcours de création assistée par l’IA permettant de réviser, comparer et valider les propositions avant utilisation.",
+        "strength": "Rendre les fonctionnalités IA compréhensibles et utiles dans le quotidien des utilisateurs.",
+        "details": [
+          "Interfaces de validation et gestion des états intermédiaires.",
+          "Intégration front-to-back et collaboration avec le design produit."
+        ],
+        "portrait": "/assets/profiles/profile-09.png",
+        "industry": "Healthcare"
+      }
+    ],
+    "profiles_page_title": "Profils d’ingénieurs — NODINA",
+    "profiles_h1": "Votre prochain produit. <span>Les talents pour le livrer.</span>",
+    "profiles_page_lead": "Backend, full-stack, data, IA et direction technique : neuf exemples de parcours pour vous projeter dans l’équipe qui fera avancer votre produit.",
+    "profiles_explain_title": "Une recommandation qui vous permet de décider.",
+    "profiles_explain_body": "Pour votre mission, nous précisons le rôle, les compétences utiles, les réalisations partageables et les points à approfondir. Vous échangez avec les personnes proposées pour confirmer l’adéquation à votre équipe.",
+    "profiles_facts": [
+      [
+        "Rôle & contribution",
+        "Ce que la personne prendra en charge dans votre projet."
+      ],
+      [
+        "Éléments d’évaluation",
+        "Travail examiné, raisonnement et points de vigilance."
+      ],
+      [
+        "Cadre de collaboration",
+        "Langue de travail, horaires communs et disponibilité à confirmer."
+      ]
+    ],
+    "quick_label": "AI-native Teams · Pour commencer",
+    "quick_title": "Une semaine pour choisir. Trois pour commencer à livrer.",
+    "quick_intro": "Vous choisissez et validez votre équipe en une semaine. Les deux semaines suivantes préparent son intégration à votre projet. Dès trois semaines au total, elle est prête à travailler et à produire ses premières PR.",
+    "quick_steps": [
+      [
+        "01",
+        "Vous choisissez et validez l’équipe",
+        "À partir de votre brief, nous précisons les rôles et proposons les profils. Vous échangez avec les ingénieurs et validez la composition et le cadre de collaboration."
+      ],
+      [
+        "02",
+        "Nous préparons l’intégration avec vous",
+        "Accès aux dépôts, environnement de développement, outils et contexte produit : nous préparons le travail et les premières priorités avec votre équipe."
+      ],
+      [
+        "03",
+        "L’équipe produit ses premières PR",
+        "Les ingénieurs travaillent dans votre code et soumettent leurs premières modifications à revue, selon vos priorités et vos pratiques."
+      ]
+    ],
+    "quick_note": "Trois semaines au total à partir d’un brief complet : une semaine de sélection et validation, puis deux semaines de préparation. Calendrier confirmé selon les profils disponibles, vos créneaux d’entretien et la préparation des accès.",
+    "close_title": "Parlons de l’équipe dont vous avez besoin.",
+    "close_body": "Partagez votre produit, votre stack et vos priorités. Nous vous aidons à définir les rôles et le cadre de collaboration.",
+    "manifesto_page_title": "Notre manifeste — NODINA",
+    "manifesto_eyebrow": "Le manifeste NODINA",
+    "manifesto_h1": "L’IA change les outils. <span>Le talent fait la différence.</span>",
+    "manifesto_lead": "Nous croyons aux équipes qui comprennent ce qu’elles développent, savent travailler avec l’IA et prennent la responsabilité du résultat.",
+    "manifesto_open_title": "L’expérience doit servir à mieux choisir.",
+    "manifesto_open": [
+      "Quinze années de projets, de recrutement et de management ont façonné le regard de Jean-David Collard, fondateur de NODINA : la qualité d’une équipe se reconnaît dans ses décisions, son travail et sa capacité à avancer ensemble.",
+      "NODINA met cette expérience à votre service. Nous réunissons des ingénieurs senior en Europe et en Amérique latine pour des clients européens et américains, avec une exigence commune : produire un travail utile, compréhensible et durable."
+    ],
+    "manifesto_principles": [
+      [
+        "Le niveau se démontre dans le travail.",
+        "Un parcours ouvre la discussion. Le code, les choix techniques et les réalisations permettent de l’approfondir. NODINA Select donne une place centrale à cette pratique et à la capacité d’expliquer ses décisions."
+      ],
+      [
+        "L’IA accélère le travail. L’ingénieur en répond.",
+        "Donner le bon contexte, choisir les outils, examiner les sorties et tester le résultat font partie du métier. L’autonomie d’un agent doit s’accompagner de limites explicites et d’une supervision adaptée."
+      ],
+      [
+        "Une bonne équipe fait progresser chacun.",
+        "Le niveau individuel compte autant que la capacité à collaborer. Nous cherchons des ingénieurs qui partagent le contexte, accueillent une revue et transmettent leurs connaissances."
+      ],
+      [
+        "Le travail s’intègre à votre organisation.",
+        "Vos dépôts, vos outils, vos priorités : l’équipe travaille dans votre environnement. Les responsabilités, les modalités de collaboration et le prix sont définis dans la proposition. Sans prise de participation ni frais de recrutement."
+      ],
+      [
+        "L’exigence se transmet.",
+        "La recherche scientifique aide à questionner les résultats et les limites de l’IA. L’enseignement de l’ingénierie logicielle et de l’IA en master MIAGE permet à Jean-David Collard de contribuer à la formation des futurs talents et d’en identifier le potentiel."
+      ]
+    ],
+    "manifesto_signoff": "Jean-David Collard · Fondateur de NODINA",
+    "manifesto_bridge": "Vous souhaitez nous confier la réalisation complète d’un système IA ? AI Systems & Transformation complète notre offre d’équipes, du cadrage au déploiement.",
+    "manifesto_bridge_cta": "Découvrir AI Systems & Transformation",
+    "team_quotes": {
+      "selection": [
+        "Vous avez un produit à livrer. Nous sélectionnons des ingénieurs qui savent décider, exécuter et ",
+        "aller jusqu’à la production."
+      ],
+      "manifesto": [
+        "L’IA change notre façon de développer. Notre responsabilité reste la même : livrer un travail ",
+        "utile, fiable et compréhensible."
+      ]
+    },
+    "profile_status": {
+      "assigned": "En mission",
+      "available": "Disponible"
+    },
+    "profile_filters": [
+      [
+        "all",
+        "Tous"
+      ],
+      [
+        "assigned",
+        "En mission"
+      ],
+      [
+        "available",
+        "Disponibles"
+      ]
+    ],
+    "profile_results": "profils de démonstration affichés",
+    "profile_overview": "9 profils de démonstration · 7 en mission · 2 disponibles",
+    "profile_years": "ans d’expérience",
+    "quick_periods": [
+      "Semaine 1",
+      "Semaines 2 et 3",
+      "Au terme des 3 semaines"
+    ]
+  },
+  "sectors_references_title": "Votre contexte d’abord. Les références ensuite.",
+  "sectors_references_body": "Nous partageons les références pertinentes dès le premier échange, sous accord de confidentialité.",
+  "hero_timeline_label": "Du choix de l’équipe aux premières PR",
+  "hero_timeline": [
+    [
+      "Choix & validation",
+      "1",
+      "semaine",
+      "Pour choisir et valider votre équipe."
+    ],
+    [
+      "Préparation & intégration",
+      "+ 2",
+      "semaines",
+      "Pour préparer les accès, les outils et les priorités."
+    ],
+    [
+      "Premières PR",
+      "3",
+      "semaines au total",
+      "L’équipe commence à livrer du code pour votre produit."
+    ]
+  ]
+}

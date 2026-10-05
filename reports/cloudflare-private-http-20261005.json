@@ -1,0 +1,387 @@
+{
+  "checked_at": "2026-10-05T15:56:14.196982+00:00",
+  "url": "https://nodina-preproduction.jd-fd3.workers.dev",
+  "unauthenticated": true,
+  "requests": 63,
+  "passed": 63,
+  "results": [
+    {
+      "path": "/",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/404.html",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/_..CCdR5Pzq.css",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-01.CfOGruoH_1WoRp4.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-01.CfOGruoH_2uooEv.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-02.DTPyQMi1_2pUj1T.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-02.DTPyQMi1_ZgM8OA.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-03.BjPjiWtu_1cVq7I.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-03.BjPjiWtu_Z2jpmvM.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-04.CcO--5kK_Z2KdT7.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-04.CcO--5kK_ZFEqcm.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-05.BSG34gcn_1IM7m9.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-05.BSG34gcn_Z1nJkDn.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-06.USvstmXM_ZmI1CR.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-06.USvstmXM_ZzY20J.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-07.C_N1V-_o_AUm7h.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-07.C_N1V-_o_NFaXf.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-08.DS85VmlN_G9eFy.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-08.DS85VmlN_ZkcgPh.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-09.BGx9-PMs_17Uhht.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/profile-09.BGx9-PMs_dchfw.webp",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_astro/site.BMuEsFSi.css",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_headers",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/_redirects",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/assets/intertight-OFL.txt",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/assets/intertight.ttf",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/assets/logo-black.svg",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/assets/logo-white.svg",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/assets/logomark.svg",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/assets/tools/LICENSE-devicon.txt",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/assets/tools/claudecode.svg",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/assets/tools/codex.svg",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/assets/tools/cursor.svg",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/assets/tools/github.svg",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/assets/tools/postgresql.svg",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/assets/tools/python.svg",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/assets/tools/typescript.svg",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/en",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/en/",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/en/contact/",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/en/contact/index.html",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/en/engineers/",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/en/engineers/index.html",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/en/index.html",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/en/manifesto/",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/en/manifesto/index.html",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/en/vetting/",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/en/vetting/index.html",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/fr",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/fr/",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/fr/contact/",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/fr/contact/index.html",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/fr/index.html",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/fr/manifeste/",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/fr/manifeste/index.html",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/fr/missing-private-check/",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/fr/profils/",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/fr/profils/index.html",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/fr/selection-des-talents/",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/fr/selection-des-talents/index.html",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/index.html",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/missing-private-check/",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 302,
+      "login": "https://white-rain-6085.cloudflareaccess.com/cdn-cgi/access/login/nodina-preproduction.jd-fd3.workers.dev",
+      "pass": true
+    }
+  ]
+}

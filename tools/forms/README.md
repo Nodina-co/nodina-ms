@@ -1,0 +1,47 @@
+# Raccordement du formulaire NODINA
+
+Le service Google est déployé par JD et raccordé au site local depuis le 4 octobre 2026. JD a choisi **`build@nodina.com`** pour les demandes de projet et les notifications du formulaire. L’alias est créé sur **`jd@nodina.com`**, et le Google Sheet privé est raccordé au script. L’enregistrement réel, la confirmation JSON dans Chrome, la confirmation HTML sans JavaScript et la notification en boîte de réception sont vérifiés. Les notifications internes vont directement à `jd@nodina.com` : les deux essais vers son propre alias restaient dans les messages envoyés. `build@nodina.com` reste le contact public. Le `.env` local active le formulaire ; sans `PUBLIC_CONTACT_ENDPOINT`, notamment sur une installation neuve, l’envoi reste désactivé.
+
+**`insights@nodina.com`** reste réservé aux publications et à la newsletter. Le choix de `build@nodina.com` ne configure pas automatiquement le Reply-To de la newsletter.
+
+Le choix suit PROMETHEUS 13.5 : un programme Google Apps Script reçoit la demande, l’enregistre dans un Google Sheet appartenant à NODINA et notifie l’adresse de réception. JD a accordé lui-même les droits OAuth Google Sheets et envoi d’e-mails lors du déploiement. Aucun nouveau compte n’a été créé.
+
+## État du raccordement — 4 octobre 2026
+
+Le projet autonome [NODINA — Contact](https://script.google.com/home/projects/19uwBWro4LmwnL0KrK1G4BxV329Ss5aj820jXiIjfZWVF-hV_fWqkf3Gb/edit) est créé sur le compte `jd@nodina.com`. Le code et le manifeste initiaux ont été vérifiés par comparaison du texte copié depuis l’éditeur ; Google a ajouté les paramètres de Web app lors du déploiement. Les propriétés `CONTACT_NOTIFICATION_EMAIL=jd@nodina.com` et `CONTACT_SHEET_ID=1o3HpWGkOjSePSdr8kZJYXWsaS4XgYbgL9Y2rcQ3tgHw` sont enregistrées et relues dans les paramètres. JD a effectué le déploiement et le consentement OAuth ; l’agent a ensuite effectué les essais explicitement autorisés.
+
+Après installation et connexion du plugin Google Drive par JD, le classeur [NODINA — Contact](https://docs.google.com/spreadsheets/d/1o3HpWGkOjSePSdr8kZJYXWsaS4XgYbgL9Y2rcQ3tgHw/edit) est importé au format natif dans le dossier `ChatGPT` de `jd@nodina.com`. Métadonnées, propriétaire et accès privé vérifiés ; seul le propriétaire figure dans les permissions. L’onglet `Contact` contient les 17 en-têtes exacts de `headers.tsv` en A1:Q1. Les trois lignes A2:Q4 sont des essais techniques marqués TEST, conservés comme preuves et à exclure du suivi commercial. Ligne d’en-têtes figée, rendu Google vérifié, paramètres régionaux `fr_FR` et fuseau `Europe/Paris`. Réutiliser ce classeur et ce projet.
+
+Après le refus initial du contrôle automatique sur la sélection `Anyone`, JD a lui-même configuré l’accès public, accordé les droits OAuth et déployé l’application web sous `jd@nodina.com`. Google confirme **Version 1, 4 octobre 2026 à 20:04 (Europe/Paris)**. Le service répond aux POST anonymes ; le classeur lui-même reste privé. Aucun site n’a été publié.
+
+URL du service : `https://script.google.com/macros/s/AKfycbx6mizMLNx3gR4oIexuMAaIEzT-iDncqUBOdY62JbqkZ950bUxxqGWbxQBdj9-XN_ad/exec`.
+
+Cette URL est renseignée dans `.env` (ignoré par Git) et présente dans les formulaires du build FR/EN. Build réussi, 12 tests et audit des 10 pages réussis. Un POST volontairement invalide (`website=connection-check`) retourne HTTP 200 et `{"ok":false,"code":"invalid"}` ; Chrome confirme une réponse `type=cors` avec `credentials: omit`. Le classeur était sans demande après ces contrôles de transport. JD autorise ensuite explicitement l’envoi d’essai. Deux essais avec JavaScript sont enregistrés avec `notification_status=sent` à 20:10 et 20:15 ; les notifications adressées à `build@nodina.com` apparaissent dans les messages envoyés, pas dans Inbox. L’alias est ajouté aux adresses « Send mail as » du compte, avec « Treat as an alias » coché, sans changer l’adresse d’envoi par défaut. Cet ajout ne suffit pas lors du second essai. La propriété de notification est donc dirigée vers la boîte principale du même compte, `jd@nodina.com`. À 20:18, le POST HTML depuis une copie temporaire du formulaire sans scripts confirme « Demande enregistrée » ; sa ligne et sa notification portant la référence `7bfea04d-9a27-4b86-9151-a8c59e3eebb7` sont vérifiées, y compris le libellé Inbox dans Gmail. Aucun code ni droit OAuth supplémentaire nécessaire ; la propriété est lue à chaque POST. Les pages temporaires de vérification sont supprimées du build.
+
+## Configuration dans le compte Google propriétaire
+
+1. Réutiliser le classeur indiqué ci-dessus. Pour une installation neuve uniquement, créer `NODINA — Contact`, avec un onglet nommé exactement `Contact` et les en-têtes de `headers.tsv` en première ligne. Restreindre l’accès au classeur aux personnes qui traitent les demandes.
+2. Utiliser le projet Apps Script existant indiqué ci-dessus. Pour une installation neuve uniquement, créer le projet, copier `contact.gs` dans `Code.gs` et utiliser le manifeste `appsscript.json`.
+3. Le contact public reste `build@nodina.com`, alias de `jd@nodina.com` et adresse d’envoi ajoutée dans Gmail. Dans **Paramètres du projet → Propriétés du script**, utiliser `CONTACT_SHEET_ID` (l’identifiant du classeur) et `CONTACT_NOTIFICATION_EMAIL=jd@nodina.com`. Le destinataire interne est la boîte principale pour assurer l’arrivée en Inbox des notifications émises par ce même compte. Les deux propriétés sont préparées dans `script-properties.example.json` ; recopier leurs valeurs après avoir renseigné l’identifiant du classeur. Ce fichier n’est pas chargé automatiquement par Apps Script. L’adresse reste côté Google ; aucune clé secrète n’est nécessaire dans le site.
+4. Le propriétaire déploie une application web exécutée sous son compte, accessible aux visiteurs anonymes, après examen des autorisations Google Sheets et d’envoi de notifications. Étape effectuée par JD pour la version 1. Ne pas publier le classeur lui-même.
+5. Copier l’URL terminant par `/exec` dans `.env` : `PUBLIC_CONTACT_ENDPOINT=https://script.google.com/macros/s/IDENTIFIANT/exec`. La variable est publique : elle désigne une destination de formulaire, pas une authentification. Reconstruire avec `npm run build`.
+6. Après autorisation de l’envoi d’essai, soumettre une demande `TEST-` depuis la prévisualisation. Vérifier la ligne, le texte d’accord, l’heure, la page source et la notification reçue. Vérifier aussi le mode sans JavaScript, les erreurs et les essais répétés. Un test local simulé ne confirme pas la réception Google.
+7. Après toute modification de `contact.gs`, **Déployer → Gérer les déploiements → Modifier → Nouvelle version → Déployer**. Enregistrer l’URL, le propriétaire et la date de vérification dans `research/discovery.md`. Une simple sauvegarde du script ne met pas le service à jour.
+
+La validation de la notice de confidentialité, des destinataires, de la conservation des demandes et du contenu publiable reste nécessaire avant la mise en ligne. Aucun délai de réponse commerciale n’a été inventé.
+
+## Comportement préparé
+
+- Champs requis : nom, e-mail, organisation, offre, contexte, accord explicite ; calendrier facultatif. Limites contrôlées côté serveur.
+- Piège à robots et contrôle de durée pour les navigateurs avec JavaScript. Le POST HTML sans JavaScript reste accepté sans horodatage client. Ces contrôles ne remplacent pas une protection contre une attaque ciblée ou l’épuisement des quotas.
+- Une nouvelle tentative conserve son identifiant afin d’éviter une seconde ligne ou notification après une réponse réseau perdue. Verrou côté serveur pour les demandes simultanées.
+- Les valeurs commençant par une formule sont enregistrées comme texte dans le classeur.
+- La confirmation apparaît uniquement après une réponse JSON positive. Le POST sans JavaScript reçoit une page de confirmation Google sans données personnelles, avec un lien de retour fixe. Il n’y a pas de fausse redirection HTTP ni de confirmation optimiste.
+- L’échec d’écriture ne confirme pas la demande. Si seule la notification échoue, la ligne reste enregistrée avec `notification_status=failed` ; surveiller cette colonne et traiter la demande depuis le classeur. Aucune relance automatique n’est installée.
+- Aucun envoi au prospect, abonnement newsletter, cookie ou outil analytics. L’événement local `nodina:contact-recorded` est émis uniquement après réception confirmée ; il n’est raccordé à aucun service.
+
+## Vérification
+
+`npm test` exécute les tests de validation, stockage, doublons, notification, confirmation HTML et prévisualisation. Tous les services Google sont simulés pendant ces tests ; aucun e-mail externe n’est envoyé.
+
+Documentation primaire consultée le 4 octobre 2026 : [applications web Apps Script](https://developers.google.com/apps-script/guides/web), [réponses Content Service et redirections](https://developers.google.com/apps-script/guides/content), [MailApp](https://developers.google.com/apps-script/reference/mail/mail-app). Lecture JSON inter-domaines, enregistrement réel, confirmation HTML et réception Gmail sont vérifiés. Les erreurs de stockage/notification et doublons sont couverts par les tests simulés. Comportement Gmail documenté : [messages envoyés à son propre alias](https://knowledge.workspace.google.com/admin/support/troubleshooting/messages-sent-to-email-alias-or-group-arent-in-my-inbox?hl=en). Les deux tentatives vers l’alias n’ont pas confirmé Inbox, contrairement à l’envoi direct à la boîte principale.
