@@ -1,0 +1,183 @@
+{
+  "desktop": [
+    {
+      "forms": [],
+      "h1": "Votre équipe IA senior sur mesure.\nPrête à démarrer dès 3 semaines.",
+      "lang": "fr-FR",
+      "overflow": false,
+      "path": "/fr/",
+      "robots": "noindex,nofollow,noarchive",
+      "title": "NODINA — Votre équipe d’ingénieurs AI-native"
+    },
+    {
+      "forms": [],
+      "h1": "Des ingénieurs sélectionnés pour faire avancer votre produit.",
+      "lang": "fr-FR",
+      "overflow": false,
+      "path": "/fr/selection-des-talents/",
+      "robots": "noindex,nofollow,noarchive",
+      "title": "NODINA Select — Sélection des talents"
+    },
+    {
+      "forms": [],
+      "h1": "Votre prochain produit. Les talents pour le livrer.",
+      "lang": "fr-FR",
+      "overflow": false,
+      "path": "/fr/profils/",
+      "robots": "noindex,nofollow,noarchive",
+      "title": "Profils d’ingénieurs — NODINA"
+    },
+    {
+      "forms": [],
+      "h1": "L’IA change les outils. Le talent fait la différence.",
+      "lang": "fr-FR",
+      "overflow": false,
+      "path": "/fr/manifeste/",
+      "robots": "noindex,nofollow,noarchive",
+      "title": "Notre manifeste — NODINA"
+    },
+    {
+      "forms": [
+        {
+          "action": "https://script.google.com/macros/s/AKfycbx6mizMLNx3gR4oIexuMAaIEzT-iDncqUBOdY62JbqkZ950bUxxqGWbxQBdj9-XN_ad/exec",
+          "ready": "true"
+        }
+      ],
+      "h1": "Parlons de\nvotre projet.",
+      "lang": "fr-FR",
+      "overflow": false,
+      "path": "/fr/contact/",
+      "robots": "noindex,nofollow,noarchive",
+      "title": "Parlons de votre projet | NODINA"
+    },
+    {
+      "forms": [],
+      "h1": "Your senior AI team, built for you.\nReady to build in as little as 3 weeks.",
+      "lang": "en-US",
+      "overflow": false,
+      "path": "/en/",
+      "robots": "noindex,nofollow,noarchive",
+      "title": "NODINA — Your senior AI-native engineering team"
+    },
+    {
+      "forms": [],
+      "h1": "Engineers selected to move your product forward.",
+      "lang": "en-US",
+      "overflow": false,
+      "path": "/en/vetting/",
+      "robots": "noindex,nofollow,noarchive",
+      "title": "NODINA Select — Talent selection"
+    },
+    {
+      "forms": [],
+      "h1": "Your next product. The talent to ship it.",
+      "lang": "en-US",
+      "overflow": false,
+      "path": "/en/engineers/",
+      "robots": "noindex,nofollow,noarchive",
+      "title": "Engineer profiles — NODINA"
+    },
+    {
+      "forms": [],
+      "h1": "AI changes the tools. Talent makes the difference.",
+      "lang": "en-US",
+      "overflow": false,
+      "path": "/en/manifesto/",
+      "robots": "noindex,nofollow,noarchive",
+      "title": "Our manifesto — NODINA"
+    },
+    {
+      "forms": [
+        {
+          "action": "https://script.google.com/macros/s/AKfycbx6mizMLNx3gR4oIexuMAaIEzT-iDncqUBOdY62JbqkZ950bUxxqGWbxQBdj9-XN_ad/exec",
+          "ready": "true"
+        }
+      ],
+      "h1": "Let’s talk about\nyour project.",
+      "lang": "en-US",
+      "overflow": false,
+      "path": "/en/contact/",
+      "robots": "noindex,nofollow,noarchive",
+      "title": "Tell us about your project | NODINA"
+    }
+  ],
+  "mobile": [
+    {
+      "h1": "Votre équipe IA senior sur mesure.\nPrête à démarrer dès 3 semaines.",
+      "path": "/fr/",
+      "robots": "noindex,nofollow,noarchive",
+      "viewport": 320,
+      "width": 305
+    },
+    {
+      "h1": "Des ingénieurs sélectionnés pour faire avancer votre produit.",
+      "path": "/fr/selection-des-talents/",
+      "robots": "noindex,nofollow,noarchive",
+      "viewport": 320,
+      "width": 305
+    },
+    {
+      "h1": "Votre prochain produit. Les talents pour le livrer.",
+      "path": "/fr/profils/",
+      "robots": "noindex,nofollow,noarchive",
+      "viewport": 320,
+      "width": 305
+    },
+    {
+      "h1": "L’IA change les outils. Le talent fait la différence.",
+      "path": "/fr/manifeste/",
+      "robots": "noindex,nofollow,noarchive",
+      "viewport": 320,
+      "width": 305
+    },
+    {
+      "h1": "Parlons de\nvotre projet.",
+      "path": "/fr/contact/",
+      "robots": "noindex,nofollow,noarchive",
+      "viewport": 320,
+      "width": 305
+    },
+    {
+      "h1": "Your senior AI team, built for you.\nReady to build in as little as 3 weeks.",
+      "path": "/en/",
+      "robots": "noindex,nofollow,noarchive",
+      "viewport": 320,
+      "width": 305
+    },
+    {
+      "h1": "Engineers selected to move your product forward.",
+      "path": "/en/vetting/",
+      "robots": "noindex,nofollow,noarchive",
+      "viewport": 320,
+      "width": 305
+    },
+    {
+      "h1": "Your next product. The talent to ship it.",
+      "path": "/en/engineers/",
+      "robots": "noindex,nofollow,noarchive",
+      "viewport": 320,
+      "width": 305
+    },
+    {
+      "h1": "AI changes the tools. Talent makes the difference.",
+      "path": "/en/manifesto/",
+      "robots": "noindex,nofollow,noarchive",
+      "viewport": 320,
+      "width": 305
+    },
+    {
+      "h1": "Let’s talk about\nyour project.",
+      "path": "/en/contact/",
+      "robots": "noindex,nofollow,noarchive",
+      "viewport": 320,
+      "width": 305
+    }
+  ],
+  "profileFilter": {
+    "available": 2,
+    "onAssignment": 7
+  },
+  "offerAfterLanguageSwitch": "systems",
+  "missingPage": "Page introuvable.",
+  "formSubmission": false
+}

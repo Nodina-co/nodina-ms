@@ -32,4 +32,26 @@ Après un refus initial de la sélection `Anyone` par le contrôle automatique, 
 
 Cette intégration ne termine donc pas toute la Phase 2 de PROMETHEUS et ne vaut pas accord de publication.
 
+## Préparation de préproduction Cloudflare
+
+La [configuration et le parcours privé](../tools/cloudflare/README.md) sont préparés localement : Worker statique distinct, URLs et routes désactivées, noindex et formulaire Google conservés, contrôle du paquet et simulation Wrangler réussis. Le compte NODINA identifié après connexion de JD n'a aucun projet Workers/Pages ; Cloudflare demande la vérification de l'e-mail et la mise en place de Zero Trust. Le forfait exact reste à vérifier après cet e-mail. Aucun déploiement du site ni politique Access appliquée.
+
+JD confirme ensuite « vérifié » : la page Workers plans affiche désormais **Free / $0 / Current plan**. Le parcours Zero Trust Free mène à une activation avec moyen de paiement et autorisation de facturer les dépassements. L'agent ne remplit ni n'accepte ce formulaire. Alternative sans souscription proposée : un mot de passe sur Workers Free pour la préproduction temporaire, avec contrôle avant toutes les ressources et refus en cas de configuration absente. Choix de JD attendu, aucun déploiement.
+
 Sources techniques consultées : [installation Astro](https://docs.astro.build/en/install-and-setup/), [déploiement statique sur Cloudflare](https://docs.astro.build/en/guides/deploy/cloudflare/), le 4 octobre 2026.
+
+Le 5 octobre, JD répond « fait ». Cloudflare One et les paramètres NODINA affichent un domaine d'équipe `white-rain-6085.cloudflareaccess.com`. Puis la session Cloudflare bascule sur `jd@checkia.fr` et ne donne plus accès au compte NODINA ; une reconnexion est demandée. Le forfait Zero Trust final reste à confirmer. Wrangler signale une session expirée après vérification réseau. Aucune politique Access ni premier déploiement effectués ; la configuration locale reste fermée et ciblée sur le compte NODINA.
+
+Après confirmation de la reconnexion par JD, le compte NODINA est rétabli. Les abonnements **Workers Free** et **Zero Trust Teams Free Base** sont confirmés actifs. Le consentement Wrangler officiel est ouvert sur ce compte avec quatre droits : lecture de l'utilisateur et du compte, gestion des Workers et maintien de connexion. L'autorisation est laissée à JD ; aucun premier déploiement effectué.
+
+JD répond « autorisé ». Après relance du retour OAuth expiré avec les mêmes droits approuvés, Wrangler confirme le bon compte. La règle Access est préparée sans sauvegarde pour `jd@nodina.com` seul, Allow, six heures (option disponible dans l'interface). Le premier déploiement privé et l'application de cette protection restent soumis à l'accord final.
+
+JD autorise ensuite explicitement le déploiement privé. La politique Access est enregistrée (ID `a7f3be67-47ca-41cf-80ea-34354fc39ddf`), mais associée à zéro application. Les contrôles locaux sont revalidés, puis la tentative de déploiement fermé échoue avant transfert : le scope Wrangler `workers:write` préparé ne satisfait pas **Workers Scripts Write**, requis par l'API d'envoi. Un consentement corrigé est ouvert et laissé à JD. Aucun site déployé ni adresse activée. L'accord de déploiement ne doit pas être redemandé.
+
+## Préproduction privée en ligne — 5 octobre 2026
+
+JD autorise le droit Wrangler corrigé. L'envoi statique réussit, version `926cc206-8a72-4879-a036-55402dd465d7`. Access protège ensuite tout le trafic de ce Worker seul avec la politique JD, session de six heures. L'adresse [nodina-preproduction.jd-fd3.workers.dev](https://nodina-preproduction.jd-fd3.workers.dev/fr/) est activée après vérification ; aucun aperçu ni domaine personnalisé activé.
+
+Les 63 chemins contrôlés sans session sont redirigés vers Access. Après connexion de JD, les dix pages FR/EN et leur affichage à 320 pixels sont vérifiés sans débordement ; filtres de profils, offre conservée au changement de langue, redirection racine et affichage 404 vérifiés. Les formulaires restent raccordés au même service Google, sans nouvel envoi réel. Noindex conservé. [Rapport détaillé, captures et limites](../reports/cloudflare-preproduction-20261005.md).
+
+Le fichier Wrangler d'envoi reste fermé et nécessite la réactivation de l'adresse protégée après un futur déploiement. La publication publique, les faits des profils/Select, les pages légales et la mesure restent à finaliser séparément.
