@@ -1,11 +1,43 @@
-Phase actuelle : 2 — Direction A retenue ; accueil FR/EN enrichi et page de sélection AITalentEval préparés pour revue le 2026-10-03. Méthode et outil à concevoir selon JD. Aucune publication. Lacunes de recherche de Phase 1 toujours ouvertes.
+Phase actuelle : 2 — Préproduction privée FR/EN en ligne et vérifiée le 2026-10-05 ; confirmation des comptes GA4, Search Console et Bing engagée selon PROMETHEUS 0.3. NODINA Select reste à concevoir. Aucune publication publique ; lacunes de recherche de Phase 1 toujours ouvertes.
 
 # Découverte : NODINA
 
 ## État
 
 Phase 0 clôturée : objectifs consolidés confirmés par JD le 2026-09-28. Cadrage de Phase 1 retenu pour poursuivre le 2026-10-02 ; relevés de visibilité et précisions factuelles incomplets restent ouverts. JD choisit A au premier tour visuel ; accueil complet FR/EN préparé pour revue, voir `content/design.md`.
-Questions 1 à 50 renseignées ou sans objet (23a, 23b, 32, 33). Navigation française par défaut et racine vers `/fr/` choisies par JD le 2026-10-02 ; aucune redirection appliquée.
+Questions 1 à 50 renseignées ou sans objet (23a, 23b, 32, 33). Navigation française par défaut et racine vers `/fr/` choisies par JD le 2026-10-02 ; redirection appliquée dans la préproduction privée le 2026-10-05.
+
+## Setup — état au 2026-10-05
+
+JD demande l'étape suivante après le déploiement privé, puis confirme « aucun outil configuré pour Nodina ». La préparation commence par GA4 conformément à PROMETHEUS 0.3 ; Search Console puis Bing suivront. Confirmer ou préparer les comptes précède l'installation du tag dans les gabarits. Les créations de comptes et consentements sont effectués par JD selon la section 3.
+
+| Élément | État et prochaine vérification |
+|---|---|
+| Préproduction | [En ligne et vérifiée](../reports/cloudflare-preproduction-20261005.md), accès JD seul, six heures, noindex |
+| Google Analytics 4 | Compte et propriété créés par JD ; propriété `557424928`, flux `16047238617`, Measurement ID `G-J8NV7Z1HMX`, sans balise installée |
+| Google Search Console | Domaine `sc-domain:nodina.com` créé par JD le 5 octobre ; auto-validé via le fournisseur de domaine, `jd@nodina.com` propriétaire vérifié ; aucun sitemap soumis |
+| Bing Webmaster Tools / IndexNow | `https://nodina.com/` importé et validé via Search Console : confirmation explicite dans Verification Code ; profil connecté `jd@nodina.com` ; IndexNow non installé |
+| Accès navigateur aux trois consoles | GA4, Search Console et Bing accessibles sous `jd@nodina.com` ; propriété GA4 créée, Search Console et Bing validés ; collecte effective à configurer et vérifier |
+| Formulaire | Service Google existant, trois essais locaux autorisés confirmés le 4 octobre ; raccordement distant vérifié sans nouvel envoi réel |
+| Reporting hebdomadaire | Collecteur et manifeste préparés localement, six tests simulés réussis ; projet Cloud `nodina-reporting` créé par JD, numéro `931529905894` ; Sheets, Analytics Data et Search Console API activées ; configuration OAuth créée par JD, audience Internal relue ; projet Apps Script **NODINA - Reporting** créé par JD et associé au projet Cloud, ID `1a1dGQd864bogaKQIe5aDc1vqHPz0BNZmUDKDoFaJxewIH4vQk8-TPqHg` ; sources collées et enregistrées par JD, comparées aux fichiers locaux ; dépôt GitHub `Nodina-co/nodina-marketing-analytics` créé par JD et confirmé Private / main / README ; formulaire fine-grained prêt (ce seul dépôt, Contents R/W, Metadata R, expiration 2027-01-03), génération et collage de GITHUB_TOKEN à JD ; aucune collecte réelle ni planification |
+
+La préproduction demeure privée pendant ce parcours. La vérification du domaine de production et les soumissions de sitemap/indexation suivent leur propre périmètre ; elles ne doivent pas ouvrir l'hébergement de revue.
+
+Le [parcours de configuration](../tools/analytics/README.md) consigne le brouillon GA4 et les vérifications suivantes. Compte NODINA, propriété NODINA — Site web, heure française, euros et catégorie informatique préparés ; les quatre partages facultatifs sont décochés. JD confirme l'effectif « 1 à 10 » ; les objectifs Generate leads et Understand web and/or app traffic sont sélectionnés. Le bouton de création est actif ; JD effectue lui-même la création et les consentements proposés.
+
+JD fournit ensuite la capture de l'étape Data collection, avec compte et propriété terminés. La création est confirmée dans la console. Le flux NODINA — Web est créé pour `https://nodina.com`, mesures améliorées activées. Compte `410716626` relevé dans l'URL ; ID de propriété `557424928` relu dans Admin → Property details ; flux `16047238617` et Measurement ID `G-J8NV7Z1HMX` relevés. L'accueil confirme l'absence de données ; aucune collecte effective présumée. Rétention, événements clés, canaux et installation de balise restent à traiter.
+
+Search Console est ouvert sous `jd@nodina.com`, formulaire de propriété de domaine rempli avec `nodina.com`. Le bouton CONTINUE est laissé à JD conformément au gate Accounts. Valeur DNS non encore attribuée, propriété non encore créée ni validée.
+
+JD poursuit et confirme « fait ». Google affiche Ownership auto verified, méthode Domain name provider, pour `sc-domain:nodina.com`. Les paramètres du domaine affichent You are a verified owner sous `jd@nodina.com` et une date d'ajout au 5 octobre 2026. Aucun nouveau TXT fourni, aucun DNS modifié par l'agent. L'enregistrement existant et le fournisseur DNS précis ne sont pas identifiés. Les rapports restent en traitement ; sitemap et indexation non soumis.
+
+Le parcours Bing est ouvert sur le choix Microsoft/Google/Facebook. Le contrôle automatique refuse le lancement de la méthode Google, faute de choix explicite de ce mode et de l'éventuelle liaison de comptes. Aucune tentative de contournement ; choix Google `jd@nodina.com`, Microsoft ou différer demandé à JD. La création et les consentements Bing restent à l'opérateur.
+
+JD fournit ensuite la capture du site `https://nodina.com/` ajouté manuellement à Bing, statut Not verified. Le profil de la console confirme `jd@nodina.com`. L'option CNAME est relevée sans application. Les DNS publics de `nodina.com` renvoient `dns1.registrar-servers.com` et `dns2.registrar-servers.com`, correspondant aux DNS Namecheap ; registrar et accès non confirmés par ce seul relevé.
+
+JD demande pourquoi ne pas importer depuis Search Console. Ce parcours est retenu pour éviter l'ajout DNS, puisque Search Console est déjà validée. Le contrôle automatique refuse l'ouverture d'Import, faute d'autorisation du consentement Search Console que ce bouton peut lancer. Le bouton est laissé à JD, sans nouvelle tentative. Après son consentement, sélectionner NODINA seulement et vérifier le statut dans Bing. Aucun DNS modifié, aucune entrée supprimée ni sitemap soumis.
+
+JD poursuit l'import lui-même : après un écran initial sans sites, il confirme que l'import a fonctionné, puis signale une page blanche. La réouverture directe du tableau de bord NODINA rétablit l'affichage. Le panneau Verification Code confirme explicitement l'import depuis Search Console et l'absence de code Bing nécessaire, la propriété étant déjà validée chez Google. [Preuve](../reports/screenshots/nodina-bing-import-verified-20261005.jpg). Aucun DNS modifié ni site supprimé. La cause précise de l'affichage blanc reste inconnue ; sitemap et IndexNow attendent le lancement public approuvé.
 
 Référence pour la suite, désignée par JD le 2026-10-01 : [PROMETHEUS mis à jour](../prometheus_update_2026-10-01/PROMETHEUS.md), version de fondation 2026-09-29. Lire sa carte de lecture (0.4), le socle commun et les sections de la phase actuelle. Les décisions NODINA déjà validées restent applicables.
 

@@ -447,3 +447,127 @@ JD poursuit lui-même le déploiement **Web app**, choisit l’accès public et 
 JD autorise explicitement « Oui, envoyer le test ». L’essai est enregistré et notifié, mais Gmail classe hors Inbox les messages envoyés par JD à son propre alias. L’alias `build@nodina.com` est ajouté aux adresses d’envoi Gmail ; le nouvel essai reste hors Inbox. L’acheminement technique des notifications est donc dirigé vers la boîte principale du même compte, `jd@nodina.com`, afin de garantir une alerte visible. Le contact public choisi reste `build@nodina.com` et l’adresse d’envoi Gmail par défaut reste JD.
 
 L’essai final confirme la ligne Sheets, la réponse HTML sans JavaScript et la notification portant le libellé Inbox à 20:18. La confirmation JSON avait déjà été vérifiée dans Chrome. Trois lignes marquées TEST sont conservées comme preuves ; le dépôt documente leur exclusion du suivi commercial. Aucun autre destinataire, compte, droit OAuth ou coût ajouté, aucun déploiement du site ni passage en index.
+
+## 2026-10-04 : préparation locale de préproduction Cloudflare
+
+Après restauration du contexte, JD choisit A, poursuivre les éléments restants. Préparation locale d'un Worker statique séparé `nodina-preproduction`, avec URLs `workers.dev` et aperçus/version désactivées, aucune route ni domaine de production ; formulaire Google existant et noindex conservés. Wrangler 4.147.0 est ajouté pour la simulation. Proposition technique réversible de l'agent, documentée dans `tools/cloudflare/README.md` ; la politique Access proposée pour JD seul n'est pas enregistrée.
+
+JD confirme ensuite sa connexion. Le compte `Jd@nodina.com's Account`, ID `fd3a2bc5aad5864906bab1ffbafc8007`, affiche **No projects found** dans Workers & Pages et **Set up Zero Trust** avant Access. La configuration locale cible ce compte. Cloudflare exige encore la vérification de l'e-mail `jd@nodina.com` ; cela bloque la lecture du forfait Workers exact. Build, 12 tests, audit des dix pages, contrôle du paquet et simulation Wrangler réussis. Aucun compte créé, droit accordé, push, commit, test de formulaire réel ou déploiement effectué par l'agent. La sélection A autorise la préparation et les inspections ; le premier déploiement fait toujours l'objet d'un accord distinct.
+
+## 2026-10-04 : e-mail Cloudflare vérifié et choix de protection en attente
+
+JD répond « vérifié ». Après actualisation, Cloudflare Workers plans confirme **Free**, **$0**, **Current plan**. Le choix Zero Trust Free à 0 $ ouvre une page d'activation demandant un moyen de paiement, l'acceptation des conditions et l'autorisation de facturer les dépassements. Aucun champ ni accord renseigné, aucune activation. Pour respecter le budget supplémentaire nul, l'agent propose la protection temporaire par mot de passe sur Workers Free ; JD peut aussi choisir Access en terminant lui-même l'activation Zero Trust. Ce choix est demandé, pas décidé. La configuration statique fermée reste en place, aucun déploiement.
+
+## 2026-10-05 : reprise après activation et changement de session Cloudflare
+
+JD répond « fait ». Cloudflare One devient accessible et les paramètres NODINA affichent `jd@nodina.com` et le domaine d'équipe `white-rain-6085.cloudflareaccess.com`. L'agent ne crée ni ne renomme cette équipe. La navigation suivante refuse l'accès au compte NODINA ; l'accueil révèle une session active `jd@checkia.fr`, avec les comptes Checkia seuls. La reconnexion au compte NODINA est demandée, sans modifier la cible locale ni utiliser un compte Checkia par défaut. Le forfait Zero Trust actif n'est pas encore confirmé.
+
+La vérification réseau de Wrangler confirme une session expirée. Aucun nouveau droit OAuth accordé, aucune politique Access enregistrée, aucun déploiement ou envoi réel de formulaire. Le premier déploiement privé reste à présenter pour accord une fois les accès rétablis.
+
+## 2026-10-05 : compte NODINA rétabli et forfaits gratuits confirmés
+
+JD confirme sa reconnexion à `jd@nodina.com`. L'agent retrouve le compte NODINA `fd3a2bc5aad5864906bab1ffbafc8007`. La page des abonnements confirme **Workers Free — Active** et **Zero Trust Teams Free Base — Active**. Aucun changement de forfait ni paiement effectué par l'agent.
+
+La connexion Wrangler officielle est préparée avec `user:read`, `account:read`, `workers:write` et `offline_access` ; le consentement affiche le bon compte et les quatre droits correspondants. JD est invité à cliquer lui-même sur Authorize. Aucun clic d'autorisation par l'agent, aucune politique Access enregistrée ni déploiement à cette étape.
+
+## 2026-10-05 : autorisation Wrangler et politique Access préparée
+
+JD répond « autorisé ». Le premier retour de connexion OAuth a expiré ; l'agent relance les mêmes quatre permissions approuvées et termine leur renouvellement. Wrangler confirme la connexion à `jd@nodina.com`, le compte NODINA exact et les quatre droits. Aucune permission supplémentaire accordée.
+
+Le formulaire Access **NODINA préproduction — JD** est rempli sans sauvegarde : Allow pour l'adresse exacte `jd@nodina.com`, durée six heures. L'interface ne propose pas les huit heures initialement envisagées ; six heures est une proposition de l'agent à valider avec le premier déploiement privé. Aucun enregistrement de politique, application Access, déploiement du site, changement de domaine ou envoi de formulaire effectué.
+
+La relecture Workers & Pages confirme **No projects found** et `jd-fd3.workers.dev`. L'intégration d'identité Cloudflare est déjà présente ; la proposition la réutilise. Le brouillon de politique est capturé dans `reports/screenshots/cloudflare-access-draft-20261005.jpg`. Accord demandé pour le premier déploiement fermé, sa protection Access sur tout le trafic de ce Worker seul, puis l'ouverture de l'adresse protégée ; noindex conservé et aucun domaine de production.
+
+## 2026-10-05 : premier déploiement privé autorisé
+
+JD répond explicitement « oui, déployer en privé ». Cet accord couvre le Worker distinct `nodina-preproduction` sur son compte NODINA, l'envoi initial avec les URL fermées, la protection Access de tout son trafic pour `jd@nodina.com` seul avec une session de six heures, puis l'ouverture de sa seule adresse protégée. Noindex est conservé. Aucun domaine de production, publication publique, passage en index ou nouvel envoi réel de formulaire autorisé par cette réponse.
+
+## 2026-10-05 : politique enregistrée et scope Wrangler à corriger
+
+La politique réutilisable **NODINA préproduction — JD** est enregistrée sous l'ID `a7f3be67-47ca-41cf-80ea-34354fc39ddf` ; Cloudflare confirme Allow, une règle et zéro application utilisatrice. Elle ne protège encore aucune URL. Le build et les 12 tests, le contrôle des dix pages, le paquet de 48 fichiers et la simulation Wrangler réussissent.
+
+La tentative de déploiement fermé échoue avant transfert sur l'API des déploiements : **No access to the specified resource**. Le scope `workers:write` choisi par l'agent ne suffit pas ; la documentation d'envoi impose **Workers Scripts Write**. Le parcours de consentement corrigé remplace ce scope par `workers_scripts:write`, en conservant la lecture du compte/utilisateur et le renouvellement. L'approbation de ce nouveau droit est demandée à JD. Aucun site déployé ni URL ouverte ; son accord de déploiement privé reste valable.
+
+## 2026-10-05 : préproduction privée déployée et vérifiée
+
+JD confirme « autorisé » pour le consentement corrigé. Wrangler confirme le bon compte et transfère le paquet statique sans URL exposée, version `926cc206-8a72-4879-a036-55402dd465d7`. L'application Access `699e8cce-da91-44bf-a7fd-873878c2c6bb` est associée au Worker `nodina-preproduction`, All traffic, et à la politique JD existante. Application et politique sont relues avec une session de six heures et la seule adresse exacte `jd@nodina.com`. L'adresse `workers.dev` est ensuite activée, les aperçus restent désactivés et aucun domaine personnalisé n'est ajouté.
+
+[Préproduction privée](https://nodina-preproduction.jd-fd3.workers.dev/fr/) : 63/63 requêtes sans session passent par Access ; la connexion JD avec le fournisseur Cloudflare existant donne accès aux dix pages FR/EN. Desktop, mobile à 320 pixels, filtres de profils, conservation de l'offre au changement de langue et affichage 404 sont vérifiés. Meta noindex conservée. Aucun nouvel envoi réel de formulaire, push ou commit par l'agent. [Rapport et limites des vérifications](../reports/cloudflare-preproduction-20261005.md).
+
+La configuration locale d'envoi reste fermée par choix de l'agent : un prochain envoi nécessite une relecture de la protection distante puis la réactivation manuelle de la seule adresse protégée. Ce fichier ne reflète pas à lui seul l'état live. La publication publique et la recette d'un nouvel envoi réel restent distinctes de l'accord privé acquis.
+
+## 2026-10-05 : comptes de mesure absents et préparation GA4
+
+À la question initiale de PROMETHEUS 0.3, JD confirme « aucun outil configuré pour Nodina ». Préparation engagée dans l'ordre GA4, Search Console puis Bing. Le compte Google existant `jd@nodina.com` est sélectionné. L'agent prépare le brouillon NODINA / NODINA — Site web, heure française et euros, catégorie Computers & Electronics adaptée à l'activité déclarée ; les quatre partages facultatifs sont désactivés pour limiter les usages supplémentaires. Ces choix préparatoires sont réversibles.
+
+L'effectif n'est pas établi dans les sources du projet : confirmation de la tranche demandée à JD, sans assimiler les profils illustratifs ou le réseau de partenaires à des salariés. Aucun compte Analytics, propriété ou flux créé ; aucun consentement accepté ni balise installée. Les créations de comptes et consentements restent à JD conformément à la section 3. [Parcours préparé](../tools/analytics/README.md).
+
+JD précise « j'ai répondu 1 à 10 ». Cette tranche est consignée comme déclaration de l'opérateur pour le formulaire GA4, sans chiffre plus précis. Le navigateur affiche désormais l'étape Business objectives. L'agent sélectionne Generate leads et Understand web and/or app traffic, conformément à l'objectif de contacts commerciaux et de suivi d'acquisition du site. La création finale est prête et laissée à JD ; aucun compte ni propriété créé par l'agent, aucun consentement accepté.
+
+## 2026-10-05 : propriété GA4 créée par JD et flux Web raccordé
+
+JD fournit une capture de Data collection où les étapes Account creation, Property creation, Business details et Business objectives sont terminées. La console confirme ensuite le succès du compte et de la propriété. L'agent crée le flux Web dans cette propriété existante : NODINA — Web, `https://nodina.com`, mesures améliorées activées, conformément au parcours déjà annoncé. Aucun nouveau compte créé ni consentement accepté par l'agent.
+
+Identifiants relevés : compte `410716626` dans l'URL, propriété `557424928` relue dans Admin → Property details, flux `16047238617`, Measurement ID `G-J8NV7Z1HMX` dans les instructions de balise puis sur l'accueil. Nom, heure française, euros, catégorie informatique, effectif 1 à 10 et deux objectifs sont relus. Les e-mails facultatifs Google sont laissés décochés et enregistrés. Aucun code de suivi ajouté au site ; l'accueil affiche l'absence de données. [Référence des comptes](../tools/analytics/README.md).
+
+Le formulaire Search Console est préparé sous `jd@nodina.com` pour la propriété de domaine `nodina.com`. Le bouton CONTINUE est laissé à JD selon PROMETHEUS 3 ; aucune propriété créée, valeur DNS inventée, modification DNS ou soumission de sitemap/indexation. La préproduction reste privée.
+
+## 2026-10-05 : Search Console auto-validée et choix de connexion Bing
+
+JD confirme « fait » après CONTINUE. Search Console affiche Ownership auto verified, méthode Domain name provider. Le domaine `sc-domain:nodina.com` est ajouté le 5 octobre 2026, sous `jd@nodina.com` ; les paramètres confirment You are a verified owner. Aucun DNS modifié par l'agent ni valeur de vérification inventée. Les rapports sont en traitement ; aucune soumission de sitemap ni demande d'indexation. [Preuve](../reports/screenshots/nodina-search-console-verified-20261005.jpg).
+
+Bing Webmaster Tools est ouvert sur le choix de connexion ; les cookies facultatifs sont refusés. Le contrôle automatique rejette le lancement de la méthode Google, car cette méthode et une éventuelle liaison de comptes ne sont pas explicitement choisies. L'action n'est pas répétée ni contournée. Le choix Google `jd@nodina.com`, Microsoft ou différer est demandé à JD. Aucun compte Bing créé, aucune connexion Google lancée ni consentement accepté. La préproduction reste privée.
+
+## 2026-10-05 : token GitHub limité au dépôt analytique, génération à JD
+
+JD confirme « connecté ». Le formulaire fine-grained est visible : NODINA Reporting, owner Nodina-co, expiration 2027-01-03. L'agent sélectionne Only select repositories puis uniquement Nodina-co/nodina-marketing-analytics ; Selected 1 repository est relu. Contents Read and write, Metadata Read-only et Organizations (0) sont présents. [Droits proposés](../reports/screenshots/nodina-reporting-token-ready-20261005.jpg). Aucun token généré ni grant effectué par l'agent.
+
+Dans Apps Script Reporting, l'agent prépare une ligne Script Properties GITHUB_TOKEN, valeur vide et non enregistrée. JD doit générer le token, copier sa valeur directement dans cette ligne et enregistrer, puis revenir sur Editor et quitter l'affichage GitHub du secret avant de répondre. [Champ prêt](../reports/screenshots/nodina-reporting-github-property-ready-20261005.jpg). À la reprise, pas de snapshot complet des propriétés ou de la page du token, pas de lecture du presse-papiers ; ne vérifier que nom/présence sans révéler la valeur. Aucun secret lu ou sauvegardé localement, aucun test réel ni planification.
+
+## 2026-10-05 : dépôt analytique privé confirmé, authentification GitHub attendue
+
+JD confirme « créé ». GitHub affiche Nodina-co/nodina-marketing-analytics avec badge Private, branche main, README et commit initial `f0197fce0229e04130059be0a411cca4661d83fe`. [Preuve](../reports/screenshots/nodina-reporting-repo-private-20261005.jpg).
+
+L'agent ouvre le formulaire officiel fine-grained avec un modèle non secret (NODINA Reporting, propriétaire Nodina-co, Contents write incluant read, durée proposée 90 jours). GitHub affiche Confirm access sous jdcollard-phd ; la vérification d'identité est laissée à JD. [Écran prêt](../reports/screenshots/nodina-reporting-github-confirm-access-20261005.jpg). Le formulaire reste derrière cette étape ; aucun token créé ni accès accordé, aucune valeur de secret lue. La sélection du seul dépôt analytique et les droits effectifs doivent encore être vérifiés avant génération par JD. Aucun test réel ou déclencheur Reporting installé.
+
+## 2026-10-05 : sources Reporting installées et dépôt privé préparé
+
+JD confirme « fait ». L'agent lit les deux fichiers par Copier dans l'éditeur Apps Script : Code.gs correspond intégralement à la source locale (301 lignes, comparaison après normalisation des fins de ligne/espaces de bord) ; appsscript.json est identique après parsing JSON. Save project to Drive est désactivé, cloud_done présent. Aucune exécution du collecteur ni grant OAuth demandé. [Installation vérifiée](../reports/screenshots/nodina-reporting-sources-installed-20261005.jpg).
+
+GitHub est connecté sous `jdcollard-phd`. L'agent prépare New repository pour Nodina-co / nodina-marketing-analytics, visibilité Private et Add README On ; le nom est disponible. Le bouton Create repository reste à JD selon PROMETHEUS 15.2b ; aucun dépôt créé à cette étape. [Brouillon prêt](../reports/screenshots/nodina-reporting-repo-ready-20261005.jpg). Aucun token, clé Bing ou Script Property secret obtenu ou saisi. Le reporting reste sans test réel ni planification.
+
+## 2026-10-05 : Apps Script Reporting créé et associé à Cloud
+
+JD confirme « créé ». L'éditeur sous `jd@nodina.com` affiche **NODINA - Reporting**, Script ID `1a1dGQd864bogaKQIe5aDc1vqHPz0BNZmUDKDoFaJxewIH4vQk8-TPqHg`, avec le fichier initial Code.gs contenant seulement myFunction. L'agent active l'affichage du manifeste puis associe le projet Cloud : Project Settings confirme GCP Standard / `931529905894`. Fuseau Paris et V8 sont présents. [Association confirmée](../reports/screenshots/nodina-reporting-cloud-linked-20261005.jpg).
+
+Les fichiers locaux Code.gs et appsscript.json sont préparés et proposés à JD pour collage/enregistrement selon PROMETHEUS 15.2b étape 5. Aucun code collecteur installé ou exécuté à cette étape, aucun grant OAuth sur les sources, aucune Script Property saisie, aucun dépôt GitHub ou déclencheur créé. Le formulaire Contact reste intact. Ce projet Reporting n'est pas une Web app et n'a pas de déploiement public.
+
+## 2026-10-05 : API et audience interne confirmées, Apps Script à créer
+
+JD confirme « fait » après activation Analytics et création OAuth. La console confirme Google Analytics Data API Enabled et OAuth configuration created ; Audience est relue Internal. L'agent active Search Console API avec les mêmes Google APIs Terms of Service déjà acceptées par JD et confirme son statut Enabled. Sheets avait été relue dans les services activés. Les trois API requises sont prêtes ; aucun accès utilisateur aux données du collecteur n'est encore accordé.
+
+Apps Script est ouvert sous `jd@nodina.com` ; seul NODINA — Contact est présent dans My Projects. JD est invité à créer NODINA — Reporting avec New project selon PROMETHEUS 15.2b, puis à associer le numéro Cloud `931529905894` lors de l'installation. Aucun projet de reporting Apps Script créé, aucun formulaire Contact modifié, aucune Web app déployée. [Étape prête](../reports/screenshots/nodina-reporting-apps-script-ready-20261005.jpg).
+
+## 2026-10-05 : projet Cloud créé, API et OAuth en préparation
+
+JD confirme « créé ». Le tableau de bord confirme NODINA Reporting / `nodina-reporting`, numéro `931529905894`, organisation nodina.com. Sheets API est activée par l'agent puis relue dans Enabled APIs & Services. L'activation Analytics Data API reste à JD car sa fiche présente l'acceptation des Google APIs Terms of Service par utilisation ; le bouton Enable n'est pas cliqué par l'agent. Search Console API reste à activer. Un second onglet contient le brouillon OAuth NODINA Reporting, support/contact `jd@nodina.com`, audience Internal ; la case d'accord User Data Policy et les étapes Continue/Create restent à JD. Aucune configuration OAuth créée ni droit utilisateur accordé. [Brouillon OAuth](../reports/screenshots/nodina-reporting-oauth-ready-20261005.jpg). Aucun compte de facturation, essai gratuit ou compte de service créé.
+
+## 2026-10-05 : brouillon du projet Cloud de reporting
+
+JD confirme « connecté ». Google Cloud affiche `jd@nodina.com` et l'organisation `nodina.com`, ID `679600609001`. La liste Manage resources consultée montre cette organisation seule, sans projet réutilisable visible. L'agent prépare New Project avec nom NODINA Reporting, identifiant demandé `nodina-reporting`, organisation et parent nodina.com. Aucun projet créé, aucun essai gratuit activé ni facturation configurée. Le bouton Create reste à JD selon PROMETHEUS 15.2b. [Brouillon prêt](../reports/screenshots/nodina-cloud-reporting-ready-20261005.jpg).
+
+## 2026-10-05 : préparation du reporting après confirmation des comptes
+
+JD demande l'étape suivante. PROMETHEUS 15.2b impose le reporting après les comptes, sans attendre les premières données. L'attente de fichiers initiaux vides ou partiels est expliquée. Google Cloud est ouvert sous `jd@nodina.com` mais demande une vérification d'identité, laissée à JD. Aucun projet Cloud créé ni consentement accordé.
+
+Le collecteur Appendix G et son manifeste sont préparés pour NODINA, avec le dépôt privé proposé `Nodina-co/nodina-marketing-analytics`, non créé ni vérifié. Adaptations nécessaires : dates ISO du formulaire, essais TEST marqués dans name, références bornées, lecture Sheets REST compatible avec le scope readonly, erreurs neutralisées et gate de test invalidé après un nouveau test échoué. Six tests simulés passent ; ils ne prouvent pas les réponses réelles des plateformes. [Installation préparée](../tools/terraform-collector/README.md), [définitions de mesure prévues](analytics.md). Aucune balise installée, aucune écriture externe ni collecte planifiée.
+
+## 2026-10-05 : import Bing confirmé et page blanche résolue
+
+JD effectue lui-même l'import Search Console. Il signale d'abord un écran sans sites, puis confirme le succès avant de rencontrer une page blanche. L'agent constate cet affichage et rouvre le tableau de bord NODINA sans paramètres OAuth. La console se charge ; Verification Code confirme explicitement que `https://nodina.com/` a été importé depuis Search Console et ne nécessite aucun code Bing, car déjà validé chez Google. [Preuve](../reports/screenshots/nodina-bing-import-verified-20261005.jpg). La cause précise de la page blanche n'est pas établie. Aucun nouveau consentement, suppression de site, changement DNS ni soumission de sitemap effectué par l'agent.
+
+## 2026-10-05 : site ajouté par JD à Bing et import Search Console retenu
+
+JD fournit une capture de Bing avec `https://nodina.com/` ajouté manuellement, statut Not verified. Le profil Bing connecté est relu : `jd@nodina.com`. L'agent examine la validation CNAME sans modifier les DNS. Le relevé public NS indique les serveurs Namecheap ; ce constat ne confirme pas le registrar ni l'accès au compte DNS.
+
+JD demande « Pourquoi ne pas utiliser la Google Search Console pour l'import ? ». La suite passe à l'import de la propriété NODINA déjà vérifiée dans Search Console. Le contrôle automatique refuse le lancement d'Import, car il peut ouvrir une autorisation OAuth d'accès à Search Console, non encore explicitement accordée. Aucune répétition ni tentative de contournement. Le bouton Import est laissé à JD pour qu'il ouvre le parcours et décide des permissions. Une fois autorisé, seule NODINA doit être sélectionnée et son statut relu. Aucun DNS modifié, compte créé par l'agent, entrée manuelle supprimée ou sitemap soumis. [Parcours et preuve](../tools/analytics/README.md).

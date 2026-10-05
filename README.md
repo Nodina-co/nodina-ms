@@ -16,9 +16,11 @@ npm run check
 
 La prévisualisation statique écoute sur `http://127.0.0.1:4179/fr/`. Les contenus sont dans `content/site/`, les composants dans `src/components/` et le gabarit commun dans `src/layouts/`. `dist/` est généré et ne doit pas être édité.
 
-Le site reste une prévisualisation locale avec `noindex`. Le contact public est `build@nodina.com` ; les notifications internes arrivent directement dans la boîte `jd@nodina.com`. `insights@nodina.com` reste l’adresse des publications. JD a déployé le service Google et le `.env` local active le formulaire ; enregistrement Sheets, confirmations avec/sans JavaScript et réception Gmail sont vérifiés. Sans endpoint configuré, l’envoi est désactivé. Voir [le raccordement du formulaire](tools/forms/README.md) et [le rapport d’intégration](research/prototype-integration.md). Le site reste non publié ; trois lignes TEST sont conservées dans le classeur après la recette autorisée.
+Le site est disponible en [préproduction privée](https://nodina-preproduction.jd-fd3.workers.dev/fr/) depuis le 5 octobre 2026, avec `noindex` et Cloudflare Access réservé à `jd@nodina.com` (session de six heures). Le contact public est `build@nodina.com` ; les notifications internes arrivent directement dans la boîte `jd@nodina.com`. `insights@nodina.com` reste l’adresse des publications. JD a déployé le service Google et le `.env` local active le formulaire ; enregistrement Sheets, confirmations avec/sans JavaScript et réception Gmail sont vérifiés depuis la recette locale du 4 octobre. Sans endpoint configuré, l’envoi est désactivé. Voir [le raccordement du formulaire](tools/forms/README.md) et [le rapport d’intégration](research/prototype-integration.md). Trois lignes TEST sont conservées dans le classeur ; aucun nouvel envoi réel depuis la préproduction.
 
 Les profils de démonstration, le statut réel de NODINA Select et les éléments légaux doivent être résolus avant publication. Les documents internes ne sont jamais copiés dans le build.
+
+Le [parcours Cloudflare privé](tools/cloudflare/README.md) fournit la configuration isolée et les commandes `npm run preproduction:check` et `npm run preproduction:dry-run`. Le fichier d'envoi conserve les URL désactivées : après chaque déploiement, relire Access puis réactiver uniquement l'adresse protégée dans Cloudflare. Voir le [rapport de mise en ligne et de vérification](reports/cloudflare-preproduction-20261005.md).
 
 ## Référence active pour NODINA
 
