@@ -11,9 +11,9 @@ type LegalCopy = { back: string; label: string; date: string; draftTitle: string
 
 export const legalCopy: Record<Locale, LegalCopy> = {
   fr: {
-    back: '← Retour à l’accueil', label: 'Vos données, vos choix', date: 'Version pour revue du 7 octobre 2026',
-    draftTitle: 'Document en cours de validation',
-    draftBody: "Cette version est préparée pour validation avant publication. Elle décrit le formulaire utilisé dans cet environnement. La mesure d’audience reste désactivée sur le site de revue ; son activation et ses paramètres feront l’objet d’une validation distincte.",
+    back: '← Retour à l’accueil', label: 'Vos données, vos choix', date: 'Mise à jour du 7 octobre 2026',
+    draftTitle: 'Site de revue privé',
+    draftBody: "Ces notices décrivent le formulaire utilisé dans cet environnement. La mesure d’audience reste désactivée sur le site de revue ; son activation et ses paramètres feront l’objet d’une validation distincte.",
     contents: 'Dans cette page',
     privacy: {
       title: 'Confidentialité',
@@ -96,9 +96,9 @@ export const legalCopy: Record<Locale, LegalCopy> = {
     },
   },
   en: {
-    back: '← Back to home', label: 'Your information, your choices', date: 'Review version dated October 7, 2026',
-    draftTitle: 'Document under review',
-    draftBody: "This version is prepared for approval before publication. It describes the form used in this environment. Audience measurement remains disabled on the review site; its activation and settings require separate approval.",
+    back: '← Back to home', label: 'Your information, your choices', date: 'Updated October 7, 2026',
+    draftTitle: 'Private review site',
+    draftBody: "These notices describe the form used in this environment. Audience measurement remains disabled on the review site; its activation and settings require separate approval.",
     contents: 'On this page',
     privacy: {
       title: 'Privacy', lead: 'Understand what information the website uses, why it is used, and how to exercise your rights.',

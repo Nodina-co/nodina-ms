@@ -1,3 +1,5 @@
+**Validation du 7 octobre :** JD valide les notices FR/EN et la procédure de conservation manuelle avec revue au moins mensuelle. Les textes ne sont plus en attente de cette validation. L'activation Analytics, ses durées de mesure, les vérifications réelles après activation et le lancement public restent distincts. [Décision et choix suivants](../reports/launch-validation-20261007.md).
+
 # Mesure NODINA — préparation du 6 octobre 2026
 
 Le module GA4 est implémenté dans le gabarit FR/EN et vérifié localement. Il reste **désactivé dans le build courant et non déployé**. Aucun événement du nouveau module n'a été observé dans GA4 Realtime. La préproduction privée reste exclue même si le drapeau d'activation est défini. Les significations suivent [goals.md](goals.md).

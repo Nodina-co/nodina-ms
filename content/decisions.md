@@ -4,6 +4,10 @@ Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait
 
 # Décisions NODINA
 
+## 2026-10-07 : notices FR/EN et procédure de conservation validées
+
+JD répond « validé » après la question ciblée sur les notices FR/EN et la procédure manuelle, avec revue des échéances au moins mensuelle. Validation enregistrée ; les mentions Document en cours de validation des notices et Brouillon des métadonnées sont remplacées par des libellés à jour. Le contenu des notices accepté reste identique. Aucun lancement public, activation GA4, accès élargi, rappel IA, envoi ou suppression autorisé par cette réponse. Les choix sur les profils et le statut réel de NODINA Select sont préparés pour l'étape suivante, sans modification des pages marketing. [Propositions concrètes](../reports/launch-validation-20261007.md#choix-suivants--propositions-concrètes-non-appliquées).
+
 ## 2026-10-07 : notices et dossier de validation finale préparés
 
 Après « Go », les notices FR/EN suivent la configuration du formulaire : classeur legacy ou dossier individuel de production. Notifications minimales, suppression manuelle, durées Cloudflare qualifiées, garanties de transfert et modalités des droits actualisées. Deux builds statiques réussissent ; aucun nouvel essai, envoi, suppression, screenshot, déploiement ou activation Analytics. Revue locale autonome et inventaire des quatorze routes préparés. Textes et procédure de conservation proposés pour validation, aucune approbation déduite. Profils fictifs et présentation cible de NODINA Select restent les deux choix éditoriaux suivants. [Dossier de revue](../reports/launch-validation-20261007.md).

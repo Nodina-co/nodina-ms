@@ -23,8 +23,8 @@ export function metadata(locale: Locale, page: PageId) {
     profiles: [s.profiles_page_title, s.profiles_page_lead],
     manifesto: [s.manifesto_page_title, s.manifesto_lead],
     contact: [locale === 'fr' ? 'Parlons de votre projet | NODINA' : 'Tell us about your project | NODINA', c.contact_lead],
-    privacy: [locale === 'fr' ? 'Confidentialité | NODINA' : 'Privacy | NODINA', locale === 'fr' ? 'Brouillon de la politique de confidentialité du site NODINA : demandes de contact, destinataires, durées et droits.' : 'Draft NODINA website privacy policy: contact inquiries, recipients, retention and your rights.'],
-    cookies: [locale === 'fr' ? 'Cookies et choix de mesure | NODINA' : 'Cookies and measurement choices | NODINA', locale === 'fr' ? 'Brouillon de la politique cookies NODINA : stockage du choix, mesure facultative et retrait du consentement.' : 'Draft NODINA cookie policy: choice storage, optional measurement and withdrawing consent.'],
+    privacy: [locale === 'fr' ? 'Confidentialité | NODINA' : 'Privacy | NODINA', locale === 'fr' ? 'Politique de confidentialité du site NODINA : demandes de contact, destinataires, durées et droits.' : 'NODINA website privacy policy: contact inquiries, recipients, retention and your rights.'],
+    cookies: [locale === 'fr' ? 'Cookies et choix de mesure | NODINA' : 'Cookies and measurement choices | NODINA', locale === 'fr' ? 'Politique cookies NODINA : stockage du choix, mesure facultative et retrait du consentement.' : 'NODINA cookie policy: choice storage, optional measurement and withdrawing consent.'],
   };
   const [title, description] = metas[page];
   if (!title || !description || !route(locale, page)) throw new Error(`Missing metadata: ${locale}/${page}`);
