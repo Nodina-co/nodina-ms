@@ -1,8 +1,12 @@
 ## État courant — clôture des essais du 7 octobre 2026
 
-Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait des captures. La recette C/D est terminée : transport JSON anonyme depuis le loopback et refus de C retiré avec jeton encore valide confirmés ; accès candidat restauré à Only myself et durée à 300 secondes. Le parcours HTML anonyme sans JavaScript complet reste non vérifié. Aucune bascule du site, collecte GA4 ou migration Reporting active. La suppression de C et D est différée, sans nouvel essai ni notification. Les captures du dépôt et des archives locales de maquettes sont retirées ; les résultats textuels sont conservés. [Résultats](../reports/contact-anonymous-recipe-20261007.md).
+Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait des captures. La recette C/D est terminée : transport JSON anonyme depuis le loopback et refus de C retiré avec jeton encore valide confirmés ; accès candidat restauré à Only myself et durée à 300 secondes. Le parcours HTML anonyme sans JavaScript complet reste non vérifié. Aucune bascule du site ni collecte GA4. Le raccordement Reporting est ensuite enregistré ; voir la décision ci-dessous. La suppression de C et D est différée, sans nouvel essai ni notification. Les captures du dépôt et des archives locales de maquettes sont retirées ; les résultats textuels sont conservés. [Résultats](../reports/contact-anonymous-recipe-20261007.md).
 
 # Décisions NODINA
+
+## 2026-10-07 : déploiements privés et migration Reporting enregistrés
+
+Après « fait », les déploiements Contact versions 1 et 2 sont vérifiés Execute as Me / Only myself. Cinq exécutions automatiques horaires sont Completed, synthèse complete récente. Reporting reçoit le bundle préparé et les trois propriétés approuvées, fraîcheur 7200 ; code relu exactement après sauvegarde, planning hebdomadaire conservé. Aucun nouvel essai, upload, notification, capture ou accès public. Les identifiants privés restent hors Git. Le site utilise encore legacy, dont les éventuelles réceptions ne sont pas additionnées aux comptes de production. Premier rapport après migration attendu le 12 octobre, non encore vérifié. [Preuves et limites](../reports/contact-production-setup-20261007.md).
 
 ## 2026-10-07 : Contact Production initialisé, reconstruction horaire installée
 
