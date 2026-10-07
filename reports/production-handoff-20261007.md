@@ -35,7 +35,7 @@ Le site utilise toujours le formulaire legacy ; les éventuelles réceptions dan
 
 ## Ordre de la suite
 
-1. Finaliser les notices sur le stockage réellement retenu et les présenter pour validation. Le parcours HTML anonyme avec JavaScript entièrement désactivé reste non vérifié ; le contact par e-mail demeure disponible. Ne pas annoncer ce parcours comme certifié.
+1. Notices FR/EN actualisées et dossier de validation préparé : [revue locale](launch-validation-20261007.md). Attendre la validation des textes et l’adoption de la procédure manuelle de conservation. Le parcours HTML anonyme avec JavaScript entièrement désactivé reste non vérifié ; le contact par e-mail demeure disponible. Ne pas annoncer ce parcours comme certifié.
 2. Vérifier le premier rapport hebdomadaire après migration, le 12 octobre. Garder l'ancien endpoint et l'ancien stockage disponibles pour un retour arrière des nouvelles réceptions ; aucune copie automatique des dossiers.
 3. Soumettre les pages finales à validation : les profils DEMO et NODINA Select restent des points ouverts. Recenser les URL approuvées dans `content/PLAN.md` avant indexation.
 4. Préparer le domaine public, redirections, sitemap, robots, feed, llms et paquet IndexNow uniquement pour ces URL. La préproduction doit rester protégée et non indexable.

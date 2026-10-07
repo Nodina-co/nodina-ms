@@ -2,6 +2,23 @@
 
 Brouillon interne du 6 octobre 2026. JD a confirmé l’entité exploitante, le contact des droits et la durée des contacts sans suite par « ok Go ». Le « Go » suivant autorise la préparation du consentement, du suivi manuel et de la revue des fournisseurs. Le suivi est créé ; la recette de suppression de toutes les copies reste à réaliser. Elle couvre le site vitrine ; les missions client nécessitent un cadre séparé. Aucun traitement de demande réelle, suppression, envoi d’e-mail ou automatisation effectué lors de sa préparation.
 
+## Procédure proposée pour la production — 7 octobre 2026
+
+Le projet Contact Production est initialisé et déployé en privé ; ses reconstructions horaires sont observées Completed. Reporting lit explicitement sa synthèse. Le site utilise encore le formulaire legacy. Cette section remplace les étapes techniques historiques ci-dessous pour les **futures demandes du stockage par dossier**, après validation de la bascule. Les identifiants privés restent dans la configuration locale exclue de Git. [État et limites](../../reports/contact-production-setup-20261007.md).
+
+1. **Réception** : un fichier privé par demande contient Contact et Conservation. La notification donne seulement une référence et le lien privé ; les échanges ultérieurs dans Workspace constituent d'autres copies. Ne pas faire de registre nominatif supplémentaire dans le dépôt du site ou le reporting.
+2. **Suivi** : JD examine le dossier, renseigne son statut et le dernier échange réel. Pour Sans suite, Conservation calcule douze mois calendaires. Une date vide n'est pas une échéance validée. Proposition à adopter : revue des échéances au moins une fois par mois, et traitement des demandes de droits dès réception ; aucun déclencheur de suppression automatique.
+3. **Droits** : réception via build@nodina.com ; vérifier l'identité seulement si nécessaire et de manière proportionnée. Identifier le fichier individuel, les échanges, exports et autres copies. Préparer une réponse limitée à la personne, avec échéance d'un mois ; justifier une éventuelle prolongation dans le premier mois. JD contrôle le destinataire et le périmètre avant envoi. Aucun envoi par l'agent sans instruction explicite.
+4. **Avant effacement** : vérifier l'UUID, le fichier exact, les permissions et les exceptions de conservation. Préparer le retrait avec le helper privé ndRetire_ et son verrou ; si la preuve est encore valide, son marqueur empêche le réessai de recréer le dossier. Tout lanceur de maintenance doit être revu, limité au dossier choisi et retiré avant déploiement. Aucun endpoint public d'effacement.
+5. **Effacement ciblé** : JD approuve au moment de l'action le seul fichier individuel et les messages/copies concernés. Traiter séparément les historiques accessibles et la messagerie, pas seulement la ligne active. Vérifier le résultat côté client avant de noter une copie Effacée. Ne pas purger le classeur legacy entier ni les dossiers B/C/D sans accord ciblé.
+6. **Synthèse** : un retrait invalide la synthèse pendant la réconciliation ; après effacement, la reconstruction horaire enlève le dossier des comptes. Reporting refuse une synthèse indisponible ou trop ancienne plutôt que d'annoncer zéro. Les statistiques décrivent les dossiers conservés ; elles ne sont pas un total cumulatif immuable.
+7. **Preuve et copies fournisseur** : garder une preuve minimale de clôture dans un suivi privé. Aucune coordonnée, référence individuelle, URL privée ou contenu de demande dans ce dépôt public. L'effacement vérifié dans les interfaces ne prouve pas une purge immédiate des sauvegardes Google. La durée du suivi des droits et d'une éventuelle justification d'exception doit être définie séparément selon son besoin.
+8. **Ancien stockage** : traiter ses historiques, messages et exports séparément. Aucun transfert automatique de dossiers vers la production et aucune suppression de l'ancien classeur. Une bascule du formulaire ne résout pas sa conservation antérieure.
+
+La cadence mensuelle et l'adoption de cette procédure restent à valider par JD ; les douze mois, le contact des droits et les durées techniques du formulaire sont déjà validés. Aucun nouvel essai, effacement ou envoi à cette étape.
+
+## Historique : préparation du classeur legacy et premières recettes
+
 ## Réception et suivi des droits
 
 Le responsable du traitement est NODINA SAS, SIREN 103 513 834. JD est proposé comme responsable opérationnel, en cohérence avec les accès existants au classeur et à la messagerie. `build@nodina.com`, alias opérationnel de sa boîte, est confirmé comme contact des droits. Prévoir un relais identifié en cas d’absence sans élargir automatiquement les accès.

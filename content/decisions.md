@@ -4,6 +4,10 @@ Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait
 
 # Décisions NODINA
 
+## 2026-10-07 : notices et dossier de validation finale préparés
+
+Après « Go », les notices FR/EN suivent la configuration du formulaire : classeur legacy ou dossier individuel de production. Notifications minimales, suppression manuelle, durées Cloudflare qualifiées, garanties de transfert et modalités des droits actualisées. Deux builds statiques réussissent ; aucun nouvel essai, envoi, suppression, screenshot, déploiement ou activation Analytics. Revue locale autonome et inventaire des quatorze routes préparés. Textes et procédure de conservation proposés pour validation, aucune approbation déduite. Profils fictifs et présentation cible de NODINA Select restent les deux choix éditoriaux suivants. [Dossier de revue](../reports/launch-validation-20261007.md).
+
 ## 2026-10-07 : déploiements privés et migration Reporting enregistrés
 
 Après « fait », les déploiements Contact versions 1 et 2 sont vérifiés Execute as Me / Only myself. Cinq exécutions automatiques horaires sont Completed, synthèse complete récente. Reporting reçoit le bundle préparé et les trois propriétés approuvées, fraîcheur 7200 ; code relu exactement après sauvegarde, planning hebdomadaire conservé. Aucun nouvel essai, upload, notification, capture ou accès public. Les identifiants privés restent hors Git. Le site utilise encore legacy, dont les éventuelles réceptions ne sont pas additionnées aux comptes de production. Premier rapport après migration attendu le 12 octobre, non encore vérifié. [Preuves et limites](../reports/contact-production-setup-20261007.md).
