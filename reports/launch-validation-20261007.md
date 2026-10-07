@@ -24,8 +24,8 @@ Aucune URL ci-dessous n'est considérée comme approuvée pour indexation par ce
 
 | Page | Route FR | Route EN | État de validation |
 |---|---|---|---|
-| Accueil | /fr/ | /en/ | Maquette A conservée ; comporte des aperçus de profils et NODINA Select. Validation finale dépend des deux choix ci-dessous. |
-| Sélection | /fr/selection-des-talents/ | /en/vetting/ | Présentation cible de NODINA Select, démonstration illustrative sans candidat réel. Statut public à décider. |
+| Accueil | /fr/ | /en/ | Maquette A conservée ; comporte des aperçus de profils et NODINA Select. Profils confirmés réels et méthode Select confirmée utilisable ; validation finale des pages à effectuer. |
+| Sélection | /fr/selection-des-talents/ | /en/vetting/ | Méthode Select utilisable confirmée par JD le 8 octobre ; exemple d’évaluation illustratif sans candidat réel. Disponibilité du logiciel non confirmée. |
 | Profils | /fr/profils/ | /en/engineers/ | Neuf profils réels anonymisés, confirmés par JD le 7 octobre ; sept En mission et deux Disponible affichés. Disponibilité pour la mission à confirmer. |
 | Manifeste | /fr/manifeste/ | /en/manifesto/ | Rédaction à valider, avec renvoi vers la sélection. |
 | Contact | /fr/contact/ | /en/contact/ | Formulaire actuel legacy ; nouveau service privé prêt. URL de build et accès public à arrêter lors de la bascule. |
@@ -36,7 +36,7 @@ Aucune URL ci-dessous n'est considérée comme approuvée pour indexation par ce
 
 **Profils — point clos.** JD confirme « les profils actuels sont réels ». Le classement antérieur fictif est corrigé. Les neuf fiches anonymisées sont conservées ; les mentions démonstration et exemples sont retirées du catalogue et des aperçus FR/EN. Aucun badge ni paragraphe commun réintroduit. Les données et statuts sont inchangés, la disponibilité pour une mission restant à confirmer. Portraits conservés comme illustrations. La proposition de retrait/remplacement et d'ajout d'une mention fictifs est abandonnée.
 
-**NODINA Select.** Le référentiel réel indique une méthode et un outil à concevoir ; JD a choisi une présentation cible au présent dans la maquette. Pour le lancement, valider un cadrage public illustratif ou fournir les éléments établissant sa disponibilité réelle. Proposition de formulation à examiner, sans application aux pages actuelles : « NODINA Select — présentation de notre méthode de sélection en préparation. L'évaluation ci-dessous est illustrative ; elle ne représente aucun candidat réel. » / « NODINA Select — a preview of our selection method in preparation. The assessment below is illustrative and does not represent a real candidate. »
+**NODINA Select — méthode confirmée.** JD précise le 8 octobre : « oui la méthode Nodina Select est utilisable ». La méthode est présentée au présent, avec une FAQ FR/EN centrée sur les évaluateurs. La proposition de la qualifier d'en préparation est abandonnée. Le statut du logiciel n'est pas confirmé par cette réponse ; l'exercice d'évaluation reste illustratif et ne promet pas un outil disponible.
 
 Le go-live global ne doit pas être déduit de l'approbation de ces formulations. Mentions légales complètes (capital, immatriculation et informations d'éditeur/hébergeur), pages finales, routage et indexation restent à établir avant publication.
 
@@ -50,12 +50,8 @@ Deux compilations statiques Node 24 réussissent : per-request puis configuratio
 
 JD confirme « les profils actuels sont réels ». La proposition de les qualifier de fictifs n'est pas appliquée. Le catalogue FR/EN parle désormais de profils et de parcours, avec un compteur neutre. Les neuf fiches ne sont pas réécrites et les statuts ne sont pas transformés. Référentiel corrigé à partir de la déclaration de JD, sans présenter cette déclaration comme une vérification indépendante.
 
-### NODINA Select
+### NODINA Select — confirmation reçue le 8 octobre
 
-Le dernier statut réel fourni le 3 octobre est « méthode et outil à concevoir ». La demande de présentation cible au présent est conservée dans la maquette privée ; elle n'établit pas l'état réel aujourd'hui. Préciser cet état avant de préparer la rédaction publique :
+JD confirme la méthode utilisable. Référentiel, brief et registre des affirmations actualisés (C245, remplace le volet méthode de C235). FAQ FR/EN : « NODINA Select est notre méthode de sélection » / « NODINA Select is our selection method », suivie des six dimensions et de la revue humaine. Aucun logiciel opérationnel, résultat mesuré ou candidat réel dans l'exemple n'est affirmé. L'exemple commenté conserve sa mention illustrative. La disponibilité de l'outil pourra être documentée si une future rédaction doit en faire une promesse ; elle ne bloque pas la présentation de la méthode humaine actuelle.
 
-- **En préparation** : aperçu de la méthode, avec évaluation illustrative. Formulation FR : « NODINA Select — notre méthode et notre outil d'évaluation en préparation. Cet aperçu est illustratif ; il ne représente aucun candidat réel. » EN : « NODINA Select — our selection method and assessment tool in preparation. This preview is illustrative and does not represent a real candidate. »
-- **Déjà utilisable** : JD précise ce qui existe et est utilisé aujourd'hui ; le référentiel et les affirmations sont ajustés à ce périmètre, sans score, évaluation ou disponibilité de profil inventés.
-- **Hors lancement** : retirer provisoirement la présentation de l'outil, tout en conservant les offres Teams et Systems et la sélection humaine réellement proposée.
-
-La réponse de JD doit précéder les modifications des pages marketing. Elle ne modifie pas les accords de publication ou d'accès au formulaire.
+Prochaine étape : compléter les mentions légales et préparer la validation globale des pages. La validation de la méthode ne vaut pas accord de lancement public.

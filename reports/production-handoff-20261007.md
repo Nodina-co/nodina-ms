@@ -35,9 +35,9 @@ Le site utilise toujours le formulaire legacy ; les éventuelles réceptions dan
 
 ## Ordre de la suite
 
-1. Notices FR/EN actualisées et dossier de validation préparé : [revue locale](launch-validation-20261007.md). JD confirme « validé » : notices et procédure manuelle adoptées, avec revue des échéances au moins mensuelle. JD confirme ensuite que les profils actuels sont réels : référentiel et libellés corrigés. Prochain choix : statut actuel de NODINA Select. Le parcours HTML anonyme avec JavaScript entièrement désactivé reste non vérifié ; le contact par e-mail demeure disponible. Ne pas annoncer ce parcours comme certifié.
+1. Notices FR/EN actualisées et dossier de validation préparé : [revue locale](launch-validation-20261007.md). JD confirme « validé » : notices et procédure manuelle adoptées, avec revue des échéances au moins mensuelle. JD confirme ensuite que les profils actuels sont réels : référentiel et libellés corrigés. Le 8 octobre, JD confirme la méthode NODINA Select utilisable ; sa disponibilité ne reste plus ouverte. Outil logiciel non confirmé, exemple du site toujours illustratif. Le parcours HTML anonyme avec JavaScript entièrement désactivé reste non vérifié ; le contact par e-mail demeure disponible. Ne pas annoncer ce parcours comme certifié.
 2. Vérifier le premier rapport hebdomadaire après migration, le 12 octobre. Garder l'ancien endpoint et l'ancien stockage disponibles pour un retour arrière des nouvelles réceptions ; aucune copie automatique des dossiers.
-3. Soumettre les pages finales à validation : les profils sont confirmés réels par JD ; le statut réel de NODINA Select reste à préciser. Recenser les URL approuvées dans `content/PLAN.md` avant indexation.
+3. Soumettre les pages finales à validation : les profils sont confirmés réels par JD ; la méthode Select est confirmée utilisable ; la FAQ n’annonce pas de logiciel disponible. Recenser les URL approuvées dans `content/PLAN.md` avant indexation.
 4. Préparer le domaine public, redirections, sitemap, robots, feed, llms et paquet IndexNow uniquement pour ces URL. La préproduction doit rester protégée et non indexable.
 5. Après accord explicite de lancement, effectuer la bascule publique puis les soumissions Google/Bing et la configuration des événements GA4. Ne pas traiter le commit/push comme cet accord de publication du site.
 

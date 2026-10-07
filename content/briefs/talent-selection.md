@@ -4,19 +4,21 @@
 
 Routes de maquette : `/fr/selection-des-talents/` et `/en/vetting/`. Navigation principale, pied de page et bloc AITalentEval de l’accueil y conduisent. Le changement de langue conserve la page de sélection. CTA vers le contact avec AI-native Teams présélectionné.
 
-## État réel et présentation
+## État réel au 8 octobre 2026
 
-JD précise le 2026-10-03 : « Méthode et outil à concevoir », tout en souhaitant une présentation comme s’ils existaient déjà. Cette précision remplace le statut antérieur de F006. JD réitère ensuite : « Présenté AITalentEval method and tool comme déjà développé ». La maquette adopte donc une **présentation cible au présent** : méthode structurée et outil dédié. Le bandeau de page précise « Maquette · Présentation cible » ; la revue indique le statut réel à concevoir. Aucun candidat évalué, score calculé, taux de sélection ou gain mesuré n’est inventé. Cette rédaction cible n’est pas une preuve de disponibilité actuelle.
+JD confirme : « oui la méthode Nodina Select est utilisable ». Cette déclaration remplace le statut à concevoir de la méthode fourni le 3 octobre. Le nom public retenu est NODINA Select, anciennement AITalentEval ; le texte peut présenter la méthode au présent. Source operator-stated, C245, sans validation scientifique ou résultat mesuré déduit.
 
-Le nom **AITalentEval** désigne le projet de méthode et d’outil du **NODINA AI Talent System**. La maquette interactive explore les critères ; elle ne collecte aucune donnée et ne réalise pas d’évaluation. Les six axes et le parcours ci-dessous sont une proposition de conception, pas un processus déjà exécuté ni une validation scientifique.
+La disponibilité d'un outil logiciel n'est pas confirmée par cette réponse. L'interface du site reste un exemple commenté illustratif, sans candidat réel ni évaluation exécutée. La FAQ FR/EN décrit désormais la méthode et le travail des évaluateurs, sans annoncer un outil disponible. Le bandeau général de maquette reste en place pendant la préproduction privée.
+
+Historique du 3 octobre : JD avait indiqué méthode et outil à concevoir, puis demandé une présentation cible au présent. Ce statut est remplacé pour la méthode par la confirmation du 8 octobre ; il ne doit plus être utilisé pour la qualifier de non utilisable.
 
 ## Anatomie
 
 1. Proposition : examiner le travail, le raisonnement et la collaboration des ingénieurs senior en Europe et en Amérique latine ; présentation cible signalée dans le bandeau de maquette.
 2. Six groupes de critères : ingénierie et qualité ; maîtrise de l’IA ; contexte et instructions ; architecture et fiabilité ; produit et responsabilité ; communication et collectif. Ces groupes couvrent les axes antérieurement demandés, dont qualité, ownership et coopération humains/agents.
-3. Parcours envisagé : relire le parcours, approfondir la technique, travailler avec l’IA, échanger avec les pairs, relier le profil au projet. Modalités décrites au présent dans la présentation cible, encore à concevoir en réalité.
+3. Parcours envisagé : relire le parcours, approfondir la technique, travailler avec l’IA, échanger avec les pairs, relier le profil au projet. Méthode confirmée utilisable par JD le 8 octobre ; aucune exécution d’évaluation ou performance mesurée inférée de cette confirmation.
 4. Maquette interactive : exercice documentaire fictif, éléments à examiner et exploration des six critères. Aucune fiche de candidat, note, taux d’acceptation ou résultat réel.
-5. Composition : exemples de rôles AI/ML, software/product engineering et architecture/leadership. Ce ne sont pas des profils réels disponibles. Outils présentés comme exemples selon la mission, sans expertise universelle présumée.
+5. Composition : exemples de rôles AI/ML, software/product engineering et architecture/leadership. Les neuf profils actuels sont confirmés réels et anonymisés par JD le 7 octobre ; leur disponibilité pour une mission reste à confirmer. Outils présentés comme exemples selon la mission, sans expertise universelle présumée.
 6. Contact contextualisé AI-native Teams.
 
 ## Ce qui est adapté des captures
@@ -66,4 +68,4 @@ FR/EN : filtres par statut sur `/fr/profils/` et `/en/engineers/`, trois aperçu
 
 JD précise : « les profils actuels sont réels ». Cette déclaration remplace l'hypothèse antérieure de données fictives pour les neuf fiches actuelles. Les mentions démonstration et exemples sont retirées du catalogue FR/EN, de ses compteurs et des libellés accessibles. Les données des neuf fiches, les statuts et les illustrations restent identiques. Aucun badge par fiche ni paragraphe commun réintroduit. Les portraits sketch restent des illustrations, et la disponibilité pour la mission doit être confirmée selon le brief. Les paragraphes du 4 octobre ci-dessus sont historiques et ne définissent plus le statut des profils.
 
-L'évaluation illustrative de NODINA Select reste distincte : sa mention Aucun candidat réel concerne l'exercice, pas le catalogue. Statut actuel de la méthode et de l'outil demandé à JD avant rédaction de lancement.
+L'évaluation illustrative de NODINA Select reste distincte : sa mention Aucun candidat réel concerne l'exercice, pas le catalogue. Méthode confirmée utilisable le 8 octobre ; disponibilité de l’outil logiciel non confirmée.

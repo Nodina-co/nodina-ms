@@ -4,6 +4,10 @@ Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait
 
 # Décisions NODINA
 
+## 2026-10-08 : méthode NODINA Select confirmée utilisable
+
+JD répond « oui la méthode Nodina Select est utilisable ». Confirmation enregistrée comme operator-stated (C245), remplaçant le volet méthode à concevoir de C235. Le référentiel et le brief sont actualisés ; la FAQ FR/EN décrit la méthode et les évaluateurs au présent. La disponibilité du logiciel n'est pas confirmée, l'exemple d'évaluation reste illustratif. Aucun résultat mesuré, validation scientifique ou lancement public inféré. Prochaine étape : mentions légales complètes et validation globale des pages. Aucun nouvel essai ou déploiement. [État de lancement](../reports/launch-validation-20261007.md).
+
 ## 2026-10-07 : profils actuels confirmés réels par JD
 
 JD précise « les profils actuels sont réels ». Cette déclaration remplace leur classement fictif antérieur dans le référentiel. Les neuf fiches anonymisées et leurs données sont conservées, sans ajout ni modification des statuts ; les mentions démonstration/exemples du catalogue FR/EN et les libellés accessibles sont corrigés. Aucun badge ni paragraphe commun réintroduit. Les portraits générés restent des illustrations, la disponibilité pour la mission à confirmer. La proposition de qualifier ces profils de fictifs est abandonnée. Aucun lancement public déduit. Statut réel de NODINA Select demandé séparément. [État et décision suivante](../reports/launch-validation-20261007.md).

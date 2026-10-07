@@ -25,13 +25,16 @@ Source : questions 10–11 et [document de capacités](../research/sources/2026-
 | F003 | Systèmes et workflows IA | Assistants, copilots, RAG, document intelligence/OCR, agents et multi-agent workflows, orchestration de modèles, Company Brain et mémoire organisationnelle. |
 | F004 | Pratiques d’ingénierie AI-native | Context engineering, AI coding harness, AI memory harness, coordination humains/agents, supervision et responsabilités explicites. |
 | F005 | Qualité logicielle et IA | Revue, tests automatisés et E2E, evals, observability, tracing, monitoring, régressions, guardrails, sorties structurées et mécanismes de repli selon le système. |
+| F006 | Méthode NODINA Select | Méthode de sélection utilisable, confirmée explicitement par JD le 2026-10-08. Statut distinct de celui de l’outil logiciel. |
 | F007 | Sécurité adaptée au projet | Analyse des données, accès, secrets, fournisseurs, permissions et supervision ; architecture définie avec le client, sans architecture universelle présumée. |
 
 Les termes AI-native décrivent la doctrine de NODINA, conservée dans [voice.md](voice.md), pas une certification ni un standard universel. La qualité doit être reliée à des pratiques vérifiables.
 
-## Projet en conception — précision du 2026-10-03
+## NODINA Select — méthode utilisable, statut de l’outil distinct
 
-**F006 — NODINA AI Talent System / AITalentEval :** JD précise que la méthode et l’outil sont à concevoir. Ce statut remplace celui de méthodes opérationnelles en formalisation précédemment consigné. Six groupes d’évaluation et un parcours sont proposés dans la maquette ; ils ne sont ni exécutés ni validés. L’interface est une démonstration sans candidats ni évaluations réels. À la demande réitérée de JD, les pages de maquette utilisent une présentation cible au présent de la méthode et de l’outil ; ce choix éditorial ne modifie pas leur disponibilité réelle. [Brief de sélection](briefs/talent-selection.md).
+**F006 — Méthode NODINA Select :** JD confirme le 2026-10-08 : « oui la méthode Nodina Select est utilisable ». Source operator-stated ; cette confirmation remplace le statut à concevoir de la méthode enregistré le 3 octobre (C235), désormais suivi par C245. La méthode peut être présentée au présent. Aucune validation scientifique, nombre de candidats évalués, score réel ou performance mesurée n'est déduit.
+
+**Outil et interface :** la confirmation concerne la méthode et ne précise pas la disponibilité d'un outil logiciel. L'interface d'évaluation affichée sur le site reste un exemple commenté, explicitement illustratif et sans candidat réel. Ne pas annoncer un logiciel utilisable sur la seule base de cette confirmation. Aucun changement de la maquette générale privée ou accord de lancement public déduit. [Brief et état actuel](briefs/talent-selection.md).
 
 ## Action et tarification
 
@@ -150,7 +153,7 @@ C238 : collaborations des évaluateurs avec JD sur ses projets entrepreneuriaux 
 
 ## Clarifications opérateur — sélection, 2026-10-03
 
-- **NODINA Select** est le nom éditorial retenu dans la présentation cible pour la méthode et l’outil auparavant appelés AITalentEval. Le statut réel « à concevoir » (C235) demeure.
+- **NODINA Select** est le nom éditorial retenu dans la présentation cible pour la méthode et l’outil auparavant appelés AITalentEval. Le 2026-10-08, JD confirme la méthode utilisable (C245), ce qui remplace ce volet de C235. La disponibilité de l’outil logiciel reste distincte et non confirmée.
 - **Une semaine** couvre la sélection et la validation de l’équipe, puis **deux semaines supplémentaires** préparent son intégration. Au terme de **trois semaines au total**, elle est prête à travailler et à produire ses premières pull requests (PR). Cette clarification explicite du 2026-10-04 (C244) remplace « moins d’une semaine » (C243). Le parcours part d’un brief complet, avec profils disponibles, entretiens convenus et accès préparés ; le calendrier est confirmé ensemble. Il s’agit d’un engagement déclaré, pas d’une performance historiquement mesurée.
 - Les fiches présentent des **profils réels anonymisés**, selon la confirmation explicite de JD du 7 octobre qui remplace le statut antérieur de maquettes. Les données actuelles sont conservées ; la disponibilité pour chaque mission est confirmée selon son brief.
 - Aucun taux de sélection à 1 % n’est documenté ou affiché.
