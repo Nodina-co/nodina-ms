@@ -11,7 +11,7 @@ Préparé le 7 octobre 2026. Le projet séparé « NODINA — Contact Production
 - `ndInitializeProduction_` crée un dossier et une synthèse propres au futur projet, privés et appartenant à JD. La clé est générée dans Google ; ne pas la lire ni la copier. Aucun lanceur public de maintenance dans le bundle.
 - SHA-256 produit : `d344f3c2fdb09712efd7d9fb6e7fa5d72b2fd6c3510b6002e33721c1a82fecd1`.
 
-Régénérer avec `node tools/forms/production/build.mjs tools/forms/production/Code.gs`. Les fichiers `*.proposed.json` proposent une validité de jeton de 3 600 secondes, une reconstruction toutes les heures et une fraîcheur Reporting de 7 200 secondes. Aucun de ces réglages n'est appliqué dans Google ; les IDs restent vides. Le fichier d'exemple conserve les choix non arrêtés vides.
+Régénérer avec `node tools/forms/production/build.mjs tools/forms/production/Code.gs`. Les valeurs des fichiers `*.proposed.json` sont validées explicitement par JD le 7 octobre : validité de jeton de 3 600 secondes, reconstruction toutes les heures et fraîcheur Reporting de 7 200 secondes. Les quatre propriétés Contact non vides sont enregistrées et vérifiées dans Google. Les IDs restent vides avant initialisation et la limite Reporting n'est pas encore appliquée. Le fichier d'exemple conserve les champs configurables vides.
 
 Projet Google : `1Y4PS-8oTce9efTlO6adxoPHAdIhIA1yW8iShZEX4cNFtH0BUkuukozUe`. `Code.gs`, `Operations.gs` et `appsscript.json` sont enregistrés dans ce projet et leur contenu recopié depuis l'éditeur correspond exactement aux fichiers locaux. Le modèle `Bootstrap.gs.txt` est enregistré comme `Bootstrap.gs`, lanceur temporaire pour l'éditeur, à retirer avant tout déploiement ; ne pas exposer de maintenance dans la web app. Ne jamais lire ou copier la clé générée dans Google.
 
@@ -35,7 +35,7 @@ Configuration explicite au moment de la migration :
 |---|---|
 | CONTACT_LEADS_SOURCE | retained-contact-files-v1 |
 | CONTACT_SUMMARY_ID | Synthèse du nouveau stockage de production, jamais celle de recette |
-| CONTACT_SUMMARY_MAX_AGE_SECONDS | Durée à décider, entre 60 et 86400 |
+| CONTACT_SUMMARY_MAX_AGE_SECONDS | 7200, validé par JD ; à appliquer lors du raccordement |
 
 Sans choix explicite de source, le nouveau code conserve legacy-contact-v1. En mode synthèse, aucune addition ni lecture de l'ancien classeur ; une synthèse indisponible crée une erreur et jamais un repli silencieux ou un faux zéro. Schéma du futur JSON : version 5. Les rapports annoncent des dossiers encore conservés ; l'effacement réduit les comptes historiques. Qualification reste null.
 
@@ -45,7 +45,7 @@ Le 7 octobre à 12 h 33 Paris, le lecteur a réellement lu la synthèse de recet
 
 1. Recette C/D clôturée : client JSON anonyme depuis le loopback confirmé ; HTML Workspace confirmé, parcours HTML anonyme et JavaScript entièrement désactivé non vérifié. JD demande de ne plus lancer d'essais. [Résultats et limites](../../../reports/contact-anonymous-recipe-20261007.md).
 2. Retrait pendant la validité d'un jeton confirmé avec C, sans nouveau fichier ni notification. C/D et leurs notifications sont conservés ; leur suppression est différée. Cette préparation ne vaut pas une autorisation de purge.
-3. Choisir les durées techniques et la cadence de reconstruction, puis installer le planning accepté. JD ne demande plus de tests ; le budget Google et la fraîcheur réelle restent non mesurés. Aucun déclencheur nouveau n'est installé. Sans reconstruction après une réception, la synthèse reste unavailable. Une reconstruction manuelle ne suffit pas à qualifier le reporting automatique de production.
+3. Installer le planning horaire accepté. JD ne demande plus de tests ; le budget Google et la fraîcheur réelle restent non mesurés. Aucun déclencheur nouveau n'est installé. Sans reconstruction après une réception, la synthèse reste unavailable. Une reconstruction manuelle ne suffit pas à qualifier le reporting automatique de production.
 4. Créer et vérifier le stockage de production privé, autoriser les droits exacts, finaliser les notices et vérifier les deux langues.
 5. Revue finale de l'URL, de la configuration et du retour arrière avant publication. Le retour arrière dirige les nouvelles réceptions vers l'ancien service ; il ne recopie pas les dossiers ni ne restaure ceux supprimés. Documenter séparément le traitement de l'ancien stockage.
 

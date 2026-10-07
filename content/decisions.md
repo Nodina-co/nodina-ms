@@ -4,6 +4,12 @@ Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait
 
 # Décisions NODINA
 
+## 2026-10-07 : paramètres Contact de production validés et enregistrés
+
+JD répond explicitement « oui, valide les paramètres » : mode production, validité du jeton 3 600 secondes, reconstruction toutes les heures et fraîcheur maximale Reporting 7 200 secondes. Les quatre propriétés ND_MODE, ND_OWNER_EMAIL, ND_TOKEN_TTL_SECONDS et ND_SUMMARY_EVERY_HOURS sont enregistrées dans le projet séparé « NODINA — Contact Production », puis leur état enregistré et leurs valeurs non secrètes sont vérifiés. Le raccordement Reporting et sa limite de fraîcheur restent à installer après création de la synthèse de production.
+
+Le consentement Google et initializeProduction restent à JD. Aucun stockage initialisé, clé lue, déclencheur créé, envoi, effacement, déploiement ou changement du site actif à cette étape. Le sélecteur de l'éditeur est prêt sur initializeProduction. Les droits proposés sont drive.file, script.send_mail et script.scriptapp ; le lanceur Bootstrap doit être retiré avant tout déploiement. [Suivi de production](../reports/production-handoff-20261007.md).
+
 ## 2026-10-07 : lecteur réel vérifié et bascule Contact préparée
 
 Après « ok Go efficacement étape par étape », lecture de la synthèse de recette depuis le projet Reporting avec ses droits Sheets readonly existants : Completed à 12 h 33 Paris, zéro compte commercial TEST exclus, qualification null. Lanceur temporaire retiré et code Google original restauré exactement. Production préparée séparément avec schéma de stockage distinct ; raccordement per-request local et migration Reporting explicite testés, aucun repli vers l'ancien stockage. 58 tests réussis et deux builds contrôlés ; aucun .env, nouvel envoi, effacement, scope, planning ou service actif modifié. La recette anonyme TEST-only exige un accord distinct pour ouvrir temporairement l'endpoint à Anyone et envoyer trois POST au maximum. [État, proposition et preuves](../reports/contact-production-preparation-20261007.md).
