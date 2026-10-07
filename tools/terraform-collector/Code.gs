@@ -176,6 +176,19 @@ function empty_(value) {
   if (value && Array.isArray(value.sitemap)) return value.sitemap.length === 0;
   return !value || !Array.isArray(value.rows) || value.rows.length === 0;
 }
+// Migration is explicit. An unavailable summary never falls back to legacy rows.
+function collectLeads_(periods, notes) {
+  const source = prop_('CONTACT_LEADS_SOURCE') || 'legacy-contact-v1';
+  if (source === 'retained-contact-files-v1') {
+    const result = ndCandidateLeads_(periods);
+    notes.push('Leads: retained contact dossiers, excluding TEST. Deletion reduces historical counts; these are not lifetime submissions. Qualification is unavailable.');
+    return result;
+  }
+  if (source !== 'legacy-contact-v1') throw new Error('Unknown CONTACT_LEADS_SOURCE; no lead source read.');
+  if (prop_('LEAD_SHEET_IDS')) return leads_(periods);
+  notes.push('Leads: no lead sheet configured (LEAD_SHEET_IDS). Lead counts are unavailable, not zero.');
+  return null;
+}
 function collect_(today) {
   const result = {generated: today, gaPeriods: periods_(day_(today, -3)), data: {}, errors: [], notes: []};
   // A request that really fails goes to errors. A request answered with no rows goes to notes:
@@ -242,10 +255,10 @@ function collect_(today) {
       });
   }
 
-  if (prop_('LEAD_SHEET_IDS')) {
-    try { result.data.leads = leads_(ga); }
-    catch (e) { result.errors.push('leads: ' + e.message); }
-  } else result.notes.push('Leads: no lead sheet configured (LEAD_SHEET_IDS). Lead counts are unavailable, not zero.');
+  try {
+    const leads = collectLeads_(ga, result.notes);
+    if (leads !== null) result.data.leads = leads;
+  } catch (e) { result.errors.push('leads: ' + e.message); }
   return result;
 }
 function github_(path, method, payload) {
@@ -273,7 +286,7 @@ function uploadReport_(test) {
     if (!test && props.getProperty('lastGithubUploadDate') === today) { console.log('Already uploaded today.'); return; }
     if (test) props.deleteProperty('successfulGithubTest');
     const report = collect_(today);
-    report.schemaVersion = 4;
+    report.schemaVersion = 5;
     report.generatedAt = now.toISOString();
     report.runType = test ? 'test' : 'scheduled';
     report.sources = {ga4Property: prop_('GA4_PROPERTY_ID'), searchConsole: CONFIG.searchConsole, liveUrl: CONFIG.liveUrl, ga4TimeZone: CONFIG.zone, searchConsoleTimeZone: 'America/Los_Angeles', bingSite: report.bingSite || null};
@@ -282,7 +295,9 @@ function uploadReport_(test) {
       emptyRows: 'A request listed in notes answered with no rows. That is unknown or nothing matched, never a measured zero.',
       bing: {windows: 'As returned by Bing; raw dates retained. Not aligned to Google periods.', coverage: 'Traffic includes all Bing verticals; top queries and pages are not complete totals.'},
       aiReferrals: 'Sessions whose source matches the assistant list. Assistant traffic that arrives without a referrer is counted as Direct and is not included.',
-      leads: 'Counts of rows in the lead sheets by period and page ref. No personal data is collected.',
+      leads: prop_('CONTACT_LEADS_SOURCE') === 'retained-contact-files-v1'
+        ? 'Counts of retained contact dossiers by Paris calendar day and page ref, excluding TEST. Deletion reduces historical counts. Not lifetime submissions. Qualification unavailable. No personal data exported.'
+        : 'Counts of rows in the lead sheets by period and page ref. No personal data is collected.',
       unavailable: ['index status of single pages', 'AI citation sampling']};
     const path = 'data/' + today + (test ? '-test' : '') + '.json';
     const endpoint = '/contents/' + path;

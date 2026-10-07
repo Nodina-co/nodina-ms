@@ -6,3 +6,9 @@ dist/
 !.env.example
 .DS_Store
 .wrangler/
+
+# Captures de recette : retirées à la demande de JD, ne pas republier.
+reports/screenshots/
+reports/*.png
+reports/*.jpg
+reports/*.jpeg

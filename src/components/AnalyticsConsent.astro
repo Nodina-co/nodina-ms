@@ -1,0 +1,24 @@
+---
+import { route, type Locale } from '../lib/site';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const fr = locale === 'fr';
+---
+<section id="analytics-consent" class="analytics-consent" aria-labelledby="analytics-consent-title" hidden>
+  <div class="analytics-consent-copy">
+    <h2 id="analytics-consent-title">{fr ? 'Mesure d’audience' : 'Audience measurement'}</h2>
+    <p>{fr
+      ? 'Avec votre accord, NODINA utilise Google Analytics pour comprendre les visites et le parcours de contact. Les cookies de mesure sont facultatifs. Aucun champ du formulaire n’est transmis à Google Analytics.'
+      : 'With your permission, NODINA uses Google Analytics to understand visits and the contact journey. Measurement cookies are optional. No form fields are sent to Google Analytics.'}</p>
+    <details><summary>{fr ? 'Détails et durée du choix' : 'Details and choice duration'}</summary>
+      <p>{fr
+        ? 'Google reçoit les pages consultées et les interactions mesurées après acceptation. Aucune collecte publicitaire n’est prévue. Votre choix est conservé sur ce navigateur pendant six mois. Vous pouvez le modifier dans le pied de page ; le refus laisse le site et le formulaire accessibles.'
+        : 'Google receives page views and measured interactions after acceptance. No advertising measurement is planned. Your choice is stored in this browser for six months. You can change it in the footer; declining keeps the site and contact form available.'}</p>
+    </details>
+    <p class="analytics-consent-links"><a href={route(locale, 'privacy')}>{fr ? 'Confidentialité' : 'Privacy'}</a><a href={route(locale, 'cookies')}>{fr ? 'Cookies et choix de mesure' : 'Cookies and measurement choices'}</a></p>
+  </div>
+  <div class="analytics-consent-actions">
+    <button type="button" data-analytics-choice="denied">{fr ? 'Refuser' : 'Decline'}</button>
+    <button type="button" data-analytics-choice="granted">{fr ? 'Accepter' : 'Accept'}</button>
+  </div>
+</section>

@@ -7,8 +7,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1] / "dist"
 ROUTES = {
-    "fr": ["/fr/", "/fr/selection-des-talents/", "/fr/profils/", "/fr/manifeste/", "/fr/contact/"],
-    "en": ["/en/", "/en/vetting/", "/en/engineers/", "/en/manifesto/", "/en/contact/"],
+    "fr": ["/fr/", "/fr/selection-des-talents/", "/fr/profils/", "/fr/manifeste/", "/fr/contact/", "/fr/confidentialite/", "/fr/cookies/"],
+    "en": ["/en/", "/en/vetting/", "/en/engineers/", "/en/manifesto/", "/en/contact/", "/en/privacy/", "/en/cookies/"],
 }
 
 
@@ -70,6 +70,16 @@ def check():
             expected = {'fr-FR': 'https://nodina.com' + ROUTES['fr'][index], 'en-US': 'https://nodina.com' + ROUTES['en'][index], 'x-default': 'https://nodina.com' + ROUTES['fr'][index]}
             require(alternates == expected, 'language alternates do not match route map')
             require(bool(json.loads(page.json)['@graph']), 'missing structured data')
+            scripts = page.attrs('script')
+            require(sum(a.get('id') == 'analytics-config' and a.get('type') == 'application/json' for a in scripts) == 1, 'expected one analytics configuration')
+            require('analytics-consent' in page.ids, 'missing consent panel')
+            require(any('data-analytics-preferences' in a and 'hidden' in a for a in page.attrs('button')), 'measurement preferences must start hidden')
+            require({a.get('data-analytics-choice') for a in page.attrs('button') if 'data-analytics-choice' in a} == {'denied','granted'}, 'missing accept or decline choice')
+            require(not any(urlsplit(a.get('src','')).hostname in ['www.googletagmanager.com','www.google-analytics.com'] for a in scripts), 'Google tag must not be preloaded before consent')
+            for policy in ROUTES[locale][5:]:
+                require(any(a.get('href') == policy for a in page.attrs('a')), f'missing policy link: {policy}')
+            if index >= 5:
+                require(any('data-legal-draft' in a for a in page.attrs('aside')), 'unapproved policy must retain its draft notice')
             for tag, attr in page.elements:
                 if tag == 'img':
                     require(all(key in attr for key in ['alt', 'width', 'height']), 'image lacks dimensions or alt')
@@ -94,6 +104,16 @@ def check():
             if index == 4:
                 form = page.attrs('form')[0]
                 require(form.get('method') == 'post', 'form must use POST')
+                mode = form.get('data-storage')
+                require(mode in ['legacy', 'per-request'], 'unknown contact storage profile')
+                receipt = [a for a in page.attrs('input') if a.get('name') == 'receipt_token']
+                if mode == 'per-request':
+                    require('hidden' in form, 'signed form must start hidden without JavaScript')
+                    require(len(receipt) == 1 and receipt[0].get('value') == '', 'signed receipt must be issued by the server, never the static build')
+                    if form.get('data-ready') == 'true':
+                        require(any(a.get('href') == form.get('action', '') + '?locale=' + locale for a in page.attrs('a')), 'missing localized server form for visitors without JavaScript')
+                else:
+                    require('hidden' not in form and not receipt, 'legacy form must retain its direct POST fallback')
                 require(any(a.get('name') == 'consent' and 'required' in a and 'checked' not in a for a in page.attrs('input')), 'consent must be explicit')
                 if form.get('data-ready') == 'false':
                     require(any(a.get('type') == 'submit' and 'disabled' in a for a in page.attrs('button')), 'unconfigured form must remain disabled')
@@ -102,7 +122,7 @@ def check():
     if errors:
         print('\n'.join(errors))
         return 1
-    print('PASS: 10 localized draft pages, metadata, links, anchors, assets, consent and internal-file exclusion.')
+    print(f'PASS: {len(pages)} localized draft pages, metadata, links, anchors, assets, consent and internal-file exclusion.')
     return 0
 
 

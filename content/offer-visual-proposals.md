@@ -23,7 +23,7 @@ Comparatif interactif : http://127.0.0.1:4178/assets/offer-directions.html
 
 Fichier : `assets/offer-directions.html` dans le dossier persistant `homepage-20261002-round-2`. Autonome, police et logo locaux, noindex, aucune transmission ni enregistrement de décision. Trois filtres et une vue globale. Exemples construits sur le même contenu pour isoler l’effet du traitement visuel. Les liens ouvrent les parcours locaux existants.
 
-Contrôles du comparatif : absence de débordement sur 320, 375, 768, 1024, 1440 pixels ; filtres A/B/C et retour à la vue globale vérifiés. Captures `screenshots/nodina-offer-directions-compare.jpg` et `screenshots/nodina-offer-directions-all.jpg`. La description canonique corrigée a été relue dans le navigateur en FR/EN, à 375 pixels. Le comparatif conserve les trois propositions et indique maintenant A comme retenue.
+Contrôles du comparatif : absence de débordement sur 320, 375, 768, 1024, 1440 pixels ; filtres A/B/C et retour à la vue globale vérifiés. Captures retirées le 7 octobre 2026 à la demande de JD. La description canonique corrigée a été relue dans le navigateur en FR/EN, à 375 pixels. Le comparatif conserve les trois propositions et indique maintenant A comme retenue.
 
 ## Application de la piste A
 
@@ -31,4 +31,4 @@ Teams sur blanc, cobalt et repère rond ; Systems sur #F0F4FB, même cobalt et r
 
 Le contact reprend ce code selon le paramètre `offer` ou le choix du formulaire. Les liens de langue conservent le choix Teams/Systems/combined ; unknown garde une entrée neutre. Le formulaire demeure démonstratif et sans envoi.
 
-Contrôles ciblés dans `qa-offer-a.json` : dix rendus d’accueil sur cinq largeurs, six rendus de sélection sur 320/375/1440 et 24 états de contact (deux langues × trois largeurs × quatre besoins), sans débordement. Parcours Systems vers contact puis anglais, changement vers Teams et retour français vérifiés. Captures `screenshots/nodina-offer-a-*.jpg`. Sauvegarde précédente : `history/20261003-before-offer-a/`.
+Contrôles ciblés dans `qa-offer-a.json` : dix rendus d’accueil sur cinq largeurs, six rendus de sélection sur 320/375/1440 et 24 états de contact (deux langues × trois largeurs × quatre besoins), sans débordement. Parcours Systems vers contact puis anglais, changement vers Teams et retour français vérifiés. Captures retirées le 7 octobre 2026 à la demande de JD. Sauvegarde précédente : `history/20261003-before-offer-a/`.

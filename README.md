@@ -8,7 +8,7 @@ machine to a site you already love.
 
 ## Site NODINA : version locale intégrée
 
-Les dix pages FR/EN de la maquette sont maintenant construites avec Astro. Utiliser Node 24 (`.nvmrc`) et Python 3 pour les contrôles :
+Les dix pages FR/EN de la maquette et les quatre brouillons de confidentialité/cookies sont maintenant construits avec Astro, soit quatorze pages localisées. Utiliser Node 24 (`.nvmrc`) et Python 3 pour les contrôles :
 
 ```sh
 npm ci
@@ -341,3 +341,14 @@ In your second, private repo, `<brand>-marketing-analytics`:
 6. Anything that costs money, deletes something, or changes a URL.
 
 Everything else, the agent keeps up to date.
+
+## État du projet NODINA — 7 octobre 2026
+
+Le protocole ci-dessus décrit le parcours complet. NODINA est actuellement en Phase 2 : préproduction privée, collecte GA4 désactivée, production Contact et migration Reporting préparées mais non installées. Les essais sont clôturés à la demande de JD.
+
+- [État courant et décisions](research/discovery.md) · [Décisions](content/decisions.md)
+- [Recette Contact clôturée](reports/contact-anonymous-recipe-20261007.md) · [Configuration de production à finaliser](reports/production-handoff-20261007.md)
+- [Module GA4](content/analytics.md) · [Notices préparées](reports/legal-drafts-20261006.md) · [Procédure de données](content/security/site-data-operations.md)
+- [Contact par dossier](tools/forms/candidate/README.md) · [Variante de production](tools/forms/production/README.md) · [Reporting](tools/terraform-collector/README.md)
+
+Les captures de recette et de maquettes sont retirées à la demande de JD, y compris celles du contenu publié du dépôt. Les résultats textuels sont conservés ; les anciens commits Git peuvent encore contenir les images. Aucun déploiement public du site n’est déclenché par la CI du dépôt.

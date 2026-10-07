@@ -1,5 +1,5 @@
 const form = document.querySelector('.contact-form');
-if (form) {
+if (form && form.dataset.storage !== 'per-request') {
   const ready = form.dataset.ready === 'true';
   const fr = form.dataset.locale === 'fr';
   const started = form.elements.namedItem('started_at');

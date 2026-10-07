@@ -34,11 +34,11 @@ Les en-têtes de sécurité et `X-Robots-Tag` sont conservés dans le paquet env
 
 ## Preuves visuelles
 
-- [Protection Worker et politique appliquée](screenshots/cloudflare-worker-access-20261005.jpg).
-- [Adresse protégée active, aperçus désactivés](screenshots/cloudflare-private-url-20261005.jpg).
-- [Écran de connexion Access](screenshots/cloudflare-access-login-20261005.jpg).
-- [Homepage privée FR](screenshots/nodina-private-fr-home-20261005.jpg).
-- [Affichage mobile](screenshots/nodina-private-mobile-20261005.jpg).
+- Protection Worker et politique appliquée (capture retirée le 7 octobre 2026).
+- Adresse protégée active, aperçus désactivés (capture retirée le 7 octobre 2026).
+- Écran de connexion Access (capture retirée le 7 octobre 2026).
+- Homepage privée FR (capture retirée le 7 octobre 2026).
+- Affichage mobile (capture retirée le 7 octobre 2026).
 
 ## Prochain envoi
 

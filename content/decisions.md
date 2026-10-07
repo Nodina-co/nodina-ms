@@ -1,4 +1,116 @@
+## État courant — clôture des essais du 7 octobre 2026
+
+Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait des captures. La recette C/D est terminée : transport JSON anonyme depuis le loopback et refus de C retiré avec jeton encore valide confirmés ; accès candidat restauré à Only myself et durée à 300 secondes. Le parcours HTML anonyme sans JavaScript complet reste non vérifié. Aucune bascule du site, collecte GA4 ou migration Reporting active. La suppression de C et D est différée, sans nouvel essai ni notification. Les captures du dépôt et des archives locales de maquettes sont retirées ; les résultats textuels sont conservés. [Résultats](../reports/contact-anonymous-recipe-20261007.md).
+
 # Décisions NODINA
+
+## 2026-10-07 : lecteur réel vérifié et bascule Contact préparée
+
+Après « ok Go efficacement étape par étape », lecture de la synthèse de recette depuis le projet Reporting avec ses droits Sheets readonly existants : Completed à 12 h 33 Paris, zéro compte commercial TEST exclus, qualification null. Lanceur temporaire retiré et code Google original restauré exactement. Production préparée séparément avec schéma de stockage distinct ; raccordement per-request local et migration Reporting explicite testés, aucun repli vers l'ancien stockage. 58 tests réussis et deux builds contrôlés ; aucun .env, nouvel envoi, effacement, scope, planning ou service actif modifié. La recette anonyme TEST-only exige un accord distinct pour ouvrir temporairement l'endpoint à Anyone et envoyer trois POST au maximum. [État, proposition et preuves](../reports/contact-production-preparation-20261007.md).
+
+## 2026-10-07 : effacement ciblé de A terminé
+
+JD répond « oui, supprime A et sa notification ». Fichier fictif A supprimé définitivement par connecteur ; métadonnées et anciennes révisions inaccessibles, Google confirme le fichier supprimé. Unique notification A supprimée avec Delete forever ; recherche Gmail des deux UUID ne retourne que B. Fichier B, cellules, validations et révisions inchangés. Paramètres ND_REVIEW retirés, aucun état A restant, jeton expiré refusé par appel interne après effacement ; synthèse isolée reconstruite complete à 11 h 11 Paris, zéro compte commercial pour TEST. Lanceur temporaire retiré, code restauré exactement ; aucun quatrième POST HTTP, déploiement ou changement du service actif. Preuves locales conservées ; blocage avant expiration et lecteur/CORS restent distincts. [Résultats vérifiés](../reports/contact-retirement-candidate-20261007.md#résultat-après-laccord-ciblé).
+
+## 2026-10-07 : préparation du retrait du dossier fictif A
+
+Après « go », deux versions de A avec données fictives vérifiées ; préparation sous verrou exécutée à 09 h 46 Paris dans le projet isolé, synthèse invalidée. Jeton A expiré depuis 01 h 11 min 21 s : refus interne confirmé, aucun marqueur retired conservé. B, ses cellules/validations et ses révisions inchangés. Lanceur temporaire retiré et source restaurée exactement ; version 3 privée active. Aucun effacement ni quatrième POST HTTP. Accord ciblé demandé pour la suppression définitive du seul fichier A, de ses versions et de son unique notification Gmail ; B et sa notification sont à conserver. [Cibles, preuves et limites](../reports/contact-retirement-candidate-20261007.md).
+
+## 2026-10-07 : correctif Conservation déployé en version candidate 3
+
+JD confirme « deployé ». Version 3 du 7 octobre à 01 h 19 Paris relue dans Google, même déploiement, Me jd@nodina.com, Only myself. Code immuable de la version 3 exactement identique au correctif validé, formule fr_FR à points-virgules incluse et aucun lanceur temporaire. GET FR affiche le formulaire privé. Aucun POST ajouté aux trois essais autorisés, aucune suppression ou modification du service actif. Ce message confirme le déploiement préparé et ne délègue pas un effacement. [Vérification et limites](../reports/contact-storage-candidate-20261006.md#version-3-déployée-et-vérifiée-le-7-octobre).
+
+## 2026-10-07 : délégation ciblée des essais privés
+
+JD répond exactement **« oui, envoie les essais »** : accord explicite pour que l'agent soumette A FR, B EN et réessaie A à l'identique avec sa même référence, trois POST au maximum au candidat privé, notifications uniquement à jd@nodina.com. Trois exécutions Completed, deux fichiers propriétaires JD seul et deux courriels Inbox, aucun doublon. Champs RAW et preuve contact-v1 vérifiés. Erreur Conservation!D2 fr_FR corrigée dans les deux fichiers et dans le candidat ; 54 tests réussis. Code Google enregistré et relu, prochaine version Only myself prête, clic Deploy laissé à JD selon la procédure. Cet accord ne couvre aucun effacement, élargissement d'accès ou changement du service actif. [Résultats et limites](../reports/contact-storage-candidate-20261006.md#essais-envoyés-après-accord-explicite-le-7-octobre).
+
+## 2026-10-07 : version candidate 2 déployée par JD et vérifiée
+
+JD confirme « déployé » pour la mise à jour. Google affiche version 2 du 7 octobre à 00 h 52 Paris sur le même déploiement, Me (jd@nodina.com) et Only myself relus. Formulaires FR/EN et action POST vérifiés sur /exec : le correctif des chemins Workspace résout le rendu initial. Deux essais fictifs A et B préparés pour revue, consentement décoché ; dossier encore vide. Accord explicite demandé pour que l'agent soumette A/B et tente un réessai identique de A, notifications uniquement à JD. Aucun accord de soumission ou d'effacement déduit de « déployé » ; aucun nouveau code, envoi ou changement du service actif dans cette étape. [Résultat, données exactes et périmètre proposé](../reports/contact-storage-candidate-20261006.md#version-2-vérifiée-et-essais-fictifs-proposés).
+
+## 2026-10-07 : autorisation confirmée et initialisation candidate vérifiée
+
+JD répond « autorisé ». Journal Google Execution completed pour l'initialisation du 6 octobre à 23 h 52 Paris ; dossier et synthèse retrouvés, privés avec une seule permission user/owner jd@nodina.com. Dossier vide, Snapshot unavailable, Counts sans données. La clé interne n'est pas lue. Lanceur temporaire retiré et code enregistré/relu exactement. Déploiement Web app préparé sous JD, accès Only myself, clic final laissé à JD selon la procédure de recette. Aucun envoi, suppression, migration ou modification du service actif. Le transport anonyme JavaScript reste à éprouver dans un périmètre distinct ; aucune ouverture publique autorisée. [Résultat et paramètres préparés](../reports/contact-storage-candidate-20261006.md#vérification-du-7-octobre-après-autorisé).
+
+## 2026-10-06 : projet de recette Google préparé après « Go »
+
+JD autorise la préparation de la recette privée. Nouveau projet NODINA — RECETTE — Contact par dossier — 20261006 sous jd@nodina.com, code et manifeste enregistrés et relus exactement, Drive v3 / Sheets v4 et deux scopes minimaux prévus. Mode rehearsal, propriétaire JD et validité de cinq minutes pour le seul essai d'expiration enregistrés. Lanceur temporaire initializeRehearsal sélectionné car Google masque les helpers privés ; retrait obligatoire avant tout déploiement web. Aucune exécution, clé, dossier, synthèse, autorisation OAuth, soumission, notification ou suppression effectué. JD consent lui-même les droits puis initialise ; Contact actif, Reporting et site restent inchangés. [Préparation et preuves](../reports/contact-storage-candidate-20261006.md#préparation-google-après-le-go-suivant).
+
+## 2026-10-06 : collecteur candidat construit et testé après le nouveau « go »
+
+JD autorise la construction locale du candidat. Fichiers séparés pour noyau, adaptateurs Google, handlers FR/EN, client JavaScript et lecteur de synthèse ; mode rehearsal et noms TEST- uniquement. Jetons serveur signés, reprises après panne, marqueur temporaire de retrait, notifications minimales et synthèse sans référence individuelle éprouvés sur services simulés : vingt cas du candidat, trente-sept tests avec Contact et reporting existants, zéro échec. Aucun droit consenti ni code actif, cloud, déclencheur ou déploiement modifié. La durée technique reste explicitement configurable et non adoptée ; les scopes effectifs, les formules et le transport Google restent à éprouver en recette privée. [Candidat et procédure](../tools/forms/candidate/README.md), [résultat](../reports/contact-storage-candidate-20261006.md).
+
+## 2026-10-06 : cible de stockage par dossier préparée après « go »
+
+Le « go » suivant autorise la définition de la solution d’effacement par dossier. Proposition préparée : fichier privé Workspace individuel avec Contact et Conservation, notification limitée au lien, synthèse de comptes sans références individuelles pour le reporting. Scopes minimaux proposés, gestion des créations incertaines et prévention du renvoi après effacement définies comme conditions de bascule ; fenêtre technique proposée de 24 heures non adoptée. Aucun changement du code actif, droit OAuth, migration ou suppression de l’ancien Contact. La cible est recommandée, pas déployée ni présentée comme déjà approuvée par JD. [Spécification](security/contact-storage-design.md) et [rapport](../reports/contact-storage-design-20261006.md).
+
+## 2026-10-06 : suppression du fichier isolé autorisée et vérifiée
+
+JD répond « oui » à la suppression définitive du seul fichier NODINA — TEST isolé de purge — 20261006-B et de ses versions. Titre, identifiant Drive et référence B7 relus avant action ; le connecteur confirme la suppression à 22 h 13 Europe/Paris. Métadonnées devenues introuvables (404), recherche par nom exact vide sans exclusion de la corbeille, Google Sheets affiche que le fichier a été supprimé. Contact, Conservation, leurs historiques et les preuves locales sont exclus. La purge complète du dossier fictif dans Contact reste non certifiée ; l’étape suivante consiste à définir un stockage permettant l’effacement par dossier. [Résultat et preuves](../reports/retention-isolated-20261006.md).
+
+## 2026-10-06 : historique Contact vérifié et recette isolée préparée après « Go »
+
+La version Contact de 18 h 55 reste lisible après l’effacement actif. Son menu propose Restaurer, Nommer et Copier, sans suppression visible ; aucune version modifiée. Création d’un fichier privé séparé, NODINA — TEST isolé de purge — 20261006-B, contenant uniquement un identifiant et du texte fictifs. Deux versions vérifiées ; aucun raccordement au formulaire. La suppression définitive de ce nouveau fichier est préparée pour un accord explicite sur son identité. Aucun accord de purge de Contact déduit du « Go ». [Périmètre, preuves et limites](../reports/retention-isolated-20261006.md).
+
+## 2026-10-06 : suppression ciblée du dossier fictif autorisée et vérifiée
+
+JD répond « oui » au périmètre présenté : valeurs Contact A5:Q5 et notification Gmail exacte du dossier 1d5a5c1e-4d8f-4663-a67c-a010bb6da6e0. L’agent relit la référence et le marqueur, efface seulement les valeurs, puis vérifie A5:Q5 vide, A1:Q4 identique et formats préservés. Les trois anciens TEST restent intacts. Gmail confirme « Conversation deleted forever » après sélection d’une seule conversation ; la recherche in:anywhere par référence ne retrouve plus aucun message. Aucun vidage global de Trash.
+
+L’historique Sheets et les preuves locales sont exclus de cet accord et conservés. Aucun statut global Effacé ni purge complète certifiée ; ce point reste ouvert. [Résultat et preuves](../reports/retention-rehearsal-20261006.md). Aucun nouveau code, envoi, partage, automatisation, déploiement ou activation GA4.
+
+## 2026-10-06 : envoi fictif confirmé, copies retrouvées, suppression ciblée à valider
+
+JD répond « envoyé » après avoir soumis le formulaire TEST — Conservation. Référence technique 1d5a5c1e-4d8f-4663-a67c-a010bb6da6e0, réception à 18 h 55 Europe/Paris. Confirmation du formulaire, ligne A5:Q5 et notification Gmail concordent. Les trois anciens essais restent intacts ; aucune suppression effectuée.
+
+L’historique Sheets affiche aussi ce test ; aucun effacement complet certifié. Le périmètre préparé couvre seulement les valeurs de cette ligne et la notification exacte, y compris sa suppression définitive Gmail, après autorisation explicite. Aucun effacement global d’historique, de corbeille ou de compte demandé. [Recette, preuves et limites](../reports/retention-rehearsal-20261006.md). Aucun nouveau code, déploiement ou GA4 activé.
+
+## 2026-10-06 : Cloudflare vérifié et recette fictive préparée
+
+À la demande « étape suivante », lecture des offres Cloudflare et de la configuration : Workers Free et Zero Trust Free, Worker statique, journaux et traces Workers désactivés ; Logpush propose un abonnement, sans jobs affichés. Le contrat Self-Serve incorpore le DPA, sans preuve individuelle datée ajoutée. [Dossier fournisseur](../research/provider-contracts-20261006.md).
+
+Le formulaire local est rempli avec le marqueur RECETTE-CONSERVATION-20261006-A, sans consentement coché ni envoi. Un envoi par JD produira une ligne Contact et une notification dans sa propre boîte pour identifier les copies. [Protocole de recette](../reports/retention-rehearsal-20261006.md). Aucun nouvel envoi, effacement, export, réglage, changement de code, déploiement ou activation GA4. Les trois anciens TEST restent préservés. Aucune purge globale d’historique ou de messagerie autorisée par cette préparation.
+
+## 2026-10-06 : acceptation contractuelle Google confirmée et enregistrée
+
+JD répond « accepté » à la demande ciblée de validation des deux accords et du contact principal préparé. Google Admin confirme le CDPA accepté par jd@nodina.com le 6 octobre. DPA administration confirme le contact Jean-David Collard, jd@nodina.com, adresse NODINA SAS validée et Primary contact seulement.
+
+Analytics affiche une acceptation cochée mais non sauvegardée. L’agent complète Save dans le périmètre exact de l’accord reçu, puis constate les Data Processing Terms acceptées le 6 octobre 2026. Aucun partage facultatif, rôle DPO, représentation EEE, tag, collecte ou publication modifié. [État actuel et preuves](../research/provider-contracts-20261006.md). Les autres points fournisseurs, durées et suppression restent distincts ; ne pas rouvrir l’acceptation Google déjà vérifiée.
+
+## 2026-10-06 : consentement du formulaire, conservation manuelle et revue fournisseurs
+
+Après « ok Go » sur l’identité, le contact des droits et les douze mois, JD donne « Go » pour poursuivre. L’agent retient le consentement pour les demandes volontaires du formulaire existant, documente le retrait FR/EN et ajoute le lien build@nodina.com au premier niveau. Libellé de la case et contact-v1 restent identiques ; cette base n’est pas étendue à d’autres traitements.
+
+Un onglet Conservation privé est créé dans le classeur Contact, sans changer ses dix-sept colonnes, ses trois TEST, ses accès ou le service Apps Script. Le tableau natif prépare une revue manuelle après douze mois calendaires du dernier échange renseigné. Six cas calculés passent ; aucune donnée réelle supprimée ou nouvelle demande envoyée.
+
+JD confirme « connecté » après la vérification d’identité Google Admin. Le compte NODINA indique CDPA non accepté ; Analytics indique Data Processing Terms non acceptées et aucun contact DPA. Les étapes sont laissées ouvertes pour une validation contractuelle explicite. Documents publics Cloudflare identifiés sans preuve d’acceptation propre au compte. [Dossier](../research/provider-contracts-20261006.md). Le build et les 27 tests passent. Aucun accord de publication publique ou d’activation GA4 n’est déduit.
+
+## 2026-10-06 : identité, contact des droits et douze mois confirmés par « ok Go »
+
+JD répond « ok Go » à la demande regroupée portant sur les trois informations présentées : NODINA SAS, SIREN 103 513 834, siège au 54 chemin du Château, 06640 Saint-Jeannet ; usage de cette adresse dans les mentions ; build@nodina.com pour les demandes relatives aux données personnelles ; douze mois après le dernier échange pour les demandes sans suite. Ces décisions sont enregistrées dans le référentiel produit, la preuve officielle, la procédure et les pages de confidentialité FR/EN. Ne pas demander une nouvelle confirmation des mêmes points.
+
+La notice des quatre pages juridiques est ajustée aux points restants : base juridique du contact, application de la conservation, durées techniques et garanties de transfert. Aucun changement des rétentions GA4, aucune suppression automatique ou réelle, aucune adoption présumée de l’ensemble de la procédure. Le service Contact et son contrat contact-v1 sont inchangés. Préparation locale uniquement ; la validation des trois informations ne vaut pas autorisation de publication publique ou d’activation de GA4. [État courant et recette](../reports/legal-drafts-20261006.md).
+
+Vérification après intégration : build et 27 tests réussis, audit des 14 pages localisées et paquet scellé de 53 fichiers ; textes confirmés relus dans le build FR/EN et Chrome. Quatre pages à 320 pixels sans débordement, liens réciproques fonctionnels, aucune erreur console ou collecte Google observée. Capture actualisée (capture retirée le 7 octobre 2026). Aucun envoi Contact, commit ou déploiement.
+
+## 2026-10-06 : poursuite de la préparation juridique après le second « go »
+
+Lecture de l’API officielle Recherche d’entreprises : NODINA, SIREN 103 513 834, président Jean-David Collard et création en 2026 correspondent aux déclarations disponibles. Les données restent dans une [preuve interne](../research/legal-identity-20261006.md), sans intégration publique tant que JD ne confirme pas l’entité exploitante et l’adresse. Une demande regroupée présente ces faits, le rôle de build@nodina.com pour les droits et les douze mois proposés pour le contact sans suite.
+
+[Procédure opérationnelle](security/site-data-operations.md) préparée : suivi privé des droits, recherche limitée dans les copies du contact, examen avant réponse ou suppression, conservation distincte des dossiers contractuels. La date de réception ne remplace pas celle du dernier échange. Aucun message envoyé, suppression, automatisation, modification du formulaire, activation GA4 ou publication. Les décisions de conservation et l’adoption de la procédure restent ouvertes.
+
+## 2026-10-06 : quatre brouillons de confidentialité et cookies après « Go »
+
+JD autorise la préparation de ces pages. Textes FR/EN intégrés à la maquette, sommaire et liens de langue correspondants ; accès depuis le formulaire, le pied de page et le panneau de choix. Les pages décrivent le service Contact existant, ses copies Workspace, l’hébergement Cloudflare, le reporting agrégé et la mesure facultative prévue. Elles signalent explicitement les informations encore ouvertes ; aucun DPA, hébergement exclusivement européen ou anonymat présumé.
+
+Identité complète de l’entité, adresse, rôle de build@nodina.com et durée de contact demandés à JD ; aucune réponse enregistrée. Douze mois après le dernier échange reste une proposition pour les demandes sans suite, sans suppression automatique appliquée. Base juridique du contact, procédure des droits, durées techniques et garanties de transfert restent à documenter. Le libellé de case et la version contact-v1 du service existant sont inchangés.
+
+Build et préproduction : 27 tests, dont quinze de mesure ; quatorze pages localisées contrôlées. Recette Chrome FR/EN, liens et sommaire, quatre pages à 320 pixels, retrait depuis la page cookies ; aucun script Google en aperçu ni envoi de formulaire réel. [Preuves et travail de validation restant](../reports/legal-drafts-20261006.md). Modifications locales, aucun déploiement, activation GA4, commit ou publication publique. « Go » ne valide pas les textes juridiques ni les durées proposées.
+
+## 2026-10-06 : préparation locale de la mesure après « étape suivante »
+
+Module commun GA4 et panneau de choix FR/EN implémentés. Refus et acceptation de même présentation, aucun chargement Google avant accord, retrait au pied de page, expiration de six mois sans renouvellement du choix. La collecte est désactivée par défaut et exclut la préproduction privée ; aperçu local réservé à l'interface. Les interactions avant accord ne sont pas rejouées. URL/referrer bornés et aucune donnée saisie du formulaire envoyée à GA4. Les CTA principaux, début du formulaire et réception confirmée sont distingués ; réception ne signifie pas qualification.
+
+Mesures améliorées du flux NODINA désactivées et relues dans la console pour éviter les doublons. Rétention existante seulement lue, pas modifiée : événements deux mois, utilisateurs quatorze mois, reset d'activité activé. Aucun événement clé, dimension ou canal créé à cette étape. Quatorze tests du module et recette FR/EN à 320 pixels ; [preuve](../reports/analytics-preparation-20261006.md), [contrat et limites](analytics.md). La demande de poursuite n'est pas une approbation des textes juridiques, des durées de conservation ou de publication publique. Aucune collecte réelle déclarée ni nouveau test Contact envoyé.
 
 **Règle éditoriale en vigueur — 2026-10-02 :** JD ne veut plus faire référence à Angels Bay Tech / AngelsBayTech ni à CheckIA sur le site NODINA. Retirer ces références des maquettes et futurs contenus FR/EN : noms, cas, liens, logos et allusions identifiantes. Ne pas simplement anonymiser leurs exemples. Les sources et déclarations historiques restent internes pour la traçabilité. Cette décision remplace l’autorisation de citation du 2026-10-01 ; les exclusions antérieures de TitanOne et ReadyPark restent applicables.
 
@@ -476,7 +588,7 @@ JD répond « autorisé ». Le premier retour de connexion OAuth a expiré ; l'a
 
 Le formulaire Access **NODINA préproduction — JD** est rempli sans sauvegarde : Allow pour l'adresse exacte `jd@nodina.com`, durée six heures. L'interface ne propose pas les huit heures initialement envisagées ; six heures est une proposition de l'agent à valider avec le premier déploiement privé. Aucun enregistrement de politique, application Access, déploiement du site, changement de domaine ou envoi de formulaire effectué.
 
-La relecture Workers & Pages confirme **No projects found** et `jd-fd3.workers.dev`. L'intégration d'identité Cloudflare est déjà présente ; la proposition la réutilise. Le brouillon de politique est capturé dans `reports/screenshots/cloudflare-access-draft-20261005.jpg`. Accord demandé pour le premier déploiement fermé, sa protection Access sur tout le trafic de ce Worker seul, puis l'ouverture de l'adresse protégée ; noindex conservé et aucun domaine de production.
+La relecture Workers & Pages confirme **No projects found** et `jd-fd3.workers.dev`. L'intégration d'identité Cloudflare est déjà présente ; la proposition la réutilise. Le brouillon de politique a été capturé ; cette capture est retirée le 7 octobre 2026 à la demande de JD. Accord demandé pour le premier déploiement fermé, sa protection Access sur tout le trafic de ce Worker seul, puis l'ouverture de l'adresse protégée ; noindex conservé et aucun domaine de production.
 
 ## 2026-10-05 : premier déploiement privé autorisé
 
@@ -514,31 +626,61 @@ Le formulaire Search Console est préparé sous `jd@nodina.com` pour la proprié
 
 ## 2026-10-05 : Search Console auto-validée et choix de connexion Bing
 
-JD confirme « fait » après CONTINUE. Search Console affiche Ownership auto verified, méthode Domain name provider. Le domaine `sc-domain:nodina.com` est ajouté le 5 octobre 2026, sous `jd@nodina.com` ; les paramètres confirment You are a verified owner. Aucun DNS modifié par l'agent ni valeur de vérification inventée. Les rapports sont en traitement ; aucune soumission de sitemap ni demande d'indexation. [Preuve](../reports/screenshots/nodina-search-console-verified-20261005.jpg).
+JD confirme « fait » après CONTINUE. Search Console affiche Ownership auto verified, méthode Domain name provider. Le domaine `sc-domain:nodina.com` est ajouté le 5 octobre 2026, sous `jd@nodina.com` ; les paramètres confirment You are a verified owner. Aucun DNS modifié par l'agent ni valeur de vérification inventée. Les rapports sont en traitement ; aucune soumission de sitemap ni demande d'indexation. Preuve (capture retirée le 7 octobre 2026).
 
 Bing Webmaster Tools est ouvert sur le choix de connexion ; les cookies facultatifs sont refusés. Le contrôle automatique rejette le lancement de la méthode Google, car cette méthode et une éventuelle liaison de comptes ne sont pas explicitement choisies. L'action n'est pas répétée ni contournée. Le choix Google `jd@nodina.com`, Microsoft ou différer est demandé à JD. Aucun compte Bing créé, aucune connexion Google lancée ni consentement accepté. La préproduction reste privée.
 
+## 2026-10-06 : collecte hebdomadaire installée et premier rapport enregistré
+
+JD confirme « fait ». Le journal termine installWeeklySchedule et confirme lundi vers 09:00 Europe/Paris ±15 minutes, puis Triggers affiche un déclencheur Time-based / Head / uploadWeeklyReport appartenant à jd@nodina.com, sans premier lancement automatique encore observé. Preuve (capture retirée le 7 octobre 2026). Première échéance attendue le 12 octobre ; vérification prévue au début de la première session après cette date, sans automatisation de modèle ajoutée.
+
+terraform.md est généré à la racine du site depuis Appendix D, avec règles de preuve et commandes réelles. Le digest déterministe est préparé et vérifié sur inconnu, comparaison mesurable, petit échantillon, chevauchement et préférence du fichier programmé sur le test. Build, 12 tests, dix pages et paquet privé passent, ainsi que les six tests simulés du collecteur. Le premier rapport est une baseline manuelle provisoire, pas une mesure de succès commercial : données statistiques encore vides et qualification indisponible.
+
+AGENTS.md, CLAUDE.md et [reports/terraform-2026-10-06.md](https://github.com/Nodina-co/nodina-marketing-analytics/blob/main/reports/terraform-2026-10-06.md) sont enregistrés dans le dépôt privé Nodina-co/nodina-marketing-analytics via l’éditeur GitHub, après blocage de l’upload par les permissions de l’extension laissées intactes. Le texte du rapport correspond au fichier préparé ; actualisation du même jour après résolution du clone. Les accès gh et SSH initiaux échouent ; Git HTTPS existant réussit. Clone côte à côte présent et pointeurs relus, atteignant ../Nodina-ms/terraform.md ; digest identique sur le clone et la copie du JSON navigateur. Aucun nouveau secret demandé ou lu. Rapport enregistré (capture retirée le 7 octobre 2026).
+
+Le rapport propose S1 vérification du premier lundi, S2 préparation de l’instrumentation avant publication et S3 consignation/dédoublonnage de la qualification commerciale ; aucune proposition n’est appliquée automatiquement. Aucun Terraform report dans le dépôt du site, aucune modification de page, demande d’indexation ou publication publique. Les limites des listes d’opportunités et outils encore absents sont explicites ; la balise et les événements GA4 restent à configurer.
+
+## 2026-10-06 : premier test réel réussi, planification prête
+
+JD confirme « fait ». Le journal Apps Script confirme Execution completed et l’envoi de data/2026-10-06-test.json à 00:33 heure de Paris dans Nodina-co/nodina-marketing-analytics. Le [JSON privé](https://github.com/Nodina-co/nodina-marketing-analytics/blob/main/data/2026-10-06-test.json), commit 1e3f9ec42cdb136f718b0d6d22ff397fe969a015, est lu : errors vide, 53 réponses GA4, Search Console sans données finalisées/sitemap, quatre listes Bing vides, Sheets disponible avec comptes Contact à zéro et qualification null sur les périodes arrêtées au 3 octobre. Les 58 notes ne sont pas des erreurs et les réponses statistiques vides ne prouvent pas un trafic nul. Aucun nom, email ou message exporté. Les essais Contact du 4 octobre sont hors période ; leur exclusion est couverte par les tests simulés, pas démontrée par ce seul essai réel.
+
+L’agent sélectionne installWeeklySchedule sans l’exécuter, selon PROMETHEUS 15.2b étape 9. JD doit lancer Run pour installer la collecte lundi vers 09:00 Europe/Paris, ±15 minutes ; première échéance attendue le 12 octobre 2026. Écran prêt (capture retirée le 7 octobre 2026). Aucun déclencheur installé à cette étape ; journal/déclencheur puis terraform.md, pointeurs et premier rapport restent à vérifier/terminer.
+
+## 2026-10-05 : identifiants remplacés, premier test prêt
+
+JD confirme « remplacés » après la demande de remplacement/révocation du token GitHub et de la clé Bing. Cette confirmation vient de JD ; l’agent n’inspecte ni les nouvelles valeurs ni la révocation. Une lecture DOM limitée confirme les cinq propriétés présentes et enregistrées ; les valeurs secrètes ne sont pas retournées, les trois paramètres non secrets correspondent aux valeurs préparées.
+
+Après attente explicite de l’en-tête Editor et contrôle de l’absence de champs propertyValue, l’éditeur affiche Code.gs et uploadTestReport sélectionné. Preuve du test prêt (capture retirée le 7 octobre 2026). Le premier lancement et l’autorisation Google restent à JD conformément à PROMETHEUS 15.2b étape 8 ; le test écrira un JSON dans data/ du dépôt analytique privé et vérifiera les sources. Aucun test réel exécuté ni déclencheur installé ; la validité des identifiants reste à confirmer.
+
+## 2026-10-05 : propriétés enregistrées et incident de lecture UI
+
+JD confirme la génération et le collage du token, puis « fait » après la clé Bing. Une lecture DOM limitée confirme cinq propriétés avec valeur et en mode enregistré ; les deux secrets ne sont pas retournés dans cette vérification. Les trois paramètres non secrets correspondent aux valeurs préparées. Aucun test exécuté.
+
+L'agent clique Editor puis demande trop tôt un domSnapshot : l'ancien écran Settings est renvoyé pendant le chargement, avec les deux secrets en sortie de l'outil. JD est informé de l'erreur. Les valeurs ne sont pas recopiées, enregistrées dans un fichier local ou capturées en screenshot, ni utilisées par l'agent. Le remplacement est recommandé par précaution ; aucune publication externe ou compromission n'est établie.
+
+Un formulaire de remplacement du token GitHub est préparé : NODINA Reporting - remplacement, Nodina-co, expiration 2027-01-03, seul dépôt nodina-marketing-analytics, Contents R/W, Metadata R, Organizations (0). Brouillon (capture retirée le 7 octobre 2026). JD doit générer le nouveau token, mettre à jour GITHUB_TOKEN, révoquer l'ancien et remplacer la clé Bing puis BING_API_KEY. Aucun identifiant supprimé ou créé par l'agent. Futur contrôle : attendre Editor visible et absence de champs propertyValue avant toute capture ; aucun snapshot des propriétés, aucun presse-papiers. Le premier test reste à réaliser après remplacement.
+
 ## 2026-10-05 : token GitHub limité au dépôt analytique, génération à JD
 
-JD confirme « connecté ». Le formulaire fine-grained est visible : NODINA Reporting, owner Nodina-co, expiration 2027-01-03. L'agent sélectionne Only select repositories puis uniquement Nodina-co/nodina-marketing-analytics ; Selected 1 repository est relu. Contents Read and write, Metadata Read-only et Organizations (0) sont présents. [Droits proposés](../reports/screenshots/nodina-reporting-token-ready-20261005.jpg). Aucun token généré ni grant effectué par l'agent.
+JD confirme « connecté ». Le formulaire fine-grained est visible : NODINA Reporting, owner Nodina-co, expiration 2027-01-03. L'agent sélectionne Only select repositories puis uniquement Nodina-co/nodina-marketing-analytics ; Selected 1 repository est relu. Contents Read and write, Metadata Read-only et Organizations (0) sont présents. Droits proposés (capture retirée le 7 octobre 2026). Aucun token généré ni grant effectué par l'agent.
 
-Dans Apps Script Reporting, l'agent prépare une ligne Script Properties GITHUB_TOKEN, valeur vide et non enregistrée. JD doit générer le token, copier sa valeur directement dans cette ligne et enregistrer, puis revenir sur Editor et quitter l'affichage GitHub du secret avant de répondre. [Champ prêt](../reports/screenshots/nodina-reporting-github-property-ready-20261005.jpg). À la reprise, pas de snapshot complet des propriétés ou de la page du token, pas de lecture du presse-papiers ; ne vérifier que nom/présence sans révéler la valeur. Aucun secret lu ou sauvegardé localement, aucun test réel ni planification.
+Dans Apps Script Reporting, l'agent prépare une ligne Script Properties GITHUB_TOKEN, valeur vide et non enregistrée. JD doit générer le token, copier sa valeur directement dans cette ligne et enregistrer, puis revenir sur Editor et quitter l'affichage GitHub du secret avant de répondre. Champ prêt (capture retirée le 7 octobre 2026). À la reprise, pas de snapshot complet des propriétés ou de la page du token, pas de lecture du presse-papiers ; ne vérifier que nom/présence sans révéler la valeur. Aucun secret lu ou sauvegardé localement, aucun test réel ni planification.
 
 ## 2026-10-05 : dépôt analytique privé confirmé, authentification GitHub attendue
 
-JD confirme « créé ». GitHub affiche Nodina-co/nodina-marketing-analytics avec badge Private, branche main, README et commit initial `f0197fce0229e04130059be0a411cca4661d83fe`. [Preuve](../reports/screenshots/nodina-reporting-repo-private-20261005.jpg).
+JD confirme « créé ». GitHub affiche Nodina-co/nodina-marketing-analytics avec badge Private, branche main, README et commit initial `f0197fce0229e04130059be0a411cca4661d83fe`. Preuve (capture retirée le 7 octobre 2026).
 
-L'agent ouvre le formulaire officiel fine-grained avec un modèle non secret (NODINA Reporting, propriétaire Nodina-co, Contents write incluant read, durée proposée 90 jours). GitHub affiche Confirm access sous jdcollard-phd ; la vérification d'identité est laissée à JD. [Écran prêt](../reports/screenshots/nodina-reporting-github-confirm-access-20261005.jpg). Le formulaire reste derrière cette étape ; aucun token créé ni accès accordé, aucune valeur de secret lue. La sélection du seul dépôt analytique et les droits effectifs doivent encore être vérifiés avant génération par JD. Aucun test réel ou déclencheur Reporting installé.
+L'agent ouvre le formulaire officiel fine-grained avec un modèle non secret (NODINA Reporting, propriétaire Nodina-co, Contents write incluant read, durée proposée 90 jours). GitHub affiche Confirm access sous jdcollard-phd ; la vérification d'identité est laissée à JD. Écran prêt (capture retirée le 7 octobre 2026). Le formulaire reste derrière cette étape ; aucun token créé ni accès accordé, aucune valeur de secret lue. La sélection du seul dépôt analytique et les droits effectifs doivent encore être vérifiés avant génération par JD. Aucun test réel ou déclencheur Reporting installé.
 
 ## 2026-10-05 : sources Reporting installées et dépôt privé préparé
 
-JD confirme « fait ». L'agent lit les deux fichiers par Copier dans l'éditeur Apps Script : Code.gs correspond intégralement à la source locale (301 lignes, comparaison après normalisation des fins de ligne/espaces de bord) ; appsscript.json est identique après parsing JSON. Save project to Drive est désactivé, cloud_done présent. Aucune exécution du collecteur ni grant OAuth demandé. [Installation vérifiée](../reports/screenshots/nodina-reporting-sources-installed-20261005.jpg).
+JD confirme « fait ». L'agent lit les deux fichiers par Copier dans l'éditeur Apps Script : Code.gs correspond intégralement à la source locale (301 lignes, comparaison après normalisation des fins de ligne/espaces de bord) ; appsscript.json est identique après parsing JSON. Save project to Drive est désactivé, cloud_done présent. Aucune exécution du collecteur ni grant OAuth demandé. Installation vérifiée (capture retirée le 7 octobre 2026).
 
-GitHub est connecté sous `jdcollard-phd`. L'agent prépare New repository pour Nodina-co / nodina-marketing-analytics, visibilité Private et Add README On ; le nom est disponible. Le bouton Create repository reste à JD selon PROMETHEUS 15.2b ; aucun dépôt créé à cette étape. [Brouillon prêt](../reports/screenshots/nodina-reporting-repo-ready-20261005.jpg). Aucun token, clé Bing ou Script Property secret obtenu ou saisi. Le reporting reste sans test réel ni planification.
+GitHub est connecté sous `jdcollard-phd`. L'agent prépare New repository pour Nodina-co / nodina-marketing-analytics, visibilité Private et Add README On ; le nom est disponible. Le bouton Create repository reste à JD selon PROMETHEUS 15.2b ; aucun dépôt créé à cette étape. Brouillon prêt (capture retirée le 7 octobre 2026). Aucun token, clé Bing ou Script Property secret obtenu ou saisi. Le reporting reste sans test réel ni planification.
 
 ## 2026-10-05 : Apps Script Reporting créé et associé à Cloud
 
-JD confirme « créé ». L'éditeur sous `jd@nodina.com` affiche **NODINA - Reporting**, Script ID `1a1dGQd864bogaKQIe5aDc1vqHPz0BNZmUDKDoFaJxewIH4vQk8-TPqHg`, avec le fichier initial Code.gs contenant seulement myFunction. L'agent active l'affichage du manifeste puis associe le projet Cloud : Project Settings confirme GCP Standard / `931529905894`. Fuseau Paris et V8 sont présents. [Association confirmée](../reports/screenshots/nodina-reporting-cloud-linked-20261005.jpg).
+JD confirme « créé ». L'éditeur sous `jd@nodina.com` affiche **NODINA - Reporting**, Script ID `1a1dGQd864bogaKQIe5aDc1vqHPz0BNZmUDKDoFaJxewIH4vQk8-TPqHg`, avec le fichier initial Code.gs contenant seulement myFunction. L'agent active l'affichage du manifeste puis associe le projet Cloud : Project Settings confirme GCP Standard / `931529905894`. Fuseau Paris et V8 sont présents. Association confirmée (capture retirée le 7 octobre 2026).
 
 Les fichiers locaux Code.gs et appsscript.json sont préparés et proposés à JD pour collage/enregistrement selon PROMETHEUS 15.2b étape 5. Aucun code collecteur installé ou exécuté à cette étape, aucun grant OAuth sur les sources, aucune Script Property saisie, aucun dépôt GitHub ou déclencheur créé. Le formulaire Contact reste intact. Ce projet Reporting n'est pas une Web app et n'a pas de déploiement public.
 
@@ -546,15 +688,15 @@ Les fichiers locaux Code.gs et appsscript.json sont préparés et proposés à J
 
 JD confirme « fait » après activation Analytics et création OAuth. La console confirme Google Analytics Data API Enabled et OAuth configuration created ; Audience est relue Internal. L'agent active Search Console API avec les mêmes Google APIs Terms of Service déjà acceptées par JD et confirme son statut Enabled. Sheets avait été relue dans les services activés. Les trois API requises sont prêtes ; aucun accès utilisateur aux données du collecteur n'est encore accordé.
 
-Apps Script est ouvert sous `jd@nodina.com` ; seul NODINA — Contact est présent dans My Projects. JD est invité à créer NODINA — Reporting avec New project selon PROMETHEUS 15.2b, puis à associer le numéro Cloud `931529905894` lors de l'installation. Aucun projet de reporting Apps Script créé, aucun formulaire Contact modifié, aucune Web app déployée. [Étape prête](../reports/screenshots/nodina-reporting-apps-script-ready-20261005.jpg).
+Apps Script est ouvert sous `jd@nodina.com` ; seul NODINA — Contact est présent dans My Projects. JD est invité à créer NODINA — Reporting avec New project selon PROMETHEUS 15.2b, puis à associer le numéro Cloud `931529905894` lors de l'installation. Aucun projet de reporting Apps Script créé, aucun formulaire Contact modifié, aucune Web app déployée. Étape prête (capture retirée le 7 octobre 2026).
 
 ## 2026-10-05 : projet Cloud créé, API et OAuth en préparation
 
-JD confirme « créé ». Le tableau de bord confirme NODINA Reporting / `nodina-reporting`, numéro `931529905894`, organisation nodina.com. Sheets API est activée par l'agent puis relue dans Enabled APIs & Services. L'activation Analytics Data API reste à JD car sa fiche présente l'acceptation des Google APIs Terms of Service par utilisation ; le bouton Enable n'est pas cliqué par l'agent. Search Console API reste à activer. Un second onglet contient le brouillon OAuth NODINA Reporting, support/contact `jd@nodina.com`, audience Internal ; la case d'accord User Data Policy et les étapes Continue/Create restent à JD. Aucune configuration OAuth créée ni droit utilisateur accordé. [Brouillon OAuth](../reports/screenshots/nodina-reporting-oauth-ready-20261005.jpg). Aucun compte de facturation, essai gratuit ou compte de service créé.
+JD confirme « créé ». Le tableau de bord confirme NODINA Reporting / `nodina-reporting`, numéro `931529905894`, organisation nodina.com. Sheets API est activée par l'agent puis relue dans Enabled APIs & Services. L'activation Analytics Data API reste à JD car sa fiche présente l'acceptation des Google APIs Terms of Service par utilisation ; le bouton Enable n'est pas cliqué par l'agent. Search Console API reste à activer. Un second onglet contient le brouillon OAuth NODINA Reporting, support/contact `jd@nodina.com`, audience Internal ; la case d'accord User Data Policy et les étapes Continue/Create restent à JD. Aucune configuration OAuth créée ni droit utilisateur accordé. Brouillon OAuth (capture retirée le 7 octobre 2026). Aucun compte de facturation, essai gratuit ou compte de service créé.
 
 ## 2026-10-05 : brouillon du projet Cloud de reporting
 
-JD confirme « connecté ». Google Cloud affiche `jd@nodina.com` et l'organisation `nodina.com`, ID `679600609001`. La liste Manage resources consultée montre cette organisation seule, sans projet réutilisable visible. L'agent prépare New Project avec nom NODINA Reporting, identifiant demandé `nodina-reporting`, organisation et parent nodina.com. Aucun projet créé, aucun essai gratuit activé ni facturation configurée. Le bouton Create reste à JD selon PROMETHEUS 15.2b. [Brouillon prêt](../reports/screenshots/nodina-cloud-reporting-ready-20261005.jpg).
+JD confirme « connecté ». Google Cloud affiche `jd@nodina.com` et l'organisation `nodina.com`, ID `679600609001`. La liste Manage resources consultée montre cette organisation seule, sans projet réutilisable visible. L'agent prépare New Project avec nom NODINA Reporting, identifiant demandé `nodina-reporting`, organisation et parent nodina.com. Aucun projet créé, aucun essai gratuit activé ni facturation configurée. Le bouton Create reste à JD selon PROMETHEUS 15.2b. Brouillon prêt (capture retirée le 7 octobre 2026).
 
 ## 2026-10-05 : préparation du reporting après confirmation des comptes
 
@@ -564,7 +706,7 @@ Le collecteur Appendix G et son manifeste sont préparés pour NODINA, avec le d
 
 ## 2026-10-05 : import Bing confirmé et page blanche résolue
 
-JD effectue lui-même l'import Search Console. Il signale d'abord un écran sans sites, puis confirme le succès avant de rencontrer une page blanche. L'agent constate cet affichage et rouvre le tableau de bord NODINA sans paramètres OAuth. La console se charge ; Verification Code confirme explicitement que `https://nodina.com/` a été importé depuis Search Console et ne nécessite aucun code Bing, car déjà validé chez Google. [Preuve](../reports/screenshots/nodina-bing-import-verified-20261005.jpg). La cause précise de la page blanche n'est pas établie. Aucun nouveau consentement, suppression de site, changement DNS ni soumission de sitemap effectué par l'agent.
+JD effectue lui-même l'import Search Console. Il signale d'abord un écran sans sites, puis confirme le succès avant de rencontrer une page blanche. L'agent constate cet affichage et rouvre le tableau de bord NODINA sans paramètres OAuth. La console se charge ; Verification Code confirme explicitement que `https://nodina.com/` a été importé depuis Search Console et ne nécessite aucun code Bing, car déjà validé chez Google. Preuve (capture retirée le 7 octobre 2026). La cause précise de la page blanche n'est pas établie. Aucun nouveau consentement, suppression de site, changement DNS ni soumission de sitemap effectué par l'agent.
 
 ## 2026-10-05 : site ajouté par JD à Bing et import Search Console retenu
 

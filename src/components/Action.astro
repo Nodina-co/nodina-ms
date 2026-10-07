@@ -1,5 +1,6 @@
 ---
 interface Props { href: string; label: string; button?: boolean }
 const { href, label, button = false } = Astro.props;
+const primary = button && /^\/(fr|en)\/contact\/(?:\?|$)/.test(href);
 ---
-<a class={button ? 'button' : 'text-link'} href={href}>{label}<span class:list={{ arrow: button }} aria-hidden="true">↗</span></a>
+<a class={button ? 'button' : 'text-link'} href={href} data-primary-cta={primary ? '' : undefined}>{label}<span class:list={{ arrow: button }} aria-hidden="true">↗</span></a>

@@ -30,7 +30,13 @@ Cette URL est renseignée dans `.env` (ignoré par Git) et présente dans les fo
 
 La validation de la notice de confidentialité, des destinataires, de la conservation des demandes et du contenu publiable reste nécessaire avant la mise en ligne. Aucun délai de réponse commerciale n’a été inventé.
 
+Mise à jour du 6 octobre 2026 : JD confirme NODINA SAS comme responsable du site, `build@nodina.com` pour les demandes relatives aux données et douze mois après le dernier échange pour les contacts sans suite et les e-mails associés. Ces décisions sont intégrées aux pages locales FR/EN. Le service n’effectue pas de suppression automatique et sa date de réception ne remplace pas celle du dernier échange. [Procédure de conservation et des droits à mettre en œuvre](../../content/security/site-data-operations.md). Contrat `contact-v1` et déploiement Google inchangés.
+
 ## Comportement préparé
+
+Architecture suivante définie le 6 octobre après « go » : [stockage par dossier](../../content/security/contact-storage-design.md), avec [migration et limites](../../reports/contact-storage-design-20261006.md). Préparer le candidat dans des fichiers séparés ; le code ci-dessous, les propriétés et le service version 1 restent la référence active jusqu’à une bascule approuvée et vérifiée.
+
+Après le « go » suivant, le [candidat séparé](candidate/README.md) est construit et testé localement : vingt cas propres au candidat, trente-sept avec Contact et reporting existants, zéro échec. Il reste en mode de recette TEST- uniquement ; aucune installation ou autorisation Google effectuée. [Rapport de construction et recette restante](../../reports/contact-storage-candidate-20261006.md).
 
 - Champs requis : nom, e-mail, organisation, offre, contexte, accord explicite ; calendrier facultatif. Limites contrôlées côté serveur.
 - Piège à robots et contrôle de durée pour les navigateurs avec JavaScript. Le POST HTML sans JavaScript reste accepté sans horodatage client. Ces contrôles ne remplacent pas une protection contre une attaque ciblée ou l’épuisement des quotas.
@@ -45,3 +51,9 @@ La validation de la notice de confidentialité, des destinataires, de la conserv
 `npm test` exécute les tests de validation, stockage, doublons, notification, confirmation HTML et prévisualisation. Tous les services Google sont simulés pendant ces tests ; aucun e-mail externe n’est envoyé.
 
 Documentation primaire consultée le 4 octobre 2026 : [applications web Apps Script](https://developers.google.com/apps-script/guides/web), [réponses Content Service et redirections](https://developers.google.com/apps-script/guides/content), [MailApp](https://developers.google.com/apps-script/reference/mail/mail-app). Lecture JSON inter-domaines, enregistrement réel, confirmation HTML et réception Gmail sont vérifiés. Les erreurs de stockage/notification et doublons sont couverts par les tests simulés. Comportement Gmail documenté : [messages envoyés à son propre alias](https://knowledge.workspace.google.com/admin/support/troubleshooting/messages-sent-to-email-alias-or-group-arent-in-my-inbox?hl=en). Les deux tentatives vers l’alias n’ont pas confirmé Inbox, contrairement à l’envoi direct à la boîte principale.
+
+## Suivi manuel de conservation — 6 octobre 2026
+
+[Conservation](https://docs.google.com/spreadsheets/d/1o3HpWGkOjSePSdr8kZJYXWsaS4XgYbgL9Y2rcQ3tgHw/edit?gid=20261006#gid=20261006) est un second onglet privé du classeur, distinct des dix-sept colonnes Contact. Ajouter manuellement référence, statut et dernier échange réel ; le tableau calcule douze mois uniquement pour les demandes sans suite. Il ne synchronise pas les entrées et ne supprime rien. Ne pas ajouter de coordonnées ni de messages au suivi. Seul un exemple fictif est laissé, les trois TEST Contact sont préservés. [Procédure et limites](../../content/security/site-data-operations.md).
+
+Consentement du formulaire retenu dans les textes FR/EN, retrait par build@nodina.com ; libellé, preuve contact-v1 et collecteur inchangés. Après validation explicite « accepté » de JD, Google Admin confirme le CDPA accepté par jd@nodina.com le 6 octobre 2026. [État contractuel](../../research/provider-contracts-20261006.md).

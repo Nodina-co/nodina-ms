@@ -1,0 +1,15 @@
+{
+  "timeZone": "Europe/Paris",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {"userSymbol": "Drive", "version": "v3", "serviceId": "drive"},
+      {"userSymbol": "Sheets", "version": "v4", "serviceId": "sheets"}
+    ]
+  },
+  "exceptionLogging": "NONE",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/script.send_mail"
+  ]
+}

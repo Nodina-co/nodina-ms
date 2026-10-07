@@ -8,7 +8,7 @@ test('preview returns real redirects, real 404s and noindex headers for every re
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
   const origin = `http://127.0.0.1:${server.address().port}`;
   try {
-    for (const [path, code] of [['/', 301], ['/fr', 301], ['/fr/', 200], ['/en/contact/', 200], ['/missing/', 404], ['/content/product-truth.md', 404], ['/_headers', 404], ['/assets/intertight.ttf', 200]]) {
+    for (const [path, code] of [['/', 301], ['/fr', 301], ['/fr/', 200], ['/en/contact/', 200], ['/fr/confidentialite/', 200], ['/fr/cookies/', 200], ['/en/privacy/', 200], ['/en/cookies/', 200], ['/missing/', 404], ['/content/product-truth.md', 404], ['/_headers', 404], ['/assets/intertight.ttf', 200]]) {
       const response = await fetch(origin + path, { redirect: 'manual' });
       assert.equal(response.status, code, path);
       assert.match(response.headers.get('x-robots-tag'), /noindex/);

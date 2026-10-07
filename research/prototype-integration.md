@@ -8,7 +8,7 @@ Les contenus désormais utilisés par Astro sont `content/site/fr.json` et `cont
 
 Les neuf portraits originaux sont conservés dans `src/assets/profiles/`. Astro produit des versions WebP 80/160 pixels ; les originaux ne sont pas servis dans `dist/`. Leur provenance reste le manifeste `assets/profiles/generation.json` du prototype, copié dans `research/profile-image-generation.json`. Les noms de fichiers publics restent neutres. Les logos, outils et police conservent leurs licences dans `public/assets/`.
 
-Les notes, recherches, anciennes versions, commentaires, captures de feedback et scripts internes sont exclus du build. Les captures de recette sont dans `reports/screenshots/`, hors du répertoire public.
+Les notes, recherches, anciennes versions, commentaires, captures de feedback et scripts internes sont exclus du build. Les captures de recette ont été retirées du dépôt le 7 octobre 2026 à la demande de JD ; les résultats textuels sont conservés.
 
 ## Validation effectuée
 
@@ -52,6 +52,6 @@ JD autorise ensuite explicitement le déploiement privé. La politique Access es
 
 JD autorise le droit Wrangler corrigé. L'envoi statique réussit, version `926cc206-8a72-4879-a036-55402dd465d7`. Access protège ensuite tout le trafic de ce Worker seul avec la politique JD, session de six heures. L'adresse [nodina-preproduction.jd-fd3.workers.dev](https://nodina-preproduction.jd-fd3.workers.dev/fr/) est activée après vérification ; aucun aperçu ni domaine personnalisé activé.
 
-Les 63 chemins contrôlés sans session sont redirigés vers Access. Après connexion de JD, les dix pages FR/EN et leur affichage à 320 pixels sont vérifiés sans débordement ; filtres de profils, offre conservée au changement de langue, redirection racine et affichage 404 vérifiés. Les formulaires restent raccordés au même service Google, sans nouvel envoi réel. Noindex conservé. [Rapport détaillé, captures et limites](../reports/cloudflare-preproduction-20261005.md).
+Les 63 chemins contrôlés sans session sont redirigés vers Access. Après connexion de JD, les dix pages FR/EN et leur affichage à 320 pixels sont vérifiés sans débordement ; filtres de profils, offre conservée au changement de langue, redirection racine et affichage 404 vérifiés. Les formulaires restent raccordés au même service Google, sans nouvel envoi réel. Noindex conservé. [Rapport détaillé, résultats et limites](../reports/cloudflare-preproduction-20261005.md).
 
 Le fichier Wrangler d'envoi reste fermé et nécessite la réactivation de l'adresse protégée après un futur déploiement. La publication publique, les faits des profils/Select, les pages légales et la mesure restent à finaliser séparément.

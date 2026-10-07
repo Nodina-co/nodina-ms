@@ -51,11 +51,11 @@ Privacy by design, minimisation, contrôle des données transmises aux modèles,
 
 Teams s’intègre au cadre du client et contribue au conseil/signalement des risques. Systems & Transformation intègre les mesures au système livré dans le périmètre convenu. Responsabilités techniques, opérationnelles et contractuelles à préciser par engagement. Aucune conformité RGPD, AI Act ou sectorielle automatique revendiquée.
 
-Les quatre documents de [content/security](security/) sont des brouillons internes à compléter et valider, pas une preuve de mesures déployées. Aucune certification ISO 27001, SOC 2, HDS ou SecNumCloud détenue n’est documentée.
+Les six documents de [content/security](security/) sont des brouillons internes à compléter et valider, pas une preuve de mesures déployées. Aucune certification ISO 27001, SOC 2, HDS ou SecNumCloud détenue n’est documentée.
 
 ## Société et identité
 
-- Nom déclaré : Nodina ; marque : NODINA. Immatriculation en France en 2026 déclarée par JD. Forme juridique, registre, numéro, siège et mentions légales à documenter ; aucun bureau ouvert au public présumé.
+- Entité exploitante confirmée par JD le 2026-10-06 : NODINA, société par actions simplifiée (SAS), SIREN 103 513 834, siège au 54 chemin du Château, 06640 Saint-Jeannet, France. Ces données peuvent figurer dans les mentions. [Vérification officielle et confirmation](../research/legal-identity-20261006.md). Marque : NODINA ; immatriculation française en 2026. Capital, TVA, RCS et mentions légales complètes restent à documenter ; aucun bureau ouvert au public présumé.
 - Aucun logiciel commercialisé présumé ; société de services.
 - Jean-David Collard est le **fondateur de NODINA**, précisé par JD le 2026-10-03.
 - JD est le seul valideur du projet et responsable éditorial à ce stade. Identité publique, biographies, diplômes et droits d’image des membres à vérifier avant publication.

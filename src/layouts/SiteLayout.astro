@@ -2,11 +2,14 @@
 import { content, metadata, origin, route, type Locale, type PageId } from '../lib/site';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
+import AnalyticsConsent from '../components/AnalyticsConsent.astro';
 import '../styles/site.css';
 import '../styles/talent.css';
 import '../styles/refinement.css';
 import '../styles/select.css';
 import '../styles/forms.css';
+import '../styles/analytics.css';
+import '../styles/legal.css';
 interface Props { locale: Locale; page: PageId; title?: string; description?: string }
 const { locale, page } = Astro.props;
 const c = content[locale];
@@ -25,6 +28,7 @@ const graph = {
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="referrer" content="strict-origin-when-cross-origin"/>
   <meta name="robots" content="noindex,nofollow,noarchive"/>
   <meta name="theme-color" content="#ffffff"/>
   <title>{title}</title><meta name="description" content={description}/>
@@ -38,10 +42,15 @@ const graph = {
   <link rel="icon" href="/assets/logomark.svg" type="image/svg+xml"/>
   <link rel="preload" href="/assets/intertight.ttf" as="font" type="font/ttf" crossorigin/>
   <script type="application/ld+json" set:html={JSON.stringify(graph).replace(/</g, '\\u003c')}/>
+  <script id="analytics-config" type="application/json" set:html={JSON.stringify({
+    enabled: import.meta.env.PUBLIC_ANALYTICS_ENABLED === 'true',
+    preview: import.meta.env.PUBLIC_ANALYTICS_PREVIEW === 'true', title,
+  }).replace(/</g, '\\u003c')}/>
 </head>
 <body id="top">
   <a class="skip" href="#content">{c.skip}</a>
   <SiteHeader locale={locale} page={page}/><slot/><SiteFooter locale={locale}/>
-  <script>import '../scripts/site.js'; import '../scripts/contact.js';</script>
+  <AnalyticsConsent locale={locale}/>
+  <script>import '../scripts/site.js'; import '../scripts/contact.js'; import '../../tools/forms/candidate/client.js'; import { initAnalytics } from '../scripts/analytics.js'; initAnalytics();</script>
 </body>
 </html>

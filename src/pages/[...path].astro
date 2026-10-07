@@ -6,6 +6,7 @@ import VettingPage from '../components/VettingPage.astro';
 import ProfilesPage from '../components/ProfilesPage.astro';
 import ManifestoPage from '../components/ManifestoPage.astro';
 import ContactPage from '../components/ContactPage.astro';
+import LegalPage from '../components/LegalPage.astro';
 export function getStaticPaths() {
   return locales.flatMap(locale => pageIds.map(page => ({
     params: { path: route(locale, page).replace(/^\/|\/$/g, '') }, props: { locale, page },
@@ -13,7 +14,7 @@ export function getStaticPaths() {
 }
 interface Props { locale: Locale; page: PageId }
 const { locale, page } = Astro.props;
-const pages = { home: HomePage, vetting: VettingPage, profiles: ProfilesPage, manifesto: ManifestoPage, contact: ContactPage };
+const pages = { home: HomePage, vetting: VettingPage, profiles: ProfilesPage, manifesto: ManifestoPage, contact: ContactPage, privacy: LegalPage, cookies: LegalPage };
 const Page = pages[page];
 ---
-<SiteLayout locale={locale} page={page}><Page locale={locale}/></SiteLayout>
+<SiteLayout locale={locale} page={page}><Page locale={locale} page={page}/></SiteLayout>

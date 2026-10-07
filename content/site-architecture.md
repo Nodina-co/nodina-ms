@@ -27,7 +27,8 @@ Navigation proposée : **Offres · Approche · Le fondateur / À propos · Séle
 | Journal | `/fr/journal/` | `/en/journal/` | Articles signés et datés sur la réalisation, l’architecture et l’IA ; hub et gabarit d’article à concevoir, premiers textes à préparer |
 | Sécurité et données | `/fr/securite-et-donnees/` | `/en/security-and-data/` | Principes réels, responsabilités et limites, à partir des documents internes après revue ; aucune certification implicite |
 | Mentions légales | `/fr/mentions-legales/` | `/en/legal-notice/` | Informations légales vérifiées et approuvées par JD avant publication |
-| Confidentialité | `/fr/politique-de-confidentialite/` | `/en/privacy-policy/` | Traitements effectivement mis en œuvre : contact, analytics et éventuels outils tiers ; rédaction après choix techniques, approbation humaine |
+| Confidentialité | `/fr/confidentialite/` | `/en/privacy/` | Brouillons locaux FR/EN préparés le 6 octobre 2026 à partir des traitements réels ; informations et approbation encore attendues |
+| Cookies | `/fr/cookies/` | `/en/cookies/` | Brouillons locaux FR/EN : choix facultatif de mesure, stockage et retrait ; inventaire réel avant activation publique |
 
 Chaque route conserve la même intention dans les deux langues. Les noms des offres restent identiques. Les slugs sont proposés à partir du vocabulaire métier et du contenu attendu ; ils ne reposent pas sur des volumes de recherche mesurés. La liste sera affinée avec les clusters avant de figer les URLs.
 
