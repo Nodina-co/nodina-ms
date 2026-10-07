@@ -4,6 +4,10 @@ Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait
 
 # Décisions NODINA
 
+## 2026-10-08 : téléphone professionnel différé hors de cette version
+
+JD précise « j’ajouterais mon tel pro plus tard mais pas dans cette version ». Retirer la ligne et le placeholder de téléphone NODINA dans les mentions FR/EN, leur notice et la revue autonome. Conserver l’e-mail de NODINA et les coordonnées de l’hébergeur. Le téléphone reste un ajout futur décidé par JD, sans nouvelle demande ni rappel automatique pour cette version. Cette décision ne vaut pas approbation de l’ensemble des mentions ni accord de lancement. Suivi actif actualisé ; compilation statique uniquement, commit/push sur main selon la demande permanente.
+
 ## 2026-10-08 : mentions légales FR/EN préparées après Go
 
 JD demande « Go » pour l’étape suivante, annoncée comme mentions légales puis validation des pages. Sources INPI, Pappers, Service Public, Légifrance et Cloudflare consultées ; deux pages ajoutées aux routes de revue privée et au pied de page. Capital de 1 000 € et forme SASU documentés dans l’attestation INPI datée du 26 août ; RCS Grasse et TVA relevés dans Pappers, sans contrôle VIES. Téléphone professionnel demandé à JD. [Texte concret à valider](../reports/legal-notice-review-20261008.html), [sources et points ouverts](../research/legal-notice-20261008.md). Notices Confidentialité/Cookies approuvées inchangées. Compilation et inspection statiques seulement ; aucun nouvel essai, capture, envoi, déploiement ou activation GA4. Commit/push sur main selon la demande permanente.

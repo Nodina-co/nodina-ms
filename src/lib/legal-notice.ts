@@ -2,8 +2,7 @@ import type { Locale } from './site';
 import type { Policy } from './legal';
 
 // Sources and outstanding confirmations: research/legal-notice-20261008.md.
-// Empty until JD supplies the professional number intended for publication.
-const professionalPhone = '';
+// JD deferred the business telephone number beyond this version on 8 October 2026.
 
 type LegalNoticeCopy = { date: string; draftTitle: string; draftBody: string; policy: Policy };
 
@@ -11,7 +10,7 @@ export const legalNoticeCopy: Record<Locale, LegalNoticeCopy> = {
   fr: {
     date: 'Préparé le 8 octobre 2026',
     draftTitle: 'Mentions légales en cours de validation',
-    draftBody: 'Cette version est préparée pour la revue privée. Le téléphone professionnel reste à compléter et les informations légales à valider avant publication.',
+    draftBody: 'Cette version est préparée pour la revue privée. Les informations légales sont soumises à validation.',
     policy: {
       title: 'Mentions légales',
       lead: 'L’identité de l’éditeur de nodina.com, la direction de la publication et l’hébergement du site.',
@@ -25,7 +24,6 @@ export const legalNoticeCopy: Record<Locale, LegalNoticeCopy> = {
         ] },
         { id: 'coordonnees', title: 'Contacter NODINA', paragraphs: [
           'E-mail : build@nodina.com.',
-          professionalPhone ? `Téléphone : ${professionalPhone}.` : 'Téléphone professionnel : à compléter avant publication.',
         ], links: [{ label: 'Écrire à build@nodina.com', href: 'mailto:build@nodina.com' }] },
         { id: 'publication', title: 'Direction de la publication', paragraphs: [
           'Le directeur de la publication est Jean-David Collard, président de NODINA.',
@@ -44,7 +42,7 @@ export const legalNoticeCopy: Record<Locale, LegalNoticeCopy> = {
   en: {
     date: 'Prepared on 8 October 2026',
     draftTitle: 'Legal notice awaiting approval',
-    draftBody: 'This version is prepared for private review. The business telephone number still needs to be added and the legal details approved before publication.',
+    draftBody: 'This version is prepared for private review. The legal details are submitted for approval.',
     policy: {
       title: 'Legal notice',
       lead: 'The publisher of nodina.com, the publication director and the website hosting provider.',
@@ -58,7 +56,6 @@ export const legalNoticeCopy: Record<Locale, LegalNoticeCopy> = {
         ] },
         { id: 'contact', title: 'Contact NODINA', paragraphs: [
           'Email: build@nodina.com.',
-          professionalPhone ? `Telephone: ${professionalPhone}.` : 'Business telephone number: to be added before publication.',
         ], links: [{ label: 'Email build@nodina.com', href: 'mailto:build@nodina.com' }] },
         { id: 'publication', title: 'Publication director', paragraphs: [
           'The publication director is Jean-David Collard, president of NODINA.',

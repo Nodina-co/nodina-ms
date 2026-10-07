@@ -31,7 +31,7 @@ Aucune URL ci-dessous n'est considérée comme approuvée pour indexation par ce
 | Contact | /fr/contact/ | /en/contact/ | Formulaire actuel legacy ; nouveau service privé prêt. URL de build et accès public à arrêter lors de la bascule. |
 | Confidentialité | /fr/confidentialite/ | /en/privacy/ | Versions FR/EN actualisées et validées par JD le 7 octobre. |
 | Cookies | /fr/cookies/ | /en/cookies/ | Versions FR/EN validées ; GA4 désactivé, activation séparée. |
-| Mentions légales | /fr/mentions-legales/ | /en/legal-notice/ | Préparées le 8 octobre ; capital et forme documentés INPI, RCS/TVA relevés Pappers. Téléphone et validation du texte encore attendus. [Revue FR/EN](legal-notice-review-20261008.html). |
+| Mentions légales | /fr/mentions-legales/ | /en/legal-notice/ | Préparées le 8 octobre ; capital et forme documentés INPI, RCS/TVA relevés Pappers. Téléphone différé hors de cette version par JD ; validation du texte encore attendue. [Revue FR/EN](legal-notice-review-20261008.html). |
 
 ## Profils confirmés et choix restant pour NODINA Select
 
@@ -39,7 +39,7 @@ Aucune URL ci-dessous n'est considérée comme approuvée pour indexation par ce
 
 **NODINA Select — méthode confirmée.** JD précise le 8 octobre : « oui la méthode Nodina Select est utilisable ». La méthode est présentée au présent, avec une FAQ FR/EN centrée sur les évaluateurs. La proposition de la qualifier d'en préparation est abandonnée. Le statut du logiciel n'est pas confirmé par cette réponse ; l'exercice d'évaluation reste illustratif et ne promet pas un outil disponible.
 
-Le go-live global ne doit pas être déduit de l'approbation de ces formulations. Les mentions légales sont préparées le 8 octobre : [données et sources](../research/legal-notice-20261008.md), [texte concret FR/EN](legal-notice-review-20261008.html). Téléphone professionnel et validation de ces textes restent à obtenir ; pages finales, routage et indexation restent à établir avant publication.
+Le go-live global ne doit pas être déduit de l'approbation de ces formulations. Les mentions légales sont préparées le 8 octobre : [données et sources](../research/legal-notice-20261008.md), [texte concret FR/EN](legal-notice-review-20261008.html). Le téléphone professionnel est différé hors de cette version ; la validation de ces textes reste à obtenir ; pages finales, routage et indexation restent à établir avant publication.
 
 ## Vérification de cette étape
 
@@ -55,4 +55,4 @@ JD confirme « les profils actuels sont réels ». La proposition de les qualifi
 
 JD confirme la méthode utilisable. Référentiel, brief et registre des affirmations actualisés (C245, remplace le volet méthode de C235). FAQ FR/EN : « NODINA Select est notre méthode de sélection » / « NODINA Select is our selection method », suivie des six dimensions et de la revue humaine. Aucun logiciel opérationnel, résultat mesuré ou candidat réel dans l'exemple n'est affirmé. L'exemple commenté conserve sa mention illustrative. La disponibilité de l'outil pourra être documentée si une future rédaction doit en faire une promesse ; elle ne bloque pas la présentation de la méthode humaine actuelle.
 
-Prochaine étape : compléter le téléphone professionnel, faire valider les mentions légales préparées, puis préparer la validation globale des pages. La validation de la méthode ne vaut pas accord de lancement public.
+Prochaine étape : faire valider les mentions légales préparées, puis préparer la validation globale des pages. JD ajoutera son téléphone professionnel plus tard, hors de cette version. La validation de la méthode ne vaut pas accord de lancement public.
