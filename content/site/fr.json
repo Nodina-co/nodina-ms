@@ -720,10 +720,10 @@
     "profiles_title": "Des ingénieurs. Des spécialités. Du concret.",
     "profiles_lead": "Du backend à l’architecture IA, découvrez les compétences et les réalisations que peut réunir votre équipe.",
     "profiles_cta": "Découvrir les 9 profils",
-    "profile_note": "Profils de démonstration : portraits, parcours, industries et disponibilités fictifs. Les fiches réelles anonymisées seront ajoutées après validation.",
-    "profile_badge": "Profil de démonstration",
+    "profile_note": "Profils anonymisés. Les portraits sont des illustrations ; la disponibilité pour votre mission est à confirmer.",
+    "profile_badge": "Profil",
     "profile_detail": "Voir les compétences",
-    "profile_mission": "Exemple de réalisation",
+    "profile_mission": "Réalisation",
     "profile_strength": "Apport à l’équipe",
     "profile_cta": "Parler de ce besoin",
     "profiles": [
@@ -919,7 +919,7 @@
     ],
     "profiles_page_title": "Profils d’ingénieurs — NODINA",
     "profiles_h1": "Votre prochain produit. <span>Les talents pour le livrer.</span>",
-    "profiles_page_lead": "Backend, full-stack, data, IA et direction technique : neuf exemples de parcours pour vous projeter dans l’équipe qui fera avancer votre produit.",
+    "profiles_page_lead": "Backend, full-stack, data, IA et direction technique : neuf parcours pour trouver les compétences qui feront avancer votre produit.",
     "profiles_explain_title": "Une recommandation qui vous permet de décider.",
     "profiles_explain_body": "Pour votre mission, nous précisons le rôle, les compétences utiles, les réalisations partageables et les points à approfondir. Vous échangez avec les personnes proposées pour confirmer l’adéquation à votre équipe.",
     "profiles_facts": [
@@ -1021,8 +1021,8 @@
         "Disponibles"
       ]
     ],
-    "profile_results": "profils de démonstration affichés",
-    "profile_overview": "9 profils de démonstration · 7 en mission · 2 disponibles",
+    "profile_results": "profils affichés",
+    "profile_overview": "9 profils · 7 en mission · 2 disponibles",
     "profile_years": "ans d’expérience",
     "quick_periods": [
       "Semaine 1",

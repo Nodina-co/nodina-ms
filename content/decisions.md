@@ -4,6 +4,10 @@ Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait
 
 # Décisions NODINA
 
+## 2026-10-07 : profils actuels confirmés réels par JD
+
+JD précise « les profils actuels sont réels ». Cette déclaration remplace leur classement fictif antérieur dans le référentiel. Les neuf fiches anonymisées et leurs données sont conservées, sans ajout ni modification des statuts ; les mentions démonstration/exemples du catalogue FR/EN et les libellés accessibles sont corrigés. Aucun badge ni paragraphe commun réintroduit. Les portraits générés restent des illustrations, la disponibilité pour la mission à confirmer. La proposition de qualifier ces profils de fictifs est abandonnée. Aucun lancement public déduit. Statut réel de NODINA Select demandé séparément. [État et décision suivante](../reports/launch-validation-20261007.md).
+
 ## 2026-10-07 : notices FR/EN et procédure de conservation validées
 
 JD répond « validé » après la question ciblée sur les notices FR/EN et la procédure manuelle, avec revue des échéances au moins mensuelle. Validation enregistrée ; les mentions Document en cours de validation des notices et Brouillon des métadonnées sont remplacées par des libellés à jour. Le contenu des notices accepté reste identique. Aucun lancement public, activation GA4, accès élargi, rappel IA, envoi ou suppression autorisé par cette réponse. Les choix sur les profils et le statut réel de NODINA Select sont préparés pour l'étape suivante, sans modification des pages marketing. [Propositions concrètes](../reports/launch-validation-20261007.md#choix-suivants--propositions-concrètes-non-appliquées).

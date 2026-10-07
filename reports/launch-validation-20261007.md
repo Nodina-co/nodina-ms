@@ -26,15 +26,15 @@ Aucune URL ci-dessous n'est considérée comme approuvée pour indexation par ce
 |---|---|---|---|
 | Accueil | /fr/ | /en/ | Maquette A conservée ; comporte des aperçus de profils et NODINA Select. Validation finale dépend des deux choix ci-dessous. |
 | Sélection | /fr/selection-des-talents/ | /en/vetting/ | Présentation cible de NODINA Select, démonstration illustrative sans candidat réel. Statut public à décider. |
-| Profils | /fr/profils/ | /en/engineers/ | Neuf exemples fictifs, dont sept En mission et deux Disponible ; aucun statut commercial réel démontré. |
+| Profils | /fr/profils/ | /en/engineers/ | Neuf profils réels anonymisés, confirmés par JD le 7 octobre ; sept En mission et deux Disponible affichés. Disponibilité pour la mission à confirmer. |
 | Manifeste | /fr/manifeste/ | /en/manifesto/ | Rédaction à valider, avec renvoi vers la sélection. |
 | Contact | /fr/contact/ | /en/contact/ | Formulaire actuel legacy ; nouveau service privé prêt. URL de build et accès public à arrêter lors de la bascule. |
 | Confidentialité | /fr/confidentialite/ | /en/privacy/ | Versions FR/EN actualisées et validées par JD le 7 octobre. |
 | Cookies | /fr/cookies/ | /en/cookies/ | Versions FR/EN validées ; GA4 désactivé, activation séparée. |
 
-## Deux choix éditoriaux à traiter après les notices
+## Profils confirmés et choix restant pour NODINA Select
 
-**Profils.** Le hero parle de neuf exemples et le compteur de démonstration reste visible. JD a retiré les badges par fiche le 4 octobre : ils ne sont pas réintroduits. Pour le lancement, choisir soit des profils réels anonymisés avec réalisations et droits validés, soit le maintien explicite d'exemples fictifs à tous leurs points d'entrée, soit leur retrait provisoire du catalogue et des aperçus. Aucun passage silencieux de Disponible fictif à disponibilité réelle.
+**Profils — point clos.** JD confirme « les profils actuels sont réels ». Le classement antérieur fictif est corrigé. Les neuf fiches anonymisées sont conservées ; les mentions démonstration et exemples sont retirées du catalogue et des aperçus FR/EN. Aucun badge ni paragraphe commun réintroduit. Les données et statuts sont inchangés, la disponibilité pour une mission restant à confirmer. Portraits conservés comme illustrations. La proposition de retrait/remplacement et d'ajout d'une mention fictifs est abandonnée.
 
 **NODINA Select.** Le référentiel réel indique une méthode et un outil à concevoir ; JD a choisi une présentation cible au présent dans la maquette. Pour le lancement, valider un cadrage public illustratif ou fournir les éléments établissant sa disponibilité réelle. Proposition de formulation à examiner, sans application aux pages actuelles : « NODINA Select — présentation de notre méthode de sélection en préparation. L'évaluation ci-dessous est illustrative ; elle ne représente aucun candidat réel. » / « NODINA Select — a preview of our selection method in preparation. The assessment below is illustrative and does not represent a real candidate. »
 
@@ -46,16 +46,9 @@ Deux compilations statiques Node 24 réussissent : per-request puis configuratio
 
 ## Choix suivants — propositions concrètes, non appliquées
 
-### Profils
+### Profils — confirmation reçue
 
-Option proposée : conserver les exemples, préciser leur nature dans les introductions existantes, sans réintroduire les badges par fiche ni le paragraphe commun supprimés par JD.
-
-- Introduction des aperçus accueil/sélection FR : « Découvrez des exemples de compétences et de réalisations pour composer votre équipe. Les profils et leurs statuts sont fictifs. »
-- EN : « Explore examples of skills and work your team could bring together. The profiles and their statuses are fictional. »
-- Compteur FR : « 9 profils fictifs · 7 “En mission” et 2 “Disponible” à titre d’exemple ».
-- EN : « 9 fictional profiles · 7 “On assignment” and 2 “Available” as examples ».
-
-Alternative : retirer provisoirement le catalogue et les aperçus du lancement, ou remplacer par des profils réels dont les parcours et droits de publication sont fournis et validés. Aucune de ces options n'est appliquée à ce stade.
+JD confirme « les profils actuels sont réels ». La proposition de les qualifier de fictifs n'est pas appliquée. Le catalogue FR/EN parle désormais de profils et de parcours, avec un compteur neutre. Les neuf fiches ne sont pas réécrites et les statuts ne sont pas transformés. Référentiel corrigé à partir de la déclaration de JD, sans présenter cette déclaration comme une vérification indépendante.
 
 ### NODINA Select
 

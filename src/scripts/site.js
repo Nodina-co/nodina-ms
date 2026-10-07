@@ -40,7 +40,7 @@ document.querySelectorAll('.criterion-button').forEach(button => {
   });
 });
 
-// Filter only the explicitly fictional demonstration catalog. No candidate data is stored.
+// Filter the anonymized profile catalog locally. No visitor data is stored.
 document.querySelectorAll('.profile-catalog').forEach(catalog => {
   const toolbar = catalog.querySelector('.profile-toolbar');
   if (!toolbar) return;

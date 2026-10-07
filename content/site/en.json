@@ -720,10 +720,10 @@
     "profiles_title": "Engineers. Specialties. Concrete work.",
     "profiles_lead": "From backend engineering to AI architecture, explore the skills and work your team could bring together.",
     "profiles_cta": "Explore all 9 profiles",
-    "profile_note": "Demo profiles: fictional portraits, backgrounds, industries and availability. Real anonymized profiles will be added after validation.",
-    "profile_badge": "Demo profile",
+    "profile_note": "Anonymized profiles. Portraits are illustrations; availability for your engagement must be confirmed.",
+    "profile_badge": "Profile",
     "profile_detail": "Explore the skills",
-    "profile_mission": "Example project",
+    "profile_mission": "Project",
     "profile_strength": "Contribution to the team",
     "profile_cta": "Discuss this need",
     "profiles": [
@@ -919,7 +919,7 @@
     ],
     "profiles_page_title": "Engineer profiles — NODINA",
     "profiles_h1": "Your next product. <span>The talent to ship it.</span>",
-    "profiles_page_lead": "Backend, full-stack, data, AI and technical leadership: nine example backgrounds to help you picture the team that will move your product forward.",
+    "profiles_page_lead": "Backend, full-stack, data, AI and technical leadership: nine backgrounds to help you find the skills that will move your product forward.",
     "profiles_explain_title": "A recommendation you can act on.",
     "profiles_explain_body": "For your engagement, we clarify the role, relevant skills, shareable work and areas to explore further. You meet the proposed engineers to confirm the fit with your team.",
     "profiles_facts": [
@@ -1021,8 +1021,8 @@
         "Available"
       ]
     ],
-    "profile_results": "demo profiles shown",
-    "profile_overview": "9 demo profiles · 7 on assignment · 2 available",
+    "profile_results": "profiles shown",
+    "profile_overview": "9 profiles · 7 on assignment · 2 available",
     "profile_years": "years of experience",
     "quick_periods": [
       "Week 1",
