@@ -4,6 +4,12 @@ Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait
 
 # Décisions NODINA
 
+## 2026-10-07 : Contact Production initialisé, reconstruction horaire installée
+
+JD confirme « initialisé ». Journal initializeProduction Completed à 14 h 33 Paris ; dossier vide et synthèse distincts de la recette, accès privés vérifiés sans lire la clé. L'agent installe la cadence horaire explicitement validée : Completed à 14 h 36, Snapshot complete et Counts sans demande ; un déclencheur ndRunProductionSummary_, Head, Hour timer / Every hour vérifié. Première exécution automatique non observée. Bootstrap retiré ; aucun nouvel essai, envoi ou effacement de dossier. Identifiants de stockage et détails d'accès conservés localement hors Git.
+
+Déploiement Web app privé préparé, Only myself, bouton Deploy laissé à l'opérateur selon PROMETHEUS 13.5. Reporting, endpoint du site, .env et GA4 restent inchangés. [Résultat et limites](../reports/contact-production-setup-20261007.md).
+
 ## 2026-10-07 : paramètres Contact de production validés et enregistrés
 
 JD répond explicitement « oui, valide les paramètres » : mode production, validité du jeton 3 600 secondes, reconstruction toutes les heures et fraîcheur maximale Reporting 7 200 secondes. Les quatre propriétés ND_MODE, ND_OWNER_EMAIL, ND_TOKEN_TTL_SECONDS et ND_SUMMARY_EVERY_HOURS sont enregistrées dans le projet séparé « NODINA — Contact Production », puis leur état enregistré et leurs valeurs non secrètes sont vérifiés. Le raccordement Reporting et sa limite de fraîcheur restent à installer après création de la synthèse de production.

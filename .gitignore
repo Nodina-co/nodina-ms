@@ -7,6 +7,9 @@ dist/
 .DS_Store
 .wrangler/
 
+# Configuration et preuves du stockage de production privé.
+tools/forms/production/.local/
+
 # Captures de recette : retirées à la demande de JD, ne pas republier.
 reports/screenshots/
 reports/*.png
