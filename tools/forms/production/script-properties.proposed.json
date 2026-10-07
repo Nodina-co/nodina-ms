@@ -1,8 +1,8 @@
 {
   "ND_MODE": "production",
   "ND_OWNER_EMAIL": "jd@nodina.com",
-  "ND_TOKEN_TTL_SECONDS": "",
-  "ND_SUMMARY_EVERY_HOURS": "",
+  "ND_TOKEN_TTL_SECONDS": "3600",
+  "ND_SUMMARY_EVERY_HOURS": "1",
   "ND_FOLDER_ID": "",
   "ND_SUMMARY_ID": ""
 }

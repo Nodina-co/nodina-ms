@@ -1,16 +1,21 @@
 # Contact — préparation de production
 
-Préparé localement le 7 octobre 2026 ; aucun projet, stockage, accès public ou déploiement de production créé. Le candidat Google version 3 reste TEST uniquement et privé. Le site conserve son endpoint Contact version 1 ; `.env` n'est pas modifié.
+Préparé le 7 octobre 2026. Le projet séparé « NODINA — Contact Production » est créé sous jd@nodina.com ; aucune initialisation du stockage, exécution, autorisation OAuth ou publication de ce projet à ce stade. Le candidat Google version 3 reste TEST uniquement et privé. Le site conserve son endpoint Contact version 1 ; `.env` n'est pas modifié.
 
 ## Sources à examiner
 
 - `Code.gs` est généré depuis la concaténation core + google + web du candidat Google v3, dont le SHA-256 attendu est `c9e277d3eb644ad6c1d5543dd405cdfd511ea1ca659b7f97b278f715115168ff`. Le générateur refuse un autre contenu ou une transformation ambiguë.
 - Mode exigé : production. Schéma de fichiers distinct : `nodina-production-contact-file-v1`. Les fichiers de recette sont refusés avant écriture. Les demandes ordinaires sont acceptées ; les noms TEST restent exclus des comptes.
-- Manifeste identique en droits au candidat : Advanced Drive/Sheets, `drive.file` et envoi de courriel seulement. Aucun accès Gmail, Drive global, suppression ou scope de déclencheurs.
+- Manifeste : Advanced Drive/Sheets, `drive.file`, envoi de courriel et `script.scriptapp` pour gérer le déclencheur horaire. Ce dernier droit est nouveau par rapport au candidat et doit être présenté avant consentement. Aucun accès Gmail ou Drive global.
+- `Operations.gs` ajoute une reconstruction horaire privée. L'installation construit d'abord une synthèse complète puis conserve l'ID du déclencheur sous verrou ; une installation connue ne crée pas de doublon, un état ambigu demande une réconciliation. Aucun déclencheur installé actuellement. L'horaire Google n'est pas une garantie de délai ; Reporting refuse une synthèse trop ancienne.
 - `ndInitializeProduction_` crée un dossier et une synthèse propres au futur projet, privés et appartenant à JD. La clé est générée dans Google ; ne pas la lire ni la copier. Aucun lanceur public de maintenance dans le bundle.
 - SHA-256 produit : `d344f3c2fdb09712efd7d9fb6e7fa5d72b2fd6c3510b6002e33721c1a82fecd1`.
 
-Régénérer avec `node tools/forms/production/build.mjs tools/forms/production/Code.gs`. Le fichier de propriétés est un exemple, pas une configuration appliquée. La durée des jetons reste vide ; la proposition de 24 heures n'est pas adoptée.
+Régénérer avec `node tools/forms/production/build.mjs tools/forms/production/Code.gs`. Les fichiers `*.proposed.json` proposent une validité de jeton de 3 600 secondes, une reconstruction toutes les heures et une fraîcheur Reporting de 7 200 secondes. Aucun de ces réglages n'est appliqué dans Google ; les IDs restent vides. Le fichier d'exemple conserve les choix non arrêtés vides.
+
+Projet Google : `1Y4PS-8oTce9efTlO6adxoPHAdIhIA1yW8iShZEX4cNFtH0BUkuukozUe`. `Code.gs`, `Operations.gs` et `appsscript.json` sont enregistrés dans ce projet et leur contenu recopié depuis l'éditeur correspond exactement aux fichiers locaux. Le modèle `Bootstrap.gs.txt` est enregistré comme `Bootstrap.gs`, lanceur temporaire pour l'éditeur, à retirer avant tout déploiement ; ne pas exposer de maintenance dans la web app. Ne jamais lire ou copier la clé générée dans Google.
+
+Ordre d'installation après acceptation des paramètres : ajouter les quatre propriétés non vides du fichier proposé, laisser les IDs et la clé à l'initialiseur ; sélectionner `initializeProduction` dans l'éditeur, présenter les trois scopes à JD et obtenir son consentement Google, puis exécuter cette initialisation une fois. Elle crée uniquement le stockage privé. Exécuter ensuite `installProductionSchedule` pour la première synthèse et le déclencheur. En cas de `setup uncertain` ou `schedule reconciliation required`, examiner l'état existant avant tout nouvel essai ; ne pas effacer les marqueurs de sécurité à l'aveugle. Retirer entièrement `Bootstrap.gs` avant le déploiement. Pour une maintenance ultérieure depuis le sélecteur de fonctions de l'éditeur, remettre temporairement le lanceur puis le retirer avant toute nouvelle version de déploiement. Reporting reste à migrer séparément.
 
 ## Raccordement du site préparé
 
@@ -40,7 +45,7 @@ Le 7 octobre à 12 h 33 Paris, le lecteur a réellement lu la synthèse de recet
 
 1. Recette C/D clôturée : client JSON anonyme depuis le loopback confirmé ; HTML Workspace confirmé, parcours HTML anonyme et JavaScript entièrement désactivé non vérifié. JD demande de ne plus lancer d'essais. [Résultats et limites](../../../reports/contact-anonymous-recipe-20261007.md).
 2. Retrait pendant la validité d'un jeton confirmé avec C, sans nouveau fichier ni notification. C/D et leurs notifications sont conservés ; leur suppression est différée. Cette préparation ne vaut pas une autorisation de purge.
-3. Choisir les durées techniques et la cadence de reconstruction ; tester le budget Google et la fraîcheur avant la collecte du lundi. Aucun déclencheur nouveau n'est installé. Sans reconstruction après une réception, la synthèse reste unavailable. Une reconstruction manuelle ne suffit pas à qualifier le reporting automatique de production.
+3. Choisir les durées techniques et la cadence de reconstruction, puis installer le planning accepté. JD ne demande plus de tests ; le budget Google et la fraîcheur réelle restent non mesurés. Aucun déclencheur nouveau n'est installé. Sans reconstruction après une réception, la synthèse reste unavailable. Une reconstruction manuelle ne suffit pas à qualifier le reporting automatique de production.
 4. Créer et vérifier le stockage de production privé, autoriser les droits exacts, finaliser les notices et vérifier les deux langues.
 5. Revue finale de l'URL, de la configuration et du retour arrière avant publication. Le retour arrière dirige les nouvelles réceptions vers l'ancien service ; il ne recopie pas les dossiers ni ne restaure ceux supprimés. Documenter séparément le traitement de l'ancien stockage.
 

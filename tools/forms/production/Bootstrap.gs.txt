@@ -1,0 +1,11 @@
+/* Temporary editor launcher. Remove this entire file BEFORE any deployment.
+ * Select initializeProduction, then installProductionSchedule after settings
+ * are approved. Never logs properties, signing keys or contact records. */
+function initializeProduction() {
+  ScriptApp.requireAllScopes(ScriptApp.AuthMode.FULL);
+  return ndInitializeProduction_();
+}
+
+function installProductionSchedule() {
+  return ndInstallProductionSummarySchedule_();
+}

@@ -20,9 +20,11 @@ Proposition à valider avant installation, sans modification des réglages Googl
 | Fraîcheur maximale lue par Reporting | 7 200 secondes | Tolère un retard de reconstruction ; au-delà, erreur explicite et aucun faux zéro. |
 | Origine de réception | Nouveau projet Contact de production | Dossier, synthèse et clé distincts ; ne jamais utiliser les IDs du candidat TEST. |
 
-Le choix horaire nécessite un lanceur de maintenance privé dans le nouveau projet et une autorisation appropriée. Le manifeste préparé actuellement ne comporte pas de scope de gestion de déclencheurs. La création du projet et les consentements restent à JD. Ces valeurs sont une proposition, pas des décisions déjà prises.
+Le projet séparé « NODINA — Contact Production » est créé sous jd@nodina.com : `1Y4PS-8oTce9efTlO6adxoPHAdIhIA1yW8iShZEX4cNFtH0BUkuukozUe`. Aucune initialisation de stockage, exécution ou publication à ce stade. Le choix horaire dispose maintenant d'un helper privé `Operations.gs` et du scope `script.scriptapp` dans le manifeste préparé, à présenter avant consentement. Les consentements et l'installation restent à faire. Ces valeurs sont une proposition, pas des décisions déjà prises.
 
 Les propriétés attendues sont recensées dans [Contact production](../tools/forms/production/README.md). Les IDs de production restent vides jusqu'à création. La clé doit être générée dans Google et ne doit être ni lue ni copiée dans Git.
+
+Préparation reprise le 7 octobre : `Code.gs`, `Operations.gs`, le manifeste Drive v3/Sheets v4 et le lanceur temporaire `Bootstrap.gs` enregistrés dans le projet de production. Comparaison exacte par recopie de l'éditeur pour les sources ; aucune exécution, propriété de production appliquée ou autorisation OAuth accordée. Le bundle `Code.gs` conserve son SHA-256 `d344f3c2fdb09712efd7d9fb6e7fa5d72b2fd6c3510b6002e33721c1a82fecd1`. Contrôles locaux limités à la syntaxe et à l'intégrité ; aucune nouvelle recette ni capture. Le lanceur temporaire doit être retiré avant tout déploiement.
 
 ## Ordre de la suite
 
