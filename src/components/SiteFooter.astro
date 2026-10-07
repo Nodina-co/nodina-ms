@@ -12,5 +12,6 @@ const labels = [...c.nav, 'FAQ'];
     {sections.map((section, i) => <a href={route(l) + '#' + section}>{labels[i]}</a>)}
     <a href={route(l, 'vetting')}>{c.select.selection_nav}</a><a href={route(l, 'profiles')}>{c.select.profiles_nav}</a><a href={route(l, 'manifesto')}>{c.select.manifesto_nav}</a><a href={route(l, 'contact')}>Contact</a>
     <a href={route(l, 'privacy')}>{l === 'fr' ? 'Confidentialité' : 'Privacy'}</a><a href={route(l, 'cookies')}>Cookies</a>
+    <a href={route(l, 'legal')}>{l === 'fr' ? 'Mentions légales' : 'Legal notice'}</a>
   </nav>
 </div><div class="footer-bottom"><span>{c.footer_note}</span><button type="button" class="analytics-preferences" data-analytics-preferences hidden>{l === 'fr' ? 'Préférences de mesure' : 'Measurement preferences'}</button><a href="#top">{c.top}</a></div></div></footer>

@@ -6,7 +6,7 @@ if (!['legacy', 'per-request'].includes(contactStorage)) throw new Error('PUBLIC
 const perRequest = contactStorage === 'per-request';
 
 type Section = { id: string; title: string; paragraphs: string[]; items?: string[]; links?: { label: string; href: string }[] };
-type Policy = { title: string; lead: string; sections: Section[] };
+export type Policy = { title: string; lead: string; sections: Section[] };
 type LegalCopy = { back: string; label: string; date: string; draftTitle: string; draftBody: string; contents: string; privacy: Policy; cookies: Policy };
 
 export const legalCopy: Record<Locale, LegalCopy> = {

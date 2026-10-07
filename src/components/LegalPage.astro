@@ -1,17 +1,22 @@
 ---
 import { route, type Locale, type PageId } from '../lib/site';
 import { legalCopy } from '../lib/legal';
+import { legalNoticeCopy } from '../lib/legal-notice';
 interface Props { locale: Locale; page: PageId }
 const { locale, page } = Astro.props;
-const kind = page === 'cookies' ? 'cookies' : 'privacy';
+const kind = page === 'legal' ? 'legal' : page === 'cookies' ? 'cookies' : 'privacy';
 const c = legalCopy[locale];
-const policy = c[kind];
+const notice = legalNoticeCopy[locale];
+const policy = kind === 'legal' ? notice.policy : c[kind];
+const date = kind === 'legal' ? notice.date : c.date;
+const draftTitle = kind === 'legal' ? notice.draftTitle : c.draftTitle;
+const draftBody = kind === 'legal' ? notice.draftBody : c.draftBody;
 ---
 <main id="content" class="legal-page wrap" data-policy={kind}>
   <a class="text-link back" href={route(locale)}>{c.back}</a>
-  <header class="legal-heading"><p class="label">{c.label}</p><h1>{policy.title}</h1><p class="legal-lead">{policy.lead}</p><p class="legal-date">{c.date}</p></header>
+  <header class="legal-heading"><p class="label">{kind === 'legal' ? (locale === 'fr' ? 'Informations légales' : 'Legal information') : c.label}</p><h1>{policy.title}</h1><p class="legal-lead">{policy.lead}</p><p class="legal-date">{date}</p></header>
   <aside class="legal-draft" aria-labelledby="legal-draft-title" data-legal-draft>
-    <h2 id="legal-draft-title">{c.draftTitle}</h2><p>{c.draftBody}</p>
+    <h2 id="legal-draft-title">{draftTitle}</h2><p>{draftBody}</p>
   </aside>
   <div class="legal-grid">
     <nav class="legal-contents" aria-label={c.contents}><p class="label">{c.contents}</p><ol>{policy.sections.map(section => <li><a href={'#' + section.id}>{section.title}</a></li>)}</ol></nav>
@@ -22,7 +27,7 @@ const policy = c[kind];
         {section.items && <ul>{section.items.map(item => <li>{item}</li>)}</ul>}
         {section.links && <ul class="legal-links">{section.links.map(link => <li><a href={link.href}>{link.label}</a></li>)}</ul>}
       </section>)}
-      <p class="legal-related"><a href={route(locale, kind === 'privacy' ? 'cookies' : 'privacy')}>{kind === 'privacy' ? c.cookies.title : c.privacy.title}</a></p>
+      <p class="legal-related"><a href={route(locale, kind === 'privacy' ? 'cookies' : 'privacy')}>{kind === 'privacy' ? c.cookies.title : c.privacy.title}</a>{kind === 'legal' && <> · <a href={route(locale, 'cookies')}>{c.cookies.title}</a></>}</p>
     </article>
   </div>
 </main>

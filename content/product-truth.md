@@ -58,7 +58,7 @@ Les six documents de [content/security](security/) sont des brouillons internes 
 
 ## Société et identité
 
-- Entité exploitante confirmée par JD le 2026-10-06 : NODINA, société par actions simplifiée (SAS), SIREN 103 513 834, siège au 54 chemin du Château, 06640 Saint-Jeannet, France. Ces données peuvent figurer dans les mentions. [Vérification officielle et confirmation](../research/legal-identity-20261006.md). Marque : NODINA ; immatriculation française en 2026. Capital, TVA, RCS et mentions légales complètes restent à documenter ; aucun bureau ouvert au public présumé.
+- Entité exploitante confirmée par JD le 2026-10-06 : NODINA, société par actions simplifiée (SAS), SIREN 103 513 834, siège au 54 chemin du Château, 06640 Saint-Jeannet, France. Ces données peuvent figurer dans les mentions. [Vérification officielle et confirmation](../research/legal-identity-20261006.md). Marque : NODINA ; immatriculation française en 2026. Le 8 octobre, la preuve INPI précise SASU et un capital de 1 000 € ; la fiche Pappers indique 103 513 834 RCS Grasse et FR88103513834. Ces informations alimentent les mentions FR/EN préparées ; téléphone professionnel et validation du texte restent ouverts. [Sources et limites](../research/legal-notice-20261008.md). Aucun bureau ouvert au public présumé.
 - Aucun logiciel commercialisé présumé ; société de services.
 - Jean-David Collard est le **fondateur de NODINA**, précisé par JD le 2026-10-03.
 - JD est le seul valideur du projet et responsable éditorial à ce stade. Identité publique, biographies, diplômes et droits d’image des membres à vérifier avant publication.

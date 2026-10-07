@@ -7,8 +7,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1] / "dist"
 ROUTES = {
-    "fr": ["/fr/", "/fr/selection-des-talents/", "/fr/profils/", "/fr/manifeste/", "/fr/contact/", "/fr/confidentialite/", "/fr/cookies/"],
-    "en": ["/en/", "/en/vetting/", "/en/engineers/", "/en/manifesto/", "/en/contact/", "/en/privacy/", "/en/cookies/"],
+    "fr": ["/fr/", "/fr/selection-des-talents/", "/fr/profils/", "/fr/manifeste/", "/fr/contact/", "/fr/confidentialite/", "/fr/cookies/", "/fr/mentions-legales/"],
+    "en": ["/en/", "/en/vetting/", "/en/engineers/", "/en/manifesto/", "/en/contact/", "/en/privacy/", "/en/cookies/", "/en/legal-notice/"],
 }
 
 

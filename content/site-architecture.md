@@ -26,7 +26,7 @@ Navigation proposée : **Offres · Approche · Le fondateur / À propos · Séle
 | Contact | `/fr/discuter-de-votre-projet/` | `/en/discuss-your-project/` | Besoin, contexte, coordonnées professionnelles ; réservation si le service retenu est disponible ; aucun délai de réponse inventé |
 | Journal | `/fr/journal/` | `/en/journal/` | Articles signés et datés sur la réalisation, l’architecture et l’IA ; hub et gabarit d’article à concevoir, premiers textes à préparer |
 | Sécurité et données | `/fr/securite-et-donnees/` | `/en/security-and-data/` | Principes réels, responsabilités et limites, à partir des documents internes après revue ; aucune certification implicite |
-| Mentions légales | `/fr/mentions-legales/` | `/en/legal-notice/` | Informations légales vérifiées et approuvées par JD avant publication |
+| Mentions légales | `/fr/mentions-legales/` | `/en/legal-notice/` | Pages de revue FR/EN préparées le 8 octobre ; téléphone et validation du texte avant publication. [Sources](../research/legal-notice-20261008.md) |
 | Confidentialité | `/fr/confidentialite/` | `/en/privacy/` | Brouillons locaux FR/EN préparés le 6 octobre 2026 à partir des traitements réels ; informations et approbation encore attendues |
 | Cookies | `/fr/cookies/` | `/en/cookies/` | Brouillons locaux FR/EN : choix facultatif de mesure, stockage et retrait ; inventaire réel avant activation publique |
 
