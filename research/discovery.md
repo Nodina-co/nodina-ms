@@ -1,3 +1,5 @@
+**Revue finale, 8 octobre :** dossier unique préparé pour les seize pages FR/EN du build actuel, lecture autonome et liens vers l’aperçu local. Validation restante regroupée ; notices déjà validées conservées. Aucun lancement, essai, envoi, capture ou collecte. [Dossier de revue](../reports/site-final-review-20261008.html), [périmètre et suite](../reports/launch-validation-20261007.md#revue-finale-préparée-le-8-octobre).
+
 **Téléphone professionnel, 8 octobre :** JD choisit de l’ajouter plus tard, hors de cette version. Ligne et placeholder retirés des mentions FR/EN et de la revue ; e-mail et coordonnées de Cloudflare conservés. La revue des textes peut continuer sans nouvelle demande de téléphone.
 
 **Mentions légales, 8 octobre :** pages FR/EN préparées après « Go », liens de pied de page et routes intégrés. Capital/forme INPI, RCS/TVA Pappers et hébergeur Cloudflare sourcés ; téléphone professionnel différé hors de cette version par JD ; validation du texte encore attendue. [Revue des textes](../reports/legal-notice-review-20261008.html), [sources](legal-notice-20261008.md). Aucun lancement, nouveau test ou déploiement.

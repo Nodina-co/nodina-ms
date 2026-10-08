@@ -18,6 +18,16 @@ Changements concrets :
 
 La validation demandée porte sur ces notices et cette procédure de conservation. L'activation Analytics et ses durées de mesure, la publication du site et l'élargissement d'accès au formulaire restent des décisions distinctes. Les contrats principaux, entités facturantes, suivi des demandes de droits et exceptions de conservation restent à documenter selon leur usage ; ne pas interpréter les notices comme un certificat de conformité globale.
 
+## Revue finale préparée le 8 octobre
+
+[Ouvrir le dossier unique FR/EN](site-final-review-20261008.html). Il reprend les textes des seize pages localisées du build actuel, avec un sommaire par page, sections FR/EN dépliables et liens vers la mise en page réelle dans l’aperçu local `http://127.0.0.1:4184/`. Ce serveur est limité au loopback et ne publie aucun contenu sur Internet ; les liens dépendent de son fonctionnement local. Le dossier de lecture est autonome, sans scripts, formulaire actif ou dépendances externes. Les images et interactions sont à consulter dans l’aperçu ; le dossier ne constitue pas une nouvelle recette fonctionnelle.
+
+La validation demandée est regroupée pour l’accueil, la sélection, les profils, le manifeste, le contact et les mentions légales, dans les deux langues. Confidentialité/Cookies restent déjà validés. JD a demandé « étape suivante » après le retrait du téléphone ; la revue globale est préparée, sans transformer cette demande en une validation explicite des mentions. L’accord sur les textes et la structure permettra de préparer la bascule ; il n’active ni publication publique, collecte Analytics ou élargissement d’accès Google.
+
+Le site présenté utilise le Contact legacy. Les notices per-request futures restent dans la revue juridique approuvée et accompagneront la bascule vers le nouveau service. La normalisation de l’URL Workspace du nouveau collecteur, la liste de références du Reporting, le routage/indexation et les décisions publiques restent à préparer séparément. Aucun nouvel essai, envoi, capture ou déploiement pendant la préparation de cette revue.
+
+Génération reproductible : `python3 tools/build-site-review.py` après compilation du site. Inspection du fichier : seize sections de lecture, identifiants uniques, ancres internes résolues, aucune capacité d’envoi intégrée. L’ouverture du dossier et de l’aperçu est demandée dans Codex ; l’outil retourne queued, ce qui ne confirme pas que l’utilisateur les voit déjà.
+
 ## Pages existantes : inventaire pour la revue finale
 
 Aucune URL ci-dessous n'est considérée comme approuvée pour indexation par cette liste. content/PLAN.md, les briefs et le manifeste de soumission seront établis dans les phases correspondantes de PROMETHEUS.
@@ -55,4 +65,4 @@ JD confirme « les profils actuels sont réels ». La proposition de les qualifi
 
 JD confirme la méthode utilisable. Référentiel, brief et registre des affirmations actualisés (C245, remplace le volet méthode de C235). FAQ FR/EN : « NODINA Select est notre méthode de sélection » / « NODINA Select is our selection method », suivie des six dimensions et de la revue humaine. Aucun logiciel opérationnel, résultat mesuré ou candidat réel dans l'exemple n'est affirmé. L'exemple commenté conserve sa mention illustrative. La disponibilité de l'outil pourra être documentée si une future rédaction doit en faire une promesse ; elle ne bloque pas la présentation de la méthode humaine actuelle.
 
-Prochaine étape : faire valider les mentions légales préparées, puis préparer la validation globale des pages. JD ajoutera son téléphone professionnel plus tard, hors de cette version. La validation de la méthode ne vaut pas accord de lancement public.
+Prochaine étape : recueillir la validation regroupée des textes et de la structure dans le dossier de revue finale. Les mentions sont incluses ; JD ajoutera son téléphone professionnel plus tard, hors de cette version. La validation de la méthode ne vaut pas accord de lancement public.

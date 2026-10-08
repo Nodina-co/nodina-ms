@@ -4,6 +4,10 @@ Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait
 
 # Décisions NODINA
 
+## 2026-10-08 : revue finale des pages FR/EN préparée
+
+JD demande « étape suivante » après avoir différé son téléphone hors de cette version. Préparer le [dossier unique de revue](../reports/site-final-review-20261008.html), reprenant les textes des seize pages du build actuel et les liens vers l’aperçu local sur 127.0.0.1:4184. Le générateur n’embarque aucun script, formulaire actif ou nouvelle image ; les copies restent fidèles au rendu, les images et interactions se consultent dans l’aperçu. Regrouper la validation restante de l’accueil, sélection, profils, manifeste, contact et mentions FR/EN ; notices Confidentialité/Cookies déjà acquises. Aucun nouveau test, capture, envoi ou déploiement. La demande de poursuite n’est pas enregistrée comme une validation explicite des mentions ou un accord de lancement. Commit/push sur main selon la demande permanente.
+
 ## 2026-10-08 : téléphone professionnel différé hors de cette version
 
 JD précise « j’ajouterais mon tel pro plus tard mais pas dans cette version ». Retirer la ligne et le placeholder de téléphone NODINA dans les mentions FR/EN, leur notice et la revue autonome. Conserver l’e-mail de NODINA et les coordonnées de l’hébergeur. Le téléphone reste un ajout futur décidé par JD, sans nouvelle demande ni rappel automatique pour cette version. Cette décision ne vaut pas approbation de l’ensemble des mentions ni accord de lancement. Suivi actif actualisé ; compilation statique uniquement, commit/push sur main selon la demande permanente.
