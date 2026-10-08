@@ -4,6 +4,10 @@ Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait
 
 # Décisions NODINA
 
+## 2026-10-08 : bloc d’outils aligné sur la référence avec exclusions de JD
+
+Pendant la revue finale, JD fournit la référence FutureProofing et demande uniquement la mise à jour des outils, en retirant Python, TypeScript, PostgreSQL, Pinecone, Perplexity, Antigravity et v0. Bloc commun FR/EN mis à jour à dix-sept outils, avec maintien de Claude Code et Codex, treize SVG ajoutés avec sources/licences et trois assets inutilisés retirés. Grille adaptée à cinq colonnes desktop, quatre tablette, deux mobile. Les promesses commerciales et les profils ne sont pas modifiés. [Liste et preuves](briefs/talent-selection.md#outils-actualisés--8-octobre-2026). Compilation statique et inspection des labels/SVG, revue finale actualisée ; aucun nouvel essai, capture, envoi ou déploiement. Commit/push sur main selon la demande permanente. Validation globale des pages toujours ouverte.
+
 ## 2026-10-08 : revue finale des pages FR/EN préparée
 
 JD demande « étape suivante » après avoir différé son téléphone hors de cette version. Préparer le [dossier unique de revue](../reports/site-final-review-20261008.html), reprenant les textes des seize pages du build actuel et les liens vers l’aperçu local sur 127.0.0.1:4184. Le générateur n’embarque aucun script, formulaire actif ou nouvelle image ; les copies restent fidèles au rendu, les images et interactions se consultent dans l’aperçu. Regrouper la validation restante de l’accueil, sélection, profils, manifeste, contact et mentions FR/EN ; notices Confidentialité/Cookies déjà acquises. Aucun nouveau test, capture, envoi ou déploiement. La demande de poursuite n’est pas enregistrée comme une validation explicite des mentions ou un accord de lancement. Commit/push sur main selon la demande permanente.

@@ -1,3 +1,5 @@
+**Outils, 8 octobre :** JD demande une liste proche de FutureProofing avec sept exclusions. Bloc de sélection FR/EN actualisé à dix-sept outils, grille adaptée, logos sourcés localement et revue finale régénérée. [Détail](../content/briefs/talent-selection.md#outils-actualisés--8-octobre-2026). Validation globale encore ouverte ; aucun test supplémentaire, capture ou déploiement.
+
 **Revue finale, 8 octobre :** dossier unique préparé pour les seize pages FR/EN du build actuel, lecture autonome et liens vers l’aperçu local. Validation restante regroupée ; notices déjà validées conservées. Aucun lancement, essai, envoi, capture ou collecte. [Dossier de revue](../reports/site-final-review-20261008.html), [périmètre et suite](../reports/launch-validation-20261007.md#revue-finale-préparée-le-8-octobre).
 
 **Téléphone professionnel, 8 octobre :** JD choisit de l’ajouter plus tard, hors de cette version. Ligne et placeholder retirés des mentions FR/EN et de la revue ; e-mail et coordonnées de Cloudflare conservés. La revue des textes peut continuer sans nouvelle demande de téléphone.

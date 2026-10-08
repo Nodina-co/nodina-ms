@@ -10,7 +10,14 @@ import TeamQuote from './TeamQuote.astro';
 interface Props { locale: Locale }
 const { locale: l } = Astro.props;
 const s = content[l].select;
-const tools = [['claudecode', 'Claude Code'], ['codex', 'Codex'], ['cursor', 'Cursor'], ['github', 'GitHub'], ['python', 'Python'], ['typescript', 'TypeScript'], ['postgresql', 'PostgreSQL']];
+const tools = [
+  ['claudecode', 'Claude Code'], ['codex', 'Codex'], ['claude', 'Claude'],
+  ['chatgpt', 'ChatGPT'], ['llama', 'Llama'], ['cursor', 'Cursor'],
+  ['github', 'GitHub'], ['langsmith', 'LangSmith'], ['supabase', 'Supabase'],
+  ['vercel', 'Vercel'], ['googlecloud', 'Google Cloud'], ['aws', 'AWS'],
+  ['linear', 'Linear'], ['figma', 'Figma'], ['posthog', 'PostHog'],
+  ['sentry', 'Sentry'], ['stripe', 'Stripe'],
+];
 ---
 <main id="content" class="select-page">
   <section class="select-hero wrap" aria-labelledby="vet-title"><p class="label"><ServiceLabel kind="teams" text={s.eyebrow}/></p>
