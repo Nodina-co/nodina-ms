@@ -25,7 +25,7 @@ if (candidateForm) {
     form.dataset.sending = 'true'; button.disabled = true; form.setAttribute('aria-busy', 'true');
     try {
       const endpoint = new URL(form.action);
-      if (endpoint.protocol !== 'https:' || endpoint.hostname !== 'script.google.com' || !/^\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(endpoint.pathname) || endpoint.search || endpoint.hash) throw new Error('endpoint');
+      if (endpoint.origin !== 'https://script.google.com' || endpoint.username || endpoint.password || !/^\/(?:macros\/s|a\/(?:macros\/nodina\.com\/s|nodina\.com\/macros\/s))\/[A-Za-z0-9_-]+\/exec$/.test(endpoint.pathname) || endpoint.search || endpoint.hash) throw new Error('endpoint');
       if (!receipt) {
         const tokenUrl = new URL(endpoint);
         tokenUrl.searchParams.set('mode', 'token'); tokenUrl.searchParams.set('locale', form.dataset.locale);

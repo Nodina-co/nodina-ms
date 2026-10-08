@@ -8,8 +8,8 @@ const endpoint = import.meta.env.PUBLIC_CONTACT_ENDPOINT?.trim() || '';
 const storage = import.meta.env.PUBLIC_CONTACT_STORAGE?.trim() || 'legacy';
 if (!['legacy', 'per-request'].includes(storage)) throw new Error('PUBLIC_CONTACT_STORAGE must be legacy or per-request.');
 const perRequest = storage === 'per-request';
-if (endpoint && !/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(endpoint)) {
-  throw new Error('PUBLIC_CONTACT_ENDPOINT must be a deployed Google Apps Script /exec URL.');
+if (endpoint && !/^https:\/\/script\.google\.com\/(?:macros\/s|a\/(?:macros\/nodina\.com\/s|nodina\.com\/macros\/s))\/[A-Za-z0-9_-]+\/exec$/.test(endpoint)) {
+  throw new Error('PUBLIC_CONTACT_ENDPOINT must be a deployed Google Apps Script /exec URL (standard or nodina.com Workspace).');
 }
 const ready = Boolean(endpoint);
 const hostedForm = ready ? endpoint + '?locale=' + l : '';

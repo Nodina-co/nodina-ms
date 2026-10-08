@@ -19,6 +19,8 @@ Ordre d'installation après acceptation des paramètres : ajouter les quatre pro
 
 ## Raccordement du site préparé
 
+**Mise à jour du 8 octobre :** build et client signé acceptent les URL standard et Workspace `nodina.com` en `/exec`, sans réécriture. Un build séparé per-request/noindex, Analytics désactivé, utilise le déploiement privé version 2 enregistré. La configuration active et `dist/` restent legacy ; aucun appel au service. Les deux références légales sont ajoutées au lecteur Reporting local, pas encore dans Google. [Préparation et suite](../../../reports/contact-cutover-prepared-20261008.md).
+
 `PUBLIC_CONTACT_STORAGE` vaut `legacy` par défaut. `per-request` active le client signé et un champ receipt_token vide. Le build ne génère jamais une référence signée. Le client obtient une preuve serveur puis conserve cette référence à chaque réessai ; seul un accusé positif émet l'événement de réception.
 
 Sans JavaScript, le formulaire statique signé reste masqué. Un lien localisé ouvre le formulaire rendu par Google avec sa preuve serveur et son POST HTML ; build@nodina.com fournit aussi un contact par courriel. Cela ajoute une navigation. Le formulaire legacy conserve son POST direct. Les deux builds ont été vérifiés localement ; le transport JSON anonyme/CORS depuis le loopback est confirmé sur le candidat TEST v3 ; la future origine publique et le parcours complet avec JavaScript désactivé restent non vérifiés. L'absence de script dans le formulaire ne prouve pas à elle seule que l'enveloppe Google fonctionne quand JavaScript est entièrement désactivé.
@@ -27,7 +29,7 @@ Ne changer les variables du build de production qu'après recette du nouvel endp
 
 ## Migration Reporting enregistrée
 
-La nouvelle source locale `tools/terraform-collector/Code.gs` et `tools/forms/candidate/reporting-reader.gs` sont installées dans le projet Reporting existant le 7 octobre, code sauvegardé et recopié exactement après rechargement ; manifeste et planning conservés. Aucun nouvel upload de test, à la demande de JD. Le rapport automatique du 12 octobre reste à vérifier.
+Les versions du 7 octobre de `tools/terraform-collector/Code.gs` et `tools/forms/candidate/reporting-reader.gs` sont installées dans le projet Reporting existant le 7 octobre, code sauvegardé et recopié exactement après rechargement ; manifeste et planning conservés. Aucun nouvel upload de test, à la demande de JD. Le rapport automatique du 12 octobre reste à vérifier.
 
 Configuration explicite au moment de la migration :
 

@@ -4,6 +4,10 @@ Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait
 
 # Décisions NODINA
 
+## 2026-10-08 : raccordement local Contact Production préparé
+
+Après « étape suivante », corriger la validation des URL `/exec` Workspace `nodina.com` dans le build et le client signé, sans normaliser la cible ni déduire un accès anonyme. Ajouter les deux pages légales aux références du lecteur Reporting. Configuration privée et build per-request séparé préparés à partir du déploiement version 2 enregistré ; noindex et GA4 désactivé. `.env`, `dist/`, service actif et Google inchangés. Syntaxe et compilation vérifiées sans appel au service ni nouvel essai. Bundle Reporting local encore à sauvegarder dans Google ; validation globale des pages et accord de lancement toujours distincts. [Préparation et suite](../reports/contact-cutover-prepared-20261008.md). Commit/push sur main selon la demande permanente.
+
 ## 2026-10-08 : bloc d’outils aligné sur la référence avec exclusions de JD
 
 Pendant la revue finale, JD fournit la référence FutureProofing et demande uniquement la mise à jour des outils, en retirant Python, TypeScript, PostgreSQL, Pinecone, Perplexity, Antigravity et v0. Bloc commun FR/EN mis à jour à dix-sept outils, avec maintien de Claude Code et Codex, treize SVG ajoutés avec sources/licences et trois assets inutilisés retirés. Grille adaptée à cinq colonnes desktop, quatre tablette, deux mobile. Les promesses commerciales et les profils ne sont pas modifiés. [Liste et preuves](briefs/talent-selection.md#outils-actualisés--8-octobre-2026). Compilation statique et inspection des labels/SVG, revue finale actualisée ; aucun nouvel essai, capture, envoi ou déploiement. Commit/push sur main selon la demande permanente. Validation globale des pages toujours ouverte.
