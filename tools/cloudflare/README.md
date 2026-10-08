@@ -1,3 +1,5 @@
+**DNS préparés, 9 octobre 2026 :** nodina.com créé sur Free, dix valeurs Namecheap importées et vérifiées, toutes DNS only ; zone pending. Délégation publique inchangée. [Dossier DNS](../../reports/dns-preparation-20261009.md). Le changement de serveurs et le lancement public attendent leurs accords distincts.
+
 # Préproduction privée NODINA
 
 ## Préparation publique — 9 octobre 2026

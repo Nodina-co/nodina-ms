@@ -1,6 +1,6 @@
 # Préparation de la publication NODINA — 9 octobre 2026
 
-JD valide les textes et la structure des seize pages FR/EN et autorise la préparation de la mise en ligne. Les pages sont **ready**, pas encore publiées. Ce dossier prépare la bascule ; aucun changement DNS, déploiement, accès public Contact, collecte GA4 ou soumission d’URL n’est effectué.
+JD valide les textes et la structure des seize pages FR/EN et autorise la préparation de la mise en ligne. Les pages sont **ready**, pas encore publiées. Ce dossier prépare la bascule ; aucune délégation DNS, publication du site, ouverture Contact, collecte GA4 ou soumission d’URL n’est effectuée. La zone Cloudflare est depuis créée et ses dix enregistrements importés, en attente de délégation : [reprise DNS vérifiée](dns-preparation-20261009.md).
 
 ## Paquet préparé
 
@@ -31,14 +31,14 @@ Le dépôt local `nodina-website` correspond à [jd-collard/nodina-website](http
 
 Les DNS publics observés le 9 octobre donnent dns1.registrar-servers.com et dns2.registrar-servers.com ; l’apex utilise les quatre adresses 185.199.108–111.153 de GitHub Pages, www pointe vers jd-collard.github.io. Les serveurs correspondent à [Namecheap BasicDNS](https://www.namecheap.com/support/knowledgebase/article.aspx/923/10/what-is-your-basicdns/). Cela identifie le fournisseur DNS, pas le compte gestionnaire ni l’ensemble de la zone.
 
-Le compte Cloudflare NODINA affiche un seul Worker, nodina-preproduction, son adresse protégée par Access et aucune zone DNS. La préproduction distante conserve son déploiement antérieur ; elle ne constitue pas une preuve du candidat local du 9 octobre.
+Au début de la préparation, le compte Cloudflare NODINA affiche un seul Worker, nodina-preproduction, son adresse protégée par Access et aucune zone DNS. La zone nodina.com est ensuite créée sur Free avec les dix valeurs Namecheap reprises, DNS only et statut pending ; aucune délégation n’est appliquée. La préproduction distante conserve son déploiement antérieur ; elle ne constitue pas une preuve du candidat local du 9 octobre.
 
-Le relevé local inclut NS, A/AAAA, MX, TXT, CAA, SOA, www et DMARC. **Ce relevé public ne remplace pas un export complet de la zone** : les sous-domaines, sélecteurs DKIM et vérifications doivent être repris depuis le gestionnaire DNS avant toute migration.
+Le relevé local inclut NS, A/AAAA, MX, TXT, CAA, SOA, www et DMARC. **Ce relevé public ne remplace pas un inventaire complet de la zone**. Le relevé intégral des tables Namecheap est ensuite sauvegardé localement, DKIM et vérification inclus, puis comparé à l’import Cloudflare. Voir la [reprise DNS](dns-preparation-20261009.md).
 
 ## Ordre de bascule à préparer puis approuver
 
-1. **Accéder au compte Namecheap qui gère le domaine.** Exporter tous les enregistrements et conserver les TTL. Identifier les enregistrements mail et vérification à préserver. Relever les restrictions CAA et l’état DNSSEC avant migration.
-2. Préparer nodina.com dans le compte Cloudflare NODINA, offre Free ; comparer l’import à l’export complet. Conserver d’abord les destinations GitHub Pages. Aucun changement de serveurs de noms tant que cet inventaire n’est pas complet et la migration approuvée. La scan automatique Cloudflare ne suffit pas.
+1. **Inventaire terminé le 9 octobre ; conserver sa sauvegarde.** Accéder au compte Namecheap qui gère le domaine. Exporter tous les enregistrements et conserver les TTL. Identifier les enregistrements mail et vérification à préserver. Relever les restrictions CAA et l’état DNSSEC avant migration.
+2. **Zone Free et import vérifiés le 9 octobre, en attente de délégation.** Préparer nodina.com dans le compte Cloudflare NODINA, offre Free ; comparer l’import au relevé complet. Conserver d’abord les destinations GitHub Pages. Aucun changement de serveurs de noms tant que cet inventaire n’est pas complet et la migration approuvée. La scan automatique Cloudflare ne suffit pas.
 3. Préparer Contact Production dans Google avec exécution par JD et accès Anyone. JD effectue la validation et le déploiement selon PROMETHEUS §13.5. L’accès aujourd’hui enregistré est Only myself ; les deux versions privées restent intactes. Ne pas déplacer les données ni recréer les déclencheurs.
 4. Présenter à JD le paquet final, les DNS précis et le retour arrière. Obtenir son accord explicite de lancement et de changement d’accès. Analytics reste désactivé, avec un accord distinct nécessaire pour sa collecte. Ne pas réouvrir la validation des textes déjà acquise.
 5. Après accord, relever les réglages effectivement appliqués au formulaire. Enregistrer l’accord dans le plan et préparer les dates de publication de la bascule. Construire avec `python3 tools/build-release.py --production` : le script refuse une absence d’accord, une page non publiée ou un accès Contact non enregistré. Il ne déploie rien. Les dates restent prévisionnelles jusqu’à la bascule effectivement terminée ; en cas d’échec, revenir à ready et retirer ces dates.

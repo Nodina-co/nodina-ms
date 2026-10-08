@@ -1,3 +1,7 @@
+## 2026-10-09 : zone DNS Cloudflare préparée après connexion Namecheap
+
+Les dix enregistrements Namecheap sont relevés et sauvegardés localement, puis importés dans nodina.com sur Cloudflare Free. Correspondance vérifiée, TXT respectant la casse, priorité MX 1, tous DNS only. Zone pending ; serveurs attribués chin.ns.cloudflare.com et finley.ns.cloudflare.com. Aucun changement de délégation, de destination du site ou de messagerie, aucune nouvelle recette/capture. L’accord de préparation ne vaut pas accord de migration DNS ou de lancement. [Relevé et prochaine action](../reports/dns-preparation-20261009.md).
+
 ## 2026-10-09 : textes et structure validés, préparation publique autorisée
 
 JD déclare « ok validation des textes et de la structure faites / Go pour préparer la mise en ligne publique ». Les seize pages FR/EN, y compris les mentions légales, passent à ready. Aucun accord de lancement public, DNS, Contact public ou GA4 n’est déduit. Le téléphone reste différé.
