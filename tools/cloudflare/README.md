@@ -1,3 +1,5 @@
+**Délégation appliquée, 9 octobre 2026 après accord de JD :** Namecheap Custom DNS et registre .com confirment les deux serveurs Cloudflare. Dix valeurs conservées sur chacun ; l’interface attend encore la validation interne. Contact public et lancement du nouveau site restent distincts. [État DNS](../../reports/dns-preparation-20261009.md). Les paragraphes suivants décrivent les étapes antérieures.
+
 **DNS préparés, 9 octobre 2026 :** nodina.com créé sur Free, dix valeurs Namecheap importées et vérifiées, toutes DNS only ; zone pending. Délégation publique inchangée. [Dossier DNS](../../reports/dns-preparation-20261009.md). Le changement de serveurs et le lancement public attendent leurs accords distincts.
 
 # Préproduction privée NODINA

@@ -1,3 +1,7 @@
+## 2026-10-09 : délégation DNS approuvée et enregistrée
+
+JD répond « ok » à la demande explicite des deux serveurs Cloudflare. Namecheap Custom DNS enregistré puis relu après rechargement : chin.ns.cloudflare.com et finley.ns.cloudflare.com. Registre .com et DNS consulté confirment la nouvelle délégation ; dix valeurs identiques sur chaque serveur Cloudflare (20/20), destinations GitHub Pages et Google Workspace conservées. Cloudflare attend encore sa validation interne. Aucun lancement du nouveau site, ouverture Contact, GA4, recette ou capture. [État vérifié](../reports/dns-preparation-20261009.md).
+
 ## 2026-10-09 : zone DNS Cloudflare préparée après connexion Namecheap
 
 Les dix enregistrements Namecheap sont relevés et sauvegardés localement, puis importés dans nodina.com sur Cloudflare Free. Correspondance vérifiée, TXT respectant la casse, priorité MX 1, tous DNS only. Zone pending ; serveurs attribués chin.ns.cloudflare.com et finley.ns.cloudflare.com. Aucun changement de délégation, de destination du site ou de messagerie, aucune nouvelle recette/capture. L’accord de préparation ne vaut pas accord de migration DNS ou de lancement. [Relevé et prochaine action](../reports/dns-preparation-20261009.md).

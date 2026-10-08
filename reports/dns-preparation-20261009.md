@@ -1,5 +1,19 @@
 # DNS NODINA préparés — 9 octobre 2026
 
+**État actualisé : délégation DNS approuvée et appliquée ; voir ci-dessous.** Les sections de préparation conservent le relevé initial.
+
+## Délégation appliquée après accord de JD
+
+JD répond « ok » à la demande explicite de remplacement par chin.ns.cloudflare.com et finley.ns.cloudflare.com. Namecheap est passé sur Custom DNS avec ces deux valeurs ; enregistrement puis rechargement confirment leur persistance. Le registrar et les réglages de renouvellement ne sont pas modifiés.
+
+Le registre parent .com et le résolveur consulté retournent déjà les deux serveurs Cloudflare. Les dix valeurs sont vérifiées sur chacun de ces serveurs : **20 correspondances sur 20**, y compris les TXT avec respect de la casse. Les destinations GitHub Pages, le MX et sa priorité 1 restent conservés. Tous les enregistrements importés restent DNS only ; aucun proxy n’est activé.
+
+Le bouton « I updated my nameservers » est utilisé après l’enregistrement effectif ; une demande « Check nameservers now » est ensuite transmise. L’interface indique encore « Waiting for your registrar to propagate your new nameservers ». Ne pas confondre la délégation déjà visible avec la validation interne de Cloudflare : statut actif et certificat restent à constater avant les associations Worker publiques.
+
+La sauvegarde locale ignorée consigne l’accord, les valeurs relues, la réponse du registre parent et les comparaisons. Aucune capture, notification, recette de formulaire ou soumission d’indexation. La prochaine étape reste l’ouverture de Contact Production par JD, selon PROMETHEUS §13.5, avec accord distinct pour son accès public. Aucun lancement du nouveau site ou activation GA4 n’est déduit de cet accord DNS.
+
+## Relevé initial avant délégation
+
 Après connexion de JD à Namecheap, la zone nodina.com est relevée dans Advanced DNS, tables Host Records entièrement développées et recherche vide. Neuf Host Records et un Mail Record sont présents. DNSSEC et Dynamic DNS sont désactivés ; aucune modification du registrar ou de sa délégation n’est effectuée.
 
 ## Reprise enregistrée dans Cloudflare
@@ -19,7 +33,7 @@ Namecheap affiche Automatic pour les TTL ; les réponses DNS observées donnent 
 
 Les cinq enregistrements Web portent l’attribut BIND `cf_tags=cf-proxied:false`, confirmé DNS only dans l’interface. L’option d’accueil autorise les robots et Bot Preference Sync est désactivé pendant la préparation ; ces préférences persistantes et les règles WAF restent à relire avant publication.
 
-## Délégation proposée, pas appliquée
+## Proposition initiale avant accord
 
 Serveurs Cloudflare attribués :
 
