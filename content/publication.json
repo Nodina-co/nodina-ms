@@ -1,151 +1,151 @@
 {
   "origin": "https://nodina.com",
   "textAndStructureApprovedOn": "2026-10-09",
-  "launchApprovedOn": null,
+  "launchApprovedOn": "2026-10-09",
   "pages": [
     {
       "id": "home",
       "locale": "fr",
       "path": "/fr/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "vetting",
       "locale": "fr",
       "path": "/fr/selection-des-talents/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "profiles",
       "locale": "fr",
       "path": "/fr/profils/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "manifesto",
       "locale": "fr",
       "path": "/fr/manifeste/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "contact",
       "locale": "fr",
       "path": "/fr/contact/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "privacy",
       "locale": "fr",
       "path": "/fr/confidentialite/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "cookies",
       "locale": "fr",
       "path": "/fr/cookies/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "legal",
       "locale": "fr",
       "path": "/fr/mentions-legales/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "home",
       "locale": "en",
       "path": "/en/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "vetting",
       "locale": "en",
       "path": "/en/vetting/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "profiles",
       "locale": "en",
       "path": "/en/engineers/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "manifesto",
       "locale": "en",
       "path": "/en/manifesto/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "contact",
       "locale": "en",
       "path": "/en/contact/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "privacy",
       "locale": "en",
       "path": "/en/privacy/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "cookies",
       "locale": "en",
       "path": "/en/cookies/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "legal",
       "locale": "en",
       "path": "/en/legal-notice/",
-      "status": "ready",
+      "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": null
+      "publishedOn": "2026-10-09"
     }
   ]
 }

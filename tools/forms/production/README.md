@@ -1,3 +1,5 @@
+**Bascule du 9 octobre 2026 :** JD confirme le déploiement public de la version 2. Google confirme Anyone et exécution sous jd@nodina.com ; endpoint standard fourni par Google enregistré localement et intégré au site public. Version 1 privée conservée ; pas de nouveau formulaire envoyé ni modification de propriétés/déclencheurs. [État et limites](../../../reports/public-launch-20261009.md). Les sections suivantes sont historiques.
+
 # Contact — préparation de production
 
 Le 7 octobre 2026, l'opérateur initialise « NODINA — Contact Production ». Dossier et synthèse distincts, accès privés vérifiés ; première reconstruction complete et un déclencheur horaire installés. Deux déploiements Only myself sont enregistrés, versions 1 et 2 ; Reporting est raccordé à la synthèse de production. [Résultat et limites](../../../reports/contact-production-setup-20261007.md). Le candidat Google version 3 reste TEST uniquement et privé. Le site conserve son endpoint Contact version 1 ; `.env` n'est pas modifié.

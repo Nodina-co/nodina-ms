@@ -1,3 +1,5 @@
+**État actuel, 9 octobre 2026 :** lancement public autorisé explicitement et appliqué, seize pages FR/EN publiées ; Contact version 2 public, GA4 désactivé. Cloudflare sert nodina.com ; www redirigé, HTTPS actif. GitHub Pages dépublié par JD. [Bascule vérifiée](public-launch-20261009.md). Les paragraphes suivants conservent l’historique daté.
+
 # NODINA — raccordement Contact préparé le 8 octobre 2026
 
 Après « étape suivante », préparation locale de la bascule vers Contact Production. Aucun changement du site actif, déploiement Google ou publication publique.

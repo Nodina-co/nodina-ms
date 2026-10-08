@@ -1,3 +1,5 @@
+**État actuel, 9 octobre 2026 :** lancement public autorisé explicitement et appliqué, seize pages FR/EN publiées ; Contact version 2 public, GA4 désactivé. Cloudflare sert nodina.com ; www redirigé, HTTPS actif. GitHub Pages dépublié par JD. [Bascule vérifiée](public-launch-20261009.md). Les paragraphes suivants conservent l’historique daté.
+
 # Préparation de la publication NODINA — 9 octobre 2026
 
 JD valide les textes et la structure des seize pages FR/EN et autorise la préparation de la mise en ligne. Les pages sont **ready**, pas encore publiées. Ce dossier prépare la bascule ; aucune publication du nouveau site, ouverture Contact, collecte GA4 ou soumission d’URL n’est effectuée. Après accord DNS distinct de JD, la délégation Cloudflare est appliquée avec ses dix enregistrements conservés ; Cloudflare confirme ensuite son activation, avec dix valeurs toujours DNS only : [reprise DNS vérifiée](dns-preparation-20261009.md).

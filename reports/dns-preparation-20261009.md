@@ -1,3 +1,5 @@
+**État actuel, 9 octobre 2026 :** lancement public autorisé explicitement et appliqué, seize pages FR/EN publiées ; Contact version 2 public, GA4 désactivé. Cloudflare sert nodina.com ; www redirigé, HTTPS actif. GitHub Pages dépublié par JD. [Bascule vérifiée](public-launch-20261009.md). Les paragraphes suivants conservent l’historique daté.
+
 # DNS NODINA préparés — 9 octobre 2026
 
 **État actualisé : délégation DNS approuvée et appliquée ; voir ci-dessous.** Les sections de préparation conservent le relevé initial.

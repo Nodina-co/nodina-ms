@@ -1,3 +1,5 @@
+**État actuel, 9 octobre 2026 :** lancement public autorisé explicitement et appliqué, seize pages FR/EN publiées ; Contact version 2 public, GA4 désactivé. Cloudflare sert nodina.com ; www redirigé, HTTPS actif. GitHub Pages dépublié par JD. [Bascule vérifiée](../reports/public-launch-20261009.md). Les paragraphes suivants conservent l’historique daté.
+
 ## 2026-10-09 : délégation DNS approuvée et enregistrée
 
 JD répond « ok » à la demande explicite des deux serveurs Cloudflare. Namecheap Custom DNS enregistré puis relu après rechargement : chin.ns.cloudflare.com et finley.ns.cloudflare.com. Registre .com et DNS consulté confirment la nouvelle délégation ; dix valeurs identiques sur chaque serveur Cloudflare (20/20), destinations GitHub Pages et Google Workspace conservées. Après rechargement, Cloudflare confirme l’activation du domaine ; la table DNS confirme toujours dix valeurs DNS only. Certificat non encore vérifié. Aucun lancement du nouveau site, ouverture Contact, GA4, recette ou capture. [État vérifié](../reports/dns-preparation-20261009.md).

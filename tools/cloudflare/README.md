@@ -1,3 +1,17 @@
+# Production publique — 9 octobre 2026
+
+[NODINA public](https://nodina.com/fr/) est servi par `nodina-production`, route `nodina.com/*`. Cinq enregistrements Web proxifiés, cinq mail/vérification DNS only ; www → apex en 301 avec chemin et paramètres, HTTPS obligatoire. [Bascule et limites](../../reports/public-launch-20261009.md).
+
+La configuration de référence est `wrangler.production.json` ; les fichiers `.proposed.json` conservent le projet initial de Custom Domains, non appliqué. Préproduction privée et production sont séparées.
+
+Pour préparer une future version publique, utiliser Node 24 et `python3 tools/build-release.py --production --node <chemin-node24>` : sortie isolée dans `tools/forms/production/.local/public-dist`. Cette commande compile et ne déploie pas. Les métadonnées Google Contact privées locales doivent exister et contenir l’endpoint public confirmé. `dist/` et le candidat noindex ne sont pas le paquet public.
+
+Relire la route active avant tout envoi. Ne pas réutiliser une configuration fermée avec `routes: []` sur le Worker public : elle peut retirer le routage. Les droits Wrangler actuels couvrent l’envoi du script ; les opérations de routes/DNS ont été faites via l’interface Cloudflare. La configuration de référence ne garantit pas à elle seule les droits API nécessaires à un futur envoi.
+
+L’ancien GitHub Pages a été dépublié ; conserver les versions Cloudflare pour un retour arrière disponible. GA4 reste désactivé et aucune indexation n’a été soumise.
+
+---
+
 **Délégation appliquée, 9 octobre 2026 après accord de JD :** Namecheap Custom DNS et registre .com confirment les deux serveurs Cloudflare. Dix valeurs conservées sur chacun ; Cloudflare confirme ensuite l’activation, avec dix valeurs toujours DNS only. Certificat à vérifier. Contact public et lancement du nouveau site restent distincts. [État DNS](../../reports/dns-preparation-20261009.md). Les paragraphes suivants décrivent les étapes antérieures.
 
 **DNS préparés, 9 octobre 2026 :** nodina.com créé sur Free, dix valeurs Namecheap importées et vérifiées, toutes DNS only ; zone pending. Délégation publique inchangée. [Dossier DNS](../../reports/dns-preparation-20261009.md). Le changement de serveurs et le lancement public attendent leurs accords distincts.
