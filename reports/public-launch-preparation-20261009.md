@@ -1,6 +1,6 @@
 # Préparation de la publication NODINA — 9 octobre 2026
 
-JD valide les textes et la structure des seize pages FR/EN et autorise la préparation de la mise en ligne. Les pages sont **ready**, pas encore publiées. Ce dossier prépare la bascule ; aucune publication du nouveau site, ouverture Contact, collecte GA4 ou soumission d’URL n’est effectuée. Après accord DNS distinct de JD, la délégation Cloudflare est appliquée avec ses dix enregistrements conservés ; l’interface attend sa validation interne : [reprise DNS vérifiée](dns-preparation-20261009.md).
+JD valide les textes et la structure des seize pages FR/EN et autorise la préparation de la mise en ligne. Les pages sont **ready**, pas encore publiées. Ce dossier prépare la bascule ; aucune publication du nouveau site, ouverture Contact, collecte GA4 ou soumission d’URL n’est effectuée. Après accord DNS distinct de JD, la délégation Cloudflare est appliquée avec ses dix enregistrements conservés ; Cloudflare confirme ensuite son activation, avec dix valeurs toujours DNS only : [reprise DNS vérifiée](dns-preparation-20261009.md).
 
 ## Paquet préparé
 
@@ -31,7 +31,7 @@ Le dépôt local `nodina-website` correspond à [jd-collard/nodina-website](http
 
 Les DNS publics observés au début de la préparation le 9 octobre donnent dns1.registrar-servers.com et dns2.registrar-servers.com ; l’apex utilise les quatre adresses 185.199.108–111.153 de GitHub Pages, www pointe vers jd-collard.github.io. Les serveurs correspondent à [Namecheap BasicDNS](https://www.namecheap.com/support/knowledgebase/article.aspx/923/10/what-is-your-basicdns/). Cela identifie le fournisseur DNS, pas le compte gestionnaire ni l’ensemble de la zone.
 
-Au début de la préparation, le compte Cloudflare NODINA affiche un seul Worker, nodina-preproduction, son adresse protégée par Access et aucune zone DNS. La zone nodina.com est ensuite créée sur Free avec les dix valeurs Namecheap reprises, DNS only et statut pending. La délégation est ensuite appliquée après accord distinct de JD ; registre .com et réponses des deux serveurs vérifiés. La préproduction distante conserve son déploiement antérieur ; elle ne constitue pas une preuve du candidat local du 9 octobre.
+Au début de la préparation, le compte Cloudflare NODINA affiche un seul Worker, nodina-preproduction, son adresse protégée par Access et aucune zone DNS. La zone nodina.com est ensuite créée sur Free avec les dix valeurs Namecheap reprises, DNS only et statut pending. La délégation est ensuite appliquée après accord distinct de JD ; registre .com et réponses des deux serveurs vérifiés, puis activation confirmée dans Cloudflare. La préproduction distante conserve son déploiement antérieur ; elle ne constitue pas une preuve du candidat local du 9 octobre.
 
 Le relevé local inclut NS, A/AAAA, MX, TXT, CAA, SOA, www et DMARC. **Ce relevé public ne remplace pas un inventaire complet de la zone**. Le relevé intégral des tables Namecheap est ensuite sauvegardé localement, DKIM et vérification inclus, puis comparé à l’import Cloudflare. Voir la [reprise DNS](dns-preparation-20261009.md).
 

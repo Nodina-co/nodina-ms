@@ -1,6 +1,6 @@
 ## 2026-10-09 : délégation DNS approuvée et enregistrée
 
-JD répond « ok » à la demande explicite des deux serveurs Cloudflare. Namecheap Custom DNS enregistré puis relu après rechargement : chin.ns.cloudflare.com et finley.ns.cloudflare.com. Registre .com et DNS consulté confirment la nouvelle délégation ; dix valeurs identiques sur chaque serveur Cloudflare (20/20), destinations GitHub Pages et Google Workspace conservées. Cloudflare attend encore sa validation interne. Aucun lancement du nouveau site, ouverture Contact, GA4, recette ou capture. [État vérifié](../reports/dns-preparation-20261009.md).
+JD répond « ok » à la demande explicite des deux serveurs Cloudflare. Namecheap Custom DNS enregistré puis relu après rechargement : chin.ns.cloudflare.com et finley.ns.cloudflare.com. Registre .com et DNS consulté confirment la nouvelle délégation ; dix valeurs identiques sur chaque serveur Cloudflare (20/20), destinations GitHub Pages et Google Workspace conservées. Après rechargement, Cloudflare confirme l’activation du domaine ; la table DNS confirme toujours dix valeurs DNS only. Certificat non encore vérifié. Aucun lancement du nouveau site, ouverture Contact, GA4, recette ou capture. [État vérifié](../reports/dns-preparation-20261009.md).
 
 ## 2026-10-09 : zone DNS Cloudflare préparée après connexion Namecheap
 
