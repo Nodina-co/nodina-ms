@@ -4,6 +4,10 @@ Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait
 
 # Décisions NODINA
 
+## 2026-10-08 : références légales Reporting sauvegardées dans Google après Go
+
+JD répond « Go » à l’étape annoncée de sauvegarde du bundle Reporting. Le code distant correspond d’abord exactement au bundle du 7 octobre (26 852 caractères) ; copie de retour arrière conservée uniquement dans `.local/`. Nouveau bundle sauvegardé puis relu exactement après rechargement (26 898 caractères). Manifeste identique au fichier local ; un seul déclencheur Head / Time-based / uploadWeeklyReport vérifié. Propriétés non ouvertes et non modifiées ; aucune exécution, notification, capture, activation GA4 ou bascule du site. À la question de JD sur la production, consultation de nodina.com : page publique de conseil existante, distincte de la nouvelle version FR/EN privée. [État et suite](../reports/contact-cutover-prepared-20261008.md). Commit/push sur main selon la demande permanente.
+
 ## 2026-10-08 : raccordement local Contact Production préparé
 
 Après « étape suivante », corriger la validation des URL `/exec` Workspace `nodina.com` dans le build et le client signé, sans normaliser la cible ni déduire un accès anonyme. Ajouter les deux pages légales aux références du lecteur Reporting. Configuration privée et build per-request séparé préparés à partir du déploiement version 2 enregistré ; noindex et GA4 désactivé. `.env`, `dist/`, service actif et Google inchangés. Syntaxe et compilation vérifiées sans appel au service ni nouvel essai. Bundle Reporting local encore à sauvegarder dans Google ; validation globale des pages et accord de lancement toujours distincts. [Préparation et suite](../reports/contact-cutover-prepared-20261008.md). Commit/push sur main selon la demande permanente.

@@ -17,12 +17,16 @@ Dans `tools/forms/production/.local/`, exclu de Git : configuration proposée, b
 - Compilation Astro réussie avec Node 24. Syntaxe du client et du bundle Reporting vérifiée sans exécution. Aucun appel Google, soumission, notification, capture ou nouvel essai.
 - Le bundle Reporting préparé contient 26 898 caractères (26 902 octets UTF-8), SHA-256 `7155a3d9df58bce38d205679e0cacdac18b037d6a55f72f76b9636d2dd4620c3`.
 
-La configuration `.env`, le build `dist/` et l’aperçu courant restent legacy. Le Reporting déployé conserve son bundle du 7 octobre de 26 852 caractères : l’ajout des deux références légales est seulement local. Les permissions privées enregistrées ne sont pas revérifiées ici ; cette préparation ne démontre aucun accès anonyme au nouveau service.
+La configuration `.env`, le build `dist/` et l’aperçu courant restent legacy. Après le « Go » suivant, le nouveau bundle est sauvegardé dans Google le 8 octobre et recopié exactement après rechargement (26 898 caractères). Le manifeste correspond au fichier local ; un seul déclencheur Head / Time-based / uploadWeeklyReport reste présent. Les propriétés ne sont ni ouvertes ni modifiées. Une sauvegarde du bundle précédent de 26 852 caractères reste dans `.local/`. Les permissions privées enregistrées ne sont pas revérifiées ici ; cette préparation ne démontre aucun accès anonyme au nouveau service.
 
 ## Suite
 
-1. Enregistrer le bundle Reporting préparé dans le projet existant, conserver manifeste, propriétés et déclencheur, puis comparer le code sauvegardé. Aucun nouvel upload de test.
+1. Achevé après « Go » : bundle Reporting enregistré et relu identique ; manifeste vérifié, déclencheur conservé, propriétés inchangées. Aucun nouvel upload de test.
 2. Recueillir la validation regroupée des pages dans la [revue finale FR/EN](site-final-review-20261008.html) ; Confidentialité/Cookies et procédure de conservation restent déjà validés. Téléphone professionnel différé hors de cette version.
 3. Préparer routage et indexation pour les seules URL approuvées. Obtenir l’accord explicite de lancement avant élargissement d’accès Google et publication. Activation GA4 distincte.
 
 Le premier rapport hebdomadaire après migration reste à vérifier le 12 octobre. Conserver l’ancien endpoint et l’ancien stockage pour le retour arrière des nouvelles réceptions ; aucun transfert automatique des dossiers, aucune suppression autorisée par cette préparation. Voir [le suivi de production](production-handoff-20261007.md) pour les autres étapes PROMETHEUS.
+
+## État du domaine public vérifié le 8 octobre
+
+À la demande de JD, `https://nodina.com/` est ouvert dans Chrome : la page publique « Nodina — Conseil en intelligence artificielle » est affichée, avec les sections conseil, manifeste, approche, expertise et contact. Elle est distincte de la nouvelle version FR/EN préparée ici, qui reste en préproduction privée. Cette consultation ne modifie ni domaine ni déploiement.

@@ -19,7 +19,7 @@ Ordre d'installation après acceptation des paramètres : ajouter les quatre pro
 
 ## Raccordement du site préparé
 
-**Mise à jour du 8 octobre :** build et client signé acceptent les URL standard et Workspace `nodina.com` en `/exec`, sans réécriture. Un build séparé per-request/noindex, Analytics désactivé, utilise le déploiement privé version 2 enregistré. La configuration active et `dist/` restent legacy ; aucun appel au service. Les deux références légales sont ajoutées au lecteur Reporting local, pas encore dans Google. [Préparation et suite](../../../reports/contact-cutover-prepared-20261008.md).
+**Mise à jour du 8 octobre :** build et client signé acceptent les URL standard et Workspace `nodina.com` en `/exec`, sans réécriture. Un build séparé per-request/noindex, Analytics désactivé, utilise le déploiement privé version 2 enregistré. La configuration active et `dist/` restent legacy ; aucun appel au service. Les deux références légales sont ajoutées au lecteur Reporting puis sauvegardées dans Google après « Go » le 8 octobre : code relu identique, manifeste vérifié et déclencheur conservé, aucune exécution lancée. [Préparation et suite](../../../reports/contact-cutover-prepared-20261008.md).
 
 `PUBLIC_CONTACT_STORAGE` vaut `legacy` par défaut. `per-request` active le client signé et un champ receipt_token vide. Le build ne génère jamais une référence signée. Le client obtient une preuve serveur puis conserve cette référence à chaque réessai ; seul un accusé positif émet l'événement de réception.
 
