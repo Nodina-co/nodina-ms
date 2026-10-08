@@ -4,6 +4,10 @@ Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait
 
 # Décisions NODINA
 
+## 2026-10-09 : titre de la section AI-native Teams précisé
+
+JD propose « une équipe expérimentée et sur-mesure » pour remplacer le titre général de la section de travail sur l’accueil. Retenir « Une équipe expérimentée et sur mesure. » et aligner l’anglais : « An experienced team, built around your needs. ». Recompiler l’aperçu et actualiser la revue FR/EN ; aucun nouvel essai, capture, envoi ou déploiement. Commit/push sur main selon la demande permanente.
+
 ## 2026-10-09 : bloc de citation du manifeste retiré
 
 JD demande de supprimer la figure de citation du manifeste. Retirer le bloc complet et la signature en FR/EN, ainsi que son import et les textes inutilisés ; la section de démarrage suit désormais les convictions. Le composant de citation reste utilisé pour la sélection. Recompiler l’aperçu et actualiser la revue FR/EN ; aucun nouvel essai, capture, envoi ou déploiement. Commit/push sur main selon la demande permanente.
