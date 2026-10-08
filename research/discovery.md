@@ -1,3 +1,5 @@
+**Sitemap, 9 octobre 2026 :** soumission Google/Bing autorisée par JD et enregistrée. Google confirme le traitement et 16 pages découvertes ; Bing Processing. Aucune indexation déduite ni soumission IndexNow. [Confirmations](../reports/sitemap-submission-20261009.md).
+
 **État actuel, 9 octobre 2026 :** lancement public autorisé explicitement et appliqué, seize pages FR/EN publiées ; Contact version 2 public, GA4 désactivé. Cloudflare sert nodina.com ; www redirigé, HTTPS actif. GitHub Pages dépublié par JD. [Bascule vérifiée](../reports/public-launch-20261009.md). Les paragraphes suivants conservent l’historique daté.
 
 ## 2026-10-09 : délégation DNS approuvée et enregistrée
