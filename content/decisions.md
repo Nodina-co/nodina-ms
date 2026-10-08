@@ -4,6 +4,10 @@ Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait
 
 # Décisions NODINA
 
+## 2026-10-09 : trois titres reformulés après commentaires de revue
+
+JD juge naïfs le titre de sélection sur l’accueil et deux titres du manifeste. Remplacer les formules générales par « Des ingénieurs sélectionnés sur preuves. », « Construire avec l’IA. Répondre du résultat. » et « Quinze ans à construire des produits et des équipes. ». Aligner les trois versions anglaises, conserver les paragraphes et la structure. Recompiler l’aperçu local et actualiser la revue FR/EN ; aucun nouvel essai, capture, envoi ou déploiement. Ces corrections ne valent pas validation globale ou accord de lancement. Commit/push sur main selon la demande permanente.
+
 ## 2026-10-08 : références légales Reporting sauvegardées dans Google après Go
 
 JD répond « Go » à l’étape annoncée de sauvegarde du bundle Reporting. Le code distant correspond d’abord exactement au bundle du 7 octobre (26 852 caractères) ; copie de retour arrière conservée uniquement dans `.local/`. Nouveau bundle sauvegardé puis relu exactement après rechargement (26 898 caractères). Manifeste identique au fichier local ; un seul déclencheur Head / Time-based / uploadWeeklyReport vérifié. Propriétés non ouvertes et non modifiées ; aucune exécution, notification, capture, activation GA4 ou bascule du site. À la question de JD sur la production, consultation de nodina.com : page publique de conseil existante, distincte de la nouvelle version FR/EN privée. [État et suite](../reports/contact-cutover-prepared-20261008.md). Commit/push sur main selon la demande permanente.
