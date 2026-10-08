@@ -1,4 +1,5 @@
 import type { Locale } from './site';
+import { isPreview } from './publication';
 
 // Match the storage setting used by ContactPage.astro.
 const contactStorage = import.meta.env.PUBLIC_CONTACT_STORAGE?.trim() || 'legacy';
@@ -31,7 +32,7 @@ export const legalCopy: Record<Locale, LegalCopy> = {
           'Le traitement de la demande envoyée par ce formulaire repose sur votre consentement, donné par la case prévue à cet effet. Vous pouvez le retirer à tout moment en écrivant à build@nodina.com. Le retrait ne remet pas en cause les traitements licites effectués auparavant. Cet accord n’autorise ni newsletter ni mesure d’audience.',
         ] },
         { id: 'mesure', title: 'La mesure d’audience facultative', paragraphs: [
-          'Google Analytics est prévu pour comprendre les pages consultées et le parcours de contact. Il reste désactivé sur le site de revue. Après activation sur le site public, il ne sera chargé qu’après votre acceptation dans le panneau de choix.',
+          isPreview ? 'Google Analytics est prévu pour comprendre les pages consultées et le parcours de contact. Il reste désactivé sur le site de revue. Après activation sur le site public, il ne sera chargé qu’après votre acceptation dans le panneau de choix.' : 'Google Analytics est prévu pour comprendre les pages consultées et le parcours de contact. La mesure d’audience reste désactivée sur ce site. Après activation, il ne sera chargé qu’après votre acceptation dans le panneau de choix.',
           'La mesure prévue couvre la page consultée, les clics sur les boutons principaux vers le contact, le début du formulaire et sa réception confirmée. Une réception ne constitue pas une qualification commerciale. Le module ne transmet aucun nom, e-mail, organisation, message ou identifiant de demande à Google Analytics.',
           'Les URL envoyées sont limitées aux pages connues, sans paramètres ni fragments. La provenance externe est réduite à son origine (protocole et domaine). Google traite également les identifiants de mesure et des informations techniques de navigateur, d’appareil et de connexion nécessaires à son service. Ces données ne sont pas présentées comme anonymes.',
           'La base juridique proposée pour cette mesure est votre consentement. Vous pourrez le refuser ou le retirer via les préférences du pied de page. Google Signals et la personnalisation publicitaire sont désactivés dans le module préparé.',
@@ -72,7 +73,7 @@ export const legalCopy: Record<Locale, LegalCopy> = {
         { id: 'choisir', title: 'Accepter, refuser, changer d’avis', paragraphs: [
           'Lorsque la mesure sera activée sur le site public, le panneau proposera Accepter et Refuser avec la même présentation. Google Analytics ne sera pas chargé avant acceptation. Sans accord, les interactions de navigation et de formulaire ne seront pas envoyées à Analytics.',
           'Le bouton Préférences de mesure, dans le pied de page, permettra de rouvrir le panneau et de retirer votre accord. Le retrait bloque la mesure et supprime les cookies Analytics concernés sans effacer le formulaire en cours de rédaction. Les interactions effectuées avant un accord ne sont pas rejouées.',
-          'La mesure reste actuellement désactivée en préproduction. L’absence du panneau ou du bouton de préférences dans cet environnement ne vaut pas acceptation.',
+          isPreview ? 'La mesure reste actuellement désactivée en préproduction. L’absence du panneau ou du bouton de préférences dans cet environnement ne vaut pas acceptation.' : 'La mesure d’audience est désactivée sur ce site. L’absence du panneau ou du bouton de préférences ne vaut pas acceptation.',
         ] },
         { id: 'stockage', title: 'Ce qui est stocké dans le navigateur', paragraphs: [
           'Le choix et les cookies de mesure sont distincts. Les noms ci-dessous décrivent le module préparé ; les cookies Google doivent encore être observés lors de la recette du site public après consentement.',
@@ -115,7 +116,7 @@ export const legalCopy: Record<Locale, LegalCopy> = {
           'Processing an inquiry submitted through this form relies on your consent, given through the checkbox provided. You may withdraw it at any time by writing to build@nodina.com. Withdrawal does not affect earlier lawful processing. This permission does not authorize newsletters or audience measurement.',
         ] },
         { id: 'measurement', title: 'Optional audience measurement', paragraphs: [
-          'Google Analytics is planned to understand page visits and the contact journey. It remains disabled on the review site. Once enabled on the public website, it will load only after you accept in the choice panel.',
+          isPreview ? 'Google Analytics is planned to understand page visits and the contact journey. It remains disabled on the review site. Once enabled on the public website, it will load only after you accept in the choice panel.' : 'Google Analytics is planned to understand page visits and the contact journey. Audience measurement remains disabled on this website. Once enabled, it will load only after you accept in the choice panel.',
           'The planned measurements cover the page viewed, clicks on primary contact buttons, the start of the form and confirmed receipt. Receipt does not mean commercial qualification. The module does not send names, emails, organizations, messages or request identifiers to Google Analytics.',
           'Sent URLs are restricted to known pages, without query parameters or fragments. External referrals are reduced to their origin (protocol and domain). Google also processes measurement identifiers and technical browser, device and connection information required for its service. This data is not described as anonymous.',
           'The proposed legal basis for measurement is your consent. You will be able to decline or withdraw it through the footer preferences. Google Signals and advertising personalization are disabled in the prepared module.',
@@ -156,7 +157,7 @@ export const legalCopy: Record<Locale, LegalCopy> = {
         { id: 'choosing', title: 'Accept, decline, change your mind', paragraphs: [
           'Once measurement is enabled on the public site, the panel will offer Accept and Decline with the same presentation. Google Analytics will not load before acceptance. Without permission, navigation and form interactions will not be sent to Analytics.',
           'The Measurement preferences button in the footer will reopen the panel so you can withdraw consent. Withdrawal blocks measurement and deletes the relevant Analytics cookies without clearing a form draft. Interactions that occurred before permission are not replayed.',
-          'Measurement currently remains disabled in preproduction. The absence of the panel or preference button in this environment does not mean acceptance.',
+          isPreview ? 'Measurement currently remains disabled in preproduction. The absence of the panel or preference button in this environment does not mean acceptance.' : 'Audience measurement is disabled on this website. The absence of the panel or preference button does not mean acceptance.',
         ] },
         { id: 'storage', title: 'What is stored in your browser', paragraphs: [
           'Your choice and measurement cookies are separate. The names below describe the prepared module; Google cookies still need to be observed during public-site testing after consent.',

@@ -3,6 +3,7 @@ import { content, metadata, origin, route, type Locale, type PageId } from '../l
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import AnalyticsConsent from '../components/AnalyticsConsent.astro';
+import { isPreview, pageRobots } from '../lib/publication';
 import '../styles/site.css';
 import '../styles/talent.css';
 import '../styles/refinement.css';
@@ -29,10 +30,11 @@ const graph = {
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <meta name="referrer" content="strict-origin-when-cross-origin"/>
-  <meta name="robots" content="noindex,nofollow,noarchive"/>
+  <meta name="robots" content={pageRobots(locale, page)}/>
   <meta name="theme-color" content="#ffffff"/>
   <title>{title}</title><meta name="description" content={description}/>
   <link rel="canonical" href={canonical}/>
+  {!isPreview && <><link rel="alternate" type="text/markdown" href={canonical + 'index.md'}/><link rel="alternate" type="application/rss+xml" title="NODINA" href={origin + '/feed.xml'}/></>}
   <link rel="alternate" hreflang="fr-FR" href={origin + route('fr', page)}/>
   <link rel="alternate" hreflang="en-US" href={origin + route('en', page)}/>
   <link rel="alternate" hreflang="x-default" href={origin + route('fr', page)}/>

@@ -1,3 +1,5 @@
+**Validation globale, 9 octobre 2026 :** JD valide les textes et la structure des seize pages FR/EN et autorise la préparation publique. Les mentions légales sont incluses. Aucun lancement, changement DNS, élargissement d’accès Contact ou activation GA4 déduit. Voir le [registre des pages](PLAN.md) et le [dossier de préparation](../reports/public-launch-preparation-20261009.md). Les statuts historiques ci-dessous restent datés.
+
 # Référentiel produit NODINA
 
 **Règle éditoriale en vigueur — 2026-10-02 :** JD ne veut plus faire référence à Angels Bay Tech / AngelsBayTech ni à CheckIA sur le site NODINA. Retirer ces références des maquettes et futurs contenus FR/EN : noms, cas, liens, logos et allusions identifiantes. Ne pas simplement anonymiser leurs exemples. Les sources et déclarations historiques restent internes pour la traçabilité. Cette décision remplace l’autorisation de citation du 2026-10-01 ; les exclusions antérieures de TitanOne et ReadyPark restent applicables.

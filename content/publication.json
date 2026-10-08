@@ -1,0 +1,151 @@
+{
+  "origin": "https://nodina.com",
+  "textAndStructureApprovedOn": "2026-10-09",
+  "launchApprovedOn": null,
+  "pages": [
+    {
+      "id": "home",
+      "locale": "fr",
+      "path": "/fr/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "vetting",
+      "locale": "fr",
+      "path": "/fr/selection-des-talents/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "profiles",
+      "locale": "fr",
+      "path": "/fr/profils/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "manifesto",
+      "locale": "fr",
+      "path": "/fr/manifeste/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "contact",
+      "locale": "fr",
+      "path": "/fr/contact/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "privacy",
+      "locale": "fr",
+      "path": "/fr/confidentialite/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "cookies",
+      "locale": "fr",
+      "path": "/fr/cookies/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "legal",
+      "locale": "fr",
+      "path": "/fr/mentions-legales/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "home",
+      "locale": "en",
+      "path": "/en/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "vetting",
+      "locale": "en",
+      "path": "/en/vetting/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "profiles",
+      "locale": "en",
+      "path": "/en/engineers/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "manifesto",
+      "locale": "en",
+      "path": "/en/manifesto/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "contact",
+      "locale": "en",
+      "path": "/en/contact/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "privacy",
+      "locale": "en",
+      "path": "/en/privacy/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "cookies",
+      "locale": "en",
+      "path": "/en/cookies/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    },
+    {
+      "id": "legal",
+      "locale": "en",
+      "path": "/en/legal-notice/",
+      "status": "ready",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null
+    }
+  ]
+}

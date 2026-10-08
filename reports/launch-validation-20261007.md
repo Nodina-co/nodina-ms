@@ -1,3 +1,5 @@
+**Actualisation du 9 octobre :** JD valide désormais les textes et la structure des seize pages FR/EN, mentions légales incluses. La préparation publique est autorisée et décrite dans le [nouveau dossier](public-launch-preparation-20261009.md). Le lancement, les DNS, l’accès Contact et GA4 restent séparés. Ce document conserve les étapes et validations antérieures.
+
 # NODINA — validation des notices et pages de lancement
 
 Préparé le 7 octobre 2026 après « Go ». Aucun lancement, déploiement, nouvel essai, envoi, suppression ou activation Analytics. JD répond ensuite « validé » à la question ciblée sur les notices FR/EN et la procédure de conservation avec revue au moins mensuelle. Cette validation est enregistrée ; les pages marketing et le lancement public restent distincts.

@@ -2,6 +2,7 @@
 import { route, type Locale, type PageId } from '../lib/site';
 import { legalCopy } from '../lib/legal';
 import { legalNoticeCopy } from '../lib/legal-notice';
+import { isPreview } from '../lib/publication';
 interface Props { locale: Locale; page: PageId }
 const { locale, page } = Astro.props;
 const kind = page === 'legal' ? 'legal' : page === 'cookies' ? 'cookies' : 'privacy';
@@ -15,9 +16,9 @@ const draftBody = kind === 'legal' ? notice.draftBody : c.draftBody;
 <main id="content" class="legal-page wrap" data-policy={kind}>
   <a class="text-link back" href={route(locale)}>{c.back}</a>
   <header class="legal-heading"><p class="label">{kind === 'legal' ? (locale === 'fr' ? 'Informations légales' : 'Legal information') : c.label}</p><h1>{policy.title}</h1><p class="legal-lead">{policy.lead}</p><p class="legal-date">{date}</p></header>
-  <aside class="legal-draft" aria-labelledby="legal-draft-title" data-legal-draft>
+  {isPreview && <aside class="legal-draft" aria-labelledby="legal-draft-title" data-legal-draft>
     <h2 id="legal-draft-title">{draftTitle}</h2><p>{draftBody}</p>
-  </aside>
+  </aside>}
   <div class="legal-grid">
     <nav class="legal-contents" aria-label={c.contents}><p class="label">{c.contents}</p><ol>{policy.sections.map(section => <li><a href={'#' + section.id}>{section.title}</a></li>)}</ol></nav>
     <article class="legal-body" aria-label={policy.title}>

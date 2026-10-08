@@ -1,3 +1,9 @@
+## 2026-10-09 : textes et structure validés, préparation publique autorisée
+
+JD déclare « ok validation des textes et de la structure faites / Go pour préparer la mise en ligne publique ». Les seize pages FR/EN, y compris les mentions légales, passent à ready. Aucun accord de lancement public, DNS, Contact public ou GA4 n’est déduit. Le téléphone reste différé.
+
+Préparation locale distincte : candidat sans bandeaux mais noindex, formulaire per-request vers le service déjà préparé, collecte désactivée ; configurations Cloudflare, indexation proposée et retour arrière documentés. L’ancien dépôt GitHub Pages reste intact. Aucune nouvelle recette, soumission, capture ou notification. [Dossier](../reports/public-launch-preparation-20261009.md).
+
 ## État courant — clôture des essais du 7 octobre 2026
 
 Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait des captures. La recette C/D est terminée : transport JSON anonyme depuis le loopback et refus de C retiré avec jeton encore valide confirmés ; accès candidat restauré à Only myself et durée à 300 secondes. Le parcours HTML anonyme sans JavaScript complet reste non vérifié. Aucune bascule du site ni collecte GA4. Le raccordement Reporting est ensuite enregistré ; voir la décision ci-dessous. La suppression de C et D est différée, sans nouvel essai ni notification. Les captures du dépôt et des archives locales de maquettes sont retirées ; les résultats textuels sont conservés. [Résultats](../reports/contact-anonymous-recipe-20261007.md).

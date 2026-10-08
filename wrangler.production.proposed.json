@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "nodina-production",
+  "account_id": "fd3a2bc5aad5864906bab1ffbafc8007",
+  "compatibility_date": "2026-10-09",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "nodina.com", "custom_domain": true },
+    { "pattern": "www.nodina.com", "custom_domain": true }
+  ],
+  "observability": { "enabled": false },
+  "assets": {
+    "directory": "./tools/forms/production/.local/public-dist",
+    "html_handling": "force-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

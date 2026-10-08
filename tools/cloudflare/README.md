@@ -1,5 +1,13 @@
 # Préproduction privée NODINA
 
+## Préparation publique — 9 octobre 2026
+
+JD a validé les textes et la structure des seize pages FR/EN. Le [dossier de publication](../../reports/public-launch-preparation-20261009.md) décrit le candidat local, les configurations proposées, l’hébergement GitHub Pages actuel, les DNS Namecheap et le retour arrière. Aucun déploiement ni changement DNS n’est effectué. La préproduction distante conserve son ancien déploiement ; elle n’est pas actualisée par la compilation locale.
+
+`python3 tools/build-release.py` prépare un paquet isolé dans la configuration locale ignorée. `wrangler.release-candidate.json` le décrit avec toutes les URL désactivées ; `wrangler.production.proposed.json` prévoit les deux domaines après activation de la zone et accord de lancement. Les fichiers d’indexation des pages ready restent des propositions séparées. Le build public est bloqué tant que l’accord, les états du plan et l’accès public Contact ne sont pas enregistrés. Analytics reste désactivé.
+
+Les instructions ci-dessous conservent l’historique et le parcours de préproduction du 5 octobre ; elles ne constituent pas un parcours de publication publique.
+
 **En ligne le 5 octobre 2026 :** [NODINA, préproduction privée](https://nodina-preproduction.jd-fd3.workers.dev/fr/). Le Worker `nodina-preproduction` est protégé par Access sur **All traffic**, pour l'adresse exacte `jd@nodina.com`, avec une session de six heures. Les aperçus restent désactivés et aucun domaine personnalisé n'est associé. Les 63 requêtes anonymes contrôlées sont redirigées vers Access ; les dix pages FR/EN et leur affichage mobile sont vérifiés après connexion. [Rapport et preuves](../../reports/cloudflare-preproduction-20261005.md).
 
 ## Historique de préparation et d'autorisation

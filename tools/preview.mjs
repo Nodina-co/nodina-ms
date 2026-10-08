@@ -3,8 +3,13 @@ import { readFile, stat } from 'node:fs/promises';
 import { resolve, extname, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const root = fileURLToPath(new URL('../dist/', import.meta.url));
-const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.png': 'image/png', '.ttf': 'font/ttf', '.txt': 'text/plain; charset=utf-8', '.json': 'application/json' };
+const directory = process.env.NODINA_PREVIEW_STAGE === 'release-candidate'
+  ? '../tools/forms/production/.local/release-candidate-dist/' : '../dist/';
+if (process.env.NODINA_PREVIEW_STAGE && !['preview', 'release-candidate'].includes(process.env.NODINA_PREVIEW_STAGE)) {
+  throw new Error('NODINA_PREVIEW_STAGE must be preview or release-candidate.');
+}
+const root = fileURLToPath(new URL(directory, import.meta.url));
+const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.png': 'image/png', '.ttf': 'font/ttf', '.txt': 'text/plain; charset=utf-8', '.md': 'text/markdown; charset=utf-8', '.xml': 'application/xml; charset=utf-8', '.json': 'application/json' };
 
 export function createPreviewServer() {
   return createServer(async (request, response) => {
@@ -21,7 +26,8 @@ export function createPreviewServer() {
       }
       const pathname = decodeURIComponent(url.pathname);
       const file = resolve(root, '.' + pathname);
-      if (!file.startsWith(root.endsWith(sep) ? root : root + sep) || pathname.split('/').some(part => part.startsWith('.')) || ['/_headers', '/_redirects'].includes(pathname)) {
+      const securityFile = pathname === '/.well-known/security.txt';
+      if (!file.startsWith(root.endsWith(sep) ? root : root + sep) || (!securityFile && pathname.split('/').some(part => part.startsWith('.'))) || ['/_headers', '/_redirects'].includes(pathname)) {
         response.writeHead(404); response.end(); return;
       }
       let selected = file;

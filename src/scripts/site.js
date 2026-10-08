@@ -1,3 +1,20 @@
+// Preserve links to the sections of the former one-page public site.
+if (location.pathname === '/fr/') {
+  const legacyAnchors = {
+    '#services': '/fr/#offers',
+    '#approche': '/fr/#approach',
+    '#expertise': '/fr/#experience',
+    '#manifeste': '/fr/manifeste/',
+    '#contact': '/fr/contact/',
+  };
+  const destination = legacyAnchors[location.hash];
+  if (destination) {
+    const target = new URL(destination, location.origin);
+    target.search = location.search;
+    location.replace(target.href);
+  }
+}
+
 const menu = document.querySelector('.mobile-menu');
 if (menu) {
   menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { menu.open = false; }));

@@ -1,6 +1,7 @@
 ---
 import { content, route, contactPath, type Locale, type PageId } from '../lib/site';
 import Languages from './Languages.astro';
+import { isPreview } from '../lib/publication';
 interface Props { locale: Locale; page: PageId }
 const { locale: l, page } = Astro.props;
 const c = content[l];
@@ -12,7 +13,7 @@ const links = [
   { id: 'manifesto', href: route(l, 'manifesto'), label: s.manifesto_nav },
 ];
 ---
-<div class="preview-strip"><div class="wrap"><span>{c.preview}</span></div></div>
+{isPreview && <div class="preview-strip"><div class="wrap"><span>{c.preview}</span></div></div>}
 <header class="site-header wrap">
   <a class="brand" href={route(l)} aria-label={c.home}><img src="/assets/logo-black.svg" width="146" height="32" alt="NODINA"/></a>
   <nav class="desktop-nav" aria-label={l === 'fr' ? 'Navigation principale' : 'Main navigation'}>
