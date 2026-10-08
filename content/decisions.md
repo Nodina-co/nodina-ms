@@ -4,6 +4,10 @@ Le 7 octobre, JD clôture les essais et demande commit/push ainsi que le retrait
 
 # Décisions NODINA
 
+## 2026-10-09 : bloc de citation du manifeste retiré
+
+JD demande de supprimer la figure de citation du manifeste. Retirer le bloc complet et la signature en FR/EN, ainsi que son import et les textes inutilisés ; la section de démarrage suit désormais les convictions. Le composant de citation reste utilisé pour la sélection. Recompiler l’aperçu et actualiser la revue FR/EN ; aucun nouvel essai, capture, envoi ou déploiement. Commit/push sur main selon la demande permanente.
+
 ## 2026-10-09 : citation du manifeste simplifiée
 
 JD demande d’améliorer la citation du manifeste sans accumulation de trois adjectifs. Remplacer le texte par « L’IA accélère le développement. Nous répondons de ce que nous livrons. », avec la responsabilité mise en emphase ; anglais aligné. Recompiler l’aperçu et régénérer la revue FR/EN. Aucun nouvel essai, capture, envoi ou déploiement ; commit/push sur main selon la demande permanente.

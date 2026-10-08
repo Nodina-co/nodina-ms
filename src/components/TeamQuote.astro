@@ -1,6 +1,6 @@
 ---
 import { content, type Locale } from '../lib/site';
-interface Props { locale: Locale; kind: 'selection' | 'manifesto' }
+interface Props { locale: Locale; kind: 'selection' }
 const { locale, kind } = Astro.props;
 const [lead, emphasis] = content[locale].select.team_quotes[kind];
 ---
