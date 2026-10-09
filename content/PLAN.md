@@ -27,6 +27,8 @@ Source machine : [publication.json](publication.json). `preview` conserve les ba
 
 Ce lancement ne termine pas les phases de recherche, clusters, requêtes et briefs PROMETHEUS. Aucun article ou guide n’est publié ; le flux RSS est vide. Les documents internes ne sont pas publiés.
 
+Le [guide de reprise](../reports/prometheus-operating-guide-20261009.md) propose le suivi des semaines du 12 octobre au 8 novembre : première collecte, recherche/revue de plan, briefs et maquettes, puis lecture à 28 jours. Ce suivi n’est pas un calendrier éditorial approuvé : aucune requête stratégique, aucun titre d’article ni date de publication supplémentaire n’est inventé. [Clôture du lancement et réserves](../SUMMARY.md).
+
 ## Retour arrière
 
 GitHub Pages a été dépublié par JD. L’archive ancienne ne suffit pas à restaurer cet hébergement ; voir le [rapport de lancement](../reports/public-launch-20261009.md).

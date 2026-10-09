@@ -57,9 +57,10 @@ Depuis Nodina-ms, utiliser les commandes réellement présentes :
 - `python3 tools/terraform-digest.py ../nodina-marketing-analytics/data` : lit tout l’historique, décode les métriques et effectue les comparaisons de fenêtres. Ne totalise jamais les snapshots. Le premier essai du 6 octobre a utilisé une copie temporaire du JSON lu dans GitHub ; après clonage HTTPS, le digest a été relancé sur le dépôt analytique côte à côte avec un résultat identique.
 - `npm run preproduction:check` : build, tests du formulaire/serveur et contrôle local des pages, liens, ancres, métadonnées et paquet privé. Ce contrôle ne prouve pas l’état de production.
 - `node --test tools/terraform-collector/offline.test.mjs` : contrats du collecteur sur réponses simulées.
+- `python3 tools/conformance.py --live --report reports/conformance-YYYY-MM-DD.md` : contrôle ponctuel des fichiers et du paquet public conservé, avec GET production. Ne soumet aucun formulaire. Code retour 1 si FAIL ou OPEN ; citer séparément les écarts techniques et les travaux différés.
 - Le digest lit également les échéances explicites de claims.csv et l’inventaire des anciens échantillons de citations. Une échéance vide reste indéfinie, pas périmée.
 
-Les outils plan.py, claims.py, citations.py, competitor-watch.py, search-log.py, linkcheck.py et check-seo.py n’existent pas encore : ne pas prétendre les avoir exécutés. Aucun contrôle live de robots, sitemap public ou indexation pour la préproduction privée. Le digest couvre les métriques disponibles et leurs comparaisons ; avant de publier un nouveau chiffre dérivé (branded/non-branded, top movers, positions 4–20, faible CTR, requêtes non ciblées, pages partageant une requête, decay), étendre et vérifier son calcul déterministe. Une liste non calculée est indisponible, jamais déduite à la main.
+Les outils plan.py, claims.py, citations.py, competitor-watch.py, search-log.py, linkcheck.py et check-seo.py n’existent pas encore : ne pas prétendre les avoir exécutés. Le contrôle public ajouté le 9 octobre ne prouve pas l’indexation. Ne jamais soumettre la préproduction privée aux moteurs. Le digest couvre les métriques disponibles et leurs comparaisons ; avant de publier un nouveau chiffre dérivé (branded/non-branded, top movers, positions 4–20, faible CTR, requêtes non ciblées, pages partageant une requête, decay), étendre et vérifier son calcul déterministe. Une liste non calculée est indisponible, jamais déduite à la main.
 
 A check that did not run is listed under "Checks not run". Never state
 a result for it.
@@ -69,7 +70,7 @@ a result for it.
 - `primary_cta_click` : clic sur le CTA principal. Pas une demande reçue.
 - `form_start` : première interaction avec le formulaire. Pas un envoi.
 - `generate_lead` : stockage du formulaire confirmé. Pas un lead qualifié.
-- Les événements GA4 sont implémentés localement, mais la collecte reste désactivée et ces modifications ne sont pas déployées. Les comptes Contact sont la source des demandes reçues, hors essais TEST. La qualification est indisponible tant qu’elle n’est pas consignée ; un compte de lignes n’est pas un compte d’opportunités distinctes.
+- GA4 est actif après consentement sur les seize pages publiques depuis le 9 octobre 2026. Une vue de page est confirmée ; la réception des trois interactions n’est pas revalidée après cette activation. Les comptes Contact sont la source des demandes reçues, hors essais TEST. La qualification est indisponible tant qu’elle n’est pas consignée ; un compte de lignes n’est pas un compte d’opportunités distinctes. Search Console est reliée au flux GA4 et les rapports d’acquisition publiés ; voir reports/ga4-acquisition-20261009.md.
 
 ## 5. What matters, in order
 
@@ -241,6 +242,8 @@ carried out, in the main repository, and every gate still needs its own
 yes. Nothing in the report starts work on its own.
 
 ## Site adjustments
+
+- 2026-10-09 : production publique et GA4 après consentement actifs. Rapports d’acquisition publiés, Search Console associée ; collecteur et déclencheur conservés. Clôture documentaire du lancement dans SUMMARY.md ; conformité Prometheus complète ouverte. Les états datés ci-dessous restent historiques.
 
 - 2026-10-06 : langue du rapport et échanges : français, opérateur JD. L’analyse est distincte de la collecte Apps Script automatique ; aucune planification de modèle ou notification ajoutée.
 - 2026-10-06 : source principale Nodina-ms, données et rapports Nodina-co/nodina-marketing-analytics privé. GA4 557424928, Search Console sc-domain:nodina.com, Bing https://nodina.com/. Heure de collecte lundi vers 09:00 Europe/Paris, ±15 minutes. Première exécution automatique attendue le 12 octobre, à confirmer au début de la session suivante après cette date.

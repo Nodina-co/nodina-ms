@@ -1,4 +1,6 @@
-# Reporting NODINA — installation en cours
+# Reporting NODINA — collecte hebdomadaire installée
+
+**État du 9 octobre :** site public et GA4 après consentement actifs ; Search Console associée à GA4 et rapports d’acquisition publiés. Bundle, propriétés et déclencheur du 8 octobre conservés. Première exécution automatique attendue le 12 octobre vers 09:00 Paris, non encore observée. Le test du 6 octobre reste provisoire et antérieur au lancement. Les paragraphes datés ci-dessous décrivent leur état historique. [Clôture et reprise](../../SUMMARY.md).
 
 **Mise à jour du 8 octobre après « Go » :** ajout des deux références légales au lecteur ; bundle de 26 898 caractères sauvegardé dans Google et recopié exactement après rechargement. Manifeste identique au fichier local, un seul déclencheur Head / Time-based / uploadWeeklyReport conservé. Propriétés ni ouvertes ni modifiées ; aucune exécution ou nouvel upload. La mise à jour du 7 octobre ci-dessous décrit la migration initiale. [Raccordement préparé et suite](../../reports/contact-cutover-prepared-20261008.md).
 

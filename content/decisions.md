@@ -1,5 +1,9 @@
 **GA4 actif, 9 octobre 2026 :** activation publique autorisée par JD, après consentement ; première vue confirmée dans Realtime, demande enregistrée définie comme événement clé. Reporting existant conservé. [Activation et limites](../reports/ga4-activation-20261009.md). Les états antérieurs ci-dessous sont historiques.
 
+## 2026-10-09 : contrôle final et dossier de clôture du lancement
+
+JD autorise le contrôle final et le dossier Prometheus. Ajouter SUMMARY, règles éditoriales, guide de reprise, transmission et outil de conformité. Lectures publiques bornées : 102 PASS, aucun FAIL, 33 OPEN. Aucun déploiement, formulaire, notification ou screenshot. Les outils/recherches manquants et les preuves différées restent ouverts ; le lancement ne vaut pas achèvement intégral de Prometheus. AGENTS/CLAUDE définitifs différés, sans inventer les requêtes ou les maquettes manquantes. Première collecte automatique attendue le 12 octobre ; paramètres et déclencheur conservés. [Dossier](../SUMMARY.md).
+
 ## 2026-10-09 : Search Console reliée et rapports d’acquisition publiés
 
 JD autorise explicitement le lien Search Console et la finalisation des rapports d’acquisition. Associer la propriété Domain nodina.com au flux NODINA — Web `16047238617` ; création confirmée puis table relue. Enregistrer les rapports par source/medium et par page d’arrivée, retirer le chiffre d’affaires et sélectionner generate_lead pour lire les réceptions sans filtrer les sessions. Publier **SITE: NODINA**, rubrique **Acquisition et contact**, avec ces deux rapports et les deux entonnoirs existants ; quatre raccourcis relus. La collection Search Console apparaît également publiée. Aucun formulaire de test, capture, notification ou déploiement ; Apps Script et son déclencheur conservés. [Configuration et limites](../reports/ga4-acquisition-20261009.md).
