@@ -1,8 +1,10 @@
+**État actuel, 9 octobre :** GA4 public actif après consentement. Les paragraphes datés du 6 et du 7 octobre conservent la préparation et ses limites historiques ; la rétention existante est conservée et les notices publiques sont actualisées. Aucune réception de formulaire simulée.
+
 **Validation du 7 octobre :** JD valide les notices FR/EN et la procédure de conservation manuelle avec revue au moins mensuelle. Les textes ne sont plus en attente de cette validation. L'activation Analytics, ses durées de mesure, les vérifications réelles après activation et le lancement public restent distincts. [Décision et choix suivants](../reports/launch-validation-20261007.md).
 
 # Mesure NODINA — préparation du 6 octobre 2026
 
-Le module GA4 est implémenté dans le gabarit FR/EN et vérifié localement. Il reste **désactivé dans le build courant et non déployé**. Aucun événement du nouveau module n'a été observé dans GA4 Realtime. La préproduction privée reste exclue même si le drapeau d'activation est défini. Les significations suivent [goals.md](goals.md).
+Le module GA4 est activé sur les seize pages publiques depuis le 9 octobre, après accord de JD et consentement du visiteur. Une vue de page est confirmée dans GA4 Realtime. [Activation et limites](../reports/ga4-activation-20261009.md). La préproduction privée reste exclue même si le drapeau d'activation est défini. Les significations suivent [goals.md](goals.md).
 
 | Événement implémenté | Déclenchement | Signification |
 |---|---|---|
@@ -11,9 +13,9 @@ Le module GA4 est implémenté dans le gabarit FR/EN et vérifié localement. Il
 | `form_start` | Première interaction avec le formulaire, une fois par formulaire affiché | Début du formulaire ; aucun envoi confirmé |
 | `generate_lead` | `nodina:contact-recorded` après réponse `ok: true` du service et `data-sent=true`, une fois par formulaire | Demande enregistrée ; aucune qualification commerciale présumée |
 
-Seule la demande enregistrée est proposée comme événement clé GA4 ; clics et débuts restent intermédiaires. Aucun événement de réservation ni paiement en ligne prévu. Chaque événement porte `page_location` (URL canonique), `page_path`, `page_title` (titre du build) et `send_to`. Les trois interactions portent `ref` et `page_ref` : page du clic pour le CTA ; page NODINA précédente connue pour le formulaire, sinon page de contact. Sans referrer même domaine connu, l'origine du parcours reste indisponible. La dimension personnalisée `page_ref` n'est pas encore enregistrée ; le collecteur existant regroupe par `pagePath`.
+La demande enregistrée est définie comme événement clé GA4 ; clics et débuts restent intermédiaires. Aucun événement de réservation ni paiement en ligne prévu. Chaque événement porte `page_location` (URL canonique), `page_path`, `page_title` (titre du build) et `send_to`. Les trois interactions portent `ref` et `page_ref` : page du clic pour le CTA ; page NODINA précédente connue pour le formulaire, sinon page de contact. Sans referrer même domaine connu, l'origine du parcours reste indisponible. La dimension personnalisée `page_ref` est enregistrée avec une portée événement ; le collecteur existant regroupe par `pagePath`.
 
-Le module ne lit aucun champ du formulaire. Ni nom, e-mail, organisation, message ou identifiant de demande envoyé à GA4. URL courante sans query ni fragment ; referrer externe réduit à son origine ; chemins internes limités aux quatorze routes connues, dont confidentialité et cookies FR/EN. Les UTM libres sont exclus de GA4 : l'attribution de campagne attend une convention et une liste de campagnes autorisées. Contact garde séparément son attribution existante.
+Le module ne lit aucun champ du formulaire. Ni nom, e-mail, organisation, message ou identifiant de demande envoyé à GA4. URL courante sans query ni fragment ; referrer externe réduit à son origine ; chemins internes limités aux seize routes connues, dont confidentialité et cookies FR/EN. Les UTM libres sont exclus de GA4 : l'attribution de campagne attend une convention et une liste de campagnes autorisées. Contact garde séparément son attribution existante.
 
 ## Consentement et activation
 

@@ -103,6 +103,9 @@ def main():
         require(plan.get('launchApprovedOn') and all(r['status'] == 'published' and r.get('publishedOn') for r in rows), 'Launch approval and published plan rows are required. No build started.')
         deployment = json.loads((LOCAL / 'deployments.json').read_text())
         require(deployment.get('access') == 'Anyone', 'Public Contact access must be recorded after operator authorization.')
+    analytics = plan.get('analytics', {})
+    analytics_enabled = args.production and analytics.get('enabled') is True
+    require(not analytics_enabled or analytics.get('approvedOn'), 'Analytics activation requires recorded operator approval.')
     LOCAL.mkdir(mode=0o700, parents=True, exist_ok=True)
     os.chmod(LOCAL, 0o700)
     env = dict(os.environ)
@@ -111,7 +114,7 @@ def main():
     proposed = dict(line.split('=', 1) for line in config.read_text().splitlines() if line and not line.startswith('#'))
     endpoint = proposed.get('PUBLIC_CONTACT_ENDPOINT', '')
     require(re.fullmatch(r'https://script\.google\.com/(?:macros/s|a/(?:macros/nodina\.com/s|nodina\.com/macros/s))/[A-Za-z0-9_-]+/exec', endpoint), 'Expected the recorded production Contact /exec endpoint.')
-    env.update({'PUBLIC_CONTACT_ENDPOINT': endpoint, 'PUBLIC_CONTACT_STORAGE': 'per-request', 'PUBLIC_ANALYTICS_ENABLED': 'false', 'PUBLIC_ANALYTICS_PREVIEW': 'false', 'PUBLIC_SITE_STAGE': 'production' if args.production else 'release-candidate'})
+    env.update({'PUBLIC_CONTACT_ENDPOINT': endpoint, 'PUBLIC_CONTACT_STORAGE': 'per-request', 'PUBLIC_ANALYTICS_ENABLED': 'true' if analytics_enabled else 'false', 'PUBLIC_ANALYTICS_PREVIEW': 'false', 'PUBLIC_SITE_STAGE': 'production' if args.production else 'release-candidate'})
     out = LOCAL / ('public-dist' if args.production else 'release-candidate-dist')
     # Clean only the designated generated directory; never touch dist/ or a checkout.
     if out.exists():
@@ -127,7 +130,8 @@ def main():
         page = Page(row['path']); page.feed(source)
         require([a.get('href') for a in page.links if a.get('rel') == 'canonical'] == [ORIGIN + row['path']], 'Wrong canonical: ' + row['path'])
         require('preview-strip' not in source and 'data-legal-draft' not in source, 'Review banner in launch candidate: ' + row['path'])
-        require(json.loads(page.analytics).get('enabled') is False, 'Analytics must remain disabled.')
+        analytics_config = json.loads(page.analytics)
+        require(analytics_config.get('enabled') is analytics_enabled and analytics_config.get('preview') is False, 'Wrong Analytics build state: ' + row['path'])
         require(('noindex' not in page.meta.get('robots', '')) if args.production else ('noindex' in page.meta.get('robots', '')), 'Wrong robots state: ' + row['path'])
         require('todo-fact' not in source.lower() and '[unverified]' not in source.lower(), 'Unresolved source marker: ' + row['path'])
         if row['id'] == 'contact': require('data-storage="per-request"' in source and 'receipt_token' in source and endpoint in source, 'Wrong Contact build.')
@@ -191,11 +195,11 @@ def main():
     payload = {'host':'nodina.com', 'key':key, 'keyLocation':ORIGIN + '/' + key + '.txt', 'urlList':submitted_urls}
     (proposed_dir / 'indexnow.json').write_text(json.dumps(payload, indent=2) + '\n')
     (proposed_dir / 'urls.txt').write_text('\n'.join(ORIGIN + r['path'] for r in rows) + '\n')
-    metadata = {'preparedAtUtc':datetime.now(timezone.utc).isoformat(), 'textAndStructureApprovedOn':plan['textAndStructureApprovedOn'], 'stage':env['PUBLIC_SITE_STAGE'], 'pageCount':len(rows), 'launchApprovedOn':plan.get('launchApprovedOn'), 'analyticsEnabled':False, 'contactPublicAccessRecorded':bool(args.production), 'deployed':False, 'submitted':False, 'sitemapInCandidateContainsPublishedRowsOnly':True, 'readyPagesProposedForIndexing':len(rows), 'pageSha256':hashes}
+    metadata = {'preparedAtUtc':datetime.now(timezone.utc).isoformat(), 'textAndStructureApprovedOn':plan['textAndStructureApprovedOn'], 'stage':env['PUBLIC_SITE_STAGE'], 'pageCount':len(rows), 'launchApprovedOn':plan.get('launchApprovedOn'), 'analyticsEnabled':bool(analytics_enabled), 'analyticsApprovedOn':analytics.get('approvedOn') if analytics_enabled else None, 'contactPublicAccessRecorded':bool(args.production), 'deployed':False, 'submitted':False, 'sitemapInCandidateContainsPublishedRowsOnly':True, 'readyPagesProposedForIndexing':len(rows), 'pageSha256':hashes}
     (LOCAL / 'release-preparation.json').write_text(json.dumps(metadata, indent=2) + '\n'); os.chmod(LOCAL / 'release-preparation.json', 0o600)
     require(not any(part.name.startswith('.') and part.relative_to(out) != Path('.well-known') for part in out.rglob('*')), 'Hidden file in deployable assets.')
     require(not any(p.is_symlink() or p.suffix in {'.map', '.gs', '.py', '.ts', '.astro'} or p.name in {'package.json', 'CNAME'} for p in out.rglob('*') if p.is_file()), 'Internal source in deployable assets.')
-    print('Prepared isolated ' + env['PUBLIC_SITE_STAGE'] + ': 16 pages, Contact per-request, Analytics disabled. No deployment or submission. Active dist/ untouched.')
+    print('Prepared isolated ' + env['PUBLIC_SITE_STAGE'] + ': 16 pages, Contact per-request, Analytics ' + ('enabled after consent' if analytics_enabled else 'disabled') + '. No deployment or submission. Active dist/ untouched.')
     print('Candidate sitemap includes published rows only; the ready-page sitemap and submission payload remain separate proposals.')
 
 

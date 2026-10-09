@@ -1,6 +1,6 @@
 # PLAN — pages de lancement NODINA
 
-Les textes et la structure FR/EN, puis le lancement public, sont approuvés par JD le 9 octobre 2026. Les seize pages sont **published**, sur nodina.com, avec leur date réelle de publication. Contact Production version 2 est public ; GA4 reste désactivé. [Bascule et vérifications](../reports/public-launch-20261009.md).
+Les textes et la structure FR/EN, puis le lancement public, sont approuvés par JD le 9 octobre 2026. Les seize pages sont **published**, sur nodina.com, avec leur date réelle de publication. Contact Production version 2 est public ; GA4 est actif après consentement, avec une première vue confirmée dans Realtime. [Activation](../reports/ga4-activation-20261009.md). [Bascule et vérifications](../reports/public-launch-20261009.md).
 
 Source machine : [publication.json](publication.json). `preview` conserve les bandeaux et noindex ; `release-candidate` reste noindex. `production` exige l’accord de lancement, des pages published datées et l’accès public Contact enregistré.
 

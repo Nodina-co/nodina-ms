@@ -1,3 +1,5 @@
+**GA4 actif, 9 octobre 2026 :** activation publique autorisée par JD, après consentement ; première vue confirmée dans Realtime, demande enregistrée définie comme événement clé. Reporting existant conservé. [Activation et limites](../reports/ga4-activation-20261009.md). Les états antérieurs ci-dessous sont historiques.
+
 **IndexNow, 9 octobre 2026 :** après accord de JD, un lot de 19 URL (16 pages publiées et 3 fichiers de découverte) est reçu en HTTP 202. Validation de clé en attente, réception dans le panneau Bing et indexation non confirmées. GA4 reste désactivé. [Envoi et limites](../reports/submit/2026-10-09-indexnow.md).
 
 **Sitemap, 9 octobre 2026 :** soumission Google/Bing autorisée par JD et enregistrée. Google confirme le traitement et 16 pages découvertes ; Bing Processing. Aucune indexation déduite ni soumission IndexNow. [Confirmations](../reports/sitemap-submission-20261009.md).

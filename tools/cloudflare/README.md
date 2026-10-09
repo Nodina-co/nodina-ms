@@ -6,9 +6,11 @@ La configuration de référence est `wrangler.production.json` ; les fichiers `.
 
 Pour préparer une future version publique, utiliser Node 24 et `python3 tools/build-release.py --production --node <chemin-node24>` : sortie isolée dans `tools/forms/production/.local/public-dist`. Cette commande compile et ne déploie pas. Les métadonnées Google Contact privées locales doivent exister et contenir l’endpoint public confirmé. `dist/` et le candidat noindex ne sont pas le paquet public.
 
+Le build public lit l’accord Analytics dans `content/publication.json` ; le candidat garde GA4 désactivé. Pour actualiser les assets sans toucher aux routes, utiliser `wrangler versions upload --config wrangler.production.json --keep-vars`, puis `wrangler versions deploy <version>@100% --config wrangler.production.json --yes`. Ne pas appeler `triggers deploy` pour cette mise à jour.
+
 Relire la route active avant tout envoi. Ne pas réutiliser une configuration fermée avec `routes: []` sur le Worker public : elle peut retirer le routage. Les droits Wrangler actuels couvrent l’envoi du script ; les opérations de routes/DNS ont été faites via l’interface Cloudflare. La configuration de référence ne garantit pas à elle seule les droits API nécessaires à un futur envoi.
 
-L’ancien GitHub Pages a été dépublié ; conserver les versions Cloudflare pour un retour arrière disponible. GA4 reste désactivé et aucune indexation n’a été soumise.
+L’ancien GitHub Pages a été dépublié ; conserver les versions Cloudflare pour un retour arrière disponible. GA4 est actif après consentement depuis le 9 octobre ; une vue est confirmée dans Realtime. Sitemaps Google/Bing soumis et lot IndexNow reçu en HTTP 202. [Activation et limites](../../reports/ga4-activation-20261009.md).
 
 ---
 

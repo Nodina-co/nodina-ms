@@ -147,5 +147,11 @@
       "modifiedOn": "2026-10-09",
       "publishedOn": "2026-10-09"
     }
-  ]
+  ],
+  "analytics": {
+    "enabled": true,
+    "approvedOn": "2026-10-09",
+    "consentMode": "basic",
+    "measurementId": "G-J8NV7Z1HMX"
+  }
 }

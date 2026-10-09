@@ -1,5 +1,7 @@
 import type { Locale } from './site';
-import { isPreview } from './publication';
+import { isPreview, siteStage } from './publication';
+
+const analyticsEnabled = siteStage === 'production' && import.meta.env.PUBLIC_ANALYTICS_ENABLED === 'true';
 
 // Match the storage setting used by ContactPage.astro.
 const contactStorage = import.meta.env.PUBLIC_CONTACT_STORAGE?.trim() || 'legacy';
@@ -181,3 +183,55 @@ export const legalCopy: Record<Locale, LegalCopy> = {
     },
   },
 };
+
+// Public activation changes these notices; review builds retain their disabled state.
+if (analyticsEnabled) {
+  legalCopy.fr.date = 'Mise à jour du 9 octobre 2026';
+  legalCopy.en.date = 'Updated October 9, 2026';
+  const section = (locale: Locale, policy: 'privacy' | 'cookies', id: string) => {
+    const result = legalCopy[locale][policy].sections.find(row => row.id === id);
+    if (!result) throw new Error(`Missing measurement notice: ${locale}/${policy}/${id}`);
+    return result;
+  };
+  const frMeasurement = section('fr', 'privacy', 'mesure').paragraphs;
+  frMeasurement[0] = 'NODINA utilise Google Analytics pour comprendre les pages consultées et le parcours de contact. Il est chargé uniquement après votre acceptation dans le panneau de choix.';
+  frMeasurement[1] = frMeasurement[1].replace('La mesure prévue', 'La mesure');
+  frMeasurement[3] = 'Cette mesure repose sur votre consentement. Vous pouvez la refuser ou retirer votre accord via les préférences du pied de page. Google Signals et la personnalisation publicitaire sont désactivés dans le module.';
+  section('fr', 'privacy', 'destinataires').paragraphs[2] = 'Google Analytics reçoit les données de mesure uniquement après votre acceptation. Le dépôt privé de reporting conserve des résultats statistiques et des comptes de demandes ; le collecteur n’y exporte ni nom, ni e-mail, ni message.';
+  const frRetention = section('fr', 'privacy', 'durees').paragraphs;
+  frRetention[2] = 'Les réglages Analytics prévoient deux mois pour les données d’événements et quatorze mois pour les données utilisateurs, avec réinitialisation de la durée utilisateur à chaque nouvelle activité. Ces réglages ne fixent pas la durée de tous les rapports agrégés.';
+  frRetention[3] = frRetention[3].replace('cookies de mesure prévus', 'cookies de mesure');
+  section('fr', 'cookies', 'choisir').paragraphs = [
+    'Le panneau propose Accepter et Refuser avec la même présentation. Google Analytics ne se charge pas avant acceptation. Sans accord, les interactions de navigation et de formulaire ne sont pas envoyées à Analytics.',
+    'Le bouton Préférences de mesure, dans le pied de page, permet de rouvrir le panneau et de retirer votre accord. Le retrait bloque la mesure et supprime les cookies Analytics concernés sans effacer le formulaire en cours de rédaction. Les interactions effectuées avant un accord ne sont pas rejouées.',
+    'La mesure est active uniquement après votre acceptation. L’absence du panneau ou du bouton de préférences ne vaut pas acceptation.',
+  ];
+  const frStorage = section('fr', 'cookies', 'stockage');
+  frStorage.paragraphs = ['Le choix et les cookies de mesure sont distincts. Le choix est enregistré dans le navigateur ; les cookies Google Analytics sont utilisés uniquement après acceptation.'];
+  frStorage.items![1] = '_ga et _ga_J8NV7Z1HMX — cookies Google Analytics utilisés uniquement après acceptation. Ils servent aux identifiants de mesure ; durée configurée de 180 jours sans renouvellement automatique. Ils sont supprimés par le module en cas de retrait.';
+  section('fr', 'cookies', 'acces').paragraphs[1] = 'La session d’accès au site de revue est configurée à six heures. Cela ne représente pas la durée de tous les cookies Cloudflare. Le site public nodina.com ne requiert pas cette authentification Access.';
+  const frGoogle = section('fr', 'cookies', 'google');
+  frGoogle.title = 'Les informations de mesure';
+  frGoogle.paragraphs[0] = frGoogle.paragraphs[0].replace('Google recevra', 'Google reçoit');
+
+  const enMeasurement = section('en', 'privacy', 'measurement').paragraphs;
+  enMeasurement[0] = 'NODINA uses Google Analytics to understand page visits and the contact journey. It loads only after you accept in the choice panel.';
+  enMeasurement[1] = enMeasurement[1].replace('The planned measurements', 'Measurements');
+  enMeasurement[3] = 'Measurement relies on your consent. You may decline or withdraw it through the footer preferences. Google Signals and advertising personalization are disabled in the module.';
+  section('en', 'privacy', 'recipients').paragraphs[2] = 'Google Analytics receives measurement data only after your acceptance. The private reporting repository stores statistical results and inquiry counts; the collector does not export names, emails or messages to it.';
+  const enRetention = section('en', 'privacy', 'retention').paragraphs;
+  enRetention[2] = 'Analytics settings specify two months for event data and fourteen months for user data, with the user-data period reset on new activity. These settings do not determine the retention of all aggregated reports.';
+  enRetention[3] = enRetention[3].replace('The planned measurement cookies', 'Measurement cookies');
+  section('en', 'cookies', 'choosing').paragraphs = [
+    'The panel offers Accept and Decline with the same presentation. Google Analytics does not load before acceptance. Without permission, navigation and form interactions are not sent to Analytics.',
+    'The Measurement preferences button in the footer reopens the panel so you can withdraw consent. Withdrawal blocks measurement and deletes the relevant Analytics cookies without clearing a form draft. Interactions that occurred before permission are not replayed.',
+    'Measurement is active only after you accept. The absence of the panel or preference button does not mean acceptance.',
+  ];
+  const enStorage = section('en', 'cookies', 'storage');
+  enStorage.paragraphs = ['Your choice and measurement cookies are separate. The choice is saved in your browser; Google Analytics cookies are used only after acceptance.'];
+  enStorage.items![1] = '_ga and _ga_J8NV7Z1HMX — Google Analytics cookies used only after acceptance. They support measurement identifiers; configured lifetime of 180 days without automatic renewal. The module deletes them on withdrawal.';
+  section('en', 'cookies', 'access').paragraphs[1] = 'The review-site access session is configured for six hours. This is not the lifetime of every Cloudflare cookie. The public nodina.com website does not require Access authentication.';
+  const enGoogle = section('en', 'cookies', 'google');
+  enGoogle.title = 'Measurement information';
+  enGoogle.paragraphs[0] = enGoogle.paragraphs[0].replace('Google will receive', 'Google receives');
+}

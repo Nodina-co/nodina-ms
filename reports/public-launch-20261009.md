@@ -1,3 +1,5 @@
+**Mise à jour ultérieure du 9 octobre :** GA4 activé après accord distinct de JD et consentement du visiteur ; première vue reçue. [Activation et limites](ga4-activation-20261009.md). Le rapport ci-dessous conserve l’état au moment de cette opération.
+
 # NODINA — mise en ligne publique, 9 octobre 2026
 
 Le nouveau site est publié sur [nodina.com](https://nodina.com/fr/) après les accords explicites de JD pour Contact public et pour le site. Les seize pages FR/EN sont publiées le 9 octobre, heure de Paris. JD signale avoir retiré l’ancien GitHub Pages pendant la bascule.
