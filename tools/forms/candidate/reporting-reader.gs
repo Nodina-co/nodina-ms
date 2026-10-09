@@ -14,7 +14,7 @@ function ndParseCounts_(before, rows, after, periods, now, maxAgeSeconds) {
   });
   var out = {source: 'retained-contact-files-v1', hasRefColumn: true, hasQualifiedColumn: false, periods: {}};
   // Only authored page paths may cross into the statistical reporting repository.
-  var publicRefs = ['/fr/', '/fr/selection-des-talents/', '/fr/profils/', '/fr/manifeste/', '/fr/contact/', '/fr/confidentialite/', '/fr/cookies/', '/fr/mentions-legales/', '/en/', '/en/vetting/', '/en/engineers/', '/en/manifesto/', '/en/contact/', '/en/privacy/', '/en/cookies/', '/en/legal-notice/'];
+  var publicRefs = ['/fr/solutions-ia-sur-mesure/', '/fr/equipes-ai-native/', '/en/custom-ai-solutions/', '/en/ai-native-teams/', '/fr/', '/fr/selection-des-talents/', '/fr/profils/', '/fr/manifeste/', '/fr/contact/', '/fr/confidentialite/', '/fr/cookies/', '/fr/mentions-legales/', '/en/', '/en/vetting/', '/en/engineers/', '/en/manifesto/', '/en/contact/', '/en/privacy/', '/en/cookies/', '/en/legal-notice/'];
   Object.keys(periods).forEach(function (name) {
     var p = periods[name];
     if (!validDay(p.start) || !validDay(p.end) || p.start > p.end) throw new Error('Contact period');

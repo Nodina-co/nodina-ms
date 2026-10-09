@@ -1,15 +1,15 @@
 ---
 import { content, route, type Locale } from '../lib/site';
+import { offers } from '../lib/offers';
 interface Props { locale: Locale }
 const { locale: l } = Astro.props;
 const c = content[l];
-const sections = ['offers', 'approach', 'experience', 'faq'];
-const labels = [...c.nav, 'FAQ'];
+const o = offers(l);
 ---
 <footer class="site-footer"><div class="wrap"><div class="footer-main">
-  <div><a class="brand" href={route(l)} aria-label={c.home}><img src="/assets/logo-white.svg" width="134" height="29" alt="NODINA"/></a><p>{c.footer_desc}</p></div>
+  <div><a class="brand" href={route(l)} aria-label={c.home}><img src="/assets/logo-white.svg" width="134" height="29" alt="NODINA"/></a><p>{o.footer}</p></div>
   <nav class="footer-nav" aria-label={l === 'fr' ? 'Navigation de pied de page' : 'Footer navigation'}>
-    {sections.map((section, i) => <a href={route(l) + '#' + section}>{labels[i]}</a>)}
+    <a href={route(l, 'systems')}>{o.solutionsNav}</a><a href={route(l, 'teams')}>{o.teamsNav}</a><a href={route(l) + '#approach'}>{c.nav[1]}</a>
     <a href={route(l, 'vetting')}>{c.select.selection_nav}</a><a href={route(l, 'profiles')}>{c.select.profiles_nav}</a><a href={route(l, 'manifesto')}>{c.select.manifesto_nav}</a><a href={route(l, 'contact')}>Contact</a>
     <a href={route(l, 'privacy')}>{l === 'fr' ? 'Confidentialité' : 'Privacy'}</a><a href={route(l, 'cookies')}>Cookies</a>
     <a href={route(l, 'legal')}>{l === 'fr' ? 'Mentions légales' : 'Legal notice'}</a>

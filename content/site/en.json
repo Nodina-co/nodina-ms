@@ -18,7 +18,7 @@
   "lead": "NODINA brings together senior engineers selected across Europe and Latin America to build your product. Your team is fluent in AI tools and works directly in your codebase and workflows.",
   "explore": "Find the right support",
   "glance": "NODINA at a glance.",
-  "canonical": "NODINA builds your senior engineering team through <strong>AI-native Teams</strong>, our core offering. We select talent across Europe and Latin America and integrate engineers into your projects. As a complementary service, <strong>AI Systems & Transformation</strong> lets you entrust us with an AI system, from scoping through deployment. The two services can be combined around your needs.",
+  "canonical": "NODINA designs and builds <strong>custom AI solutions</strong> connected to business data and software. With <strong>AI-native Teams</strong>, we also bring together senior engineering teams to strengthen your delivery capacity.",
   "proofs": [
     [
       "Selection",
@@ -194,7 +194,7 @@
     ],
     [
       "A scope to define",
-      "AI-native Teams, AI Systems & Transformation, or a need to explore together."
+      "AI-native Teams, Custom AI solutions, or a need to explore together."
     ],
     [
       "A tailored proposal",
@@ -213,7 +213,7 @@
   "offer_options": [
     "Define together",
     "AI-native Teams",
-    "AI Systems & Transformation",
+    "Custom AI solutions",
     "Combine both services"
   ],
   "project_help": "The problem to solve, the people involved, and the main constraints.",
@@ -991,8 +991,8 @@
       ]
     ],
     "manifesto_signoff": "Jean-David Collard · Founder of NODINA",
-    "manifesto_bridge": "Looking for us to deliver a complete AI system? AI Systems & Transformation complements our team offering, from scoping to deployment.",
-    "manifesto_bridge_cta": "Explore AI Systems & Transformation",
+    "manifesto_bridge": "Want to entrust us with an AI system? We scope, build and integrate the solution into your environment.",
+    "manifesto_bridge_cta": "Explore custom AI solutions",
     "team_quotes": {
       "selection": [
         "You have a product to ship. We select engineers who can make decisions, execute and ",

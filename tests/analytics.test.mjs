@@ -41,8 +41,8 @@ test('local consent preview is UI-only, including acceptance', () => {
   assert.equal(f.banner.hidden, false); f.choose('granted'); f.interaction(); f.recorded();
   assert.equal(f.appended.length, 0); assert.equal(f.win.gtag, undefined);
 });
-test('privacy and cookie pages allow withdrawal in both languages', () => {
-  for (const path of ['/fr/confidentialite/', '/fr/cookies/', '/en/privacy/', '/en/cookies/']) {
+test('policy and offer pages require consent and allow withdrawal in both languages', () => {
+  for (const path of ['/fr/confidentialite/', '/fr/cookies/', '/en/privacy/', '/en/cookies/', '/fr/solutions-ia-sur-mesure/', '/fr/equipes-ai-native/', '/en/custom-ai-solutions/', '/en/ai-native-teams/']) {
     const f = fixture({ path, choice: stored('granted') });
     assert.equal(f.preferences.hidden, false); assert.equal(f.appended.length, 1);
     f.preferences.listeners.click(); assert.equal(f.banner.hidden, false); f.choose('denied');
@@ -84,7 +84,7 @@ test('interactions before acceptance are not replayed', () => {
   assert.deepEqual(f.events().map(args => args[1]), ['page_view']);
 });
 test('form attribution uses a known previous site page, with contact as a safe fallback', () => {
-  for (const [referrer, expected] of [['https://nodina.com/fr/profils/?email=private@example.com', '/fr/profils/'], ['https://nodina.com/private/customer-name/', '/fr/contact/'], ['https://nodina.com.evil.test/fr/', '/fr/contact/']]) {
+  for (const [referrer, expected] of [['https://nodina.com/fr/profils/?email=private@example.com', '/fr/profils/'], ['https://nodina.com/fr/solutions-ia-sur-mesure/?email=private@example.com', '/fr/solutions-ia-sur-mesure/'], ['https://nodina.com/en/ai-native-teams/?email=private@example.com', '/en/ai-native-teams/'], ['https://nodina.com/private/customer-name/', '/fr/contact/'], ['https://nodina.com.evil.test/fr/', '/fr/contact/']]) {
     const f = fixture({ referrer }); f.choose('granted'); f.interaction(); f.recorded();
     for (const event of f.events().filter(args => ['form_start','generate_lead'].includes(args[1]))) assert.equal(event[2].page_ref, expected);
     assert.equal(JSON.stringify(f.events()).includes('private@example.com'), false);

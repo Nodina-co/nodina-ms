@@ -1,5 +1,6 @@
 ---
 import { content, route, type Locale } from '../lib/site';
+import { offers } from '../lib/offers';
 interface Props { locale: Locale }
 const { locale: l } = Astro.props;
 const c = content[l];
@@ -19,7 +20,7 @@ const submit = l === 'fr' ? 'Envoyer ma demande' : 'Send my inquiry';
 <main id="content" class="contact-page wrap" data-offer="unknown">
   <a class="text-link back" href={route(l)}>← {c.back}</a>
   <div class="contact-grid"><div>
-    <p class="contact-offer service-label" id="contact-offer" data-service="unknown" data-label-unknown={c.contact_context_unknown} data-label-teams="AI-native Teams" data-label-systems="AI Systems & Transformation" data-label-combined={c.contact_context_combined} aria-live="polite"><span class="service-mark" aria-hidden="true"></span><span data-contact-label>{c.contact_context_unknown}</span></p>
+    <p class="contact-offer service-label" id="contact-offer" data-service="unknown" data-label-unknown={c.contact_context_unknown} data-label-teams="AI-native Teams" data-label-systems={offers(l).systems.label} data-label-combined={c.contact_context_combined} aria-live="polite"><span class="service-mark" aria-hidden="true"></span><span data-contact-label>{c.contact_context_unknown}</span></p>
     <h1 set:html={c.contact_h1}/><p class="contact-lead">{c.contact_lead}</p>
     <div class="contact-facts">{c.contact_facts.map(([title, body]) => <p><strong>{title}</strong>{body}</p>)}</div>
   </div>

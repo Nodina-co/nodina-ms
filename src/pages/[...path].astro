@@ -2,6 +2,7 @@
 import { locales, pageIds, route, type Locale, type PageId } from '../lib/site';
 import SiteLayout from '../layouts/SiteLayout.astro';
 import HomePage from '../components/HomePage.astro';
+import OfferPage from '../components/OfferPage.astro';
 import VettingPage from '../components/VettingPage.astro';
 import ProfilesPage from '../components/ProfilesPage.astro';
 import ManifestoPage from '../components/ManifestoPage.astro';
@@ -14,7 +15,7 @@ export function getStaticPaths() {
 }
 interface Props { locale: Locale; page: PageId }
 const { locale, page } = Astro.props;
-const pages = { home: HomePage, vetting: VettingPage, profiles: ProfilesPage, manifesto: ManifestoPage, contact: ContactPage, privacy: LegalPage, cookies: LegalPage, legal: LegalPage };
+const pages = { home: HomePage, systems: OfferPage, teams: OfferPage, vetting: VettingPage, profiles: ProfilesPage, manifesto: ManifestoPage, contact: ContactPage, privacy: LegalPage, cookies: LegalPage, legal: LegalPage };
 const Page = pages[page];
 ---
 <SiteLayout locale={locale} page={page}><Page locale={locale} page={page}/></SiteLayout>

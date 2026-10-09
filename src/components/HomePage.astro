@@ -1,84 +1,35 @@
 ---
-import { content, route, contactPath, type Locale } from '../lib/site';
+import { route, contactPath, type Locale } from '../lib/site';
+import { offers } from '../lib/offers';
 import Action from './Action.astro';
-import ServiceLabel from './ServiceLabel.astro';
 import SectionHeading from './SectionHeading.astro';
-import TeamTimeline from './TeamTimeline.astro';
-import ProfileTeaser from './ProfileTeaser.astro';
-import QuickStart from './QuickStart.astro';
 interface Props { locale: Locale }
 const { locale: l } = Astro.props;
-const c = content[l];
-const v = c.systems_detail;
+const c = offers(l).home;
 ---
-<main id="content">
-  <section class="hero hero-teams wrap" aria-labelledby="hero-title">
-    <p class="label"><ServiceLabel kind="teams" text={c.category}/></p>
-    <div class="hero-grid"><div><h1 id="hero-title" set:html={c.h1}/><p class="hero-copy">{c.lead}</p><p class="hero-terms">{c.hero_terms}</p>
-      <div class="actions"><Action href={contactPath(l)} label={c.hero_cta} button/><Action href={route(l, 'vetting')} label={c.hero_secondary}/></div>
-    </div></div>
-    <TeamTimeline c={c}/><div class="hero-alternative"><p>{c.hero_systems_prompt}</p><Action href="#systems-detail" label={c.hero_systems_cta}/></div>
+<main id="content" class="offer-home">
+  <section class="offer-hero wrap" aria-labelledby="hero-title">
+    <p class="label">{c.label}</p><h1 id="hero-title">{c.heading}</h1><p class="offer-lead">{c.lead}</p>
+    <div class="actions"><Action href={contactPath(l, 'systems')} label={c.primary} button/><Action href={route(l, 'systems')} label={c.secondary}/></div>
   </section>
-  <section class="partnership wrap" aria-labelledby="partnership-title"><div class="invitation"><p class="label" id="partnership-title"><span aria-hidden="true">●</span> {c.partnership}</p><p>{c.partnership_body}</p></div></section>
-  <section class="intro wrap" aria-labelledby="glance-title"><div class="intro-grid"><h2 id="glance-title" set:html={c.glance}/><p class="canonical" set:html={c.canonical}/></div>
-    <!-- F001 F002 F005: capabilities; claim:C223 claim:C224: founder research background -->
-    <div class="proof-strip">{c.proofs.map(([label, title, body]) => <article><span class="label">{label}</span><h3>{title}</h3><p>{body}</p></article>)}</div>
+  <section class="section wrap" aria-labelledby="problems-title">
+    <SectionHeading label={c.problemsLabel} title={c.problemsTitle} id="problems-title"/>
+    <div class="offer-columns">{c.problems.map(([title, body]) => <article><h3>{title}</h3><p>{body}</p></article>)}</div>
   </section>
-  <section class="offers section wrap" id="offers" aria-labelledby="offers-title">
-    <SectionHeading label={c.offers_label} title={c.offers_title} id="offers-title"/>
-    <div class="need-grid">{c.offer_cards.map(o => <article class="need-card" id={o.id} data-service={o.id}>
-      <p class="label"><ServiceLabel kind={o.id} text={o.name}/></p><h3>{o.need}</h3><p class="need-body">{o.body}</p>
-      <ul>{o.items.map(item => <li>{item}</li>)}</ul><p class="need-outcome">{o.outcome}</p><Action href={o.target} label={o.cta}/>
-    </article>)}</div>
-    <div class="need-help"><div><h3>{c.help_title}</h3><p>{c.help_body}</p></div><Action href={contactPath(l, 'unknown')} label={c.help_cta} button/></div>
-  </section>
-  <section class="working section wrap" id="teams-detail" aria-labelledby="working-title">
-    <SectionHeading label={c.model_label} title={c.model_title} id="working-title" service="teams"/>
-    <div class="commitments">{c.commitments.map(([title, body], i) => <article><span class="number" aria-hidden="true">0{i + 1}</span><h3>{title}</h3><p>{body}</p></article>)}</div>
-    <table class="comparison"><caption>{c.compare_title.split('\n').map((line, i) => <>{i > 0 && <br/>}{line}</>)}<span class="compare-intro">{c.compare_intro}</span></caption>
-      <thead><tr>{c.compare_heads.map((heading, i) => <th scope="col">{heading}{i === 2 && <span class="recommendation">{c.compare_badge}</span>}</th>)}</tr></thead>
-      <tbody>{c.compare_rows.map(row => <tr><th scope="row">{row[0]}</th><td data-label={c.compare_heads[1]}><s>{row[1]}</s></td><td data-label={c.compare_heads[2] + ' · ' + c.compare_badge}>{row[2]}</td></tr>)}</tbody>
-    </table>
-    <p class="comparison-context">{c.compare_badge_context}</p><p class="fine-note comparison-note">{c.compare_note}</p><div class="actions"><Action href={contactPath(l)} label={c.contact}/></div>
-  </section>
-  <section class="talent section wrap" aria-labelledby="talent-title">
-    <SectionHeading label={c.talent_label} title={c.talent_title} id="talent-title" service="teams"/>
-    <div class="editorial-grid"><div><span class="status-label">{c.talent_status}</span></div><div><p class="section-lead">{c.talent_intro}</p>
-      <ul class="talent-points">{c.talent_points.map(([title, body]) => <li><h3>{title}</h3><p>{body}</p></li>)}</ul>
-      <div class="evaluator-teaser"><h3>{c.evaluators_title}</h3><p>{c.evaluators_body}</p></div><Action href={route(l, 'vetting')} label={c.talent_cta}/>
-    </div></div>
-  </section>
-  <ProfileTeaser locale={l}/>
-  <section class="systems-band" id="systems-detail" aria-labelledby="systems-title"><div class="systems-detail section wrap">
-    <SectionHeading label={v.label} title={v.title} id="systems-title" service="systems"/><p class="section-intro">{v.lead}</p><h3 class="systems-subtitle">{v.cases_title}</h3>
-    <div class="system-cases">{v.cases.map(([title, body, kind], i) => <article><span class="number" aria-hidden="true">0{i + 1}</span><h4>{title}</h4><p>{body}</p><span class="case-kind">{kind}</span></article>)}</div>
-    <p class="fine-note">{v.note}</p><div class="system-deliverables"><h3>{v.deliverables_title}</h3><dl>{v.deliverables.map(([title, body]) => <div><dt>{title}</dt><dd>{body}</dd></div>)}</dl></div>
-    <div class="actions"><Action href={contactPath(l, 'systems')} label={v.cta} button/></div>
-  </div></section>
-  <section class="combination wrap" aria-labelledby="combination-title"><div>
-    <p class="label combined-labels"><ServiceLabel kind="teams" text="AI-native Teams"/><span aria-hidden="true">+</span><ServiceLabel kind="systems" text="AI Systems & Transformation"/></p>
-    <h2 id="combination-title">{c.combined.title.split('\n').map((line, i) => <>{i > 0 && <br/>}{line}</>)}</h2>
-  </div><div><p>{c.combined.body}</p><Action href={contactPath(l, 'combined')} label={c.combined.cta}/></div></section>
-  <section class="method" id="approach" aria-labelledby="method-title"><div class="wrap">
-    <div class="section-heading"><span class="label">{c.method_label}</span><div><h2 id="method-title" set:html={c.method_title}/><p>{c.method_intro}</p></div></div>
-    <ol class="steps">{c.steps.map(([title, body, output], i) => <li><span class="step-number" aria-hidden="true">0{i + 1}</span><h3>{title}</h3><p>{body}</p><span class="step-output">{output}</span></li>)}</ol><p class="method-note">{c.method_note}</p>
-  </div></section>
-  <section class="native wrap" aria-labelledby="native-title"><p class="label">{c.native_label}</p><div><h2 id="native-title" set:html={c.native_title}/><p>{c.native_body}</p>
-    <div class="native-tags">{c.native_tags.map(tag => <span>{tag}</span>)}</div><div class="manifesto-link"><Action href={route(l, 'manifesto')} label={c.select.experience_link}/></div>
-  </div></section>
-  <section class="experience section wrap" id="experience" aria-labelledby="experience-title">
-    <SectionHeading label={c.exp_label} title={c.exp_title} id="experience-title"/>
-    <div class="experience-grid"><div class="person-label"><h3>{c.person_title}</h3><p>{c.person_sub.split('\n').map((line, i) => <>{i > 0 && <br/>}{line}</>)}</p><div class="founder-stat"><strong>{c.founder_stat}</strong><span>{c.founder_stat_label}</span></div></div>
-      <div class="founder-copy"><p class="experience-intro">{c.exp_intro}</p><div class="biography">{c.bio.map(paragraph => <p>{paragraph}</p>)}</div></div>
+  <section class="section wrap" id="offers" aria-labelledby="offers-title">
+    <SectionHeading label={c.offersLabel} title={c.offersTitle} id="offers-title"/>
+    <div class="offer-choices">
+      <article class="offer-choice offer-choice-systems"><h3>{c.systemsTitle}</h3><p>{c.systemsBody}</p><Action href={route(l, 'systems')} label={c.systemsLink}/></article>
+      <article class="offer-choice"><h3>{c.teamsTitle}</h3><p>{c.teamsBody}</p><Action href={route(l, 'teams')} label={c.teamsLink}/></article>
     </div>
   </section>
-  <section class="sector-section section wrap" aria-labelledby="sectors-title"><SectionHeading label={c.sectors_label} title={c.sectors_title} id="sectors-title"/>
-    <p class="section-intro">{c.sectors_intro}</p><ul class="sector-list">{c.sectors.map(([title, body]) => <li><h3>{title}</h3><p>{body}</p></li>)}</ul>
-    <div class="sector-references"><p>{c.sectors_references_title}</p><p>{c.sectors_references_body}</p></div>
+  <section class="section wrap" id="experience" aria-labelledby="experience-title">
+    <SectionHeading label={c.proofLabel} title={c.proofTitle} id="experience-title"/>
+    <div class="offer-editorial"><p>{c.proofBody}</p><Action href={route(l, 'manifesto')} label={c.proofLink}/></div>
   </section>
-  <QuickStart locale={l}/>
-  <section class="faq section wrap" id="faq" aria-labelledby="faq-title"><div><p class="label">{c.faq_label}</p><h2 id="faq-title" set:html={c.faq_title}/></div>
-    <div class="faq-list">{c.faqs.map(([title, body]) => <details><summary>{title}</summary><p>{body}</p></details>)}</div>
+  <section class="section wrap" id="approach" aria-labelledby="method-title">
+    <SectionHeading label={c.methodLabel} title={c.methodTitle} id="method-title"/>
+    <ol class="offer-columns offer-steps">{c.steps.map(([title, body], i) => <li><span class="label" aria-hidden="true">0{i + 1}</span><h3>{title}</h3><p>{body}</p></li>)}</ol>
   </section>
-  <section class="final-cta wrap" aria-labelledby="contact-title"><h2 id="contact-title" set:html={c.cta_title}/><div><p>{c.cta_body}</p><div class="actions"><Action href={route(l, 'contact')} label={c.contact} button/></div><p class="label">{c.cta_note}</p></div></section>
+  <section class="offer-closing wrap" aria-labelledby="contact-title"><h2 id="contact-title">{c.closing}</h2><p>{c.closingBody}</p><Action href={contactPath(l, 'systems')} label={c.primary} button/></section>
 </main>

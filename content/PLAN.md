@@ -2,6 +2,8 @@
 
 Les textes et la structure FR/EN, puis le lancement public, sont approuvés par JD le 9 octobre 2026. Les seize pages sont **published**, sur nodina.com, avec leur date réelle de publication. Contact Production version 2 est public ; GA4 est actif après consentement, avec une première vue confirmée dans Realtime. [Activation](../reports/ga4-activation-20261009.md). [Bascule et vérifications](../reports/public-launch-20261009.md).
 
+**Révision du 9 octobre, non publiée :** la home FR/EN est en relecture (`reviewPending`), avec quatre pages d’offre en brouillon. Les dates d’accord des homes ci-dessous concernent la version publique précédente. La compilation du candidat public est bloquée tant que la révision n’est pas validée. [Dossier de préparation](../reports/offers-restructure-20261009.md).
+
 Source machine : [publication.json](publication.json). `preview` conserve les bandeaux et noindex ; `release-candidate` reste noindex. `production` exige l’accord de lancement, des pages published datées et l’accès public Contact enregistré.
 
 | Page | Langue | Chemin canonique | État | Texte/structure validés | Modifiée | Publiée |
@@ -22,6 +24,10 @@ Source machine : [publication.json](publication.json). `preview` conserve les ba
 | privacy | en | /en/privacy/ | published | 2026-10-09 | 2026-10-09 | 2026-10-09 |
 | cookies | en | /en/cookies/ | published | 2026-10-09 | 2026-10-09 | 2026-10-09 |
 | legal | en | /en/legal-notice/ | published | 2026-10-09 | 2026-10-09 | 2026-10-09 |
+| systems | fr | /fr/solutions-ia-sur-mesure/ | draft | À valider | 2026-10-09 | — |
+| teams | fr | /fr/equipes-ai-native/ | draft | À valider | 2026-10-09 | — |
+| systems | en | /en/custom-ai-solutions/ | draft | À valider | 2026-10-09 | — |
+| teams | en | /en/ai-native-teams/ | draft | À valider | 2026-10-09 | — |
 
 ## Plan éditorial restant
 

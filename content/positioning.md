@@ -1,3 +1,5 @@
+**Révision de travail — 9 octobre 2026 :** JD autorise la préparation d’une home centrée sur les solutions IA intégrées aux opérations, avec AI-native Teams en seconde offre. Cette priorité remplace celle du 3 octobre pour la nouvelle prévisualisation. « Solutions IA sur mesure » est le nom public proposé pour la réalisation ; les textes et le nom restent à relire avant publication. Le cadrage historique ci-dessous et la version publique précédente sont conservés. [Plan et limites](../reports/offers-restructure-20261009.md).
+
 # Positionnement NODINA — proposition de Phase 1
 
 Actualisé le 2026-10-02. Positionnement premium, collectif et deux offres acquis. JD demande de passer à l’étape suivante après présentation du référentiel et du positionnement : cadrage retenu pour la préparation technique et visuelle. Formulations publiques finales à relire dans les pages ; aucune publication autorisée. Relevés de visibilité encore partiels.

@@ -1,0 +1,47 @@
+---
+import { route, contactPath, type Locale } from '../lib/site';
+import { offers } from '../lib/offers';
+import Action from './Action.astro';
+import SectionHeading from './SectionHeading.astro';
+interface Props { locale: Locale; page: 'systems' | 'teams' }
+const { locale: l, page } = Astro.props;
+const copy = offers(l), c = copy[page];
+const systems = copy.systems, teams = copy.teams;
+const alternative = page === 'systems' ? 'teams' : 'systems';
+---
+<main id="content" class="service-page" data-service={page}>
+  <section class="offer-hero wrap" aria-labelledby="hero-title">
+    <p class="label">{c.label}</p><h1 id="hero-title">{c.heading}</h1><p class="offer-context">{c.context}</p><p class="offer-lead">{c.lead}</p>
+    <div class="actions"><Action href={contactPath(l, page)} label={c.primary} button/></div>
+  </section>
+  {page === 'systems' ? <>
+    <section class="section wrap" aria-labelledby="cases-title">
+      <SectionHeading label={systems.casesLabel} title={systems.casesTitle} id="cases-title"/>
+      <div class="offer-columns">{systems.cases.map(([title, body]) => <article><h3>{title}</h3><p>{body}</p></article>)}</div>
+      <p class="offer-note">{systems.examplesNote}</p>
+    </section>
+    <section class="section wrap" aria-labelledby="delivery-title">
+      <SectionHeading label={systems.deliveryLabel} title={systems.deliveryTitle} id="delivery-title"/>
+      <div class="offer-columns">{systems.deliverables.map(([title, body]) => <article><h3>{title}</h3><p>{body}</p></article>)}</div>
+    </section>
+    <section class="section wrap" aria-labelledby="fit-title">
+      <SectionHeading label={systems.fitLabel} title={systems.fitTitle} id="fit-title"/>
+      <div class="offer-editorial"><p>{systems.fitBody}</p><ul class="offer-fit">{systems.fitPoints.map(point => <li>{point}</li>)}</ul></div>
+    </section>
+  </> : <>
+    <section class="section wrap" aria-labelledby="scope-title">
+      <SectionHeading label={teams.scopeLabel} title={teams.scopeTitle} id="scope-title"/>
+      <div class="offer-columns">{teams.scope.map(([title, body]) => <article><h3>{title}</h3><p>{body}</p></article>)}</div>
+    </section>
+    <section class="section wrap" aria-labelledby="selection-title">
+      <SectionHeading label={teams.selectionLabel} title={teams.selectionTitle} id="selection-title"/>
+      <div class="offer-editorial"><p>{teams.selectionBody}</p><div class="actions"><Action href={route(l, 'vetting')} label={teams.selectionLink}/><Action href={route(l, 'profiles')} label={teams.profilesLink}/></div></div>
+    </section>
+    <section class="section wrap" aria-labelledby="working-title">
+      <SectionHeading label={teams.workingLabel} title={teams.workingTitle} id="working-title"/>
+      <div class="offer-columns">{teams.working.map(([title, body]) => <article><h3>{title}</h3><p>{body}</p></article>)}</div>
+      <p class="offer-note">{teams.note}</p>
+    </section>
+  </>}
+  <section class="offer-closing wrap" aria-labelledby="contact-title"><h2 id="contact-title">{c.closing}</h2><p>{c.closingBody}</p><Action href={contactPath(l, page)} label={c.primary} button/><div class="offer-alternative"><p>{c.alternative}</p><Action href={route(l, alternative)} label={c.alternativeLink}/></div></section>
+</main>

@@ -1,3 +1,9 @@
+## 2026-10-09 : préparation d’une home courte et de deux pages d’offre
+
+Après le retour sur la densité de la home, JD répond « ok Go » à la proposition de privilégier les solutions IA intégrées aux opérations et de séparer réalisation et renfort d’équipe. Préparer la home et les pages Solutions IA sur mesure / AI-native Teams en FR/EN, dans le design existant, avec problème, solution, périmètre et contact. La supériorité commerciale de cet angle reste une hypothèse à mesurer, pas un résultat acquis. Le nouveau nom public des solutions est proposé dans les textes à relire ; aucun sens nouveau n’est attribué à « AICC workflow ».
+
+Prévisualisation locale seulement : compilation publique bloquée par les révisions en attente ; artifact public conservé. GA4 et le lecteur Reporting local connaissent les quatre routes supplémentaires. Le bundle Google existant et son déclencheur restent inchangés ; mettre à jour son lecteur avant publication. Pas de formulaire de test, notification ni screenshot. [Résultat et contrôles](../reports/offers-restructure-20261009.md).
+
 **GA4 actif, 9 octobre 2026 :** activation publique autorisée par JD, après consentement ; première vue confirmée dans Realtime, demande enregistrée définie comme événement clé. Reporting existant conservé. [Activation et limites](../reports/ga4-activation-20261009.md). Les états antérieurs ci-dessous sont historiques.
 
 ## 2026-10-09 : contrôle final et dossier de clôture du lancement

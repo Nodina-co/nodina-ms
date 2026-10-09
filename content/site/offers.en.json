@@ -1,0 +1,166 @@
+{
+  "home": {
+    "title": "Custom AI solutions for your operations | NODINA",
+    "description": "NODINA designs and builds AI solutions connected to your data and software. Entrust us with delivery or strengthen your engineering team.",
+    "label": "Custom AI solutions",
+    "heading": "AI connected to your operations.",
+    "lead": "We design and build solutions connected to your data and software, to automate the tasks that slow your business down.",
+    "primary": "Discuss my project",
+    "secondary": "Explore our solutions",
+    "problemsLabel": "Your starting point",
+    "problemsTitle": "A process to improve. A system to build.",
+    "problems": [
+      [
+        "Too much manual processing",
+        "Information to extract, check and move from one document to another."
+      ],
+      [
+        "Scattered knowledge",
+        "Answers to find across sources, with references and the right access permissions."
+      ],
+      [
+        "Disconnected tools",
+        "Operations to connect across your software, with checks at important steps."
+      ]
+    ],
+    "offersLabel": "Two ways to work together",
+    "offersTitle": "A solution to deliver. Or a team to strengthen.",
+    "systemsTitle": "Custom AI solutions",
+    "systemsBody": "You bring a business need. We scope, build and integrate the system into your environment.",
+    "systemsLink": "Entrust us with delivery",
+    "teamsTitle": "AI-native Teams",
+    "teamsBody": "You lead your product. We bring together senior engineers and coordinate their collaboration with your team.",
+    "teamsLink": "Strengthen my team",
+    "proofLabel": "The experience behind the project",
+    "proofTitle": "Engineering decisions grounded in experience.",
+    "proofBody": "Jean-David Collard, NODINA’s founder, brings more than fifteen years of experience in products, hiring and management, alongside a PhD in computer science. That experience guides project scoping and team composition.",
+    "proofLink": "Meet NODINA",
+    "methodLabel": "Our approach",
+    "methodTitle": "From the problem to an integrated system.",
+    "steps": [
+      [
+        "Scope",
+        "Define the need, assess existing tools and agree on success criteria."
+      ],
+      [
+        "Build",
+        "Develop components and integrations, then evaluate the result against your use case."
+      ],
+      [
+        "Integrate",
+        "Prepare deployment and handover. Define responsibilities and the agreed follow-up."
+      ]
+    ],
+    "closing": "Which process do you want to improve?",
+    "closingBody": "Let’s discuss your needs, your tools and what the solution should make possible."
+  },
+  "systems": {
+    "title": "Custom AI development and integration | NODINA",
+    "description": "Document processing, knowledge search and connected workflows: NODINA scopes, builds and integrates your custom AI solution.",
+    "label": "Custom AI solutions",
+    "heading": "Your business need. An integrated AI solution.",
+    "context": "A manual process takes too much time. Or an AI use case remains an experiment.",
+    "lead": "Your data, software and constraints need to work together for a system to become part of daily operations. NODINA handles scoping, development and integration within the agreed scope.",
+    "primary": "Discuss the system to build",
+    "casesLabel": "What we can build",
+    "casesTitle": "Start with a specific use case.",
+    "cases": [
+      [
+        "Process your documents",
+        "Extract and structure information, verify results and send data to your business tools."
+      ],
+      [
+        "Find your knowledge",
+        "Search your sources with referenced answers and access suited to each user."
+      ],
+      [
+        "Connect your operations",
+        "Orchestrate actions across software while keeping human checkpoints."
+      ]
+    ],
+    "examplesNote": "Examples of possible systems, to be scoped around your data and constraints. AI can also be integrated into an existing product.",
+    "deliveryLabel": "The delivery scope",
+    "deliveryTitle": "What you entrust to us.",
+    "deliverables": [
+      [
+        "Project scoping",
+        "Target use case, data, constraints and success criteria. Custom development is chosen when an existing tool is insufficient."
+      ],
+      [
+        "A developed and evaluated system",
+        "Code, integrations, tests and evaluations against your use cases. Engineering decisions are documented."
+      ],
+      [
+        "Prepared integration",
+        "Deployment, documentation and handover. Operations, maintenance and responsibilities are defined in the proposal."
+      ]
+    ],
+    "fitLabel": "Before we start",
+    "fitTitle": "A project grounded in your organization.",
+    "fitBody": "Together, we clarify the cost of the problem, the expected outcome and an initial scope. We review available data, access and constraints with the people involved.",
+    "fitPoints": [
+      "An involved business owner",
+      "Data and tools accessible within an agreed framework",
+      "Criteria to evaluate the solution’s value"
+    ],
+    "closing": "Let’s start with your process.",
+    "closingBody": "Describe what is getting in the way and what you want to make possible. We’ll discuss project fit and next steps.",
+    "alternative": "Want to keep control of development?",
+    "alternativeLink": "Explore AI-native Teams"
+  },
+  "teams": {
+    "title": "AI-native Teams: your senior engineering team | NODINA",
+    "description": "Strengthen your delivery capacity with senior engineers selected by NODINA, working in your tools, toward your priorities and alongside your team.",
+    "label": "AI-native Teams",
+    "heading": "Your roadmap. The engineers to move it forward.",
+    "context": "Your product is moving forward, but your team needs more capacity or a senior skill.",
+    "lead": "NODINA builds a team around your needs and coordinates its integration into your project. You keep control of priorities; engineers work in your code and tools, with an evaluated approach to AI.",
+    "primary": "Discuss my team",
+    "scopeLabel": "Around your needs",
+    "scopeTitle": "Targeted reinforcement or a dedicated team.",
+    "scope": [
+      [
+        "Build the product",
+        "Software and product engineering skills matched to your project."
+      ],
+      [
+        "Build with AI",
+        "Profiles for AI systems, integrations and evaluation, depending on the scope."
+      ],
+      [
+        "Strengthen engineering decisions",
+        "Architecture or technical leadership to support your team."
+      ]
+    ],
+    "selectionLabel": "NODINA Select",
+    "selectionTitle": "Skills assessed in practice.",
+    "selectionBody": "Code, command of AI tools and teamwork are assessed by experienced CTOs and lead developers. We select talent in Europe and Latin America around each project’s needs.",
+    "selectionLink": "See our selection method",
+    "profilesLink": "Explore the profiles",
+    "workingLabel": "Working together",
+    "workingTitle": "A team integrated into the way you work.",
+    "working": [
+      [
+        "Your priorities and tools",
+        "Engineers work in your repositories and join your rituals. Responsibilities are defined together."
+      ],
+      [
+        "Agreed terms",
+        "Team composition, pace, duration and terms are set out in the proposal. No equity stake or recruitment fees."
+      ],
+      [
+        "Prepared continuity",
+        "Code review, documentation and context sharing. Handover arrangements are scoped from the start."
+      ]
+    ],
+    "note": "Team composition and start dates depend on the required skills and actual availability.",
+    "closing": "What capacity do you need?",
+    "closingBody": "Let’s discuss your product, your current team and the next steps on your roadmap.",
+    "alternative": "Prefer to entrust us with system delivery?",
+    "alternativeLink": "Explore custom AI solutions"
+  },
+  "footer": "Custom AI solutions and senior engineering teams.",
+  "solutionsNav": "AI solutions",
+  "teamsNav": "AI-native Teams",
+  "aboutNav": "NODINA"
+}

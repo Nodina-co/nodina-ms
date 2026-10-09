@@ -10,7 +10,8 @@
       "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": "2026-10-09"
+      "publishedOn": "2026-10-09",
+      "reviewPending": true
     },
     {
       "id": "vetting",
@@ -82,7 +83,8 @@
       "status": "published",
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
-      "publishedOn": "2026-10-09"
+      "publishedOn": "2026-10-09",
+      "reviewPending": true
     },
     {
       "id": "vetting",
@@ -146,6 +148,46 @@
       "approvedOn": "2026-10-09",
       "modifiedOn": "2026-10-09",
       "publishedOn": "2026-10-09"
+    },
+    {
+      "id": "systems",
+      "locale": "fr",
+      "path": "/fr/solutions-ia-sur-mesure/",
+      "status": "draft",
+      "approvedOn": null,
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null,
+      "reviewPending": true
+    },
+    {
+      "id": "teams",
+      "locale": "fr",
+      "path": "/fr/equipes-ai-native/",
+      "status": "draft",
+      "approvedOn": null,
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null,
+      "reviewPending": true
+    },
+    {
+      "id": "systems",
+      "locale": "en",
+      "path": "/en/custom-ai-solutions/",
+      "status": "draft",
+      "approvedOn": null,
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null,
+      "reviewPending": true
+    },
+    {
+      "id": "teams",
+      "locale": "en",
+      "path": "/en/ai-native-teams/",
+      "status": "draft",
+      "approvedOn": null,
+      "modifiedOn": "2026-10-09",
+      "publishedOn": null,
+      "reviewPending": true
     }
   ],
   "analytics": {

@@ -1,3 +1,14 @@
+// Offer details now have dedicated pages; retain their old entry points.
+const offerDestinations = {
+  '/fr/': { '#teams-detail': '/fr/equipes-ai-native/', '#systems-detail': '/fr/solutions-ia-sur-mesure/' },
+  '/en/': { '#teams-detail': '/en/ai-native-teams/', '#systems-detail': '/en/custom-ai-solutions/' },
+};
+const offerDestination = offerDestinations[location.pathname]?.[location.hash];
+if (offerDestination) {
+  const target = new URL(offerDestination, location.origin);
+  target.search = location.search;
+  location.replace(target.href);
+}
 // Preserve links to the sections of the former one-page public site.
 if (location.pathname === '/fr/') {
   const legacyAnchors = {

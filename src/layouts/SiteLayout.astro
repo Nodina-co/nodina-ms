@@ -11,6 +11,7 @@ import '../styles/select.css';
 import '../styles/forms.css';
 import '../styles/analytics.css';
 import '../styles/legal.css';
+import '../styles/offers.css';
 interface Props { locale: Locale; page: PageId; title?: string; description?: string }
 const { locale, page } = Astro.props;
 const c = content[locale];
@@ -21,6 +22,7 @@ const graph = {
     { '@type': 'Organization', '@id': origin + '/#organization', name: 'NODINA', url: origin, logo: origin + '/assets/logomark.svg' },
     { '@type': 'WebSite', '@id': origin + '/#website', url: origin, name: 'NODINA', publisher: { '@id': origin + '/#organization' }, inLanguage: ['fr-FR', 'en-US'] },
     { '@type': 'WebPage', '@id': canonical + '#webpage', url: canonical, name: title, description, inLanguage: c.lang, isPartOf: { '@id': origin + '/#website' } },
+    ...(['systems', 'teams'].includes(page) ? [{ '@type': 'Service', '@id': canonical + '#service', name: page === 'teams' ? 'AI-native Teams' : (locale === 'fr' ? 'Solutions IA sur mesure' : 'Custom AI solutions'), description, url: canonical, provider: { '@id': origin + '/#organization' } }] : []),
   ],
 };
 ---

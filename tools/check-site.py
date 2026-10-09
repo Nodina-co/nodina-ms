@@ -7,8 +7,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1] / "dist"
 ROUTES = {
-    "fr": ["/fr/", "/fr/selection-des-talents/", "/fr/profils/", "/fr/manifeste/", "/fr/contact/", "/fr/confidentialite/", "/fr/cookies/", "/fr/mentions-legales/"],
-    "en": ["/en/", "/en/vetting/", "/en/engineers/", "/en/manifesto/", "/en/contact/", "/en/privacy/", "/en/cookies/", "/en/legal-notice/"],
+    "fr": ["/fr/", "/fr/selection-des-talents/", "/fr/profils/", "/fr/manifeste/", "/fr/contact/", "/fr/confidentialite/", "/fr/cookies/", "/fr/mentions-legales/", "/fr/solutions-ia-sur-mesure/", "/fr/equipes-ai-native/"],
+    "en": ["/en/", "/en/vetting/", "/en/engineers/", "/en/manifesto/", "/en/contact/", "/en/privacy/", "/en/cookies/", "/en/legal-notice/", "/en/custom-ai-solutions/", "/en/ai-native-teams/"],
 }
 
 
@@ -76,9 +76,9 @@ def check():
             require(any('data-analytics-preferences' in a and 'hidden' in a for a in page.attrs('button')), 'measurement preferences must start hidden')
             require({a.get('data-analytics-choice') for a in page.attrs('button') if 'data-analytics-choice' in a} == {'denied','granted'}, 'missing accept or decline choice')
             require(not any(urlsplit(a.get('src','')).hostname in ['www.googletagmanager.com','www.google-analytics.com'] for a in scripts), 'Google tag must not be preloaded before consent')
-            for policy in ROUTES[locale][5:]:
+            for policy in ROUTES[locale][5:8]:
                 require(any(a.get('href') == policy for a in page.attrs('a')), f'missing policy link: {policy}')
-            if index >= 5:
+            if 5 <= index <= 7:
                 require(any('data-legal-draft' in a for a in page.attrs('aside')), 'unapproved policy must retain its draft notice')
             for tag, attr in page.elements:
                 if tag == 'img':

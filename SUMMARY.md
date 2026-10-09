@@ -1,5 +1,7 @@
 # NODINA — dossier de clôture du lancement
 
+**Révision en prévisualisation — 9 octobre 2026 :** après le retour de JD sur la densité des pages, une home courte et deux pages d’offre dédiées sont préparées en FR/EN. Priorité proposée et retenue pour cette préparation : solutions IA sur mesure intégrées aux opérations, puis AI-native Teams. Les textes restent à relire ; aucun nouveau déploiement public. Le site public ci-dessous décrit la version conservée. [Révision, vérifications et suite](reports/offers-restructure-20261009.md). Le plan source comporte maintenant vingt routes, dont quatre brouillons, et bloque la compilation publique pendant cette relecture.
+
 État au **9 octobre 2026**, sous la responsabilité de Jean-David Collard (JD, `jd@nodina.com`). **Le lancement public est réalisé. La procédure Prometheus complète reste partiellement ouverte**, principalement pour la recherche éditoriale et les outils de maintenance. Le présent dossier clôture la mise en production et organise la reprise ; il ne certifie pas l’achèvement de toutes les phases de la fondation.
 
 Contrôle final : **102 PASS, 0 FAIL, 33 OPEN**. Les seize HTML publics et les sept fichiers de découverte relus sont identiques au paquet conservé ; redirections HTTPS/www, réponse 404 et accès avec les user agents déclarés contrôlés. Cela ne prouve pas l’exploration depuis les IP des moteurs. Les NS Cloudflare, MX Google et la présence SPF/DKIM/DMARC sont relus via DNS public ; aucun envoi mail n’a été testé.

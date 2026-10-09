@@ -18,7 +18,7 @@
   "lead": "NODINA réunit des ingénieurs senior, sélectionnés en Europe et en Amérique latine, pour développer votre produit. Une équipe qui maîtrise les outils IA et travaille directement dans votre code et vos outils.",
   "explore": "Trouver le bon accompagnement",
   "glance": "NODINA en quelques mots.",
-  "canonical": "NODINA constitue votre équipe d’ingénieurs senior avec <strong>AI-native Teams</strong>, son offre principale. Nous sélectionnons les talents en Europe et en Amérique latine et organisons leur intégration à vos projets. En complément, <strong>AI Systems & Transformation</strong> vous permet de nous confier la réalisation d’un système IA, du cadrage au déploiement. Les deux offres peuvent se combiner selon votre besoin.",
+  "canonical": "NODINA conçoit et développe des <strong>solutions IA sur mesure</strong>, connectées aux données et aux logiciels des entreprises. Avec <strong>AI-native Teams</strong>, nous constituons aussi des équipes d’ingénieurs senior pour renforcer votre capacité de développement.",
   "proofs": [
     [
       "La sélection",
@@ -194,7 +194,7 @@
     ],
     [
       "Un périmètre à définir",
-      "AI-native Teams, AI Systems & Transformation, ou un besoin à préciser."
+      "AI-native Teams, Solutions IA sur mesure, ou un besoin à préciser."
     ],
     [
       "Sur devis",
@@ -213,7 +213,7 @@
   "offer_options": [
     "À définir ensemble",
     "AI-native Teams",
-    "AI Systems & Transformation",
+    "Solutions IA sur mesure",
     "Combiner les deux offres"
   ],
   "project_help": "Le problème à résoudre, les utilisateurs et les contraintes importantes.",
@@ -991,8 +991,8 @@
       ]
     ],
     "manifesto_signoff": "Jean-David Collard · Fondateur de NODINA",
-    "manifesto_bridge": "Vous souhaitez nous confier la réalisation complète d’un système IA ? AI Systems & Transformation complète notre offre d’équipes, du cadrage au déploiement.",
-    "manifesto_bridge_cta": "Découvrir AI Systems & Transformation",
+    "manifesto_bridge": "Vous souhaitez nous confier la réalisation d’un système IA ? Nous cadrons, développons et intégrons la solution dans votre environnement.",
+    "manifesto_bridge_cta": "Découvrir les solutions IA sur mesure",
     "team_quotes": {
       "selection": [
         "Vous avez un produit à livrer. Nous sélectionnons des ingénieurs qui savent décider, exécuter et ",

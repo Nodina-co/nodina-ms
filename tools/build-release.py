@@ -97,7 +97,8 @@ def main():
     plan = json.loads((ROOT / 'content/publication.json').read_text())
     require(plan['origin'] == ORIGIN, 'Unexpected production origin.')
     rows = plan['pages']
-    require(len(rows) == 16 and len({r['path'] for r in rows}) == 16, 'Expected exactly sixteen approved localized pages.')
+    require(rows and len({r['path'] for r in rows}) == len(rows), 'Expected unique localized publication rows.')
+    require(not any(r.get('reviewPending') for r in rows), 'Editorial revision awaits approval before candidate or public compilation.')
     require(all(r['approvedOn'] and r['status'] in {'ready', 'published'} and re.fullmatch(r'/((fr|en)/)([a-z-]+/)?', r['path']) for r in rows), 'Unapproved or invalid plan row.')
     if args.production:
         require(plan.get('launchApprovedOn') and all(r['status'] == 'published' and r.get('publishedOn') for r in rows), 'Launch approval and published plan rows are required. No build started.')
@@ -199,7 +200,7 @@ def main():
     (LOCAL / 'release-preparation.json').write_text(json.dumps(metadata, indent=2) + '\n'); os.chmod(LOCAL / 'release-preparation.json', 0o600)
     require(not any(part.name.startswith('.') and part.relative_to(out) != Path('.well-known') for part in out.rglob('*')), 'Hidden file in deployable assets.')
     require(not any(p.is_symlink() or p.suffix in {'.map', '.gs', '.py', '.ts', '.astro'} or p.name in {'package.json', 'CNAME'} for p in out.rglob('*') if p.is_file()), 'Internal source in deployable assets.')
-    print('Prepared isolated ' + env['PUBLIC_SITE_STAGE'] + ': 16 pages, Contact per-request, Analytics ' + ('enabled after consent' if analytics_enabled else 'disabled') + '. No deployment or submission. Active dist/ untouched.')
+    print('Prepared isolated ' + env['PUBLIC_SITE_STAGE'] + ': ' + str(len(rows)) + ' pages, Contact per-request, Analytics ' + ('enabled after consent' if analytics_enabled else 'disabled') + '. No deployment or submission. Active dist/ untouched.')
     print('Candidate sitemap includes published rows only; the ready-page sitemap and submission payload remain separate proposals.')
 
 

@@ -1,24 +1,28 @@
 import fr from '../../content/site/fr.json';
 import en from '../../content/site/en.json';
+import { offers } from './offers';
 
 export const locales = ['fr', 'en'] as const;
 export type Locale = typeof locales[number];
-export const pageIds = ['home', 'vetting', 'profiles', 'manifesto', 'contact', 'privacy', 'cookies', 'legal'] as const;
+export const pageIds = ['home', 'vetting', 'profiles', 'manifesto', 'contact', 'privacy', 'cookies', 'legal', 'systems', 'teams'] as const;
 export type PageId = typeof pageIds[number];
 export const content = { fr, en };
 export type Copy = typeof fr | typeof en;
 export const origin = 'https://nodina.com';
 export const paths: Record<Locale, Record<PageId, string>> = {
-  fr: { home: '/fr/', vetting: '/fr/selection-des-talents/', profiles: '/fr/profils/', manifesto: '/fr/manifeste/', contact: '/fr/contact/', privacy: '/fr/confidentialite/', cookies: '/fr/cookies/', legal: '/fr/mentions-legales/' },
-  en: { home: '/en/', vetting: '/en/vetting/', profiles: '/en/engineers/', manifesto: '/en/manifesto/', contact: '/en/contact/', privacy: '/en/privacy/', cookies: '/en/cookies/', legal: '/en/legal-notice/' },
+  fr: { home: '/fr/', vetting: '/fr/selection-des-talents/', profiles: '/fr/profils/', manifesto: '/fr/manifeste/', contact: '/fr/contact/', privacy: '/fr/confidentialite/', cookies: '/fr/cookies/', legal: '/fr/mentions-legales/', systems: '/fr/solutions-ia-sur-mesure/', teams: '/fr/equipes-ai-native/' },
+  en: { home: '/en/', vetting: '/en/vetting/', profiles: '/en/engineers/', manifesto: '/en/manifesto/', contact: '/en/contact/', privacy: '/en/privacy/', cookies: '/en/cookies/', legal: '/en/legal-notice/', systems: '/en/custom-ai-solutions/', teams: '/en/ai-native-teams/' },
 };
 export const route = (locale: Locale, page: PageId = 'home') => paths[locale][page];
 export const contactPath = (locale: Locale, offer = 'teams') => `${route(locale, 'contact')}?offer=${offer}`;
 export function metadata(locale: Locale, page: PageId) {
   const c = content[locale];
   const s = c.select;
+  const offer = offers(locale);
   const metas = {
-    home: [c.title, c.description],
+    home: [offer.home.title, offer.home.description],
+    systems: [offer.systems.title, offer.systems.description],
+    teams: [offer.teams.title, offer.teams.description],
     vetting: [c.vetting.title, s.hero_lead],
     profiles: [s.profiles_page_title, s.profiles_page_lead],
     manifesto: [s.manifesto_page_title, s.manifesto_lead],

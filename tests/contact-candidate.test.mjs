@@ -327,6 +327,13 @@ test('reader rejects stale, torn, unbounded or visitor-bearing summaries, and re
   const read=(before=meta,values=rows,after=before,time=now)=>f.context.ndParseCounts_(before,values,after,periods,time,86400);
   assert.equal(read()[0].periods.current.leads,2); assert.equal(read()[0].periods.current.qualified,null);
   assert.equal(read(meta,[rows[0]])[0].periods.current.leads,0);
+  const offerRefs=['/fr/solutions-ia-sur-mesure/','/fr/equipes-ai-native/','/en/custom-ai-solutions/','/en/ai-native-teams/'];
+  const attributed=read(meta,[rows[0],...offerRefs.map(ref=>['2026-10-06',ref,1]),['2026-10-06','/fr/private-customer/',1]])[0].periods.current;
+  assert.equal(attributed.leads,5);
+  for (const ref of offerRefs) assert.equal(attributed.byRef[ref],1);
+  assert.equal(attributed.byRef['(unknown)'],1);
+  assert.equal(attributed.byRef['/fr/private-customer/'],undefined);
+
   assert.throws(()=>read(meta,rows,meta,now+86400001),/stale/);
   const changed=copy(meta); changed[1][3]='new'; assert.throws(()=>read(meta,rows,changed),/unavailable/);
   for (const row of [['2026-10-06','visitor@example.com',1],['2026-02-30','/fr/',1],['2026-10-06','/fr/',-1],['2026-10-06','/fr/',1,'private'],['2026-10-06','/fr/',1.5]]) assert.throws(()=>read(meta,[rows[0],row]),/schema/);

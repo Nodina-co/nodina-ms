@@ -66,7 +66,7 @@ def main():
     plan = json.loads((ROOT / 'content/publication.json').read_text())
     rows = plan['pages']
     paths = {r['path'] for r in rows}
-    result(len(paths) == len(rows) == 16 and all(r['status'] == 'published' and r.get('approvedOn') and r.get('publishedOn') for r in rows) and bool(plan.get('launchApprovedOn')), 'Plan de publication', 'Seize routes uniques, états et dates d’accord/publication enregistrés.')
+    result(bool(rows) and len(paths) == len(rows) and all(r['status'] == 'published' and r.get('approvedOn') and r.get('publishedOn') and not r.get('reviewPending') for r in rows) and bool(plan.get('launchApprovedOn')), 'Plan de publication', f'{len(rows)} routes planifiées ; une révision ou un brouillon doit être approuvé avant publication.')
     claims = list(csv.DictReader((ROOT / 'content/claims.csv').open(newline='')))
     invalid = [r.get('id', '?') for r in claims if not all(r.get(k) for k in ['id', 'claim', 'source_url', 'checked_on'])]
     result(not invalid and bool(claims), 'Registre de claims', 'Présence des identifiants, sources et dates ; ne prouve pas la validité de chaque assertion. ' + ', '.join(invalid))
@@ -122,7 +122,7 @@ def main():
             result((PUBLIC / name).is_file() and (PUBLIC / name).stat().st_size > 0, name, 'Fichier de découverte présent et non vide.')
         sitemap = ET.parse(PUBLIC / 'sitemap.xml')
         locs = {e.text for e in sitemap.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
-        result(locs == {ORIGIN + p for p in paths}, 'Sitemap et plan', 'Ensemble exact des seize pages publiées.')
+        result(locs == {ORIGIN + p for p in paths}, 'Sitemap et plan', 'Ensemble exact des pages du plan de publication.')
         feed = ET.parse(PUBLIC / 'feed.xml')
         result(feed.getroot().tag == 'rss', 'Flux RSS', f'XML valide, {len(feed.findall(".//item"))} article ; blog non lancé.')
         result(not any((PUBLIC / p).exists() for p in ['content', 'research', 'reports', 'tools', 'history', 'review.html', 'editorial.json']), 'Exclusion des fichiers internes', 'Documents et sources internes absents du paquet public.')

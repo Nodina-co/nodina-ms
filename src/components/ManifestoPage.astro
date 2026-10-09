@@ -4,6 +4,7 @@ import Action from './Action.astro';
 import ServiceLabel from './ServiceLabel.astro';
 import SectionHeading from './SectionHeading.astro';
 import QuickStart from './QuickStart.astro';
+import { offers } from '../lib/offers';
 import CloseSelect from './CloseSelect.astro';
 interface Props { locale: Locale }
 const { locale: l } = Astro.props;
@@ -16,6 +17,6 @@ const s = content[l].select;
   </section>
   <section class="manifesto-convictions wrap" id="convictions" aria-label={l === 'fr' ? 'Nos convictions' : 'Our convictions'}><ol>{s.manifesto_principles.map(([title, body], i) => <li><span class="number" aria-hidden="true">0{i + 1}</span><div><h2>{title}</h2><p>{body}</p></div></li>)}</ol></section>
   <QuickStart locale={l}/>
-  <section class="manifesto-systems wrap"><p class="label"><ServiceLabel kind="systems" text="AI Systems & Transformation"/></p><p>{s.manifesto_bridge}</p><Action href={route(l) + '#systems-detail'} label={s.manifesto_bridge_cta}/></section>
+  <section class="manifesto-systems wrap"><p class="label"><ServiceLabel kind="systems" text={offers(l).systems.label}/></p><p>{s.manifesto_bridge}</p><Action href={route(l, 'systems')} label={s.manifesto_bridge_cta}/></section>
   <CloseSelect locale={l}/>
 </main>

@@ -1,6 +1,6 @@
 const ID = 'G-J8NV7Z1HMX';
 const KEY = 'nodina.analytics-choice.v1';
-const PATHS = new Set(['/fr/', '/fr/selection-des-talents/', '/fr/profils/', '/fr/manifeste/', '/fr/contact/', '/fr/confidentialite/', '/fr/cookies/', '/fr/mentions-legales/', '/en/', '/en/vetting/', '/en/engineers/', '/en/manifesto/', '/en/contact/', '/en/privacy/', '/en/cookies/', '/en/legal-notice/']);
+const PATHS = new Set(['/fr/solutions-ia-sur-mesure/', '/fr/equipes-ai-native/', '/en/custom-ai-solutions/', '/en/ai-native-teams/', '/fr/', '/fr/selection-des-talents/', '/fr/profils/', '/fr/manifeste/', '/fr/contact/', '/fr/confidentialite/', '/fr/cookies/', '/fr/mentions-legales/', '/en/', '/en/vetting/', '/en/engineers/', '/en/manifesto/', '/en/contact/', '/en/privacy/', '/en/cookies/', '/en/legal-notice/']);
 
 export function readChoice(value, now) {
   try {
