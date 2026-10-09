@@ -1,3 +1,5 @@
+**IndexNow, 9 octobre 2026 :** après accord de JD, un lot de 19 URL (16 pages publiées et 3 fichiers de découverte) est reçu en HTTP 202. Validation de clé en attente, réception dans le panneau Bing et indexation non confirmées. GA4 reste désactivé. [Envoi et limites](../reports/submit/2026-10-09-indexnow.md).
+
 **Sitemap, 9 octobre 2026 :** soumission Google/Bing autorisée par JD et enregistrée. Google confirme le traitement et 16 pages découvertes ; Bing Processing. Aucune indexation déduite ni soumission IndexNow. [Confirmations](../reports/sitemap-submission-20261009.md).
 
 **État actuel, 9 octobre 2026 :** lancement public autorisé explicitement et appliqué, seize pages FR/EN publiées ; Contact version 2 public, GA4 désactivé. Cloudflare sert nodina.com ; www redirigé, HTTPS actif. GitHub Pages dépublié par JD. [Bascule vérifiée](../reports/public-launch-20261009.md). Les paragraphes suivants conservent l’historique daté.

@@ -1,3 +1,5 @@
+**Suite, 9 octobre :** IndexNow soumis après un accord distinct, HTTP 202 ; validation de clé en cours. [État actualisé](submit/2026-10-09-indexnow.md). Les paragraphes ci-dessous décrivent l’étape antérieure des sitemaps.
+
 # NODINA — sitemap soumis à Google et Bing, 9 octobre 2026
 
 Après l’accord explicite de JD « Go pour soumettre le sitemap à Google et Bing », l’URL https://nodina.com/sitemap.xml est soumise aux propriétés NODINA existantes.
