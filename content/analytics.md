@@ -41,6 +41,8 @@ Les quatre brouillons de confidentialité/cookies sont intégrés localement, av
 
 ## Reporting
 
+Search Console **nodina.com (Domain)** est reliée au flux Web `16047238617` le 9 octobre. La collection **SITE: NODINA → Acquisition et contact** est publiée dans GA4 avec les deux entonnoirs et les rapports **Sources et canaux** / **Pages d’arrivée et conversion**. Ces derniers conservent toutes les sessions et permettent de sélectionner `generate_lead` dans les deux colonnes d’événement clé. La collection Search Console est également visible. [Accès, configuration et limites](../reports/ga4-acquisition-20261009.md). `page_ref` reste une référence d’événement, distincte de la page d’arrivée de session. Aucune nouvelle collecte de test ni modification du déclencheur Reporting.
+
 Le 9 octobre, l’exploration **SITE: Parcours de contact** et deux rapports sont enregistrés dans la bibliothèque GA4 : entonnoir ouvert `page_view` → `primary_cta_click` → `form_start` → `generate_lead`, ventilé par page d’arrivée et par canal de session. Le canal natif **AI Assistant** est conservé, distinct de Direct ; aucun groupe en doublon créé. Aucun nouveau formulaire de test envoyé. La période initiale précède l’activation et ne contient pas encore de données traitées ; aucune conversion commerciale déduite. [Configuration, accès et limites](../reports/ga4-reporting-20261009.md).
 
 Le reporting lira la propriété GA4 `557424928`, Search Console `sc-domain:nodina.com` et Bing `https://nodina.com/`. Les rapports GA4 seront préparés avec trois jours de délai, sans garantie de finalité ; Search Console utilise ses dates finalisées et Bing conserve ses dates brutes.

@@ -20,7 +20,7 @@ Deux rapports sont enregistrés et leurs lignes relues dans la [bibliothèque GA
 - **SITE: Parcours de contact - Par page d’arrivée**, ventilation `Landing page + query string`. GA4 désactive `Landing page` dans cet entonnoir ; la variante compatible est utilisée. Le module NODINA transmet déjà les URL sans query ni fragment.
 - **SITE: Parcours de contact - Par canal**, ventilation `Session default channel group`.
 
-Ils sont disponibles dans la bibliothèque ; ils ne sont pas encore ajoutés à une collection publiée dans le menu latéral. L’exploration conserve les deux onglets.
+Ils sont disponibles dans la bibliothèque. À cette première étape, ils ne sont pas encore ajoutés à une collection publiée dans le menu latéral. L’exploration conserve les deux onglets. **Suite du 9 octobre :** la collection **SITE: NODINA** est ensuite publiée avec ces deux rapports, les rapports d’acquisition et le lien Search Console sont enregistrés. [Résultat de l’étape suivante](ga4-acquisition-20261009.md).
 
 ## Canal IA
 
@@ -36,4 +36,4 @@ La période initiale de l’exploration est **Last 28 days, 11 septembre–8 oct
 
 Aucun formulaire envoyé, événement de demande simulé, notification, capture ou nouveau déploiement. L’enregistrement ne démontre pas la réception réelle des trois événements d’interaction ; seule la vue de page avait été confirmée lors de l’activation. Les durées de conservation et les choix publicitaires restent ceux déjà approuvés.
 
-Cette étape couvre l’entonnoir de la phase 7b, pas toute sa clôture. Restent notamment le rapport de conversion par page, la vue source/medium, le lien Search Console dans GA4 et les parcours depuis les pages d’arrivée les plus fréquentées lorsque des données existent. La vérification des interactions réelles reste ouverte sans reprendre les essais clôturés par JD. Première collecte automatique attendue le 12 octobre vers 09:00 Paris ; contrôles de conformité et dossier final Prometheus à terminer.
+Cette première étape couvre l’entonnoir de la phase 7b, pas toute sa clôture. Le rapport de conversion par page, la vue source/medium et le lien Search Console sont terminés à l’[étape suivante](ga4-acquisition-20261009.md). Restent les parcours depuis les pages d’arrivée les plus fréquentées lorsque des données existent. La vérification des interactions réelles reste ouverte sans reprendre les essais clôturés par JD. Première collecte automatique attendue le 12 octobre vers 09:00 Paris ; contrôles de conformité et dossier final Prometheus à terminer.

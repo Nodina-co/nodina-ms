@@ -1,5 +1,9 @@
 **GA4 actif, 9 octobre 2026 :** activation publique autorisée par JD, après consentement ; première vue confirmée dans Realtime, demande enregistrée définie comme événement clé. Reporting existant conservé. [Activation et limites](../reports/ga4-activation-20261009.md). Les états antérieurs ci-dessous sont historiques.
 
+## 2026-10-09 : Search Console reliée et rapports d’acquisition publiés
+
+JD autorise explicitement le lien Search Console et la finalisation des rapports d’acquisition. Associer la propriété Domain nodina.com au flux NODINA — Web `16047238617` ; création confirmée puis table relue. Enregistrer les rapports par source/medium et par page d’arrivée, retirer le chiffre d’affaires et sélectionner generate_lead pour lire les réceptions sans filtrer les sessions. Publier **SITE: NODINA**, rubrique **Acquisition et contact**, avec ces deux rapports et les deux entonnoirs existants ; quatre raccourcis relus. La collection Search Console apparaît également publiée. Aucun formulaire de test, capture, notification ou déploiement ; Apps Script et son déclencheur conservés. [Configuration et limites](../reports/ga4-acquisition-20261009.md).
+
 ## 2026-10-09 : entonnoir GA4 enregistré, canal IA natif retenu
 
 Après « étape suivante » de JD, enregistrer l’exploration **SITE: Parcours de contact**, ouverte, avec quatre événements jusqu’à la demande enregistrée. Deux vues par page d’arrivée et par canal sont sauvegardées dans la bibliothèque et relues. Le canal **AI Assistant** existe déjà dans le groupe Google par défaut ; conserver ce groupe plutôt que créer un doublon. Le collecteur hebdomadaire et son déclencheur restent inchangés ; sa liste de domaines IA peut différer du canal natif. Aucun formulaire de test, capture, notification ou déploiement. Données traitées encore indisponibles sur la période initiale ; phase 7b et clôture Prometheus restent partielles. [Configuration et suite](../reports/ga4-reporting-20261009.md).
