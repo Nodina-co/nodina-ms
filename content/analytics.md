@@ -41,6 +41,8 @@ Les quatre brouillons de confidentialité/cookies sont intégrés localement, av
 
 ## Reporting
 
+Le 9 octobre, l’exploration **SITE: Parcours de contact** et deux rapports sont enregistrés dans la bibliothèque GA4 : entonnoir ouvert `page_view` → `primary_cta_click` → `form_start` → `generate_lead`, ventilé par page d’arrivée et par canal de session. Le canal natif **AI Assistant** est conservé, distinct de Direct ; aucun groupe en doublon créé. Aucun nouveau formulaire de test envoyé. La période initiale précède l’activation et ne contient pas encore de données traitées ; aucune conversion commerciale déduite. [Configuration, accès et limites](../reports/ga4-reporting-20261009.md).
+
 Le reporting lira la propriété GA4 `557424928`, Search Console `sc-domain:nodina.com` et Bing `https://nodina.com/`. Les rapports GA4 seront préparés avec trois jours de délai, sans garantie de finalité ; Search Console utilise ses dates finalisées et Bing conserve ses dates brutes.
 
 La source de vérité des demandes reçues est le classeur Contact existant. Le collecteur n'exporte que des comptes par fenêtre et page `ref`, exclut les lignes marquées `TEST-`, accepte les dates ISO du service existant et refuse les dates illisibles. Les références exportées doivent être des chemins FR/EN connus ; tout autre format est regroupé comme inconnu. Si la colonne `qualified` n'existe pas, les demandes qualifiées restent indisponibles. Une qualification consignée par JD reste distincte d'une réception de formulaire et nécessite le dédoublonnage par opportunité décrit dans les objectifs.
