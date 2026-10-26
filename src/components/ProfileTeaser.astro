@@ -1,6 +1,5 @@
 ---
-import { content, route, type Locale } from '../lib/site';
-import Action from './Action.astro';
+import { content, type Locale } from '../lib/site';
 import SectionHeading from './SectionHeading.astro';
 import ProfileCards from './ProfileCards.astro';
 interface Props { locale: Locale }
@@ -9,6 +8,7 @@ const s = content[locale].select;
 ---
 <section class="profiles-teaser section wrap" aria-labelledby="profiles-title">
   <SectionHeading label={'AI-native Teams · ' + s.profiles_nav} title={s.profiles_title} id="profiles-title" service="teams"/>
-  <p class="section-intro">{s.profiles_lead}</p><ProfileCards locale={locale}/>
-  <div class="actions"><Action href={route(locale, 'profiles')} label={s.profiles_cta}/></div>
+  <p class="section-intro">{s.profiles_lead}</p>
+  <p class="fine-note profile-note">{s.profile_note}</p>
+  <ProfileCards locale={locale}/>
 </section>

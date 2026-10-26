@@ -4,6 +4,8 @@
 
 Référence active : [PROMETHEUS](../prometheus_update_2026-10-01/PROMETHEUS.md), sections 7 et 9. Exigences acquises : deux offres, lancement FR-France et EN-US, domaine principal nodina.com, Cloudflare gratuit, CTA « Discuter de votre projet », tarifs sur devis.
 
+**Révision locale du 26 octobre 2026 :** les propositions et relevés datés ci-dessous sont historiques. La sélection FR/EN présente désormais quatre profils anonymisés sans photos ; le bloc d’exemple d’évaluation est retiré. Les routes `/fr/profils/` et `/en/engineers/` et leurs liens sont exclus du build, avec un retour 404. Le Journal `/fr/blog/` / `/en/blog/` et son premier article traduit sont conservés depuis `main`. Cette révision des profils n’est pas encore déployée ; voir le [brief courant](briefs/talent-selection.md) et le [plan machine](publication.json).
+
 ## Parcours principal
 
 Le visiteur identifie son besoin dès l’accueil : renforcer sa capacité de réalisation avec **AI-native Teams**, ou faire concevoir et intégrer un système avec **AI Systems & Transformation**. Chaque page d’offre explique le périmètre, les responsabilités et les éléments nécessaires au devis, puis mène au contact.

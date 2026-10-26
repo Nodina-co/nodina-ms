@@ -33,15 +33,6 @@ const tools = [
     <p class="section-intro">{s.process_intro}</p><ol class="selection-stages">{s.stages.map(([title, body, output], i) => <li><span class="number" aria-hidden="true">0{i + 1}</span><h3>{title}</h3><div><p>{body}</p><p class="stage-output">{output}</p></div></li>)}</ol>
     <div class="selection-gate"><h3>{s.gate_title}</h3><p>{s.gate_body}</p></div>
   </div></section>
-  <section class="evaluation section wrap" aria-labelledby="evaluation-title"><SectionHeading label={s.assessment_label} title={s.assessment_title} id="evaluation-title"/>
-    <p class="section-intro">{s.assessment_intro}</p><div class="assessment"><div class="assessment-top"><span>NODINA Select</span><span>{s.sample_badge}</span></div><div class="assessment-body"><h3>{s.sample_title}</h3><p class="assessment-context">{s.sample_context}</p>
-      <section class="criterion-explorer" aria-label={l === 'fr' ? 'Exemple d’évaluation' : 'Example assessment'}>
-        <div class="criterion-buttons" hidden>{s.sample_tabs.map((title, i) => <button type="button" class="criterion-button" aria-pressed={i === 0 ? 'true' : 'false'} aria-controls={'criterion-' + i} data-criterion={i}>{title}</button>)}</div>
-        <div class="criterion-detail" aria-live="polite">{s.sample_findings.map(([a, b, c, d], i) => <div class="criterion-panel" id={'criterion-' + i}><h4>{s.sample_tabs[i]}</h4><dl><div><dt>{a}</dt><dd>{b}</dd></div><div><dt>{c}</dt><dd>{d}</dd></div></dl></div>)}</div>
-      </section>
-      <div class="assessment-verdict"><h4>{s.sample_conclusion_title}</h4><p>{s.sample_conclusion}</p></div>
-    </div></div>
-  </section>
   <section class="tool-section section wrap" aria-labelledby="tools-title"><SectionHeading label={s.tools_label} title={s.tools_title} id="tools-title"/><p class="section-intro">{s.tools_intro}</p>
     <ul class="tool-logos" aria-label={l === 'fr' ? 'Outils et technologies' : 'Tools and technologies'}>{tools.map(([file, name]) => <li><img src={'/assets/tools/' + file + '.svg'} width="40" height="40" loading="lazy" alt=""/><span>{name}</span></li>)}</ul><p class="fine-note">{s.tools_note}</p>
   </section>

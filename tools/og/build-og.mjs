@@ -24,8 +24,8 @@ export function pages() {
     const c = read(`content/site/${l}.json`);
     const s = c.select;
     const paths = l === 'fr'
-      ? { home: '/fr/', vetting: '/fr/selection-des-talents/', profiles: '/fr/profils/', manifesto: '/fr/manifeste/', contact: '/fr/contact/', privacy: '/fr/confidentialite/', cookies: '/fr/cookies/', legal: '/fr/mentions-legales/', systems: '/fr/solutions-ia-sur-mesure/', teams: '/fr/equipes-ai-native/', blog: '/fr/blog/' }
-      : { home: '/en/', vetting: '/en/vetting/', profiles: '/en/engineers/', manifesto: '/en/manifesto/', contact: '/en/contact/', privacy: '/en/privacy/', cookies: '/en/cookies/', legal: '/en/legal-notice/', systems: '/en/custom-ai-solutions/', teams: '/en/ai-native-teams/', blog: '/en/blog/' };
+      ? { home: '/fr/', vetting: '/fr/selection-des-talents/', manifesto: '/fr/manifeste/', contact: '/fr/contact/', privacy: '/fr/confidentialite/', cookies: '/fr/cookies/', legal: '/fr/mentions-legales/', systems: '/fr/solutions-ia-sur-mesure/', teams: '/fr/equipes-ai-native/', blog: '/fr/blog/' }
+      : { home: '/en/', vetting: '/en/vetting/', manifesto: '/en/manifesto/', contact: '/en/contact/', privacy: '/en/privacy/', cookies: '/en/cookies/', legal: '/en/legal-notice/', systems: '/en/custom-ai-solutions/', teams: '/en/ai-native-teams/', blog: '/en/blog/' };
     const legalLabel = l === 'fr' ? 'Informations légales' : 'Legal';
     const add = (id, label, title, subtitle) => list.push({ locale: l, path: paths[id], label: strip(label), title: strip(title), subtitle: short(subtitle) });
     add('home', o.home.label, o.home.heading, o.home.description);
@@ -33,7 +33,6 @@ export function pages() {
     add('teams', o.teams.label, o.teams.heading, o.teams.description);
     add('blog', o.blog.label, o.blog.heading, o.blog.description);
     add('vetting', s.eyebrow, s.hero_title, s.hero_lead);
-    add('profiles', 'AI-native Teams · ' + s.profiles_nav, s.profiles_h1, s.profiles_page_lead);
     add('manifesto', s.manifesto_eyebrow, s.manifesto_h1, s.manifesto_lead);
     add('contact', 'Contact', c.contact_h1, c.contact_lead);
     add('privacy', legalLabel, l === 'fr' ? 'Confidentialité' : 'Privacy', l === 'fr' ? 'Demandes de contact, destinataires, durées et vos droits.' : 'Contact inquiries, recipients, retention and your rights.');

@@ -17,6 +17,9 @@ test('preview returns real redirects, real 404s and noindex headers for every re
     assert.equal((await fetch(origin + '/', { redirect: 'manual', headers: { 'accept-language': 'fr-FR,fr;q=0.9,en;q=0.8' } })).headers.get('location'), '/fr/');
     assert.equal((await fetch(origin + '/', { redirect: 'manual', headers: { 'accept-language': 'en-US,en;q=0.9' } })).headers.get('location'), '/en/');
     assert.equal((await fetch(origin + '/fr/', { method: 'POST' })).status, 405);
+    for (const path of ['/fr/profils/', '/en/engineers/', '/fr/profils', '/en/engineers']) {
+      assert.equal((await fetch(origin + path, { redirect: 'manual' })).status, 404, path);
+    }
     // Astro may generate CSS basenames beginning with underscores.
     for (const asset of await readdir(new URL('../dist/_astro/', import.meta.url))) {
       if (!/\.(css|js|webp)$/.test(asset)) continue;
