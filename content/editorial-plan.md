@@ -79,6 +79,34 @@ Formats: **guide** (how-to with checklist), **decision** (comparison table), **d
 | 16 | The EU AI Act for an internal AI project: what applies, from when | eu ai act compliance | E08 | guide | AI Consulting | Risk tiers; deployer obligations; official dates linked; minimal governance checklist; "not legal advice" |
 | 17 | AI automation for a mid-sized company: a 90-day roadmap | ai automation for mid-sized companies | E03 | guide | AI Consulting | Phases matching the site's process; what to measure; RPA / no-code / AI compared |
 
+## 3b. Publishing checklist (every post, every time)
+
+Rule added 2026-10-26 by the operator. Applies to every post in either queue, in this order. The assistant runs the steps and writes the hand-offs to JD in the chat; nothing here is automatic.
+
+1. **Build, review, deploy.** Brief approved, post written to the §2 rules, `npm run build` passes, JD has reviewed the draft, the release is deployed by the usual procedure. The post is live before any step below.
+
+2. **Show JD the raw URL.** Print the full public URL on its own line, for example `https://nodina.com/fr/blog/<slug>/`, and say explicitly: *this is the URL to paste into Google Search Console → URL inspection → Request indexing* (one language version at a time; each locale has its own URL). Search Console has no API for this on a new property, so JD does it by hand.
+
+3. **Submit to IndexNow.** IndexNow is installed: the ownership key is in `tools/forms/production/.local/indexnow-key.txt` (gitignored) and the key file is published at the site root by `build-release.py`. Give JD a ready-to-paste command, with the key read from the file so it is never typed into the chat:
+
+   ```bash
+   curl -s -o /dev/null -w "%{http_code}\n" "https://api.indexnow.org/indexnow?url=https://nodina.com/fr/blog/<slug>/&key=$(cat tools/forms/production/.local/indexnow-key.txt)"
+   ```
+
+   One command per URL (FR and EN are separate URLs). `200` or `202` means received; it does not prove indexation. Bing, Yandex, Seznam and Naver share the submission. Log the response code in §8 of this file.
+
+4. **Ask about LinkedIn.** Ask JD, in one line: *"Add this post to the NODINA LinkedIn page queue?"* Do nothing on LinkedIn without a yes.
+
+   On yes, a browser agent schedules the post on the NODINA company page, <https://www.linkedin.com/company/nodina> (not JD's personal profile), as the next free slot in the LinkedIn schedule:
+   - **Slots:** Tuesdays and Thursdays, 08:00 Europe/Paris, for every post type. Never two items in one slot; never a third slot in a week. The next free slot is the first Tuesday or Thursday after the last scheduled item (or after today if the queue is empty).
+   - **Content:** the post's language is the post's language. Text written from the post's first-60-word answer, two to four lines, no hashtags beyond two, link to the raw URL, no claim that is not in the post. The link preview uses the auto-generated Open Graph image; no separate image is made.
+   - **Tool:** LinkedIn's native scheduler on the company page ("Schedule post"). The agent reports back the scheduled date and time it set and the queue position; JD can verify in the page's Scheduled posts view. The agent never publishes immediately and never edits or deletes an existing scheduled item.
+   - **Log** the slot in §8 of this file with the post key and language.
+
+5. **Record it.** `content/publication.json` row and PLAN.md table updated with the real date; §8 log line: date, key, language, URL, IndexNow code, LinkedIn slot or "declined".
+
+What this checklist does not do: it never requests indexing of a page that is not deployed, never submits URLs in bulk "by principle" (see SUMMARY.md), and never posts to LinkedIn, Clutch or any directory without JD's explicit yes for that item.
+
 ## 4. Page work the research justifies (not posts)
 
 | Work | Why | Cluster |
@@ -106,4 +134,5 @@ From the first Search Console export (around 6 November): impressions and clicks
 ## 8. Log
 
 - 2026-10-26 — Plan proposed from Phase 3 research.
+- 2026-10-26 — Publishing checklist (§3b) added: Search Console URL hand-off, IndexNow command, LinkedIn queue Tue/Thu 08:00 Paris on JD's yes.
 - 2026-10-26 — Plan accepted by the operator without reordering. Next items: FR #1 (F07) and EN #1 (E07), briefs first in `content/briefs/`.
