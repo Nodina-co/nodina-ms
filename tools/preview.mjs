@@ -2,6 +2,7 @@ import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import { resolve, extname, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { preferredLocale } from '../src/worker/language.mjs';
 
 const directory = process.env.NODINA_PREVIEW_STAGE === 'release-candidate'
   ? '../tools/forms/production/.local/release-candidate-dist/' : '../dist/';
@@ -22,7 +23,7 @@ export function createPreviewServer() {
       }
       const url = new URL(request.url, 'http://127.0.0.1');
       if (url.pathname === '/') {
-        response.writeHead(301, { Location: '/fr/' + url.search }); response.end(); return;
+        response.writeHead(302, { Location: '/' + preferredLocale(request.headers['accept-language']) + '/' + url.search, Vary: 'Accept-Language' }); response.end(); return;
       }
       const pathname = decodeURIComponent(url.pathname);
       const file = resolve(root, '.' + pathname);

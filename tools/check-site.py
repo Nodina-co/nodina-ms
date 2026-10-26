@@ -67,7 +67,7 @@ def check():
             require(canonical == ['https://nodina.com' + route], 'wrong canonical')
             require(meta.get('og:url') == canonical[0], 'OG URL differs from canonical')
             alternates = {a.get('hreflang'): a.get('href') for a in page.attrs('link') if a.get('hreflang')}
-            expected = {'fr-FR': 'https://nodina.com' + ROUTES['fr'][index], 'en-US': 'https://nodina.com' + ROUTES['en'][index], 'x-default': 'https://nodina.com' + ROUTES['fr'][index]}
+            expected = {'fr-FR': 'https://nodina.com' + ROUTES['fr'][index], 'en-US': 'https://nodina.com' + ROUTES['en'][index], 'x-default': 'https://nodina.com/'}
             require(alternates == expected, 'language alternates do not match route map')
             require(bool(json.loads(page.json)['@graph']), 'missing structured data')
             scripts = page.attrs('script')

@@ -1,4 +1,4 @@
 ---
-// The static host and local preview return a 301. This is a portable fallback.
+// The Worker and local preview redirect / by Accept-Language. This is a portable fallback.
 ---
-<!doctype html><html lang="fr-FR"><head><meta charset="utf-8"/><meta name="robots" content="noindex,nofollow"/><meta http-equiv="refresh" content="0;url=/fr/"/><link rel="canonical" href="https://nodina.com/fr/"/><title>NODINA</title></head><body><a href="/fr/">Continuer en français</a></body></html>
+<!doctype html><html lang="fr-FR"><head><meta charset="utf-8"/><meta name="robots" content="noindex,nofollow"/><script>var l=(navigator.languages||[navigator.language||"en"]).find(function(t){return/^(fr|en)/i.test(t)})||"en";location.replace("/"+(/^fr/i.test(l)?"fr":"en")+"/"+location.search)</script><noscript><meta http-equiv="refresh" content="0;url=/en/"/></noscript><title>NODINA</title></head><body><a href="/en/">Continue in English</a> · <a href="/fr/">Continuer en français</a></body></html>
