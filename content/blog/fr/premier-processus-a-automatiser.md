@@ -17,7 +17,7 @@ Avant de démarrer une mission, nous posons trois questions. Ce sont les mêmes 
 
 Pas la technologie, le problème. Un responsable métier qui veut voir disparaître le travail manuel, qui sait dire à quoi ressemble « terminé » et qui répondra aux questions pendant la construction. Si le seul sponsor est l’équipe informatique, le processus n’est pas prêt. Si le seul sponsor est la direction générale, il est probablement trop large.
 
-Le bon premier processus a une personne qui en a assez.
+> Le bon premier processus a une personne qui en a assez.
 
 ## Peut-on accéder aux données et aux outils ?
 

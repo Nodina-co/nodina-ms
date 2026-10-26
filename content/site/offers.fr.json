@@ -186,7 +186,11 @@
     "back": "Tous les articles",
     "closing": "Dites-nous ce qui vous ralentit.",
     "closingBody": "Un échange. Une prochaine étape claire.",
-    "cta": "Réserver un échange"
+    "cta": "Réserver un échange",
+    "next": "Article suivant",
+    "previous": "Article précédent",
+    "share": "Partager sur LinkedIn",
+    "moreNone": "D’autres articles arrivent."
   },
   "blogNav": "Blog"
 }

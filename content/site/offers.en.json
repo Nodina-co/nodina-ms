@@ -186,7 +186,11 @@
     "back": "All posts",
     "closing": "Tell us what is slowing you down.",
     "closingBody": "One conversation. A clear next step.",
-    "cta": "Book a conversation"
+    "cta": "Book a conversation",
+    "next": "Next post",
+    "previous": "Previous post",
+    "share": "Share on LinkedIn",
+    "moreNone": "More posts are on the way."
   },
   "blogNav": "Blog"
 }

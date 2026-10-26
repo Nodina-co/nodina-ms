@@ -17,7 +17,7 @@ Before we start an engagement, we ask three questions. They are the same three w
 
 Not the technology, the problem. A business owner who wants the manual work gone, who can say what "done" looks like and who will answer questions while we build. If the only sponsor is the IT team, the process is not ready. If the only sponsor is the CEO, it is probably too broad.
 
-The best first process has one person who is tired of it.
+> The best first process has one person who is tired of it.
 
 ## Can we reach the data and the tools?
 
