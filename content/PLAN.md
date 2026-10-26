@@ -43,6 +43,8 @@ Ce lancement ne termine pas les phases de recherche, clusters, requêtes et brie
 
 Le [guide de reprise](../reports/prometheus-operating-guide-20261009.md) propose le suivi des semaines du 12 octobre au 8 novembre : première collecte, recherche/revue de plan, briefs et maquettes, puis lecture à 28 jours. Ce suivi n’est pas un calendrier éditorial approuvé : aucune requête stratégique, aucun titre d’article ni date de publication supplémentaire n’est inventé. [Clôture du lancement et réserves](../SUMMARY.md).
 
+**Recherche Phase 3 (26 octobre 2026) :** la recherche mots-clés et requêtes IA, FR et EN, est faite ([rapport](../research/research-report.md), [clusters](../research/clusters.md), [keywords.csv](../research/keywords.csv)). Un [plan éditorial](editorial-plan.md) avec deux files indépendantes (FR, EN) en découle ; il est **proposé, non approuvé**. Les volumes de recherche restent inconnus (aucune donnée Search Console encore, aucun outil payant) ; les priorités reposent sur la présence en autocomplétion, les SERP observées et les citations des assistants.
+
 ## Retour arrière
 
 GitHub Pages a été dépublié par JD. L’archive ancienne ne suffit pas à restaurer cet hébergement ; voir le [rapport de lancement](../reports/public-launch-20261009.md).
