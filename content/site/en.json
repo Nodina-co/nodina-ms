@@ -1,7 +1,7 @@
 {
   "lang": "en-US",
-  "title": "NODINA — Your senior AI-native engineering team",
-  "description": "Senior engineers selected across Europe and Latin America. One week to approve your team, then two weeks of preparation before the first pull requests, subject to availability.",
+  "title": "NODINA — AI consulting and AI-native engineers",
+  "description": "AI integrated into the business you already run, and AI-trained senior engineers for your roadmap.",
   "preview": "Mockup · Target presentation",
   "review": "Share feedback",
   "skip": "Skip to content",
@@ -11,8 +11,8 @@
     "Approach",
     "The founder"
   ],
-  "contact": "Discuss your project",
-  "contact_short": "Let’s talk about your project",
+  "contact": "Book a conversation",
+  "contact_short": "Book a conversation",
   "category": "AI-native Teams · Senior engineers across Europe & Latin America",
   "h1": "Your senior AI team, built for you.<br><span>Ready to build in as little as 3 weeks.</span>",
   "lead": "NODINA brings together senior engineers selected across Europe and Latin America to build your product. Your team is fluent in AI tools and works directly in your codebase and workflows.",
@@ -185,38 +185,38 @@
   "footer_note": "NODINA · France / United States",
   "top": "Back to top ↑",
   "back": "Back to home",
-  "contact_h1": "Let’s talk about<br> your project.",
-  "contact_lead": "Whether you need a team, an AI system, or help defining the scope, let’s start with your objective.",
+  "contact_h1": "Tell us what<br> is slowing you down.",
+  "contact_lead": "One form, one conversation, one clear next step. Whether you need AI in your operations, engineers for your roadmap, or help deciding, start with the objective.",
   "contact_facts": [
     [
-      "To get started",
-      "Your objective, current situation, and main constraints."
+      "What happens next",
+      "We read your note and reply with a proposed time to talk. No automated sequence."
     ],
     [
-      "A scope to define",
-      "AI-native Teams, Custom AI solutions, or a need to explore together."
+      "What the first call covers",
+      "Your objective, what it costs you today and whether we are the right fit."
     ],
     [
-      "A tailored proposal",
-      "A proposal based on the agreed scope and responsibilities."
+      "What you receive",
+      "A written proposal with scope, deliverables, responsibilities and price. No equity, no recruitment fees."
     ]
   ],
   "form_note": "Form preview. Submission is not enabled in this mockup.",
   "fields": [
     "Name",
     "Work email",
-    "Organization",
-    "Your need",
-    "Objective and context",
-    "Expected timing (optional)"
+    "Company",
+    "What do you need?",
+    "What is slowing you down?",
+    "When do you want to start? (optional)"
   ],
   "offer_options": [
-    "Define together",
-    "AI-native Teams",
-    "Custom AI solutions",
-    "Combine both services"
+    "Help me decide",
+    "AI-native Teams: engineers for my roadmap",
+    "AI Consulting & Integration: AI in my operations",
+    "Both"
   ],
-  "project_help": "The problem to solve, the people involved, and the main constraints.",
+  "project_help": "The process or product, who it affects and the main constraint. Two or three sentences is plenty.",
   "disabled": "Submission not enabled",
   "form_bottom": "You can try the fields. This page does not transmit or store any information.",
   "vetting_nav": "Selection",
@@ -329,7 +329,7 @@
     "Operations & compliance"
   ],
   "vetting": {
-    "title": "NODINA Select — Talent selection",
+    "title": "How NODINA selects engineers | NODINA",
     "description": "We select senior engineers in Europe and Latin America for European and US clients. Experienced CTOs and lead developers assess their code, their use of AI and their ability to work as part of a team.",
     "eyebrow": "AI-native Teams · Our selection",
     "h1": "Engineers selected to <span>move your product forward.</span>",
@@ -620,69 +620,69 @@
   "select": {
     "selection_nav": "Selection",
     "profiles_nav": "Profiles",
-    "manifesto_nav": "Manifesto",
-    "hero_title": "Engineers selected to <span>move your product forward.</span>",
-    "hero_lead": "We select senior engineers in Europe and Latin America for European and US clients. Experienced CTOs and lead developers assess their code, their use of AI and their ability to work as part of a team.",
+    "manifesto_nav": "About",
+    "hero_title": "Engineers selected on <span>real work.</span>",
+    "hero_lead": "Experienced CTOs and lead developers review each engineer’s code, their use of AI tools and how they work with a team. We select across Europe and Latin America so working hours overlap with yours.",
     "primary": "Build my team",
-    "secondary": "See how we evaluate",
-    "eyebrow": "AI-native Teams · Our selection",
+    "secondary": "See the five stages",
+    "eyebrow": "AI-native Teams · Selection",
     "signals": [
       [
         "Code reviewed",
-        "Quality, tests and architecture decisions."
+        "Quality, tests and architecture decisions on real work."
       ],
       [
-        "AI put into practice",
-        "Context, tools and verification of results."
+        "AI in practice",
+        "Context, tool use and verification of outputs."
       ],
       [
-        "Collaboration assessed",
-        "Communication, autonomy and accountability."
+        "Teamwork assessed",
+        "Communication, ownership and how they take a review."
       ]
     ],
-    "experience_label": "Experience at the service of your team",
-    "experience_title": "Fifteen years in the field. Better judgment for your team.",
-    "experience_body": "Developing products, hiring engineers and leading teams teaches you to recognize the skills that matter on a real project. We put that experience to work for your team: technical judgment, AI proficiency, autonomy and collaboration.",
-    "experience_link": "Read our manifesto",
-    "evaluators_title": "Selected by CTOs and lead developers.",
-    "evaluators_lead": "Veterans of software and AI engineering review code quality, architecture decisions and the ability to deliver as a team. Based in France and the US, some have worked at major Silicon Valley companies.",
-    "evaluators_body": "Jean-David Collard, NODINA’s founder and a PhD in computer science, has worked with these professionals over fifteen years of entrepreneurial projects and client engagements for startups, scale-ups and SMEs in Europe and the United States.",
-    "founder_link": "Explore the founder’s background",
-    "process_label": "NODINA Select · The method",
-    "process_title": "Rigorous selection, grounded in real work.",
-    "process_intro": "Five stages connect technical ability with the demands of your project. Each recommendation draws on observable evidence and identifies areas to explore further.",
+    "experience_label": "Who decides",
+    "experience_title": "Fifteen years of hiring engineers, applied to yours.",
+    "experience_body": "Building products, hiring engineers and leading teams teaches you which skills matter on a real project. That judgment goes into every selection: technical ability, AI fluency, autonomy and collaboration.",
+    "experience_link": "About NODINA",
+    "evaluators_title": "Reviewed by CTOs and lead developers.",
+    "evaluators_lead": "Veterans of software and AI engineering, based in France and the United States, review code quality, architecture decisions and the ability to deliver as a team. Some have worked at major Silicon Valley companies.",
+    "evaluators_body": "Jean-David Collard, NODINA’s founder, has worked with these reviewers over fifteen years of projects for startups, scale-ups and SMEs in Europe and the United States.",
+    "founder_link": "Meet the founder",
+    "process_label": "NODINA Select",
+    "process_title": "Five stages. Evidence at each one.",
+    "process_intro": "Every recommendation you receive is grounded in observed work, with strengths and open points stated plainly.",
     "stages": [
       [
         "Verify experience",
-        "Discuss past projects, personal contributions and responsibilities actually held.",
-        "What matters: explaining what was delivered and the decisions behind it."
+        "Past projects, personal contributions and responsibilities actually held.",
+        "What matters: explaining what was delivered and why."
       ],
       [
         "Review code and architecture",
-        "Examine concrete work: readability, tests, debugging and technical trade-offs.",
-        "What matters: explaining decisions and knowing how to evolve a system."
+        "Real work examined: readability, tests, debugging and trade-offs.",
+        "What matters: explaining decisions and evolving a system."
       ],
       [
         "Work with AI",
-        "Observe tool use, context preparation and verification of results.",
-        "What matters: spotting an incorrect output, testing it and correcting it."
+        "Tool use, context preparation and verification of outputs, observed live.",
+        "What matters: catching a wrong output, testing it, fixing it."
       ],
       [
         "Collaborate with a peer",
-        "Review work, discuss a disagreement and share useful context.",
-        "What matters: moving the work forward together and owning decisions."
+        "A review, a disagreement and context shared with another engineer.",
+        "What matters: moving work forward together and owning decisions."
       ],
       [
-        "Confirm the fit for the engagement",
-        "Match skills with your product, stack, working hours and team composition.",
-        "What matters: a clear role, shared expectations and confirmed availability."
+        "Confirm the fit",
+        "Skills matched to your product, stack, hours and team.",
+        "What matters: a clear role, shared expectations, confirmed availability."
       ]
     ],
-    "gate_title": "What can rule out a candidate",
-    "gate_body": "Code the person cannot explain, AI outputs accepted without verification or difficulty acting on a review. Technical strength alone is not enough if the skills and working relationship do not fit the engagement.",
-    "assessment_label": "NODINA Select · Worked example",
-    "assessment_title": "Understand why a profile fits your project.",
-    "assessment_intro": "A useful recommendation explains strengths, limitations and conditions for success. Here is how that can translate into an assessment.",
+    "gate_title": "What rules a candidate out",
+    "gate_body": "Code they cannot explain. AI outputs accepted without verification. Difficulty acting on a review. Technical strength alone is not enough if the fit with your engagement is wrong.",
+    "assessment_label": "Worked example",
+    "assessment_title": "What a recommendation looks like.",
+    "assessment_intro": "You get strengths, limitations and the conditions for success, not a score.",
     "sample_badge": "Illustrative example · No real candidate",
     "sample_title": "Backend & AI · Internal document assistant",
     "sample_context": "The engagement involves creating an assistant that cites its sources and respects document access permissions.",
@@ -713,13 +713,13 @@
     ],
     "sample_conclusion_title": "Assessment for this engagement",
     "sample_conclusion": "A relevant profile for backend development and AI integration, with architecture support for operations. The final decision depends on your context and the conversation with your team.",
-    "tools_label": "Your working environment",
-    "tools_title": "Teams that know your tools.",
-    "tools_intro": "We bring together the skills your stack needs to work directly in your repositories, platforms and delivery processes.",
-    "tools_note": "Team composition depends on your project’s tools. AI use goes hand in hand with reviews, tests and evaluations.",
-    "profiles_title": "Engineers. Specialties. Concrete work.",
-    "profiles_lead": "From backend engineering to AI architecture, explore the skills and work your team could bring together.",
-    "profiles_cta": "Explore all 9 profiles",
+    "tools_label": "Your stack",
+    "tools_title": "Engineers who already know your tools.",
+    "tools_intro": "We match the skills your stack needs so engineers work directly in your repositories, platforms and delivery process.",
+    "tools_note": "Team composition follows your project’s tools. AI use always comes with review, tests and evaluation.",
+    "profiles_title": "Nine profiles. Real work behind each one.",
+    "profiles_lead": "Backend, full-stack, data, AI and technical leadership. See the kind of engineers your team could bring in.",
+    "profiles_cta": "See all 9 profiles",
     "profile_note": "Anonymized profiles. Portraits are illustrations; availability for your engagement must be confirmed.",
     "profile_badge": "Profile",
     "profile_detail": "Explore the skills",
@@ -918,81 +918,77 @@
       }
     ],
     "profiles_page_title": "Engineer profiles — NODINA",
-    "profiles_h1": "Your next product. <span>The talent to ship it.</span>",
-    "profiles_page_lead": "Backend, full-stack, data, AI and technical leadership: nine backgrounds to help you find the skills that will move your product forward.",
+    "profiles_h1": "Your roadmap. <span>The engineers to ship it.</span>",
+    "profiles_page_lead": "Nine anonymized profiles across backend, full-stack, data, AI and technical leadership. Tell us what you need and we propose the right ones.",
     "profiles_explain_title": "A recommendation you can act on.",
-    "profiles_explain_body": "For your engagement, we clarify the role, relevant skills, shareable work and areas to explore further. You meet the proposed engineers to confirm the fit with your team.",
+    "profiles_explain_body": "For your engagement, we clarify the role, the relevant skills, work we can share and points to explore. You meet the engineers before approving the team.",
     "profiles_facts": [
       [
-        "Role & contribution",
-        "What the person will take responsibility for on your project."
+        "Role and contribution",
+        "What the person will own on your project."
       ],
       [
-        "Assessment evidence",
-        "Work reviewed, reasoning and areas requiring attention."
+        "Evidence",
+        "Work reviewed, reasoning and points needing attention."
       ],
       [
         "Working arrangement",
-        "Working language, shared hours and availability to confirm."
+        "Language, shared hours and availability to confirm."
       ]
     ],
-    "quick_label": "AI-native Teams · Getting started",
-    "quick_title": "One week to choose. Three to start delivering.",
-    "quick_intro": "Choose and approve your team in one week. The next two weeks prepare its integration into your project. From three weeks in total, the team is ready to work and produce its first pull requests.",
+    "quick_label": "AI-native Teams · Timeline",
+    "quick_title": "Approved in one week. Shipping from week three.",
+    "quick_intro": "Week one, you meet and approve your team. Weeks two and three, we prepare onboarding. From week three, the team is in your codebase producing its first pull requests.",
     "quick_steps": [
       [
         "01",
-        "Choose and approve your team",
-        "From your brief, we define the roles and propose engineers. You meet them and approve the team composition and working arrangement."
+        "Approve your team",
+        "From your brief, we propose engineers. You meet them and approve the team and working arrangement."
       ],
       [
         "02",
-        "We prepare onboarding with you",
-        "Repository access, development environment, tools and product context: we prepare the work and initial priorities with your team."
+        "Onboarding prepared",
+        "Repository access, environment, tools and product context, prepared with your team."
       ],
       [
         "03",
-        "Your team produces its first pull requests",
-        "Engineers work in your codebase and submit their first changes for review, following your priorities and practices."
+        "First pull requests",
+        "Engineers work in your codebase on your priorities, following your practices."
       ]
     ],
-    "quick_note": "Three weeks in total from a complete brief: one week for selection and approval, followed by two weeks of preparation. Timeline confirmed based on engineer availability, interview slots and access preparation.",
-    "close_title": "Let’s talk about the team you need.",
-    "close_body": "Share your product, stack and priorities. We help you define the roles and the working arrangement.",
-    "manifesto_page_title": "Our manifesto — NODINA",
-    "manifesto_eyebrow": "The NODINA manifesto",
-    "manifesto_h1": "Build with AI. <span>Take responsibility for the result.</span>",
-    "manifesto_lead": "We believe in teams that understand what they develop, know how to work with AI and take responsibility for the result.",
-    "manifesto_open_title": "Fifteen years building products and teams.",
+    "quick_note": "From a complete brief, subject to engineer availability, interview slots and access preparation.",
+    "close_title": "How many engineers do you need?",
+    "close_body": "Share your product, stack and priorities. We propose the roles, the engineers and a start date.",
+    "manifesto_page_title": "About NODINA",
+    "manifesto_eyebrow": "About NODINA",
+    "manifesto_h1": "Build with AI. <span>Own the result.</span>",
+    "manifesto_lead": "NODINA exists so that companies get AI that works in production and engineers who take responsibility for what they ship.",
+    "manifesto_open_title": "Who you are working with.",
     "manifesto_open": [
-      "Fifteen years of projects, hiring and team leadership have shaped the perspective of Jean-David Collard, NODINA’s founder: a team’s quality shows in its decisions, its work and its ability to move forward together.",
-      "NODINA puts that experience at your service. We bring together senior engineers in Europe and Latin America for European and US clients, with a shared standard: work that is useful, understandable and built to last."
+      "Jean-David Collard founded NODINA after fifteen years building products, hiring engineers and leading teams in France and the United States. He holds a PhD in computer science, researches agent-based modeling and reinforcement learning, and teaches software engineering and AI in a university master’s program.",
+      "That background sets the standard for every engagement: work that is useful, understandable and built to last, delivered by people who can explain their decisions."
     ],
     "manifesto_principles": [
       [
         "Ability shows in the work.",
-        "A background starts the conversation. Code, technical choices and delivered projects take it further. NODINA Select places this practice, and the ability to explain decisions, at the heart of selection."
+        "A résumé starts the conversation. Code, technical choices and delivered projects decide it. NODINA Select puts practice and the ability to explain decisions at the center."
       ],
       [
-        "AI accelerates the work. Engineers own the result.",
-        "Providing context, choosing tools, reviewing outputs and testing results are part of the job. An agent’s autonomy needs explicit boundaries and appropriate oversight."
+        "AI accelerates. Engineers stay accountable.",
+        "Providing context, choosing tools, reviewing outputs and testing results are part of the job. Agents get explicit boundaries and human oversight."
       ],
       [
-        "A strong team helps everyone progress.",
-        "Individual ability matters as much as collaboration. We look for engineers who share context, welcome review and pass on their knowledge."
+        "We work in your environment.",
+        "Your repositories, tools and priorities. Responsibilities, working arrangements and price are written into the proposal. No equity, no recruitment fees."
       ],
       [
-        "The work fits into your organization.",
-        "Your repositories, tools and priorities: the team works in your environment. Responsibilities, working arrangements and price are defined in the proposal. No equity or recruitment fees."
-      ],
-      [
-        "High standards are passed on.",
-        "Scientific research helps question AI results and limitations. Teaching software engineering and AI in a university MIAGE master’s program allows Jean-David Collard to help develop future talent and recognize its potential."
+        "If we are not the right fit, we say so.",
+        "We take on a limited number of engagements so we can stay involved in each one. A first conversation tells you quickly whether NODINA is the right call."
       ]
     ],
     "manifesto_signoff": "Jean-David Collard · Founder of NODINA",
-    "manifesto_bridge": "Want to entrust us with an AI system? We scope, build and integrate the solution into your environment.",
-    "manifesto_bridge_cta": "Explore custom AI solutions",
+    "manifesto_bridge": "Want AI inside your operations rather than a team? We scope, build and integrate the solution.",
+    "manifesto_bridge_cta": "Explore AI Consulting & Integration",
     "team_quotes": {
       "selection": [
         "You have a product to ship. We select engineers who can make decisions, execute and ",

@@ -1,166 +1,176 @@
 {
   "home": {
-    "title": "Solutions IA sur mesure pour vos opérations | NODINA",
-    "description": "NODINA conçoit et développe des solutions IA connectées à vos données et à vos logiciels. Confiez-nous une réalisation ou renforcez votre équipe.",
-    "label": "Solutions IA sur mesure",
-    "heading": "L’IA intégrée à vos opérations.",
-    "lead": "Nous concevons et développons des solutions connectées à vos données et à vos logiciels, pour automatiser les tâches qui freinent votre activité.",
-    "primary": "Discuter de mon projet",
-    "secondary": "Découvrir nos solutions",
-    "problemsLabel": "Votre point de départ",
-    "problemsTitle": "Un processus à améliorer. Un système à construire.",
+    "title": "Conseil IA et ingénieurs AI-native pour votre entreprise | NODINA",
+    "description": "NODINA met l’IA au service de l’entreprise que vous dirigez déjà, et vous apporte des ingénieurs senior formés à l’IA pour livrer vos logiciels plus vite. Parlons de votre projet.",
+    "label": "Conseil IA · Ingénierie AI-native",
+    "heading": "Mettez l’IA au travail dans l’entreprise que vous dirigez déjà.",
+    "lead": "Deux façons d’y arriver. Nous intégrons l’IA à vos opérations existantes, sans tout remplacer. Ou nous vous apportons des ingénieurs senior formés à l’IA, qui livrent vos logiciels plus vite qu’un recrutement.",
+    "primary": "Réserver un échange",
+    "secondary": "Voir comment nous travaillons",
+    "problemsLabel": "Ce que vous obtenez",
+    "problemsTitle": "Moins de travail manuel. Des livraisons plus rapides. Pas d’expérimentation sans fin.",
     "problems": [
       [
-        "Trop de traitement manuel",
-        "Des informations à extraire, vérifier et transférer d’un document à un autre."
+        "Des heures récupérées chaque semaine",
+        "Traitement de documents, saisie et recherches que votre équipe fait à la main aujourd’hui, confiés à l’IA avec des contrôles humains là où ils comptent."
       ],
       [
-        "Des connaissances dispersées",
-        "Des réponses à retrouver dans plusieurs sources, avec leurs références et les bons droits d’accès."
+        "Des logiciels livrés plus vite",
+        "Des ingénieurs senior maîtrisant les outils de code IA, dans votre base de code dès la troisième semaine, sans participation ni frais de recrutement."
       ],
       [
-        "Des outils qui ne travaillent pas ensemble",
-        "Des opérations à relier entre vos logiciels, avec des contrôles aux étapes importantes."
+        "Des décisions que vous pouvez défendre",
+        "Une proposition cadrée avec livrables, critères de réussite et responsabilités avant la première ligne de code."
       ]
     ],
-    "offersLabel": "Deux façons de travailler ensemble",
-    "offersTitle": "Une solution à réaliser. Ou une équipe à renforcer.",
-    "systemsTitle": "Solutions IA sur mesure",
-    "systemsBody": "Vous nous confiez un besoin métier. Nous cadrons, construisons et intégrons le système dans votre environnement.",
-    "systemsLink": "Confier une réalisation",
+    "offersLabel": "Choisissez votre point de départ",
+    "offersTitle": "Optimiser l’existant. Ou construire plus vite.",
+    "systemsTitle": "Conseil et intégration IA",
+    "systemsBody": "Pour les dirigeants qui veulent l’IA dans leurs opérations actuelles. Nous identifions les processus à automatiser, construisons la solution, la connectons à vos données et outils, et la livrons en état de marche.",
+    "systemsItems": [
+      "Traitement, extraction et vérification de documents",
+      "Recherche et réponses dans vos connaissances internes",
+      "Workflows reliés entre les logiciels que vous utilisez déjà"
+    ],
+    "systemsLink": "Découvrir le conseil IA",
     "teamsTitle": "AI-native Teams",
-    "teamsBody": "Vous pilotez votre produit. Nous réunissons des ingénieurs senior et organisons leur collaboration avec votre équipe.",
-    "teamsLink": "Renforcer mon équipe",
-    "proofLabel": "L’expérience derrière le projet",
-    "proofTitle": "Des décisions techniques fondées sur le terrain.",
-    "proofBody": "Jean-David Collard, fondateur de NODINA, réunit plus de quinze ans d’expérience en produits, recrutement et management, ainsi qu’un doctorat en informatique. Cette expérience guide le cadrage et la composition de chaque équipe.",
-    "proofLink": "Découvrir NODINA",
-    "methodLabel": "Notre approche",
-    "methodTitle": "Du problème au système intégré.",
+    "teamsBody": "Pour les dirigeants qui ont une roadmap et pas assez d’ingénieurs. Nous réunissons des ingénieurs senior formés aux outils IA, sélectionnés sur du travail réel, et les intégrons à votre équipe.",
+    "teamsItems": [
+      "Équipe validée en une semaine, premières pull requests dès la troisième",
+      "Des ingénieurs dans vos dépôts, vos outils et vos rituels",
+      "Sans prise de participation ni frais de recrutement"
+    ],
+    "teamsLink": "Découvrir AI-native Teams",
+    "proofLabel": "Pourquoi NODINA",
+    "proofTitle": "Du jugement senior, pas un argumentaire.",
+    "proofBody": "NODINA est dirigée par Jean-David Collard : plus de quinze ans à construire des produits et des équipes d’ingénieurs en France et aux États-Unis, et un doctorat en informatique. Chaque mission est cadrée par quelqu’un qui a livré, recruté et répondu du résultat.",
+    "proofLink": "Rencontrer le fondateur",
+    "methodLabel": "Comment ça marche",
+    "methodTitle": "Trois étapes du premier échange aux résultats.",
     "steps": [
       [
         "Cadrer",
-        "Définir le besoin, examiner les outils existants et convenir des critères de réussite."
+        "Un premier échange sur votre objectif et vos contraintes. Vous recevez une proposition écrite avec périmètre, livrables et critères de réussite."
       ],
       [
         "Construire",
-        "Développer les composants et les intégrations, puis évaluer le résultat sur votre usage."
+        "Nous construisons la solution ou réunissons l’équipe. Vous suivez l’avancement dans vos propres outils, avec revue et évaluation intégrées."
       ],
       [
-        "Intégrer",
-        "Préparer le déploiement et la prise en main. Définir les responsabilités et le suivi convenus."
+        "Exploiter",
+        "Déploiement, documentation et prise en main. Les responsabilités et le suivi sont convenus avant la mise en service, pas après."
       ]
     ],
-    "closing": "Quel processus voulez-vous améliorer ?",
-    "closingBody": "Parlons de votre besoin, de vos outils et de ce que la solution doit rendre possible."
+    "closing": "Dites-nous ce qui vous ralentit.",
+    "closingBody": "Un échange. Une prochaine étape claire. Si nous ne sommes pas le bon partenaire, nous vous le dirons."
   },
   "systems": {
-    "title": "Développement et intégration de solutions IA sur mesure | NODINA",
-    "description": "Traitement documentaire, recherche dans vos connaissances et workflows connectés : NODINA cadre, développe et intègre votre solution IA sur mesure.",
-    "label": "Solutions IA sur mesure",
-    "heading": "Votre besoin métier. Une solution IA intégrée.",
-    "context": "Un processus manuel vous coûte du temps. Ou un usage de l’IA reste au stade de l’essai.",
-    "lead": "Il faut relier vos données, vos logiciels et vos contraintes pour en faire un système utilisé au quotidien. NODINA prend en charge le cadrage, le développement et l’intégration dans le périmètre convenu.",
-    "primary": "Parler du système à construire",
-    "casesLabel": "Ce que nous pouvons construire",
-    "casesTitle": "Partir d’un usage précis.",
+    "title": "Conseil et intégration IA pour vos opérations existantes | NODINA",
+    "description": "Conseil IA personnalisé : NODINA identifie les processus à automatiser dans votre entreprise, construit la solution et l’intègre à vos données et à vos outils.",
+    "label": "Conseil et intégration IA",
+    "heading": "L’IA dans vos opérations. Propre, connectée, en production.",
+    "context": "Vous savez que l’IA devrait faire gagner du temps à votre entreprise. Vous ne voulez ni d’un pilote qui ne sort jamais du labo, ni d’un prestataire qui refait tout.",
+    "lead": "NODINA part de l’entreprise que vous dirigez déjà. Nous identifions les processus où l’IA est rentable, construisons la solution, la connectons à vos données et logiciels, et la livrons en état de marche, avec les utilisateurs formés.",
+    "primary": "Réserver une consultation",
+    "casesLabel": "Là où l’IA est rentable en premier",
+    "casesTitle": "Commencez par le processus qui vous coûte le plus.",
     "cases": [
       [
-        "Traiter vos documents",
-        "Extraire et structurer les informations, vérifier les résultats et transmettre les données à vos outils métier."
+        "Vos documents traités pour vous",
+        "Factures, contrats, formulaires, rapports : informations extraites, vérifiées et transmises à vos outils métier."
       ],
       [
-        "Retrouver vos connaissances",
-        "Rechercher dans vos sources avec des réponses référencées et des accès adaptés aux utilisateurs."
+        "Des réponses issues de vos propres connaissances",
+        "Votre équipe pose une question et obtient une réponse sourcée dans vos documents, en respectant les droits d’accès."
       ],
       [
-        "Relier vos opérations",
-        "Orchestrer des actions entre logiciels, en conservant des points de contrôle humains."
+        "Des workflows qui tournent seuls",
+        "Des actions enchaînées entre les logiciels que vous utilisez déjà, avec un point de contrôle humain là où la décision compte."
       ]
     ],
-    "examplesNote": "Exemples de systèmes possibles, à cadrer selon vos données et vos contraintes. L’IA peut aussi être intégrée à un produit existant.",
-    "deliveryLabel": "Le périmètre de réalisation",
-    "deliveryTitle": "Ce que vous nous confiez.",
+    "examplesNote": "Des exemples, pas un catalogue. Chaque solution est cadrée selon vos données, vos outils et vos contraintes. L’IA peut aussi être ajoutée à un produit que vous vendez déjà.",
+    "deliveryLabel": "Ce que vous obtenez",
+    "deliveryTitle": "Une solution qui fonctionne, pas une présentation.",
     "deliverables": [
       [
-        "Un cadrage",
-        "Usage cible, données, contraintes et critères de réussite. Le sur mesure est retenu lorsqu’un outil existant ne suffit pas."
+        "Un plan cadré",
+        "Le processus à améliorer, les données concernées, les contraintes et les critères de réussite. Si un outil du marché fait déjà le travail, nous vous le disons."
       ],
       [
-        "Un système développé et évalué",
-        "Code, intégrations, tests et évaluations sur vos cas d’usage. Les choix techniques sont documentés."
+        "Une solution construite et testée",
+        "Code, intégrations et évaluations sur vos cas réels. Les choix techniques sont documentés pour que votre équipe ne dépende jamais de nous."
       ],
       [
-        "Une intégration préparée",
-        "Déploiement, documentation et prise en main. Exploitation, maintenance et responsabilités sont définies dans la proposition."
+        "Une prise en main qui tient",
+        "Déploiement, documentation et formation des utilisateurs. Exploitation, maintenance et responsabilités sont écrites dans la proposition."
       ]
     ],
-    "fitLabel": "Avant de démarrer",
-    "fitTitle": "Un projet ancré dans votre organisation.",
-    "fitBody": "Nous précisons ensemble le coût du problème, le résultat attendu et un premier périmètre. Nous examinons les données disponibles, les accès et les contraintes avec les personnes concernées.",
+    "fitLabel": "Est-ce pour vous ?",
+    "fitTitle": "La bonne adéquation en trois questions.",
+    "fitBody": "Nous prenons les missions où le problème est réel et porté par quelqu’un. Avant de démarrer, nous convenons de ce que le problème vous coûte aujourd’hui, de ce que la solution doit rendre possible et d’un premier périmètre.",
     "fitPoints": [
-      "Un responsable métier impliqué",
-      "Des données et des outils accessibles dans un cadre défini",
-      "Des critères pour vérifier la valeur de la solution"
+      "Un responsable métier qui veut voir le problème résolu",
+      "Des données et des outils accessibles dans un cadre convenu",
+      "Un moyen de mesurer si la solution en vaut la peine"
     ],
-    "closing": "Commençons par votre processus.",
-    "closingBody": "Décrivez ce qui bloque aujourd’hui et ce que vous voulez rendre possible. Nous examinerons l’adéquation et la suite du projet.",
-    "alternative": "Vous souhaitez garder le pilotage du développement ?",
+    "closing": "Quel processus passe en premier ?",
+    "closingBody": "Décrivez ce qui ralentit votre équipe. Nous vous dirons si l’IA peut y remédier, et comment nous nous y prendrions.",
+    "alternative": "Vous avez besoin d’ingénieurs plutôt que d’une solution livrée ?",
     "alternativeLink": "Découvrir AI-native Teams"
   },
   "teams": {
-    "title": "AI-native Teams : votre équipe d’ingénieurs senior | NODINA",
-    "description": "Renforcez votre capacité de développement avec des ingénieurs senior sélectionnés par NODINA, intégrés à vos outils, vos priorités et votre équipe.",
+    "title": "AI-native Teams : ingénieurs senior formés à l’IA pour votre roadmap | NODINA",
+    "description": "Des ingénieurs senior maîtrisant les outils IA, sélectionnés sur du travail réel et intégrés à votre équipe. Validés en une semaine, premières pull requests dès la troisième, sans participation ni frais de recrutement.",
     "label": "AI-native Teams",
-    "heading": "Votre roadmap. Les ingénieurs pour la faire avancer.",
-    "context": "Votre produit avance, mais votre équipe manque de capacité ou d’une compétence senior.",
-    "lead": "NODINA constitue une équipe sur mesure et organise son intégration à votre projet. Vous gardez le pilotage des priorités ; les ingénieurs travaillent dans votre code et vos outils, avec une pratique évaluée de l’IA.",
-    "primary": "Parler de mon équipe",
-    "scopeLabel": "Selon votre besoin",
-    "scopeTitle": "Un renfort ciblé ou une équipe dédiée.",
+    "heading": "Des ingénieurs senior qui construisent avec l’IA. Dans votre code dès la troisième semaine.",
+    "context": "Votre roadmap dépasse votre équipe. Recruter prend des mois, et la plupart des candidats n’ont jamais livré avec des outils IA.",
+    "lead": "NODINA réunit des ingénieurs senior formés aux outils de code IA et sélectionnés sur du travail réel, puis les intègre à votre équipe. Vous gardez la main sur les priorités. Ils livrent dans vos dépôts, avec vos outils et vos rituels.",
+    "primary": "Constituer mon équipe",
+    "scopeLabel": "Ce qu’ils font",
+    "scopeTitle": "Un renfort senior ou une équipe complète.",
     "scope": [
       [
-        "Développer le produit",
-        "Des compétences en développement logiciel et produit adaptées à votre projet."
+        "Livrer votre produit",
+        "Des ingénieurs full-stack, backend et produit qui transforment votre roadmap en pull requests fusionnées."
       ],
       [
         "Construire avec l’IA",
-        "Des profils pour les systèmes IA, les intégrations et l’évaluation, selon le périmètre."
+        "Des ingénieurs qui utilisent bien les outils de code IA : contexte, vérification et évaluation, pas du copier-coller."
       ],
       [
-        "Renforcer les décisions techniques",
-        "Architecture ou leadership technique pour accompagner votre équipe."
+        "Élever le niveau",
+        "Architecture et leadership technique pour aider votre équipe actuelle à mieux décider."
       ]
     ],
     "selectionLabel": "NODINA Select",
-    "selectionTitle": "Des compétences examinées en pratique.",
-    "selectionBody": "Le code, la maîtrise des outils IA et la capacité à travailler en équipe sont évalués par des CTO et des lead developers expérimentés. Nous sélectionnons les talents en Europe et en Amérique latine selon les besoins du projet.",
+    "selectionTitle": "Sélectionnés sur le travail, pas sur le CV.",
+    "selectionBody": "Des CTO et lead developers expérimentés examinent le code de chaque ingénieur, son usage des outils IA et sa façon de travailler en équipe. Nous sélectionnons en Europe et en Amérique latine pour que les horaires recouvrent les vôtres.",
     "selectionLink": "Voir notre méthode de sélection",
-    "profilesLink": "Découvrir les profils",
-    "workingLabel": "La collaboration",
-    "workingTitle": "Une équipe intégrée à votre façon de travailler.",
+    "profilesLink": "Parcourir les profils",
+    "workingLabel": "Comment ça marche",
+    "workingTitle": "Validée en une semaine. En production dès la troisième.",
     "working": [
       [
-        "Vos priorités et vos outils",
-        "Les ingénieurs travaillent dans vos dépôts et participent à vos rituels. Les responsabilités sont définies ensemble."
+        "Semaine 1 : valider votre équipe",
+        "À partir de votre brief, nous proposons des ingénieurs. Vous les rencontrez et validez l’équipe et le cadre de travail."
       ],
       [
-        "Un cadre convenu",
-        "Composition, rythme, durée et conditions sont précisés dans la proposition. Sans prise de participation ni frais de recrutement."
+        "Semaines 2 et 3 : intégration",
+        "Accès aux dépôts, environnement, outils et contexte produit préparés avec votre équipe."
       ],
       [
-        "La continuité préparée",
-        "Revue de code, documentation et transmission du contexte. Les modalités de relais sont cadrées dès le départ."
+        "Dès la semaine 3 : premières pull requests",
+        "Les ingénieurs travaillent dans votre code sur vos priorités. Périmètre, rythme et conditions sont dans la proposition. Sans participation ni frais de recrutement."
       ]
     ],
-    "note": "La composition et le démarrage dépendent des compétences requises et des disponibilités réelles.",
-    "closing": "De quelle capacité avez-vous besoin ?",
-    "closingBody": "Parlons de votre produit, de votre équipe actuelle et des prochaines étapes de votre roadmap.",
-    "alternative": "Vous préférez nous confier la réalisation du système ?",
-    "alternativeLink": "Découvrir les solutions IA sur mesure"
+    "note": "Délai à partir d’un brief complet, selon la disponibilité des ingénieurs et la préparation des accès.",
+    "closing": "De combien d’ingénieurs avez-vous besoin ?",
+    "closingBody": "Parlez-nous de votre produit, de votre stack et de ce qui est sur la roadmap. Nous vous proposerons une équipe et une date de démarrage.",
+    "alternative": "Vous préférez que nous livrions la solution nous-mêmes ?",
+    "alternativeLink": "Découvrir le conseil et l’intégration IA"
   },
-  "footer": "Solutions IA sur mesure et équipes d’ingénieurs senior.",
-  "solutionsNav": "Solutions IA",
+  "footer": "Conseil IA pour vos opérations. Ingénieurs AI-native pour votre roadmap.",
+  "solutionsNav": "Conseil IA",
   "teamsNav": "AI-native Teams",
-  "aboutNav": "NODINA"
+  "aboutNav": "À propos"
 }

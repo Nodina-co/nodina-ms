@@ -6,7 +6,6 @@ import SectionHeading from './SectionHeading.astro';
 import ProfileTeaser from './ProfileTeaser.astro';
 import QuickStart from './QuickStart.astro';
 import CloseSelect from './CloseSelect.astro';
-import TeamQuote from './TeamQuote.astro';
 interface Props { locale: Locale }
 const { locale: l } = Astro.props;
 const s = content[l].select;
@@ -46,5 +45,5 @@ const tools = [
   <section class="tool-section section wrap" aria-labelledby="tools-title"><SectionHeading label={s.tools_label} title={s.tools_title} id="tools-title"/><p class="section-intro">{s.tools_intro}</p>
     <ul class="tool-logos" aria-label={l === 'fr' ? 'Outils et technologies' : 'Tools and technologies'}>{tools.map(([file, name]) => <li><img src={'/assets/tools/' + file + '.svg'} width="40" height="40" loading="lazy" alt=""/><span>{name}</span></li>)}</ul><p class="fine-note">{s.tools_note}</p>
   </section>
-  <ProfileTeaser locale={l}/><TeamQuote locale={l} kind="selection"/><QuickStart locale={l}/><CloseSelect locale={l}/>
+  <ProfileTeaser locale={l}/><QuickStart locale={l}/><CloseSelect locale={l}/>
 </main>

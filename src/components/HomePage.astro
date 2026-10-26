@@ -10,18 +10,18 @@ const c = offers(l).home;
 <main id="content" class="offer-home">
   <section class="offer-hero wrap" aria-labelledby="hero-title">
     <p class="label">{c.label}</p><h1 id="hero-title">{c.heading}</h1><p class="offer-lead">{c.lead}</p>
-    <div class="actions"><Action href={contactPath(l, 'systems')} label={c.primary} button/><Action href={route(l, 'systems')} label={c.secondary}/></div>
-  </section>
-  <section class="section wrap" aria-labelledby="problems-title">
-    <SectionHeading label={c.problemsLabel} title={c.problemsTitle} id="problems-title"/>
-    <div class="offer-columns">{c.problems.map(([title, body]) => <article><h3>{title}</h3><p>{body}</p></article>)}</div>
+    <div class="actions"><Action href={contactPath(l, 'unknown')} label={c.primary} button/><Action href="#approach" label={c.secondary}/></div>
   </section>
   <section class="section wrap" id="offers" aria-labelledby="offers-title">
     <SectionHeading label={c.offersLabel} title={c.offersTitle} id="offers-title"/>
     <div class="offer-choices">
-      <article class="offer-choice offer-choice-systems"><h3>{c.systemsTitle}</h3><p>{c.systemsBody}</p><Action href={route(l, 'systems')} label={c.systemsLink}/></article>
-      <article class="offer-choice"><h3>{c.teamsTitle}</h3><p>{c.teamsBody}</p><Action href={route(l, 'teams')} label={c.teamsLink}/></article>
+      <article class="offer-choice offer-choice-systems"><h3>{c.systemsTitle}</h3><p>{c.systemsBody}</p><ul class="offer-choice-items">{c.systemsItems.map(item => <li>{item}</li>)}</ul><Action href={route(l, 'systems')} label={c.systemsLink}/></article>
+      <article class="offer-choice"><h3>{c.teamsTitle}</h3><p>{c.teamsBody}</p><ul class="offer-choice-items">{c.teamsItems.map(item => <li>{item}</li>)}</ul><Action href={route(l, 'teams')} label={c.teamsLink}/></article>
     </div>
+  </section>
+  <section class="section wrap" aria-labelledby="problems-title">
+    <SectionHeading label={c.problemsLabel} title={c.problemsTitle} id="problems-title"/>
+    <div class="offer-columns">{c.problems.map(([title, body]) => <article><h3>{title}</h3><p>{body}</p></article>)}</div>
   </section>
   <section class="section wrap" id="experience" aria-labelledby="experience-title">
     <SectionHeading label={c.proofLabel} title={c.proofTitle} id="experience-title"/>
@@ -31,5 +31,5 @@ const c = offers(l).home;
     <SectionHeading label={c.methodLabel} title={c.methodTitle} id="method-title"/>
     <ol class="offer-columns offer-steps">{c.steps.map(([title, body], i) => <li><span class="label" aria-hidden="true">0{i + 1}</span><h3>{title}</h3><p>{body}</p></li>)}</ol>
   </section>
-  <section class="offer-closing wrap" aria-labelledby="contact-title"><h2 id="contact-title">{c.closing}</h2><p>{c.closingBody}</p><Action href={contactPath(l, 'systems')} label={c.primary} button/></section>
+  <section class="offer-closing wrap" aria-labelledby="contact-title"><h2 id="contact-title">{c.closing}</h2><p>{c.closingBody}</p><Action href={contactPath(l, 'unknown')} label={c.primary} button/></section>
 </main>

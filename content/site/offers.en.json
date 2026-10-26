@@ -1,166 +1,176 @@
 {
   "home": {
-    "title": "Custom AI solutions for your operations | NODINA",
-    "description": "NODINA designs and builds AI solutions connected to your data and software. Entrust us with delivery or strengthen your engineering team.",
-    "label": "Custom AI solutions",
-    "heading": "AI connected to your operations.",
-    "lead": "We design and build solutions connected to your data and software, to automate the tasks that slow your business down.",
-    "primary": "Discuss my project",
-    "secondary": "Explore our solutions",
-    "problemsLabel": "Your starting point",
-    "problemsTitle": "A process to improve. A system to build.",
+    "title": "AI consulting and AI-native engineers for your business | NODINA",
+    "description": "NODINA puts AI to work inside the business you already run, and brings AI-trained senior engineers to ship your software faster. Talk to us about your project.",
+    "label": "AI consulting · AI-native engineering",
+    "heading": "Put AI to work in the business you already run.",
+    "lead": "Two ways to get there. We integrate AI into your existing operations without a rip-and-replace. Or we bring AI-trained senior engineers who ship your software faster than hiring would.",
+    "primary": "Book a conversation",
+    "secondary": "See how we work",
+    "problemsLabel": "What you get",
+    "problemsTitle": "Less manual work. Faster delivery. No science project.",
     "problems": [
       [
-        "Too much manual processing",
-        "Information to extract, check and move from one document to another."
+        "Hours back every week",
+        "Document handling, data entry and lookups that your team does by hand today, done by AI with human checks where they matter."
       ],
       [
-        "Scattered knowledge",
-        "Answers to find across sources, with references and the right access permissions."
+        "Software shipped faster",
+        "Senior engineers fluent in AI coding tools, working in your codebase from week three, without equity or recruitment fees."
       ],
       [
-        "Disconnected tools",
-        "Operations to connect across your software, with checks at important steps."
+        "Decisions you can defend",
+        "A scoped proposal with deliverables, success criteria and responsibilities before anyone writes code."
       ]
     ],
-    "offersLabel": "Two ways to work together",
-    "offersTitle": "A solution to deliver. Or a team to strengthen.",
-    "systemsTitle": "Custom AI solutions",
-    "systemsBody": "You bring a business need. We scope, build and integrate the system into your environment.",
-    "systemsLink": "Entrust us with delivery",
+    "offersLabel": "Choose your starting point",
+    "offersTitle": "Optimize what you have. Or build faster.",
+    "systemsTitle": "AI Consulting & Integration",
+    "systemsBody": "For leaders who want AI inside their current operations. We find the processes worth automating, build the solution, connect it to your data and tools, and hand it over working.",
+    "systemsItems": [
+      "Document processing, extraction and verification",
+      "Search and answers across your internal knowledge",
+      "Workflows connected across the software you already use"
+    ],
+    "systemsLink": "Explore AI consulting",
     "teamsTitle": "AI-native Teams",
-    "teamsBody": "You lead your product. We bring together senior engineers and coordinate their collaboration with your team.",
-    "teamsLink": "Strengthen my team",
-    "proofLabel": "The experience behind the project",
-    "proofTitle": "Engineering decisions grounded in experience.",
-    "proofBody": "Jean-David Collard, NODINA’s founder, brings more than fifteen years of experience in products, hiring and management, alongside a PhD in computer science. That experience guides project scoping and team composition.",
-    "proofLink": "Meet NODINA",
-    "methodLabel": "Our approach",
-    "methodTitle": "From the problem to an integrated system.",
+    "teamsBody": "For leaders with a roadmap and not enough engineers. We assemble senior engineers trained on AI tools, selected on real work, and integrate them into your team.",
+    "teamsItems": [
+      "Team approved in one week, first pull requests from week three",
+      "Engineers in your repositories, tools and rituals",
+      "No equity stake, no recruitment fees"
+    ],
+    "teamsLink": "Explore AI-native Teams",
+    "proofLabel": "Why NODINA",
+    "proofTitle": "Senior judgment, not a sales deck.",
+    "proofBody": "NODINA is led by Jean-David Collard: fifteen-plus years building products and engineering teams in France and the United States, and a PhD in computer science. Every engagement is scoped by someone who has shipped, hired and been accountable for the result.",
+    "proofLink": "Meet the founder",
+    "methodLabel": "How it works",
+    "methodTitle": "Three steps from first call to results.",
     "steps": [
       [
         "Scope",
-        "Define the need, assess existing tools and agree on success criteria."
+        "A first conversation on your objective and constraints. You get a written proposal with scope, deliverables and success criteria."
       ],
       [
         "Build",
-        "Develop components and integrations, then evaluate the result against your use case."
+        "We build the solution or assemble the team. You see progress in your own tools, with review and evaluation built in."
       ],
       [
-        "Integrate",
-        "Prepare deployment and handover. Define responsibilities and the agreed follow-up."
+        "Run",
+        "Deployment, documentation and handover. Responsibilities and follow-up are agreed before launch, not after."
       ]
     ],
-    "closing": "Which process do you want to improve?",
-    "closingBody": "Let’s discuss your needs, your tools and what the solution should make possible."
+    "closing": "Tell us what is slowing you down.",
+    "closingBody": "One conversation. A clear next step. If we are not the right fit, we will say so."
   },
   "systems": {
-    "title": "Custom AI development and integration | NODINA",
-    "description": "Document processing, knowledge search and connected workflows: NODINA scopes, builds and integrates your custom AI solution.",
-    "label": "Custom AI solutions",
-    "heading": "Your business need. An integrated AI solution.",
-    "context": "A manual process takes too much time. Or an AI use case remains an experiment.",
-    "lead": "Your data, software and constraints need to work together for a system to become part of daily operations. NODINA handles scoping, development and integration within the agreed scope.",
-    "primary": "Discuss the system to build",
-    "casesLabel": "What we can build",
-    "casesTitle": "Start with a specific use case.",
+    "title": "AI consulting and integration for existing operations | NODINA",
+    "description": "Personalized AI consulting: NODINA identifies the processes worth automating in your business, builds the solution and integrates it into your data and tools.",
+    "label": "AI Consulting & Integration",
+    "heading": "AI inside your operations. Clean, connected, running.",
+    "context": "You know AI should be saving your company time. You do not want a pilot that never leaves the lab, or a vendor who rebuilds everything.",
+    "lead": "NODINA starts from the business you already run. We identify the processes where AI pays off, build the solution, connect it to your data and software, and hand it over working, with the people who use it trained.",
+    "primary": "Book a consultation",
+    "casesLabel": "Where AI pays off first",
+    "casesTitle": "Start with the process that costs you most.",
     "cases": [
       [
-        "Process your documents",
-        "Extract and structure information, verify results and send data to your business tools."
+        "Documents handled for you",
+        "Invoices, contracts, forms, reports: information extracted, checked and pushed into your business tools."
       ],
       [
-        "Find your knowledge",
-        "Search your sources with referenced answers and access suited to each user."
+        "Answers from your own knowledge",
+        "Your team asks a question and gets a sourced answer from your documents, with access rights respected."
       ],
       [
-        "Connect your operations",
-        "Orchestrate actions across software while keeping human checkpoints."
+        "Workflows that run themselves",
+        "Actions chained across the software you already use, with a human checkpoint where the decision matters."
       ]
     ],
-    "examplesNote": "Examples of possible systems, to be scoped around your data and constraints. AI can also be integrated into an existing product.",
-    "deliveryLabel": "The delivery scope",
-    "deliveryTitle": "What you entrust to us.",
+    "examplesNote": "Examples, not a menu. Each solution is scoped around your data, tools and constraints. AI can also be added to a product you already sell.",
+    "deliveryLabel": "What you get",
+    "deliveryTitle": "A working solution, not a slide deck.",
     "deliverables": [
       [
-        "Project scoping",
-        "Target use case, data, constraints and success criteria. Custom development is chosen when an existing tool is insufficient."
+        "A scoped plan",
+        "The process to improve, the data involved, the constraints and the criteria that define success. If an off-the-shelf tool already does the job, we tell you."
       ],
       [
-        "A developed and evaluated system",
-        "Code, integrations, tests and evaluations against your use cases. Engineering decisions are documented."
+        "A built and tested solution",
+        "Code, integrations and evaluations against your real cases. Engineering decisions are documented so your team is never dependent on us."
       ],
       [
-        "Prepared integration",
-        "Deployment, documentation and handover. Operations, maintenance and responsibilities are defined in the proposal."
+        "A handover that sticks",
+        "Deployment, documentation and training for the people who use it. Operations, maintenance and responsibilities are written into the proposal."
       ]
     ],
-    "fitLabel": "Before we start",
-    "fitTitle": "A project grounded in your organization.",
-    "fitBody": "Together, we clarify the cost of the problem, the expected outcome and an initial scope. We review available data, access and constraints with the people involved.",
+    "fitLabel": "Is this for you?",
+    "fitTitle": "The right fit in three questions.",
+    "fitBody": "We take on engagements where the problem is real and someone owns it. Before we start, we agree on what the problem costs you today, what the solution must make possible, and a first scope.",
     "fitPoints": [
-      "An involved business owner",
-      "Data and tools accessible within an agreed framework",
-      "Criteria to evaluate the solution’s value"
+      "A business owner who wants the problem solved",
+      "Data and tools we can access within an agreed framework",
+      "A way to measure whether the solution is worth it"
     ],
-    "closing": "Let’s start with your process.",
-    "closingBody": "Describe what is getting in the way and what you want to make possible. We’ll discuss project fit and next steps.",
-    "alternative": "Want to keep control of development?",
+    "closing": "Which process should go first?",
+    "closingBody": "Describe what slows your team down. We will tell you whether AI can fix it, and how we would do it.",
+    "alternative": "Need engineers rather than a delivered solution?",
     "alternativeLink": "Explore AI-native Teams"
   },
   "teams": {
-    "title": "AI-native Teams: your senior engineering team | NODINA",
-    "description": "Strengthen your delivery capacity with senior engineers selected by NODINA, working in your tools, toward your priorities and alongside your team.",
+    "title": "AI-native Teams: AI-trained senior engineers for your roadmap | NODINA",
+    "description": "Senior engineers fluent in AI tools, selected on real work and integrated into your team. Approved in one week, first pull requests from week three, no equity or recruitment fees.",
     "label": "AI-native Teams",
-    "heading": "Your roadmap. The engineers to move it forward.",
-    "context": "Your product is moving forward, but your team needs more capacity or a senior skill.",
-    "lead": "NODINA builds a team around your needs and coordinates its integration into your project. You keep control of priorities; engineers work in your code and tools, with an evaluated approach to AI.",
-    "primary": "Discuss my team",
-    "scopeLabel": "Around your needs",
-    "scopeTitle": "Targeted reinforcement or a dedicated team.",
+    "heading": "Senior engineers who build with AI. In your codebase from week three.",
+    "context": "Your roadmap is bigger than your team. Hiring takes months, and most candidates have never shipped with AI tools.",
+    "lead": "NODINA assembles senior engineers trained on AI coding tools and selected on real work, then integrates them into your team. You keep control of priorities. They ship in your repositories, with your tools and rituals.",
+    "primary": "Build my team",
+    "scopeLabel": "What they do",
+    "scopeTitle": "One senior hire or a full team.",
     "scope": [
       [
-        "Build the product",
-        "Software and product engineering skills matched to your project."
+        "Ship your product",
+        "Full-stack, backend and product engineers who turn your roadmap into merged pull requests."
       ],
       [
         "Build with AI",
-        "Profiles for AI systems, integrations and evaluation, depending on the scope."
+        "Engineers who use AI coding tools well: context, verification and evaluation, not copy-paste."
       ],
       [
-        "Strengthen engineering decisions",
-        "Architecture or technical leadership to support your team."
+        "Raise the bar",
+        "Architecture and technical leadership to help your existing team make better decisions."
       ]
     ],
     "selectionLabel": "NODINA Select",
-    "selectionTitle": "Skills assessed in practice.",
-    "selectionBody": "Code, command of AI tools and teamwork are assessed by experienced CTOs and lead developers. We select talent in Europe and Latin America around each project’s needs.",
-    "selectionLink": "See our selection method",
-    "profilesLink": "Explore the profiles",
-    "workingLabel": "Working together",
-    "workingTitle": "A team integrated into the way you work.",
+    "selectionTitle": "Selected on work, not résumés.",
+    "selectionBody": "Experienced CTOs and lead developers review each engineer’s code, their use of AI tools and how they work with a team. We select across Europe and Latin America so working hours overlap with yours.",
+    "selectionLink": "See how we select",
+    "profilesLink": "Browse engineer profiles",
+    "workingLabel": "How it works",
+    "workingTitle": "Approved in one week. Shipping from week three.",
     "working": [
       [
-        "Your priorities and tools",
-        "Engineers work in your repositories and join your rituals. Responsibilities are defined together."
+        "Week 1: approve your team",
+        "From your brief, we propose engineers. You meet them and approve the team and working arrangement."
       ],
       [
-        "Agreed terms",
-        "Team composition, pace, duration and terms are set out in the proposal. No equity stake or recruitment fees."
+        "Weeks 2 and 3: onboarding",
+        "Repository access, environment, tools and product context prepared with your team."
       ],
       [
-        "Prepared continuity",
-        "Code review, documentation and context sharing. Handover arrangements are scoped from the start."
+        "From week 3: first pull requests",
+        "Engineers work in your codebase on your priorities. Scope, pace and terms are in the proposal. No equity, no recruitment fees."
       ]
     ],
-    "note": "Team composition and start dates depend on the required skills and actual availability.",
-    "closing": "What capacity do you need?",
-    "closingBody": "Let’s discuss your product, your current team and the next steps on your roadmap.",
-    "alternative": "Prefer to entrust us with system delivery?",
-    "alternativeLink": "Explore custom AI solutions"
+    "note": "Timeline from a complete brief, subject to engineer availability and access preparation.",
+    "closing": "How many engineers do you need?",
+    "closingBody": "Tell us about your product, your stack and what is on the roadmap. We will propose a team and a start date.",
+    "alternative": "Prefer that we deliver the solution ourselves?",
+    "alternativeLink": "Explore AI Consulting & Integration"
   },
-  "footer": "Custom AI solutions and senior engineering teams.",
-  "solutionsNav": "AI solutions",
+  "footer": "AI consulting for your operations. AI-native engineers for your roadmap.",
+  "solutionsNav": "AI Consulting",
   "teamsNav": "AI-native Teams",
-  "aboutNav": "NODINA"
+  "aboutNav": "About"
 }
