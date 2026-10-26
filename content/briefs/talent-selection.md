@@ -75,3 +75,15 @@ L'évaluation illustrative de NODINA Select reste distincte : sa mention Aucun c
 JD demande de rapprocher le bloc des outils de [FutureProofing](https://www.futureproofing.dev/), avec retrait de Python, TypeScript, PostgreSQL, Pinecone, Perplexity, Antigravity et v0. Liste FR/EN commune : Claude Code, Codex, Claude, ChatGPT, Llama, Cursor, GitHub, LangSmith, Supabase, Vercel, Google Cloud, AWS, Linear, Figma, PostHog, Sentry et Stripe. Claude Code et Codex sont conservés ; les treize autres logos nécessaires sont ajoutés localement. Sources et licences Lobe Icons MIT, Devicon MIT et Simple Icons CC0 consignées dans `public/assets/tools/SOURCES.md`. Les trois SVG retirés du bloc, désormais inutilisés, sont supprimés des assets.
 
 Grille : cinq colonnes sur grand écran, quatre au breakpoint tablette existant, deux en mobile. Le texte et la note de composition selon les outils du projet restent le cadrage du bloc. Aucun nouveau partenariat, certification ou niveau uniforme d’expertise déduit de cette liste. Les données des profils ne sont pas réécrites par cette demande portant sur le bloc d’outils. Compilation statique réussie ; labels et dix-sept SVG contrôlés dans les deux rendus, revue finale régénérée. Aucun nouvel essai, capture ou déploiement.
+
+## Quatre profils anonymisés — 26 octobre 2026
+
+JD valide quatre fiches sur la sélection FR/EN : deux architectes logiciels et développeurs full-stack senior, un développeur full-stack avec cinq ans d’expérience et pratique agents de développement/tests E2E/CI/CD, et un développeur d’applications web. Les textes IA différenciés couvrent architecture et intégration de systèmes agentiques, orchestration de processus métier, intégration full-stack et tests, puis applications opérationnelles. Ces compétences sont approuvées par JD dans cette conversation, sans prétendre à une vérification indépendante.
+
+Cette demande remplace le catalogue précédent : suppression des portraits, des projets d’illustration, des anciennetés non confirmées et des badges de disponibilité. Les identifiants publics sont neutres (`profile-01` à `profile-04`), sans noms ni liens LinkedIn. Contact Teams depuis chaque fiche. Disponibilité et adéquation à la mission restent à confirmer.
+
+Les routes `/fr/profils/` et `/en/engineers/` ne sont plus générées et répondent 404 dans l’aperçu local ; les liens du pied de page, des offres et des fiches sont retirés. Les anciennes lignes de publication passent dans `hiddenPages`, hors des sitemaps et exports du prochain build de publication. Intégration locale, aucun déploiement effectué.
+
+## Retrait de l’exemple d’évaluation — 26 octobre 2026
+
+À la demande de JD, le bloc « À quoi ressemble une recommandation » / « What a recommendation looks like » est supprimé intégralement de la sélection FR/EN, avec ses onglets et sa conclusion. Les cinq étapes de sélection conduisent désormais directement aux outils, puis aux quatre profils anonymisés. Les textes et le script propres à cet exemple sont retirés.

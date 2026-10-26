@@ -7,11 +7,12 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1] / "dist"
 ROUTES = {
-    "fr": ["/fr/", "/fr/selection-des-talents/", "/fr/profils/", "/fr/manifeste/", "/fr/contact/", "/fr/confidentialite/", "/fr/cookies/", "/fr/mentions-legales/", "/fr/solutions-ia-sur-mesure/", "/fr/equipes-ai-native/", "/fr/blog/"],
-    "en": ["/en/", "/en/vetting/", "/en/engineers/", "/en/manifesto/", "/en/contact/", "/en/privacy/", "/en/cookies/", "/en/legal-notice/", "/en/custom-ai-solutions/", "/en/ai-native-teams/", "/en/blog/"],
+    "fr": ["/fr/", "/fr/selection-des-talents/", "/fr/manifeste/", "/fr/contact/", "/fr/confidentialite/", "/fr/cookies/", "/fr/mentions-legales/", "/fr/solutions-ia-sur-mesure/", "/fr/equipes-ai-native/", "/fr/blog/"],
+    "en": ["/en/", "/en/vetting/", "/en/manifesto/", "/en/contact/", "/en/privacy/", "/en/cookies/", "/en/legal-notice/", "/en/custom-ai-solutions/", "/en/ai-native-teams/", "/en/blog/"],
 }
 # Blog posts, paired FR/EN by translation; a post without a translation would list its own path twice.
 POSTS = [("/fr/blog/premier-processus-a-automatiser/", "/en/blog/first-process-to-automate/")]
+HIDDEN_ROUTES = {"/fr/profils/", "/en/engineers/"}
 
 
 class Page(HTMLParser):
@@ -20,11 +21,20 @@ class Page(HTMLParser):
         self.elements, self.ids, self.duplicates, self.texts = [], set(), [], []
         self.in_title, self.title = False, ""
         self.in_json, self.json = False, ""
+        self.in_profile, self.profile_images = False, 0
+        self.profile_links = []
+        self.profile_texts = []
         self.feed(text)
 
     def handle_starttag(self, tag, attrs):
         attr = dict(attrs)
         self.elements.append((tag, attr))
+        if tag == 'article' and 'profile-card' in attr.get('class', '').split():
+            self.in_profile = True
+        if tag == 'a' and self.in_profile:
+            self.profile_links.append(attr.get('href', ''))
+        if tag == 'img' and self.in_profile:
+            self.profile_images += 1
         if "id" in attr:
             if attr["id"] in self.ids:
                 self.duplicates.append(attr["id"])
@@ -34,10 +44,12 @@ class Page(HTMLParser):
             self.in_json = True
 
     def handle_endtag(self, tag):
+        if tag == 'article': self.in_profile = False
         if tag == "title": self.in_title = False
         if tag == "script": self.in_json = False
 
     def handle_data(self, data):
+        if self.in_profile: self.profile_texts.append(data)
         if self.in_title: self.title += data
         if self.in_json: self.json += data
         self.texts.append(data)
@@ -83,15 +95,16 @@ def check():
             require(any('data-analytics-preferences' in a and 'hidden' in a for a in page.attrs('button')), 'measurement preferences must start hidden')
             require({a.get('data-analytics-choice') for a in page.attrs('button') if 'data-analytics-choice' in a} == {'denied','granted'}, 'missing accept or decline choice')
             require(not any(urlsplit(a.get('src','')).hostname in ['www.googletagmanager.com','www.google-analytics.com'] for a in scripts), 'Google tag must not be preloaded before consent')
-            for policy in ROUTES[locale][5:8]:
+            for policy in ROUTES[locale][4:7]:
                 require(any(a.get('href') == policy for a in page.attrs('a')), f'missing policy link: {policy}')
-            if 5 <= index <= 7:
+            if 4 <= index <= 6:
                 require(any('data-legal-draft' in a for a in page.attrs('aside')), 'unapproved policy must retain its draft notice')
             for tag, attr in page.elements:
                 if tag == 'img':
                     require(all(key in attr for key in ['alt', 'width', 'height']), 'image lacks dimensions or alt')
                 for key in ['href', 'src']:
                     href = attr.get(key, '')
+                    require(urlsplit(href).path.rstrip('/') + '/' not in HIDDEN_ROUTES, f'link to hidden profile catalog: {href}')
                     if not href or not href.startswith(('/', '#')): continue
                     url = urlsplit(href)
                     target = url.path or route
@@ -105,10 +118,18 @@ def check():
                         require(ident in page.ids, f'{key} references missing {ident}')
             text = ' '.join(page.texts)
             require(not any(term.casefold() in text.casefold() for term in ['CheckIA', 'Angels Bay Tech', 'TitanOne', 'ReadyPark', 'moins d’une semaine', 'less than a week']), 'withdrawn claim or excluded name')
-            if index == 2:
-                statuses = [a['data-profile-status'] for _, a in page.elements if 'data-profile-status' in a]
-                require(statuses.count('assigned') == 7 and statuses.count('available') == 2, 'illustrative profile catalog differs from approved 7/2')
-            if index == 4:
+            if index == 1:
+                # Value: protects=withdrawn evaluation stays absent; fails_when=sample is restored; why_new=profile checks do not cover the sample; seam=none
+                require('evaluation-title' not in page.ids and not any('criterion-explorer' in a.get('class', '').split() for _, a in page.elements), 'withdrawn evaluation example must remain absent')
+                cards = [a for a in page.attrs('article') if 'profile-card' in a.get('class', '').split()]
+                require(len(cards) == 4, 'selection must show the four approved profiles')
+                # Value: protects=profile CTAs open localized Teams contact; fails_when=CTA targets another valid page; why_new=generic links only prove existence; seam=none
+                require(page.profile_links == [f'/{locale}/contact/?offer=teams'] * 4, 'profile CTAs must lead to localized Teams contact')
+                require(page.profile_images == 0, 'anonymous profiles must not have photos')
+                require(not any('data-profile-status' in a for a in cards), 'unconfirmed profile availability')
+                profile_text = ' '.join(page.profile_texts).casefold()
+                require(not any(name in profile_text for name in ['panos', 'gergos', 'tristan', 'ronan', 'beaufort', 'charalampos', 'kemalidis']), 'profile identity must remain anonymous')
+            if route == f'/{locale}/contact/':
                 form = page.attrs('form')[0]
                 require(form.get('method') == 'post', 'form must use POST')
                 mode = form.get('data-storage')
@@ -124,6 +145,8 @@ def check():
                 require(any(a.get('name') == 'consent' and 'required' in a and 'checked' not in a for a in page.attrs('input')), 'consent must be explicit')
                 if form.get('data-ready') == 'false':
                     require(any(a.get('type') == 'submit' and 'disabled' in a for a in page.attrs('button')), 'unconfigured form must remain disabled')
+    for route in HIDDEN_ROUTES:
+        if (ROOT / route.lstrip('/')).exists(): errors.append(f'Hidden profile catalog still generated: {route}')
     for private in ['content', 'research', 'reports', 'history', 'tools', 'editorial.json', 'copy.json', 'feedback.json', 'review.html']:
         if (ROOT / private).exists(): errors.append(f'Internal material leaked into build: {private}')
     if errors:

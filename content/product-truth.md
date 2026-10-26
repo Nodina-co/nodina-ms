@@ -40,7 +40,7 @@ Les termes AI-native décrivent la doctrine de NODINA, conservée dans [voice.md
 
 **F006 — Méthode NODINA Select :** JD confirme le 2026-10-08 : « oui la méthode Nodina Select est utilisable ». Source operator-stated ; cette confirmation remplace le statut à concevoir de la méthode enregistré le 3 octobre (C235), désormais suivi par C245. La méthode peut être présentée au présent. Aucune validation scientifique, nombre de candidats évalués, score réel ou performance mesurée n'est déduit.
 
-**Outil et interface :** la confirmation concerne la méthode et ne précise pas la disponibilité d'un outil logiciel. L'interface d'évaluation affichée sur le site reste un exemple commenté, explicitement illustratif et sans candidat réel. Ne pas annoncer un logiciel utilisable sur la seule base de cette confirmation. Aucun changement de la maquette générale privée ou accord de lancement public déduit. [Brief et état actuel](briefs/talent-selection.md).
+**Outil et interface :** la confirmation concerne la méthode et ne précise pas la disponibilité d'un outil logiciel. L’ancien exemple commenté d’évaluation, explicitement illustratif et sans candidat réel, est retiré du site à la demande de JD le 26 octobre 2026. Ne pas annoncer un logiciel utilisable sur la seule base de cette confirmation. Aucun changement de la maquette générale privée ou accord de lancement public déduit. [Brief et état actuel](briefs/talent-selection.md).
 
 ## Action et tarification
 
@@ -166,3 +166,9 @@ C238 : collaborations des évaluateurs avec JD sur ses projets entrepreneuriaux 
 ## Profils actuels — confirmation du 2026-10-07
 
 **Correction du 7 octobre 2026 — déclaration explicite de JD : « les profils actuels sont réels ».** Les neuf fiches actuelles sont donc des profils réels anonymisés, source operator-stated. Cette confirmation remplace leur classement antérieur comme fiches fictives ; ne plus demander de les remplacer par des profils réels. Les parcours, réalisations et autres données des fiches sont conservés sans ajout. Les statuts affichés restent sept En mission et deux Disponible ; la disponibilité pour une mission doit être confirmée selon le brief, comme indiqué dans le catalogue. Les portraits sketch restent des illustrations générées, pas une preuve d'identité ou des photographies des personnes. Noms et pays restent absents ; aucun badge de démonstration ni paragraphe commun réintroduit. La confirmation des profils ne modifie pas le statut de NODINA Select ni ne vaut lancement public.
+
+## Profils — révision validée le 26 octobre 2026
+
+La demande de JD remplace les neuf fiches décrites dans la confirmation historique du 7 octobre par **quatre profils réels anonymisés** présentés sur la page de sélection FR/EN. Deux fiches d’architecte logiciel et développeur full-stack senior, une fiche de développeur full-stack (cinq ans d’expérience, agents de développement, tests E2E et CI/CD), une fiche de développeur d’applications web. Les textes approuvés couvrent aussi les systèmes agentiques métier et l’intégration de modèles IA aux opérations et processus de l’entreprise ; il s’agit de compétences validées par l’opérateur, pas d’évaluations indépendantes.
+
+Aucun portrait ni statut de disponibilité affiché. Aucun autre nombre d’années, stack détaillée ou projet individuel ajouté. Les routes du catalogue FR/EN et les liens qui y conduisent sont retirés de la version locale ; la disponibilité reste à confirmer pour chaque mission. Cette révision locale n’a pas été déployée. Voir `briefs/talent-selection.md`.

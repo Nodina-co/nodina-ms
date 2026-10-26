@@ -680,261 +680,64 @@
     ],
     "gate_title": "Ce qui écarte un candidat",
     "gate_body": "Du code qu’il ne sait pas expliquer. Des sorties d’IA acceptées sans vérification. Des difficultés à agir sur une revue. La force technique seule ne suffit pas si l’adéquation avec votre mission n’est pas là.",
-    "assessment_label": "Exemple concret",
-    "assessment_title": "À quoi ressemble une recommandation.",
-    "assessment_intro": "Vous recevez des forces, des limites et les conditions de réussite, pas une note.",
-    "sample_badge": "Exemple illustratif · Aucun candidat réel",
-    "sample_title": "Backend & IA · Assistant documentaire interne",
-    "sample_context": "La mission consiste à créer un assistant qui cite ses sources et respecte les droits d’accès aux documents.",
-    "sample_tabs": [
-      "Ingénierie",
-      "Pratique de l’IA",
-      "Collaboration"
-    ],
-    "sample_findings": [
-      [
-        "Ce qui est observé",
-        "Le code sépare recherche documentaire et génération. Des tests couvrent les documents absents et les accès refusés.",
-        "À approfondir",
-        "La gestion des reprises après une erreur de traitement reste à préciser."
-      ],
-      [
-        "Ce qui est observé",
-        "La personne compare des réponses sur des cas représentatifs et prévoit une abstention lorsque les sources sont insuffisantes.",
-        "À approfondir",
-        "Le budget de latence et le suivi du coût des requêtes doivent être définis."
-      ],
-      [
-        "Ce qui est observé",
-        "Les choix sont expliqués au produit. Une remarque de revue conduit à simplifier le traitement des permissions.",
-        "À approfondir",
-        "Prévoir une revue avec la personne responsable de l’exploitation."
-      ]
-    ],
-    "sample_conclusion_title": "Lecture pour cette mission",
-    "sample_conclusion": "Profil pertinent pour le développement backend et l’intégration IA, avec un appui architecture sur l’exploitation. La décision finale dépend de votre contexte et de l’échange avec votre équipe.",
     "tools_label": "Votre stack",
     "tools_title": "Des ingénieurs qui connaissent déjà vos outils.",
     "tools_intro": "Nous réunissons les compétences que votre stack exige pour que les ingénieurs travaillent directement dans vos dépôts, vos plateformes et votre processus de livraison.",
     "tools_note": "La composition de l’équipe suit les outils de votre projet. L’usage de l’IA s’accompagne toujours de revues, de tests et d’évaluations.",
-    "profiles_title": "Neuf profils. Du travail réel derrière chacun.",
-    "profiles_lead": "Backend, full-stack, data, IA et leadership technique. Découvrez le type d’ingénieurs que votre équipe pourrait accueillir.",
-    "profiles_cta": "Voir les 9 profils",
-    "profile_note": "Profils anonymisés. Les portraits sont des illustrations ; la disponibilité pour votre mission est à confirmer.",
+    "profiles_title": "Quatre profils. Des compétences complémentaires.",
+    "profiles_lead": "Architecture logicielle, développement full-stack, systèmes agentiques et intégration de l’IA aux processus métier : quatre parcours pour construire votre équipe.",
+    "profile_note": "Profils réels anonymisés. Disponibilité et adéquation à votre mission à confirmer lors de nos échanges.",
     "profile_badge": "Profil",
-    "profile_detail": "Voir les compétences",
-    "profile_mission": "Réalisation",
-    "profile_strength": "Apport à l’équipe",
     "profile_cta": "Parler de ce besoin",
     "profiles": [
       {
-        "id": "backend-ai",
-        "years": 8,
-        "status": "assigned",
-        "stack": [
-          "Python",
-          "FastAPI",
-          "PostgreSQL",
-          "pgvector",
-          "Claude API"
-        ],
-        "role": "Backend & IA",
-        "mission": "Assistant documentaire avec réponses sourcées, permissions par équipe et évaluation des résultats.",
-        "strength": "Transformer un corpus métier en un service fiable et exploitable.",
-        "details": [
-          "Structuration des documents et recherche hybride.",
-          "Tests de non-régression et suivi des réponses sans source."
-        ],
-        "portrait": "/assets/profiles/profile-01.png",
-        "industry": "LegalTech"
+        "id": "profile-01",
+        "role": "Architecte logiciel & développeur full-stack senior",
+        "summary": "Associe architecture logicielle, développement full-stack et leadership technique pour concevoir et faire évoluer des applications métier.",
+        "ai": "Conçoit l’architecture de systèmes agentiques et l’intégration de modèles d’IA aux applications, données et processus de l’entreprise. Utilise les agents de développement avec une attention portée aux tests, aux permissions et à la maintenance.",
+        "skills": [
+          "Architecture logicielle",
+          "Full-stack senior",
+          "Systèmes agentiques",
+          "Intégration IA"
+        ]
       },
       {
-        "id": "workflows",
-        "years": 9,
-        "status": "assigned",
-        "stack": [
-          "Python",
-          "LangGraph",
-          "Temporal",
-          "Kafka",
-          "PostgreSQL"
-        ],
-        "role": "Backend & agents IA",
-        "mission": "Workflow de traitement de dossiers associant agents IA, validation humaine et reprise après erreur.",
-        "strength": "Garder la maîtrise des processus lorsque les intégrations se multiplient.",
-        "details": [
-          "Orchestration durable et événements asynchrones.",
-          "Traçabilité des décisions et gestion des exceptions."
-        ],
-        "portrait": "/assets/profiles/profile-02.png",
-        "industry": "Finance, conformité & audit"
+        "id": "profile-02",
+        "role": "Architecte logiciel & développeur full-stack senior",
+        "summary": "Intervient des choix d’architecture à la réalisation des interfaces et des services backend.",
+        "ai": "Développe des workflows agentiques qui coordonnent modèles d’IA, outils et services existants pour automatiser les processus métier. Intègre les validations humaines et la gestion des erreurs, en s’appuyant sur les assistants de code pour construire et faire évoluer ces systèmes.",
+        "skills": [
+          "Architecture logicielle",
+          "Full-stack senior",
+          "Orchestration d’agents",
+          "Automatisation métier"
+        ]
       },
       {
-        "id": "product",
-        "years": 7,
-        "status": "assigned",
-        "stack": [
-          "TypeScript",
-          "React",
-          "Next.js",
-          "PostgreSQL",
-          "Codex"
-        ],
-        "role": "Full-stack & produit IA",
-        "mission": "Espace de travail intégrant recherche assistée, suggestions IA et validation par les utilisateurs.",
-        "strength": "Relier les usages, l’interface et les services backend.",
-        "details": [
-          "Parcours utilisateur et intégration dans un produit existant.",
-          "Développement assisté par l’IA, tests et revue de code."
-        ],
-        "portrait": "/assets/profiles/profile-03.png",
-        "industry": "Stratégie & conseil"
-      },
-      {
-        "id": "full-stack",
-        "years": 6,
-        "status": "assigned",
-        "stack": [
-          "TypeScript",
-          "React",
-          "Python",
-          "FastAPI",
-          "Cursor"
-        ],
-        "role": "Ingénierie produit full-stack",
-        "mission": "Interface de recherche conversationnelle reliée à un catalogue et à ses règles métier.",
-        "strength": "Passer d’un besoin produit à une fonctionnalité utilisable de bout en bout.",
-        "details": [
-          "Interfaces accessibles et API documentées.",
-          "Livraison incrémentale et retours des utilisateurs."
-        ],
-        "portrait": "/assets/profiles/profile-04.png",
-        "industry": "Supply chain & logistique"
-      },
-      {
-        "id": "mlops",
-        "years": 10,
-        "status": "assigned",
-        "stack": [
-          "Python",
-          "PyTorch",
-          "Kubernetes",
-          "Terraform",
-          "AWS"
-        ],
-        "role": "Plateforme & MLOps",
-        "mission": "Chaîne de déploiement de modèles avec environnements reproductibles, suivi des versions et supervision.",
-        "strength": "Préparer les modèles et leurs services à une exploitation quotidienne.",
-        "details": [
-          "Infrastructure as code et automatisation des déploiements.",
-          "Suivi de la qualité, des coûts et du comportement des modèles."
-        ],
-        "portrait": "/assets/profiles/profile-05.png",
-        "industry": "Healthcare"
-      },
-      {
-        "id": "data",
-        "years": 8,
-        "status": "assigned",
-        "stack": [
-          "Python",
-          "SQL",
-          "dbt",
-          "Airflow",
-          "PostgreSQL"
-        ],
-        "role": "Data engineering & IA",
-        "mission": "Pipelines de données métier avec contrôles de qualité et traçabilité, prêts à alimenter les applications IA.",
-        "strength": "Donner aux équipes une base de données compréhensible et fiable.",
-        "details": [
-          "Modélisation des données et orchestration des traitements.",
-          "Documentation, alertes et reprise des flux interrompus."
-        ],
-        "portrait": "/assets/profiles/profile-06.png",
-        "industry": "Supply chain & logistique"
-      },
-      {
-        "id": "lead",
-        "years": 11,
-        "status": "assigned",
-        "stack": [
-          "Python",
-          "TypeScript",
-          "RAG",
-          "OpenTelemetry",
+        "id": "profile-03",
+        "role": "Développeur full-stack & automatisation des tests",
+        "summary": "Développeur web full-stack avec cinq ans d’expérience, il combine réalisation de fonctionnalités, utilisation d’agents de développement IA et automatisation de la vérification du logiciel. Il met en place des tests de bout en bout et des pipelines CI/CD pour vérifier les parcours utilisateurs et accompagner les livraisons.",
+        "ai": "Intègre des modèles d’IA et des agents métier dans les applications web, des interfaces utilisateurs aux services backend. Utilise les agents de développement et automatise les tests de bout en bout dans les pipelines CI/CD pour vérifier les parcours et détecter les régressions.",
+        "skills": [
+          "Développement full-stack",
+          "Agents de développement IA",
+          "Tests E2E",
           "CI/CD"
-        ],
-        "role": "Tech lead & architecture IA",
-        "mission": "Architecture d’un service IA intégré au système existant, avec critères d’évaluation et passage de relais à l’équipe.",
-        "strength": "Arbitrer les choix techniques et accompagner l’équipe jusqu’à la production.",
-        "details": [
-          "Revues d’architecture, sécurité des accès et observabilité.",
-          "Accompagnement des ingénieurs et transmission des décisions."
-        ],
-        "portrait": "/assets/profiles/profile-07.png",
-        "industry": "Finance, conformité & audit"
+        ]
       },
       {
-        "id": "applied-ai",
-        "years": 7,
-        "status": "available",
-        "stack": [
-          "Python",
-          "FastAPI",
-          "pgvector",
-          "LangChain",
-          "GitHub"
-        ],
-        "role": "Backend & IA appliquée",
-        "mission": "API de recherche augmentée sur une base documentaire, avec comparaison des stratégies de recherche et tests de qualité.",
-        "strength": "Faire le lien entre expérimentation IA et contraintes d’une API en production.",
-        "details": [
-          "Recherche vectorielle, filtres métier et évaluation des réponses.",
-          "Contrats d’API, tests d’intégration et instrumentation."
-        ],
-        "portrait": "/assets/profiles/profile-08.png",
-        "industry": "LegalTech"
-      },
-      {
-        "id": "ai-product",
-        "years": 6,
-        "status": "available",
-        "stack": [
-          "TypeScript",
-          "React",
-          "Next.js",
-          "Cursor",
-          "PostgreSQL"
-        ],
-        "role": "Full-stack & expérience IA",
-        "mission": "Parcours de création assistée par l’IA permettant de réviser, comparer et valider les propositions avant utilisation.",
-        "strength": "Rendre les fonctionnalités IA compréhensibles et utiles dans le quotidien des utilisateurs.",
-        "details": [
-          "Interfaces de validation et gestion des états intermédiaires.",
-          "Intégration front-to-back et collaboration avec le design produit."
-        ],
-        "portrait": "/assets/profiles/profile-09.png",
-        "industry": "Healthcare"
+        "id": "profile-04",
+        "role": "Développeur d’applications web",
+        "summary": "Un profil de développement orienté vers les applications web et les besoins métier. Il contribue à la construction de fonctionnalités et à l’évolution de produits existants, dans une démarche de collaboration avec l’équipe technique.",
+        "ai": "Transforme des besoins opérationnels en fonctionnalités intégrant des modèles d’IA : traitement d’informations, assistance aux utilisateurs et enchaînement de tâches métier. S’appuie sur le développement assisté par IA pour réaliser ces fonctionnalités et les connecter aux outils de l’entreprise.",
+        "skills": [
+          "Applications web",
+          "Intégration de modèles IA",
+          "Processus métier",
+          "Développement assisté par IA"
+        ]
       }
-    ],
-    "profiles_page_title": "Profils d’ingénieurs — NODINA",
-    "profiles_h1": "Votre roadmap. <span>Les ingénieurs pour la livrer.</span>",
-    "profiles_page_lead": "Neuf profils anonymisés en backend, full-stack, data, IA et leadership technique. Dites-nous ce qu’il vous faut et nous proposons les bons.",
-    "profiles_explain_title": "Une recommandation sur laquelle agir.",
-    "profiles_explain_body": "Pour votre mission, nous précisons le rôle, les compétences pertinentes, le travail partageable et les points à explorer. Vous rencontrez les ingénieurs avant de valider l’équipe.",
-    "profiles_facts": [
-      [
-        "Rôle et contribution",
-        "Ce dont la personne aura la charge sur votre projet."
-      ],
-      [
-        "Preuves",
-        "Travail examiné, raisonnement et points d’attention."
-      ],
-      [
-        "Cadre de travail",
-        "Langue, horaires communs et disponibilité à confirmer."
-      ]
     ],
     "quick_label": "AI-native Teams · Calendrier",
     "quick_title": "Validée en une semaine. En production dès la troisième.",
@@ -995,32 +798,12 @@
         "aller jusqu’à la production."
       ]
     },
-    "profile_status": {
-      "assigned": "En mission",
-      "available": "Disponible"
-    },
-    "profile_filters": [
-      [
-        "all",
-        "Tous"
-      ],
-      [
-        "assigned",
-        "En mission"
-      ],
-      [
-        "available",
-        "Disponibles"
-      ]
-    ],
-    "profile_results": "profils affichés",
-    "profile_overview": "9 profils · 7 en mission · 2 disponibles",
-    "profile_years": "ans d’expérience",
     "quick_periods": [
       "Semaine 1",
       "Semaines 2 et 3",
       "Au terme des 3 semaines"
-    ]
+    ],
+    "profile_ai_label": "IA appliquée aux opérations"
   },
   "sectors_references_title": "Votre contexte d’abord. Les références ensuite.",
   "sectors_references_body": "Nous partageons les références pertinentes dès le premier échange, sous accord de confidentialité.",

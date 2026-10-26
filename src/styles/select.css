@@ -20,26 +20,18 @@
 @media(max-width:800px){.team-quote{margin-bottom:48px;padding-top:32px}.team-quote blockquote{font-size:32px}}
 @media(max-width:600px){.team-quote{margin-top:8px;margin-bottom:40px;padding-top:28px;padding-bottom:0}.team-quote blockquote{font-size:27px;line-height:1.4}.team-quote figcaption{font-size:17px;margin-top:22px}}
 
-/* Original demonstration profiles, with explicit fictional status and portraits. */
-.profile-card{padding:26px;scroll-margin-top:28px}.profile-card[hidden]{display:none}.profile-top{justify-content:space-between;gap:10px;margin-bottom:22px;align-items:flex-start}.profile-demo{font-size:11px;color:var(--muted);line-height:1.4}.profile-status{display:inline-flex;align-items:center;gap:6px;font-size:11px;white-space:nowrap;line-height:1.4;color:var(--muted)}.profile-status:before{content:'';width:6px;height:6px;border-radius:50%;background:currentColor;flex-shrink:0}.profile-status.available{color:#24624d}.profile-card:has(.profile-status.available){border-color:#8ba99d}.profile-identity{display:flex;align-items:center;gap:18px;margin-bottom:22px}.profile-identity img{width:80px;height:80px;object-fit:cover;border-radius:50%;background:#f5f7fc;flex-shrink:0}.profile-name{font-size:21px;font-weight:500;color:var(--ink)}.profile-location{font-size:13px;color:var(--muted);margin-top:6px}.profile-card h3{font-size:27px;line-height:1.15;max-width:none}.profile-domain{color:var(--blue);font-size:13px;margin-top:12px}.profile-project{margin-top:22px;border-top:1px solid var(--line);padding-top:18px}.profile-project-label{font-size:11px;color:var(--muted);margin-bottom:8px}.profile-project>p:last-child{font-size:16px;line-height:1.5;color:var(--ink)}.profile-card .stack-tags{margin-block:20px 24px}.profile-card .profile-more{margin-top:auto;margin-bottom:20px}.profile-more>p{font-size:14px;color:var(--muted);margin-bottom:12px}.profile-card>.text-link{margin-top:0;font-size:14px}.profiles-teaser .profile-card>.text-link{margin-top:auto}.profile-overview{font-size:16px;margin-bottom:24px}.profile-toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:24px}.profile-toolbar[hidden]{display:none}.profile-filters{display:flex;flex-wrap:wrap;gap:8px}.profile-filters button{font:inherit;font-size:14px;min-height:44px;border:1px solid var(--line);padding:10px 14px;background:white;color:var(--ink);cursor:pointer;display:flex;align-items:center;gap:12px}.profile-filters button span{font-size:11px;opacity:.8}.profile-filters button[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:white}.profile-filters button:focus-visible{outline:2px solid var(--blue);outline-offset:3px}.profile-result{color:var(--muted);font-size:12px}.profile-overview:has(+.profile-toolbar:not([hidden])){display:none}
-@media(max-width:1100px){.profile-card{padding:22px}.profile-card h3{font-size:25px}.profile-top{flex-direction:column;gap:6px}.profile-identity{gap:14px}.profile-identity img{width:68px;height:68px}.profile-name{font-size:20px}.profile-project>p:last-child{font-size:15px}.profile-location{font-size:12px}}
-@media(min-width:601px) and (max-width:1000px){.profile-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.profile-top{flex-direction:row}.profiles-teaser .profile-card:last-child{grid-column:1/-1}}
-@media(max-width:720px){.profile-toolbar{align-items:flex-start;flex-direction:column;gap:12px}}
-@media(max-width:600px){.profile-grid{grid-template-columns:1fr;gap:20px}.profile-card{padding:22px}.profile-top{flex-direction:row}.profile-identity img{width:76px;height:76px}.profile-name{font-size:23px}.profile-location{font-size:13px}.profile-card h3{font-size:28px}.profile-project>p:last-child{font-size:16px}.profile-filters button{font-size:13px;padding-inline:12px;gap:8px}.profile-demo,.profile-status{font-size:10px}}
-
-/* Anonymous profile cards: experience and homepage industry, without identity or origin. */
-.profile-experience{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12px;line-height:1.4;font-weight:400;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
-.profile-experience-context{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
-.profile-industry{margin:18px 0 0}
-.profile-industry dt{font-size:11px;color:var(--muted);margin-bottom:5px}
-.profile-industry dd{font-size:14px;line-height:1.4;color:var(--blue);margin:0}
-
-/* Compact card masthead; the shared note above the grid identifies the demo content. */
-.profile-identity{display:grid;grid-template-columns:80px minmax(0,1fr) auto;gap:16px;align-items:start;margin-bottom:26px}
-.profile-identity .profile-experience,.profile-identity .profile-status{margin-top:9px}
-.profile-identity .profile-status{justify-self:end;font-size:11px}
-@media(max-width:1100px){.profile-identity{grid-template-columns:64px minmax(0,1fr) auto;gap:10px}.profile-identity img{width:64px;height:64px}.profile-experience{font-size:11px;letter-spacing:.06em}.profile-identity .profile-status{font-size:10px}}
-@media(max-width:600px){.profile-identity{margin-bottom:24px}.profile-experience{font-size:11px}}
+/* Four anonymized profiles, without portraits or availability badges. */
+.profiles-teaser .profile-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.profile-note{margin:-12px 0 32px}
+.profiles-teaser .profile-card{padding:28px}
+.profile-number{font-size:12px;color:var(--blue);margin-bottom:20px}
+.profiles-teaser .profile-card h3{font-size:28px;line-height:1.2;max-width:none}
+.profile-ai{margin-top:24px;padding-top:20px;border-top:1px solid var(--line)}
+.profile-ai h4{font-size:13px;font-weight:500;color:var(--blue);margin-bottom:12px}
+.profile-ai p{font-size:16px;line-height:1.6;color:var(--muted)}
+.profiles-teaser .profile-card>.text-link{margin-top:auto}
+@media(max-width:880px){.profiles-teaser .profile-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.profiles-teaser .profile-card{padding:22px}.profiles-teaser .profile-card h3{font-size:26px}.profile-ai p{font-size:15px}}
 
 /* Homepage: the start timeframe belongs in the main promise. */
 .hero-teams h1{font-size:clamp(44px,6.2vw,88px);line-height:1.055;max-width:1280px}

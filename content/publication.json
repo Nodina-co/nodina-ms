@@ -17,16 +17,7 @@
       "locale": "fr",
       "path": "/fr/selection-des-talents/",
       "status": "published",
-      "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-26",
-      "publishedOn": "2026-10-09"
-    },
-    {
-      "id": "profiles",
-      "locale": "fr",
-      "path": "/fr/profils/",
-      "status": "published",
-      "approvedOn": "2026-10-09",
+      "approvedOn": "2026-10-26",
       "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
@@ -89,16 +80,7 @@
       "locale": "en",
       "path": "/en/vetting/",
       "status": "published",
-      "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-26",
-      "publishedOn": "2026-10-09"
-    },
-    {
-      "id": "profiles",
-      "locale": "en",
-      "path": "/en/engineers/",
-      "status": "published",
-      "approvedOn": "2026-10-09",
+      "approvedOn": "2026-10-26",
       "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
@@ -225,5 +207,27 @@
     "approvedOn": "2026-10-09",
     "consentMode": "basic",
     "measurementId": "G-J8NV7Z1HMX"
-  }
+  },
+  "hiddenPages": [
+    {
+      "id": "profiles",
+      "locale": "fr",
+      "path": "/fr/profils/",
+      "status": "hidden",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
+      "publishedOn": "2026-10-09",
+      "hiddenOn": "2026-10-26"
+    },
+    {
+      "id": "profiles",
+      "locale": "en",
+      "path": "/en/engineers/",
+      "status": "hidden",
+      "approvedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
+      "publishedOn": "2026-10-09",
+      "hiddenOn": "2026-10-26"
+    }
+  ]
 }

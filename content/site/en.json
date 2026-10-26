@@ -680,261 +680,64 @@
     ],
     "gate_title": "What rules a candidate out",
     "gate_body": "Code they cannot explain. AI outputs accepted without verification. Difficulty acting on a review. Technical strength alone is not enough if the fit with your engagement is wrong.",
-    "assessment_label": "Worked example",
-    "assessment_title": "What a recommendation looks like.",
-    "assessment_intro": "You get strengths, limitations and the conditions for success, not a score.",
-    "sample_badge": "Illustrative example · No real candidate",
-    "sample_title": "Backend & AI · Internal document assistant",
-    "sample_context": "The engagement involves creating an assistant that cites its sources and respects document access permissions.",
-    "sample_tabs": [
-      "Engineering",
-      "AI practice",
-      "Collaboration"
-    ],
-    "sample_findings": [
-      [
-        "Observed evidence",
-        "The code separates retrieval from generation. Tests cover missing documents and denied access.",
-        "Explore further",
-        "Recovery after a processing error still needs to be defined."
-      ],
-      [
-        "Observed evidence",
-        "The person compares responses on representative cases and includes abstention when sources are insufficient.",
-        "Explore further",
-        "Latency budgets and request cost tracking need to be defined."
-      ],
-      [
-        "Observed evidence",
-        "Decisions are explained to the product team. Review feedback leads to simpler permission handling.",
-        "Explore further",
-        "Plan a review with the person responsible for operations."
-      ]
-    ],
-    "sample_conclusion_title": "Assessment for this engagement",
-    "sample_conclusion": "A relevant profile for backend development and AI integration, with architecture support for operations. The final decision depends on your context and the conversation with your team.",
     "tools_label": "Your stack",
     "tools_title": "Engineers who already know your tools.",
     "tools_intro": "We match the skills your stack needs so engineers work directly in your repositories, platforms and delivery process.",
     "tools_note": "Team composition follows your project’s tools. AI use always comes with review, tests and evaluation.",
-    "profiles_title": "Nine profiles. Real work behind each one.",
-    "profiles_lead": "Backend, full-stack, data, AI and technical leadership. See the kind of engineers your team could bring in.",
-    "profiles_cta": "See all 9 profiles",
-    "profile_note": "Anonymized profiles. Portraits are illustrations; availability for your engagement must be confirmed.",
+    "profiles_title": "Four profiles. Complementary skills.",
+    "profiles_lead": "Software architecture, full-stack development, agentic systems and AI integration into business processes: four backgrounds to help build your team.",
+    "profile_note": "Anonymized profiles of real people. Availability and fit for your engagement are confirmed during our conversations.",
     "profile_badge": "Profile",
-    "profile_detail": "Explore the skills",
-    "profile_mission": "Project",
-    "profile_strength": "Contribution to the team",
     "profile_cta": "Discuss this need",
     "profiles": [
       {
-        "id": "backend-ai",
-        "years": 8,
-        "status": "assigned",
-        "stack": [
-          "Python",
-          "FastAPI",
-          "PostgreSQL",
-          "pgvector",
-          "Claude API"
-        ],
-        "role": "Backend & AI",
-        "mission": "Document assistant with sourced answers, team-level permissions and response evaluation.",
-        "strength": "Turn business documents into a reliable, operable service.",
-        "details": [
-          "Document structuring and hybrid retrieval.",
-          "Regression testing and monitoring unsupported answers."
-        ],
-        "portrait": "/assets/profiles/profile-01.png",
-        "industry": "LegalTech"
+        "id": "profile-01",
+        "role": "Software architect & senior full-stack developer",
+        "summary": "Combines software architecture, full-stack development and technical leadership to design and evolve business applications.",
+        "ai": "Designs the architecture of agentic systems and the integration of AI models into business applications, data and processes. Uses coding agents with a focus on testing, permissions and maintainability.",
+        "skills": [
+          "Software architecture",
+          "Senior full-stack",
+          "Agentic systems",
+          "AI integration"
+        ]
       },
       {
-        "id": "workflows",
-        "years": 9,
-        "status": "assigned",
-        "stack": [
-          "Python",
-          "LangGraph",
-          "Temporal",
-          "Kafka",
-          "PostgreSQL"
-        ],
-        "role": "Backend & AI agents",
-        "mission": "Case-processing workflow combining AI agents, human review and recovery from failures.",
-        "strength": "Keep complex processes manageable as integrations grow.",
-        "details": [
-          "Durable orchestration and asynchronous events.",
-          "Decision traceability and exception handling."
-        ],
-        "portrait": "/assets/profiles/profile-02.png",
-        "industry": "Finance, compliance & audit"
+        "id": "profile-02",
+        "role": "Software architect & senior full-stack developer",
+        "summary": "Works from architecture decisions through to the implementation of user interfaces and backend services.",
+        "ai": "Develops agentic workflows that coordinate AI models, tools and existing services to automate business processes. Incorporates human approval and error handling, using coding assistants to build and evolve these systems.",
+        "skills": [
+          "Software architecture",
+          "Senior full-stack",
+          "Agent orchestration",
+          "Business process automation"
+        ]
       },
       {
-        "id": "product",
-        "years": 7,
-        "status": "assigned",
-        "stack": [
-          "TypeScript",
-          "React",
-          "Next.js",
-          "PostgreSQL",
-          "Codex"
-        ],
-        "role": "Full-stack & AI product",
-        "mission": "Workspace integrating assisted search, AI suggestions and user approval.",
-        "strength": "Connect user needs, interfaces and backend services.",
-        "details": [
-          "User journeys and integration into an existing product.",
-          "AI-assisted development, testing and code review."
-        ],
-        "portrait": "/assets/profiles/profile-03.png",
-        "industry": "Strategy & consulting"
-      },
-      {
-        "id": "full-stack",
-        "years": 6,
-        "status": "assigned",
-        "stack": [
-          "TypeScript",
-          "React",
-          "Python",
-          "FastAPI",
-          "Cursor"
-        ],
-        "role": "Full-stack product engineering",
-        "mission": "Conversational search interface connected to a catalog and its business rules.",
-        "strength": "Turn a product need into a usable feature, end to end.",
-        "details": [
-          "Accessible interfaces and documented APIs.",
-          "Incremental delivery and user feedback."
-        ],
-        "portrait": "/assets/profiles/profile-04.png",
-        "industry": "Supply chain & logistics"
-      },
-      {
-        "id": "mlops",
-        "years": 10,
-        "status": "assigned",
-        "stack": [
-          "Python",
-          "PyTorch",
-          "Kubernetes",
-          "Terraform",
-          "AWS"
-        ],
-        "role": "Platform & MLOps",
-        "mission": "Model deployment pipeline with reproducible environments, version tracking and monitoring.",
-        "strength": "Prepare models and services for day-to-day operation.",
-        "details": [
-          "Infrastructure as code and automated deployments.",
-          "Monitoring model quality, costs and behavior."
-        ],
-        "portrait": "/assets/profiles/profile-05.png",
-        "industry": "Healthcare"
-      },
-      {
-        "id": "data",
-        "years": 8,
-        "status": "assigned",
-        "stack": [
-          "Python",
-          "SQL",
-          "dbt",
-          "Airflow",
-          "PostgreSQL"
-        ],
-        "role": "Data engineering & AI",
-        "mission": "Business data pipelines with quality checks and lineage, ready to support AI applications.",
-        "strength": "Give teams a trustworthy, understandable data foundation.",
-        "details": [
-          "Data modeling and pipeline orchestration.",
-          "Documentation, alerts and recovery of interrupted data flows."
-        ],
-        "portrait": "/assets/profiles/profile-06.png",
-        "industry": "Supply chain & logistics"
-      },
-      {
-        "id": "lead",
-        "years": 11,
-        "status": "assigned",
-        "stack": [
-          "Python",
-          "TypeScript",
-          "RAG",
-          "OpenTelemetry",
+        "id": "profile-03",
+        "role": "Full-stack developer & test automation",
+        "summary": "A full-stack web developer with five years of experience, combining feature development, AI coding agents and automated software verification. Sets up end-to-end tests and CI/CD pipelines to check user journeys and support releases.",
+        "ai": "Integrates AI models and business agents into web applications, from user interfaces to backend services. Uses coding agents and automates end-to-end tests within CI/CD pipelines to verify user journeys and detect regressions.",
+        "skills": [
+          "Full-stack development",
+          "AI coding agents",
+          "E2E testing",
           "CI/CD"
-        ],
-        "role": "Tech lead & AI architecture",
-        "mission": "Architecture for an AI service integrated into an existing system, with evaluation criteria and a team handover.",
-        "strength": "Guide technical decisions and the team through to production.",
-        "details": [
-          "Architecture reviews, access security and observability.",
-          "Engineer mentoring and documented technical decisions."
-        ],
-        "portrait": "/assets/profiles/profile-07.png",
-        "industry": "Finance, compliance & audit"
+        ]
       },
       {
-        "id": "applied-ai",
-        "years": 7,
-        "status": "available",
-        "stack": [
-          "Python",
-          "FastAPI",
-          "pgvector",
-          "LangChain",
-          "GitHub"
-        ],
-        "role": "Backend & applied AI",
-        "mission": "Retrieval-augmented API over a document collection, with retrieval comparisons and quality tests.",
-        "strength": "Bridge AI experimentation and production API requirements.",
-        "details": [
-          "Vector retrieval, business filters and response evaluation.",
-          "API contracts, integration tests and instrumentation."
-        ],
-        "portrait": "/assets/profiles/profile-08.png",
-        "industry": "LegalTech"
-      },
-      {
-        "id": "ai-product",
-        "years": 6,
-        "status": "available",
-        "stack": [
-          "TypeScript",
-          "React",
-          "Next.js",
-          "Cursor",
-          "PostgreSQL"
-        ],
-        "role": "Full-stack & AI experience",
-        "mission": "AI-assisted creation flow for reviewing, comparing and approving suggestions before use.",
-        "strength": "Make AI features understandable and useful in everyday work.",
-        "details": [
-          "Review interfaces and intermediate-state handling.",
-          "Front-to-back integration and product design collaboration."
-        ],
-        "portrait": "/assets/profiles/profile-09.png",
-        "industry": "Healthcare"
+        "id": "profile-04",
+        "role": "Web application developer",
+        "summary": "A developer focused on web applications and business needs. Contributes to building features and evolving existing products in collaboration with the engineering team.",
+        "ai": "Turns operational needs into features that integrate AI models: information processing, user assistance and sequences of business tasks. Uses AI-assisted development to implement these features and connect them to business tools.",
+        "skills": [
+          "Web applications",
+          "AI model integration",
+          "Business processes",
+          "AI-assisted development"
+        ]
       }
-    ],
-    "profiles_page_title": "Engineer profiles — NODINA",
-    "profiles_h1": "Your roadmap. <span>The engineers to ship it.</span>",
-    "profiles_page_lead": "Nine anonymized profiles across backend, full-stack, data, AI and technical leadership. Tell us what you need and we propose the right ones.",
-    "profiles_explain_title": "A recommendation you can act on.",
-    "profiles_explain_body": "For your engagement, we clarify the role, the relevant skills, work we can share and points to explore. You meet the engineers before approving the team.",
-    "profiles_facts": [
-      [
-        "Role and contribution",
-        "What the person will own on your project."
-      ],
-      [
-        "Evidence",
-        "Work reviewed, reasoning and points needing attention."
-      ],
-      [
-        "Working arrangement",
-        "Language, shared hours and availability to confirm."
-      ]
     ],
     "quick_label": "AI-native Teams · Timeline",
     "quick_title": "Approved in one week. Shipping from week three.",
@@ -995,32 +798,12 @@
         "take it through to production."
       ]
     },
-    "profile_status": {
-      "assigned": "On assignment",
-      "available": "Available"
-    },
-    "profile_filters": [
-      [
-        "all",
-        "All"
-      ],
-      [
-        "assigned",
-        "On assignment"
-      ],
-      [
-        "available",
-        "Available"
-      ]
-    ],
-    "profile_results": "profiles shown",
-    "profile_overview": "9 profiles · 7 on assignment · 2 available",
-    "profile_years": "years of experience",
     "quick_periods": [
       "Week 1",
       "Weeks 2 and 3",
       "At the end of 3 weeks"
-    ]
+    ],
+    "profile_ai_label": "AI applied to business operations"
   },
   "sectors_references_title": "Your context first. Relevant references next.",
   "sectors_references_body": "We share relevant references on the first call, under a non-disclosure agreement.",
