@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "Conseil IA et ingénieurs AI-native pour votre entreprise | NODINA",
-    "description": "NODINA met l’IA au service de l’entreprise que vous dirigez déjà, et vous apporte des ingénieurs senior formés à l’IA pour livrer vos logiciels plus vite. Parlons de votre projet.",
+    "title": "Conseil IA et ingénieurs AI-native | NODINA",
+    "description": "NODINA met l’IA au service de l’entreprise que vous dirigez déjà et vous apporte des ingénieurs senior formés à l’IA. Parlons de votre projet.",
     "label": "Conseil IA · Ingénierie AI-native",
     "heading": "Mettez l’IA au travail dans l’entreprise que vous dirigez déjà.",
     "lead": "Deux façons d’y arriver. Nous travaillons avec vous en tant que consultants et intégrons l’IA à votre façon de travailler. Ou nous vous apportons des ingénieurs senior formés à l’IA, qui livrent vos logiciels plus vite qu’un recrutement.",
@@ -65,7 +65,7 @@
     "closingBody": "Un échange. Une prochaine étape claire. Si nous ne sommes pas le bon partenaire, nous vous le dirons."
   },
   "systems": {
-    "title": "Conseil et intégration IA pour vos opérations existantes | NODINA",
+    "title": "Conseil et intégration IA pour vos opérations | NODINA",
     "description": "Conseil IA personnalisé : NODINA identifie les processus à automatiser dans votre entreprise, construit la solution et l’intègre à vos données et à vos outils.",
     "label": "Conseil et intégration IA",
     "heading": "L’IA dans vos opérations. Propre, connectée, en production.",
@@ -119,8 +119,8 @@
     "alternativeLink": "Découvrir AI-native Teams"
   },
   "teams": {
-    "title": "AI-native Teams : ingénieurs senior formés à l’IA pour votre roadmap | NODINA",
-    "description": "Des ingénieurs senior maîtrisant les outils IA, sélectionnés sur du travail réel et intégrés à votre équipe. Validés en une semaine, premières pull requests dès la troisième, sans participation ni frais de recrutement.",
+    "title": "AI-native Teams : ingénieurs senior formés à l’IA | NODINA",
+    "description": "Des ingénieurs senior maîtrisant les outils IA, sélectionnés sur du travail réel et intégrés à votre équipe. Validés en une semaine, sans frais de recrutement.",
     "label": "AI-native Teams",
     "heading": "Des ingénieurs senior qui construisent avec l’IA. Dans votre code dès la troisième semaine.",
     "context": "Votre roadmap dépasse votre équipe. Recruter prend des mois, et la plupart des candidats n’ont jamais livré avec des outils IA.",
@@ -173,7 +173,7 @@
   "teamsNav": "AI-native Teams",
   "aboutNav": "À propos",
   "blog": {
-    "title": "Journal : notes sur l’IA dans les opérations et l’ingénierie AI-native | NODINA",
+    "title": "Journal : IA en opérations et ingénierie AI-native | NODINA",
     "description": "Des textes courts et directs sur l’IA dans les opérations réelles et le développement logiciel avec des ingénieurs AI-native. Une idée par article.",
     "label": "Journal",
     "heading": "Notes du terrain.",

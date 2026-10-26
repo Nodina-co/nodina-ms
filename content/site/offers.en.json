@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "AI consulting and AI-native engineers for your business | NODINA",
-    "description": "NODINA puts AI to work inside the business you already run, and brings AI-trained senior engineers to ship your software faster. Talk to us about your project.",
+    "title": "AI consulting and AI-native engineers | NODINA",
+    "description": "NODINA puts AI to work inside the business you already run and brings AI-trained senior engineers to ship faster. Talk to us about your project.",
     "label": "AI consulting · AI-native engineering",
     "heading": "Put AI to work in the business you already run.",
     "lead": "Two ways to get there. We work with you as consultants and build AI into the way you already work. Or we bring AI-trained senior engineers who ship your software faster than hiring would.",
@@ -119,8 +119,8 @@
     "alternativeLink": "Explore AI-native Teams"
   },
   "teams": {
-    "title": "AI-native Teams: AI-trained senior engineers for your roadmap | NODINA",
-    "description": "Senior engineers fluent in AI tools, selected on real work and integrated into your team. Approved in one week, first pull requests from week three, no equity or recruitment fees.",
+    "title": "AI-native Teams: AI-trained senior engineers | NODINA",
+    "description": "Senior engineers fluent in AI tools, selected on real work and integrated into your team. Approved in one week, no equity or recruitment fees.",
     "label": "AI-native Teams",
     "heading": "Senior engineers who build with AI. In your codebase from week three.",
     "context": "Your roadmap is bigger than your team. Hiring takes months, and most candidates have never shipped with AI tools.",
@@ -173,7 +173,7 @@
   "teamsNav": "AI-native Teams",
   "aboutNav": "About",
   "blog": {
-    "title": "Journal: notes on AI in operations and AI-native engineering | NODINA",
+    "title": "Journal: AI in operations and AI-native engineering | NODINA",
     "description": "Short, direct posts on putting AI into real operations and building software with AI-native engineers. One idea per post.",
     "label": "Journal",
     "heading": "Notes from the work.",

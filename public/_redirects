@@ -1,2 +1,5 @@
 # The root URL is redirected by the Worker (src/worker/language.mjs) from Accept-Language.
 # Without a Worker (preproduction), the fallback index.html chooses client-side.
+# Profile catalog hidden on 2026-10-26; the selection pages absorbed its role. Submitted to Google/Bing on 2026-10-09.
+/fr/profils/ /fr/selection-des-talents/ 301
+/en/engineers/ /en/vetting/ 301
