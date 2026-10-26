@@ -1,6 +1,6 @@
 {
   "origin": "https://nodina.com",
-  "textAndStructureApprovedOn": "2026-10-09",
+  "textAndStructureApprovedOn": "2026-10-26",
   "launchApprovedOn": "2026-10-09",
   "pages": [
     {
@@ -9,9 +9,8 @@
       "path": "/fr/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
-      "publishedOn": "2026-10-09",
-      "reviewPending": true
+      "modifiedOn": "2026-10-26",
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "vetting",
@@ -19,7 +18,7 @@
       "path": "/fr/selection-des-talents/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
     {
@@ -28,7 +27,7 @@
       "path": "/fr/profils/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
     {
@@ -37,7 +36,7 @@
       "path": "/fr/manifeste/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
     {
@@ -46,7 +45,7 @@
       "path": "/fr/contact/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
     {
@@ -55,7 +54,7 @@
       "path": "/fr/confidentialite/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
     {
@@ -64,7 +63,7 @@
       "path": "/fr/cookies/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
     {
@@ -73,7 +72,7 @@
       "path": "/fr/mentions-legales/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
     {
@@ -82,9 +81,8 @@
       "path": "/en/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
-      "publishedOn": "2026-10-09",
-      "reviewPending": true
+      "modifiedOn": "2026-10-26",
+      "publishedOn": "2026-10-09"
     },
     {
       "id": "vetting",
@@ -92,7 +90,7 @@
       "path": "/en/vetting/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
     {
@@ -101,7 +99,7 @@
       "path": "/en/engineers/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
     {
@@ -110,7 +108,7 @@
       "path": "/en/manifesto/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
     {
@@ -119,7 +117,7 @@
       "path": "/en/contact/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
     {
@@ -128,7 +126,7 @@
       "path": "/en/privacy/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
     {
@@ -137,7 +135,7 @@
       "path": "/en/cookies/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
     {
@@ -146,48 +144,44 @@
       "path": "/en/legal-notice/",
       "status": "published",
       "approvedOn": "2026-10-09",
-      "modifiedOn": "2026-10-09",
+      "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-09"
     },
     {
       "id": "systems",
       "locale": "fr",
       "path": "/fr/solutions-ia-sur-mesure/",
-      "status": "draft",
-      "approvedOn": null,
-      "modifiedOn": "2026-10-09",
-      "publishedOn": null,
-      "reviewPending": true
+      "status": "published",
+      "approvedOn": "2026-10-26",
+      "modifiedOn": "2026-10-26",
+      "publishedOn": "2026-10-26"
     },
     {
       "id": "teams",
       "locale": "fr",
       "path": "/fr/equipes-ai-native/",
-      "status": "draft",
-      "approvedOn": null,
-      "modifiedOn": "2026-10-09",
-      "publishedOn": null,
-      "reviewPending": true
+      "status": "published",
+      "approvedOn": "2026-10-26",
+      "modifiedOn": "2026-10-26",
+      "publishedOn": "2026-10-26"
     },
     {
       "id": "systems",
       "locale": "en",
       "path": "/en/custom-ai-solutions/",
-      "status": "draft",
-      "approvedOn": null,
-      "modifiedOn": "2026-10-09",
-      "publishedOn": null,
-      "reviewPending": true
+      "status": "published",
+      "approvedOn": "2026-10-26",
+      "modifiedOn": "2026-10-26",
+      "publishedOn": "2026-10-26"
     },
     {
       "id": "teams",
       "locale": "en",
       "path": "/en/ai-native-teams/",
-      "status": "draft",
-      "approvedOn": null,
-      "modifiedOn": "2026-10-09",
-      "publishedOn": null,
-      "reviewPending": true
+      "status": "published",
+      "approvedOn": "2026-10-26",
+      "modifiedOn": "2026-10-26",
+      "publishedOn": "2026-10-26"
     }
   ],
   "analytics": {
