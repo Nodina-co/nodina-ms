@@ -62,7 +62,7 @@ html,body{margin:0;width:1200px;height:630px;overflow:hidden}
 body{font-family:'Inter Tight',Arial,sans-serif;background:#202425;color:#f3f4f1;-webkit-font-smoothing:antialiased}
 .og{width:1200px;height:630px;box-sizing:border-box;padding:64px 72px;display:flex;flex-direction:column;justify-content:space-between}
 .row{display:flex;justify-content:space-between;align-items:center}
-.brand{display:flex;align-items:center;gap:10px}.brand span{font-size:36px;font-weight:560;letter-spacing:-.015em;line-height:1}
+.brand{display:flex;align-items:center;gap:7px}.brand span{font-size:36px;font-weight:560;letter-spacing:-.015em;line-height:1}
 .label{font-size:18px;font-weight:500;letter-spacing:.025em;color:#1e8fdb}
 .main{display:flex;flex-direction:column;gap:28px;max-width:980px}
 h1{margin:0;font-size:${size}px;line-height:1.02;letter-spacing:-.055em;font-weight:500;text-wrap:balance}
