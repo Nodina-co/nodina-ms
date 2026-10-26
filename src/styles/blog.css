@@ -16,13 +16,15 @@
 .blog-closing h2{font-size:36px;letter-spacing:-.035em;line-height:1.12;max-width:620px}
 .blog-closing p{font-size:16px;color:var(--dark-muted);margin-top:12px}
 .post-page article{padding-block:48px 64px}
+/* Reading column: left-aligned text, centred in the viewport. */
+.post-page article.wrap{max-width:800px}
 .post-page .back{margin-bottom:40px}
-.post-header{max-width:800px}
+.post-header{max-width:none}
 .post-header>.label{color:var(--blue);margin-bottom:24px}
 .post-header h1{font-size:clamp(40px,5vw,64px);line-height:1.06;letter-spacing:-.05em;text-wrap:balance}
 .post-lead{font-size:21px;line-height:1.5;color:var(--muted);margin-top:24px}
 .post-meta{flex-direction:row;flex-wrap:wrap;gap:8px 20px;margin-top:28px;padding-top:20px;border-top:1px solid var(--line)}
-.post-body{max-width:720px;margin-top:48px;font-size:18px;line-height:1.65}
+.post-body{max-width:none;margin-top:48px;font-size:18px;line-height:1.65}
 .post-body p{margin-block:0 24px}
 .post-body h2{font-size:28px;letter-spacing:-.03em;line-height:1.2;margin:40px 0 16px}
 .post-body h3{font-size:22px;margin:32px 0 12px}
