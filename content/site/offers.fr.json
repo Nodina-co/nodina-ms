@@ -172,5 +172,21 @@
   "footer": "Conseil IA pour vos opérations. Ingénieurs AI-native pour votre roadmap.",
   "solutionsNav": "Conseil IA",
   "teamsNav": "AI-native Teams",
-  "aboutNav": "À propos"
+  "aboutNav": "À propos",
+  "blog": {
+    "title": "Journal : notes sur l’IA dans les opérations et l’ingénierie AI-native | NODINA",
+    "description": "Des textes courts et directs sur l’IA dans les opérations réelles et le développement logiciel avec des ingénieurs AI-native. Une idée par article.",
+    "label": "Journal",
+    "heading": "Notes du terrain.",
+    "lead": "Des textes courts et directs sur l’IA dans les opérations réelles et le développement logiciel avec des ingénieurs AI-native. Écrits par ceux qui le font, une idée par article.",
+    "read": "Lire l’article",
+    "minutes": "{n} min de lecture",
+    "count": "{n} articles",
+    "empty": "Le premier article arrive.",
+    "back": "Tous les articles",
+    "closing": "Dites-nous ce qui vous ralentit.",
+    "closingBody": "Un échange. Une prochaine étape claire.",
+    "cta": "Réserver un échange"
+  },
+  "blogNav": "Blog"
 }

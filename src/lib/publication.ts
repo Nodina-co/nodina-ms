@@ -9,8 +9,8 @@ export const isPreview = siteStage === 'preview';
 if (siteStage === 'production' && (!plan.launchApprovedOn || plan.pages.some(row => row.status !== 'published' || !row.publishedOn || row.reviewPending))) {
   throw new Error('Production requires published plan rows after explicit launch approval.');
 }
-export function pageRobots(locale: Locale, page: PageId) {
-  const row = plan.pages.find(row => row.locale === locale && row.path === route(locale, page));
+export function pageRobots(locale: Locale, page: PageId, path = route(locale, page)) {
+  const row = plan.pages.find(row => row.locale === locale && row.path === path);
   if (!row || (siteStage !== 'preview' && !row.approvedOn)) throw new Error(`Missing approved publication row: ${locale}/${page}`);
   return siteStage === 'production' && row.status === 'published'
     ? 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1'

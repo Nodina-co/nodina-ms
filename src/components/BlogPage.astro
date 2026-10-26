@@ -1,0 +1,23 @@
+---
+import { route, contactPath, type Locale } from '../lib/site';
+import { offers } from '../lib/offers';
+import { publishedPosts, postPath, readMinutes, formatDate } from '../lib/blog';
+import Action from './Action.astro';
+interface Props { locale: Locale }
+const { locale: l } = Astro.props;
+const c = offers(l).blog;
+const posts = await publishedPosts(l);
+---
+<main id="content" class="blog-page">
+  <section class="offer-hero wrap" aria-labelledby="blog-title">
+    <p class="label">{c.label}</p><h1 id="blog-title">{c.heading}</h1><p class="offer-lead">{c.lead}</p>
+  </section>
+  <section class="wrap blog-list-section" aria-label={c.label}>
+    {posts.length === 0 ? <p class="blog-empty">{c.empty}</p> : <ol class="blog-list">{posts.map(post => <li class="blog-entry">
+      <div class="blog-meta"><span class="blog-date">{formatDate(post.data.date, l)}</span><span>{post.data.topic}</span><span>{c.minutes.replace('{n}', String(readMinutes(post.body)))}</span></div>
+      <div class="blog-entry-body"><h2><a href={postPath(post)}>{post.data.title}</a></h2><p>{post.data.description}</p><Action href={postPath(post)} label={c.read}/></div>
+    </li>)}</ol>}
+    <p class="blog-count">{c.count.replace('{n}', String(posts.length))}</p>
+  </section>
+  <section class="blog-closing" aria-labelledby="blog-contact"><div class="wrap"><div><h2 id="blog-contact">{c.closing}</h2><p>{c.closingBody}</p></div><Action href={contactPath(l, 'unknown')} label={c.cta} button/></div></section>
+</main>

@@ -1,0 +1,24 @@
+---
+import { render } from 'astro:content';
+import { route, contactPath, type Locale } from '../lib/site';
+import { offers } from '../lib/offers';
+import { readMinutes, formatDate, type Post } from '../lib/blog';
+import Action from './Action.astro';
+interface Props { locale: Locale; post: Post }
+const { locale: l, post } = Astro.props;
+const c = offers(l).blog;
+const { Content } = await render(post);
+---
+<main id="content" class="post-page">
+  <article class="wrap">
+    <a class="text-link back" href={route(l, 'blog')}>← {c.back}</a>
+    <header class="post-header">
+      <p class="label">{post.data.topic}</p>
+      <h1>{post.data.title}</h1>
+      <p class="post-lead">{post.data.description}</p>
+      <p class="blog-meta post-meta"><span class="blog-date">{formatDate(post.data.date, l)}</span><span>{c.minutes.replace('{n}', String(readMinutes(post.body)))}</span><span>NODINA</span></p>
+    </header>
+    <div class="post-body"><Content/></div>
+  </article>
+  <section class="blog-closing" aria-labelledby="post-contact"><div class="wrap"><div><h2 id="post-contact">{c.closing}</h2><p>{c.closingBody}</p></div><Action href={contactPath(l, 'unknown')} label={c.cta} button/></div></section>
+</main>

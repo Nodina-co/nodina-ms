@@ -7,9 +7,11 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1] / "dist"
 ROUTES = {
-    "fr": ["/fr/", "/fr/selection-des-talents/", "/fr/profils/", "/fr/manifeste/", "/fr/contact/", "/fr/confidentialite/", "/fr/cookies/", "/fr/mentions-legales/", "/fr/solutions-ia-sur-mesure/", "/fr/equipes-ai-native/"],
-    "en": ["/en/", "/en/vetting/", "/en/engineers/", "/en/manifesto/", "/en/contact/", "/en/privacy/", "/en/cookies/", "/en/legal-notice/", "/en/custom-ai-solutions/", "/en/ai-native-teams/"],
+    "fr": ["/fr/", "/fr/selection-des-talents/", "/fr/profils/", "/fr/manifeste/", "/fr/contact/", "/fr/confidentialite/", "/fr/cookies/", "/fr/mentions-legales/", "/fr/solutions-ia-sur-mesure/", "/fr/equipes-ai-native/", "/fr/blog/"],
+    "en": ["/en/", "/en/vetting/", "/en/engineers/", "/en/manifesto/", "/en/contact/", "/en/privacy/", "/en/cookies/", "/en/legal-notice/", "/en/custom-ai-solutions/", "/en/ai-native-teams/", "/en/blog/"],
 }
+# Blog posts, paired FR/EN by translation; a post without a translation would list its own path twice.
+POSTS = [("/fr/blog/premier-processus-a-automatiser/", "/en/blog/first-process-to-automate/")]
 
 
 class Page(HTMLParser):
@@ -46,10 +48,12 @@ class Page(HTMLParser):
 
 def check():
     errors = []
-    pages = {route: Page((ROOT / route.lstrip('/') / 'index.html').read_text()) for routes in ROUTES.values() for route in routes}
+    pairs = list(zip(ROUTES['fr'], ROUTES['en'])) + POSTS
+    pages = {route: Page((ROOT / route.lstrip('/') / 'index.html').read_text()) for pair in pairs for route in pair}
     titles, descriptions = set(), set()
-    for locale, routes in ROUTES.items():
-        for index, route in enumerate(routes):
+    for locale, column in [('fr', 0), ('en', 1)]:
+        for index, pair in enumerate(pairs):
+            route = pair[column]
             page = pages[route]
             def require(condition, message):
                 if not condition: errors.append(f"{route}: {message}")
@@ -67,7 +71,7 @@ def check():
             require(canonical == ['https://nodina.com' + route], 'wrong canonical')
             require(meta.get('og:url') == canonical[0], 'OG URL differs from canonical')
             alternates = {a.get('hreflang'): a.get('href') for a in page.attrs('link') if a.get('hreflang')}
-            expected = {'fr-FR': 'https://nodina.com' + ROUTES['fr'][index], 'en-US': 'https://nodina.com' + ROUTES['en'][index], 'x-default': 'https://nodina.com/'}
+            expected = {'fr-FR': 'https://nodina.com' + pair[0], 'en-US': 'https://nodina.com' + pair[1], 'x-default': 'https://nodina.com/'}
             require(alternates == expected, 'language alternates do not match route map')
             require(bool(json.loads(page.json)['@graph']), 'missing structured data')
             scripts = page.attrs('script')
@@ -122,7 +126,7 @@ def check():
     if errors:
         print('\n'.join(errors))
         return 1
-    print(f'PASS: {len(pages)} localized draft pages, metadata, links, anchors, assets, consent and internal-file exclusion.')
+    print(f'PASS: {len(pages)} localized draft pages (blog included), metadata, links, anchors, assets, consent and internal-file exclusion.')
     return 0
 
 

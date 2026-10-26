@@ -172,5 +172,21 @@
   "footer": "AI consulting for your operations. AI-native engineers for your roadmap.",
   "solutionsNav": "AI Consulting",
   "teamsNav": "AI-native Teams",
-  "aboutNav": "About"
+  "aboutNav": "About",
+  "blog": {
+    "title": "Journal: notes on AI in operations and AI-native engineering | NODINA",
+    "description": "Short, direct posts on putting AI into real operations and building software with AI-native engineers. One idea per post.",
+    "label": "Journal",
+    "heading": "Notes from the work.",
+    "lead": "Short, direct pieces on putting AI into real operations and building software with AI-native engineers. Written by the people doing it, one idea per post.",
+    "read": "Read the post",
+    "minutes": "{n} min read",
+    "count": "{n} posts",
+    "empty": "The first post is on its way.",
+    "back": "All posts",
+    "closing": "Tell us what is slowing you down.",
+    "closingBody": "One conversation. A clear next step.",
+    "cta": "Book a conversation"
+  },
+  "blogNav": "Blog"
 }

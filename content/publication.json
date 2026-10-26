@@ -182,6 +182,42 @@
       "approvedOn": "2026-10-26",
       "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-26"
+    },
+    {
+      "id": "blog",
+      "locale": "fr",
+      "path": "/fr/blog/",
+      "status": "published",
+      "approvedOn": "2026-10-26",
+      "modifiedOn": "2026-10-26",
+      "publishedOn": "2026-10-26"
+    },
+    {
+      "id": "blog",
+      "locale": "en",
+      "path": "/en/blog/",
+      "status": "published",
+      "approvedOn": "2026-10-26",
+      "modifiedOn": "2026-10-26",
+      "publishedOn": "2026-10-26"
+    },
+    {
+      "id": "post",
+      "locale": "fr",
+      "path": "/fr/blog/premier-processus-a-automatiser/",
+      "status": "published",
+      "approvedOn": "2026-10-26",
+      "modifiedOn": "2026-10-26",
+      "publishedOn": "2026-10-26"
+    },
+    {
+      "id": "post",
+      "locale": "en",
+      "path": "/en/blog/first-process-to-automate/",
+      "status": "published",
+      "approvedOn": "2026-10-26",
+      "modifiedOn": "2026-10-26",
+      "publishedOn": "2026-10-26"
     }
   ],
   "analytics": {

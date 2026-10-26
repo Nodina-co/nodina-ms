@@ -99,7 +99,7 @@ def main():
     rows = plan['pages']
     require(rows and len({r['path'] for r in rows}) == len(rows), 'Expected unique localized publication rows.')
     require(not any(r.get('reviewPending') for r in rows), 'Editorial revision awaits approval before candidate or public compilation.')
-    require(all(r['approvedOn'] and r['status'] in {'ready', 'published'} and re.fullmatch(r'/((fr|en)/)([a-z-]+/)?', r['path']) for r in rows), 'Unapproved or invalid plan row.')
+    require(all(r['approvedOn'] and r['status'] in {'ready', 'published'} and re.fullmatch(r'/((fr|en)/)([a-z-]+/)?(blog/[a-z0-9-]+/)?', r['path']) for r in rows), 'Unapproved or invalid plan row.')
     if args.production:
         require(plan.get('launchApprovedOn') and all(r['status'] == 'published' and r.get('publishedOn') for r in rows), 'Launch approval and published plan rows are required. No build started.')
         deployment = json.loads((LOCAL / 'deployments.json').read_text())
@@ -167,9 +167,13 @@ def main():
         lines.append('')
     lines += ['## Texte intégral', '', '- [llms-full.txt](' + ORIGIN + '/llms-full.txt): textes des pages FR/EN.', '']
     (out / 'llms.txt').write_text('\n'.join(lines))
-    # No post or guide is published. Do not invent news entries for landing pages.
+    # Feed items are published blog posts only; landing pages are never news entries.
     rss = ET.Element('rss', {'version': '2.0'}); channel = ET.SubElement(rss, 'channel')
-    for key, value in {'title':'NODINA', 'link':ORIGIN + '/fr/', 'description':'Articles et guides NODINA. Aucun article ou guide publié au lancement.', 'lastBuildDate':format_datetime(datetime.now(timezone.utc), usegmt=True)}.items(): ET.SubElement(channel, key).text = value
+    for key, value in {'title':'NODINA', 'link':ORIGIN + '/fr/blog/', 'description':'Journal NODINA : notes sur l’IA dans les opérations et l’ingénierie AI-native.', 'lastBuildDate':format_datetime(datetime.now(timezone.utc), usegmt=True)}.items(): ET.SubElement(channel, key).text = value
+    for row in sorted((r for r in rows if r['id'] == 'post' and (not args.production or r['status'] == 'published')), key=lambda r: r['publishedOn'] or '', reverse=True):
+        page = pages[row['path']]
+        item = ET.SubElement(channel, 'item')
+        for key, value in {'title': page.title.replace(' | NODINA', ''), 'link': ORIGIN + row['path'], 'guid': ORIGIN + row['path'], 'description': page.meta['description'], 'pubDate': format_datetime(datetime.fromisoformat(row['publishedOn'] + 'T00:00:00+00:00'), usegmt=True)}.items(): ET.SubElement(item, key).text = value
     (out / 'feed.xml').write_text(ET.tostring(rss, encoding='unicode', xml_declaration=True) + '\n')
     robots_public = (ROOT / 'tools/cloudflare/robots.production.proposed.txt').read_text()
     (proposed_dir / 'robots.txt').write_text(robots_public)
