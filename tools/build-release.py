@@ -121,6 +121,7 @@ def main():
     if out.exists():
         require(out.is_dir() and not out.is_symlink() and out.parent.resolve() == LOCAL.resolve(), 'Unsafe output directory.')
         shutil.rmtree(out)
+    subprocess.run([args.node, str(ROOT / 'tools/og/build-og.mjs')], cwd=ROOT, env=env, check=True)  # Open Graph images, one per page and post.
     subprocess.run([args.node, str(ROOT / 'node_modules/astro/bin/astro.mjs'), 'build', '--outDir', str(out)], cwd=ROOT, env=env, check=True)
     proposed_dir = LOCAL / ('indexing-public' if args.production else 'indexing-proposed')
     proposed_dir.mkdir(mode=0o700, exist_ok=True)

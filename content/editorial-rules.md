@@ -26,3 +26,7 @@ Pour un article futur : recherche datée, requête et intention justifiées, sou
 Une demande enregistrée n’est pas une opportunité qualifiée. Toute donnée publiée doit préciser sa source, sa période et ses limites. Un rapport vide signifie indisponible, pas zéro. Les statistiques et les données Contact restent dans leurs espaces privés ; aucun export de coordonnées, message, clé ou chiffre analytique brut dans ce dépôt public.
 
 Le [PLAN](PLAN.md) distingue les seize pages publiées du travail éditorial restant. Les articles, le blog et leurs maquettes restent à préparer et à faire valider avant publication. Le site ne génère aucun article ou message externe automatiquement.
+
+## Images de partage (Open Graph)
+
+Une seule maquette pour tout le site, générée automatiquement à chaque build par `tools/og/build-og.mjs` depuis les textes des pages et le front matter des articles. Jamais d’image de partage composée à la main ; pour changer le rendu, modifier le gabarit dans ce script et régénérer.

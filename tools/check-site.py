@@ -70,6 +70,9 @@ def check():
             canonical = [a.get('href') for a in page.attrs('link') if a.get('rel') == 'canonical']
             require(canonical == ['https://nodina.com' + route], 'wrong canonical')
             require(meta.get('og:url') == canonical[0], 'OG URL differs from canonical')
+            og = meta.get('og:image', '')
+            require(og == 'https://nodina.com/assets/og/' + route.strip('/').replace('/', '-') + '.png' and (ROOT / og.replace('https://nodina.com/', '')).is_file(), 'missing or wrong OG image')
+            require(meta.get('og:image:width') == '1200' and meta.get('og:image:height') == '630', 'OG image size must be declared 1200x630')
             alternates = {a.get('hreflang'): a.get('href') for a in page.attrs('link') if a.get('hreflang')}
             expected = {'fr-FR': 'https://nodina.com' + pair[0], 'en-US': 'https://nodina.com' + pair[1], 'x-default': 'https://nodina.com/'}
             require(alternates == expected, 'language alternates do not match route map')

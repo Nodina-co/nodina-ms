@@ -16,7 +16,7 @@ const links = [
 ---
 {isPreview && <div class="preview-strip"><div class="wrap"><span>{c.preview}</span></div></div>}
 <header class="site-header wrap">
-  <a class="brand" href={route(l)} aria-label={c.home}><img src="/assets/logo-black.svg" width="144" height="32" alt="NODINA"/></a>
+  <a class="brand" href={route(l)} aria-label={c.home}><img src="/assets/logo-black.svg" width="150" height="32" alt="NODINA"/></a>
   <nav class="desktop-nav" aria-label={l === 'fr' ? 'Navigation principale' : 'Main navigation'}>
     {links.map(item => <a href={item.href} aria-current={page === item.id && page !== 'home' ? 'page' : undefined}>{item.label}</a>)}
     <a class="header-contact" href={contactPath(l, 'unknown')}>Contact</a><Languages locale={l} page={page}/>

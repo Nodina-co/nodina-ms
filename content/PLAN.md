@@ -4,6 +4,8 @@ Les textes et la structure FR/EN, puis le lancement public, sont approuvés par 
 
 **Révision du 9 octobre, non publiée :** la home FR/EN est en relecture (`reviewPending`), avec quatre pages d’offre en brouillon. Les dates d’accord des homes ci-dessous concernent la version publique précédente. La compilation du candidat public est bloquée tant que la révision n’est pas validée. [Dossier de préparation](../reports/offers-restructure-20261009.md).
 
+**Images Open Graph (26 octobre 2026) :** chaque page et chaque article reçoit une image 1200 × 630 générée par `tools/og/build-og.mjs` (gabarit « bande sombre » : fond anthracite, titre de la page, libellé et sous-titre, barre bleu ciel). Le script s’exécute au début de `npm run build` et de `build-release.py` ; les fichiers sont dans `public/assets/og/` et `check-site.py` refuse une page sans image. Un nouvel article n’a rien à faire de plus : son titre, sa description et son thème (front matter) alimentent l’image. Ne pas créer d’image à la main.
+
 Source machine : [publication.json](publication.json). `preview` conserve les bandeaux et noindex ; `release-candidate` reste noindex. `production` exige l’accord de lancement, des pages published datées et l’accès public Contact enregistré.
 
 | Page | Langue | Chemin canonique | État | Texte/structure validés | Modifiée | Publiée |
