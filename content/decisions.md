@@ -1,3 +1,7 @@
+## 2026-10-26 : plan éditorial approuvé
+
+Chloe Alpert accepte le [plan éditorial](editorial-plan.md) issu de la recherche Phase 3 ([rapport](../research/research-report.md), [clusters](../research/clusters.md), [keywords.csv](../research/keywords.csv)) sans modifier l'ordre des clusters ni les deux files FR et EN. Le plan devient le calendrier éditorial actif : sujets et ordre fixés, dates non fixées, un brief puis une relecture de JD avant chaque publication. Les volumes de recherche restent inconnus jusqu'au premier export Search Console (vers le 6 novembre) ; une réorganisation ultérieure sera consignée ici. JD reçoit ensuite la procédure de publication.
+
 ## 2026-10-09 : préparation d’une home courte et de deux pages d’offre
 
 Après le retour sur la densité de la home, JD répond « ok Go » à la proposition de privilégier les solutions IA intégrées aux opérations et de séparer réalisation et renfort d’équipe. Préparer la home et les pages Solutions IA sur mesure / AI-native Teams en FR/EN, dans le design existant, avec problème, solution, périmètre et contact. La supériorité commerciale de cet angle reste une hypothèse à mesurer, pas un résultat acquis. Le nouveau nom public des solutions est proposé dans les textes à relire ; aucun sens nouveau n’est attribué à « AICC workflow ».

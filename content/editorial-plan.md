@@ -1,6 +1,6 @@
 # Editorial plan — NODINA journal, FR and EN
 
-Status: proposed 2026-10-26 from [research/research-report.md](../research/research-report.md) and [research/clusters.md](../research/clusters.md). Not yet approved by JD. Until approval, [PLAN.md](PLAN.md) still states that no editorial calendar is approved. Rules in [editorial-rules.md](editorial-rules.md) apply to every item below.
+Status: **approved 2026-10-26** (proposed the same day from [research/research-report.md](../research/research-report.md) and [research/clusters.md](../research/clusters.md); accepted by Chloe Alpert as operator, cluster order and queues unchanged). This is the active publishing plan. Rules in [editorial-rules.md](editorial-rules.md) apply to every item below. Each post still goes through a brief and JD's review before it is published; the plan fixes topics and order, not publication dates.
 
 Objective (from [goals.md](goals.md)): qualified project requests. The journal serves that by earning visits from buyers who are deciding something, and by being the page an assistant cites when a buyer asks it. Traffic is a means; the measure is contact requests that pass qualification.
 
@@ -8,7 +8,7 @@ Objective (from [goals.md](goals.md)): qualified project requests. The journal s
 
 Two independent queues, one per language. They are **not** translations of each other. "Write the next post" means: take the next unwritten item in the FR queue and the next unwritten item in the EN queue. An item can be skipped or reordered by JD; the change is logged in [decisions.md](decisions.md). A topic may appear in both queues (PoC → production does); the two posts are written separately for their own market and SERP, and share only the `key` in front matter so the language switch links them.
 
-Cadence proposed: one post per language per week for the first eight weeks, then every two weeks, with the gained time going to the page work in §4. The cadence is a proposal; what matters more is that every post meets §2.
+Cadence: one post per language per week for the first eight weeks, then every two weeks, with the gained time going to the page work in §4. A week without a post that meets §2 is a week without a post; the cadence never overrides the rules.
 
 Order within each queue follows the cluster score, then adjusted for: what the site can already prove (facts in [product-truth.md](product-truth.md) and [claims.csv](claims.csv)), seasonal relevance (AI Act dates, e-invoicing calendar), and alternation between the two offers so neither waits more than two posts.
 
@@ -105,4 +105,5 @@ From the first Search Console export (around 6 November): impressions and clicks
 
 ## 8. Log
 
-- 2026-10-26 — Plan proposed from Phase 3 research. Awaiting JD's review of the cluster order and of this queue.
+- 2026-10-26 — Plan proposed from Phase 3 research.
+- 2026-10-26 — Plan accepted by the operator without reordering. Next items: FR #1 (F07) and EN #1 (E07), briefs first in `content/briefs/`.
