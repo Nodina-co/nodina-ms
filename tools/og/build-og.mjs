@@ -1,5 +1,5 @@
 // Generates one 1200x630 Open Graph image per page and blog post, in both languages,
-// from the site's own copy, using the "dark band" template (ink ground, blue bar).
+// from the site's own copy: the "Statement" layout on the dark palette (ink ground, blue label).
 // Runs before every build. Output: public/assets/og/<locale>[-<path>].png
 // Needs a Chrome/Chromium binary: set OG_CHROME to override the default macOS path.
 import { readFileSync, readdirSync, mkdirSync, existsSync, rmSync, writeFileSync, copyFileSync } from 'node:fs';
@@ -53,23 +53,26 @@ export function pages() {
 const MARK = '<svg width="44" height="44" viewBox="0 0 52 52" aria-hidden="true"><path d="M32.164 7.30575C33.0624 4.05968 38.2871 -4.09837 47.6133 2.5128C56.4616 10.6553 48.7853 18.0265 45.5704 19.0941C42.3557 20.1617 38.8864 19.658 36.3248 20.8276C33.7631 21.9972 33.8421 22.1173 32.8072 22.8157C28.8659 25.4753 27.4816 28.8052 26.5086 32.3147C25.3676 36.43 26.193 38.1578 25.0324 42.3515C23.8719 46.5452 17.2128 56.9156 5.30223 48.4724C-5.99814 38.0735 3.62821 28.8696 7.91117 27.2964C12.1941 25.7233 15.3852 26.8797 19.7189 25.0825C23.185 23.645 28.0332 19.8773 29.1113 18.696C30.1895 17.5147 30.567 16.1603 31.0083 15.1646C31.4497 14.169 31.2657 10.5518 32.164 7.30575Z" fill="#ffffff"/><circle cx="42.1" cy="36" r="8.25" fill="#1e8fdb"/><circle cx="14.77" cy="10.77" r="8.25" fill="#ffffff"/></svg>';
 
 export function html(p, fontUrl) {
-  const size = p.title.length > 70 ? 56 : p.title.length > 44 ? 64 : 76;
-  const tagline = p.locale === 'fr' ? 'Conseil IA · Équipes d’ingénieurs AI-native' : 'AI consulting · AI-native engineering teams';
+  // Layout "Statement" (wordmark top-left, label top-right, headline, subtitle, ruled footer) on the dark palette.
+  const size = p.title.length > 70 ? 64 : p.title.length > 44 ? 76 : 88;
+  const region = p.locale === 'fr' ? 'France · États-Unis' : 'France · United States';
   return `<!doctype html><html lang="${p.locale}"><head><meta charset="utf-8"><style>
 @font-face{font-family:'Inter Tight';src:url('${fontUrl}') format('truetype');font-weight:100 900}
 html,body{margin:0;width:1200px;height:630px;overflow:hidden}
 body{font-family:'Inter Tight',Arial,sans-serif;background:#202425;color:#f3f4f1;-webkit-font-smoothing:antialiased}
-.og{width:1200px;height:630px;display:flex;flex-direction:column;box-sizing:border-box}
-.top{flex:1;padding:64px 72px 0;display:flex;flex-direction:column;justify-content:space-between}
+.og{width:1200px;height:630px;box-sizing:border-box;padding:64px 72px;display:flex;flex-direction:column;justify-content:space-between}
+.row{display:flex;justify-content:space-between;align-items:center}
 .brand{display:flex;align-items:center;gap:14px}.brand span{font-size:36px;font-weight:500;letter-spacing:-.04em;line-height:1}
-.grid{display:grid;grid-template-columns:300px minmax(0,1fr);gap:40px;align-items:end;padding-bottom:48px}
-.side{display:flex;flex-direction:column;gap:10px;font-size:20px;line-height:1.4;color:#c8d0cc}
-.side .label{font-size:16px;font-weight:500;letter-spacing:.025em;color:#1e8fdb}
-h1{margin:0;font-size:${size}px;line-height:1.04;letter-spacing:-.05em;font-weight:500;text-wrap:balance}
-.bar{height:72px;background:#1e8fdb;display:flex;align-items:center;justify-content:space-between;padding:0 72px;font-size:18px;font-weight:500;color:#fff}
-</style></head><body><div class="og"><div class="top"><div class="brand">${MARK}<span>Nodina</span></div>
-<div class="grid"><div class="side"><span class="label">${esc(p.label)}</span><span>${esc(p.subtitle)}</span></div><h1>${esc(p.title)}</h1></div></div>
-<div class="bar"><span>nodina.com</span><span>${esc(tagline)}</span></div></div></body></html>`;
+.label{font-size:18px;font-weight:500;letter-spacing:.025em;color:#1e8fdb}
+.main{display:flex;flex-direction:column;gap:28px;max-width:980px}
+h1{margin:0;font-size:${size}px;line-height:1.02;letter-spacing:-.055em;font-weight:500;text-wrap:balance}
+.sub{margin:0;font-size:26px;line-height:1.4;color:#c8d0cc;max-width:860px}
+.foot{border-top:1px solid #575e5d;padding-top:20px;font-size:18px;color:#c8d0cc}
+</style></head><body><div class="og">
+<div class="row"><div class="brand">${MARK}<span>Nodina</span></div><span class="label">${esc(p.label)}</span></div>
+<div class="main"><h1>${esc(p.title)}</h1><p class="sub">${esc(p.subtitle)}</p></div>
+<div class="row foot"><span>nodina.com</span><span>${esc(region)}</span></div>
+</div></body></html>`;
 }
 
 if (process.argv[1] === new URL(import.meta.url).pathname) {
