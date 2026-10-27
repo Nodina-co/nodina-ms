@@ -26,6 +26,7 @@ Everything in [editorial-rules.md](editorial-rules.md), plus:
 8. **Internal links**: to the offer page the post serves, to one other post, and to Contact with the page's natural CTA ("Which process should go first?", "How many engineers do you need?").
 9. **Length by intent**: decision and guide posts 1,200–1,800 words; definitions 600–900; opinion pieces 800–1,200. No padding.
 10. **What we do not write**: tool listicles, "top 10 agences", city pages, anything that needs a price or a client number we do not have.
+11. **Human voice, no machine fingerprint** (added 2026-10-27). No em dashes anywhere in a post, title, description or social text; use a comma, a full stop or parentheses. Vary sentence length on purpose and let a few sentences run long, the way someone explains a thing they know well in one breath, instead of cutting everything to the same clipped rhythm. Nothing that reads as generated: no "In today's fast-paced world", no "it's important to note", no "delve", no "landscape", no triads of adjectives, no bullet lists where a paragraph would do, no closing summary that restates the post, no "In conclusion". No disclosure, badge, metadata, hidden text, or boilerplate that marks the text as AI-assisted; the author on the page is Jean-David Collard and the text is his to sign. The pre-publish check greps the post for `—` and for the phrases above and fails on any hit.
 
 Before writing, a brief in `content/briefs/<slug>.md` states: primary and secondary queries, the question forms, the must-contain facts from the cluster, the sources to cite, the CTA, and the internal links. The brief is reviewed by JD when it contains any claim about NODINA that is not already in [claims.csv](claims.csv).
 
@@ -134,5 +135,6 @@ From the first Search Console export (around 6 November): impressions and clicks
 ## 8. Log
 
 - 2026-10-26 — Plan proposed from Phase 3 research.
+- 2026-10-27 — Rule 11 added (§2): no em dashes, deliberate run-on sentences, no AI watermark of any kind.
 - 2026-10-26 — Publishing checklist (§3b) added: Search Console URL hand-off, IndexNow command, LinkedIn queue Tue/Thu 08:00 Paris on JD's yes.
 - 2026-10-26 — Plan accepted by the operator without reordering. Next items: FR #1 (F07) and EN #1 (E07), briefs first in `content/briefs/`.
