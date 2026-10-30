@@ -11,7 +11,10 @@ ROUTES = {
     "en": ["/en/", "/en/vetting/", "/en/manifesto/", "/en/contact/", "/en/privacy/", "/en/cookies/", "/en/legal-notice/", "/en/custom-ai-solutions/", "/en/ai-native-teams/", "/en/blog/"],
 }
 # Blog posts, paired FR/EN by translation; a post without a translation would list its own path twice.
-POSTS = [("/fr/blog/premier-processus-a-automatiser/", "/en/blog/first-process-to-automate/")]
+POSTS = [
+    ("/fr/blog/premier-processus-a-automatiser/", "/en/blog/first-process-to-automate/"),
+    ("/fr/blog/poc-ia-production/", "/en/blog/why-ai-pilots-never-reach-production/"),
+]
 HIDDEN_ROUTES = {"/fr/profils/", "/en/engineers/"}
 
 

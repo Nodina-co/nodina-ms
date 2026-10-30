@@ -39,6 +39,8 @@ Quatre profils réels anonymisés validés par JD sont intégrés à la sélecti
 
 ## Plan éditorial restant
 
+**Publication du 28 octobre 2026 :** JD a relu et approuvé les deux articles #1, puis demandé leur mise en production : [FR, POC IA et production](blog/fr/poc-ia-production.md) et [EN, AI pilots and production](blog/en/why-ai-pilots-never-reach-production.md). Les deux sont publiés, datés du 28 octobre, présents dans le Journal, le sitemap et le flux RSS, avec auteur nommé et FAQ structurées. Version Cloudflare `cee38248-37d2-44d3-b067-d8e1cf9dac35`, HTTP 200 vérifiés. [Compte rendu](../reports/posts-publication-20261028.md).
+
 Ce lancement ne termine pas les phases de recherche, clusters, requêtes et briefs PROMETHEUS. Le code repris de `main` comprend désormais le Journal et un premier article en français et en anglais ; le build de publication les inclut dans le flux RSS. Aucun guide supplémentaire n’est ajouté par cette révision. Les documents internes ne sont pas publiés.
 
 Le [guide de reprise](../reports/prometheus-operating-guide-20261009.md) propose le suivi des semaines du 12 octobre au 8 novembre : première collecte, recherche/revue de plan, briefs et maquettes, puis lecture à 28 jours. Ce suivi de reprise est remplacé par le plan éditorial approuvé ci-dessous ; aucune date de publication n’est fixée à l’avance. [Clôture du lancement et réserves](../SUMMARY.md).
@@ -48,3 +50,10 @@ Le [guide de reprise](../reports/prometheus-operating-guide-20261009.md) propose
 ## Retour arrière
 
 GitHub Pages a été dépublié par JD. L’archive ancienne ne suffit pas à restaurer cet hébergement ; voir le [rapport de lancement](../reports/public-launch-20261009.md).
+
+## Articles publiés le 28 octobre 2026
+
+| Page | Langue | Chemin canonique | État | Texte/structure validés | Modifiée | Publiée |
+|---|---|---|---|---|---|---|
+| post | fr | /fr/blog/poc-ia-production/ | published | 2026-10-28 | 2026-10-28 | 2026-10-28 |
+| post | en | /en/blog/why-ai-pilots-never-reach-production/ | published | 2026-10-28 | 2026-10-28 | 2026-10-28 |

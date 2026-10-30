@@ -171,7 +171,7 @@
       "path": "/fr/blog/",
       "status": "published",
       "approvedOn": "2026-10-26",
-      "modifiedOn": "2026-10-26",
+      "modifiedOn": "2026-10-28",
       "publishedOn": "2026-10-26"
     },
     {
@@ -180,7 +180,7 @@
       "path": "/en/blog/",
       "status": "published",
       "approvedOn": "2026-10-26",
-      "modifiedOn": "2026-10-26",
+      "modifiedOn": "2026-10-28",
       "publishedOn": "2026-10-26"
     },
     {
@@ -200,6 +200,24 @@
       "approvedOn": "2026-10-26",
       "modifiedOn": "2026-10-26",
       "publishedOn": "2026-10-26"
+    },
+    {
+      "id": "post",
+      "locale": "fr",
+      "path": "/fr/blog/poc-ia-production/",
+      "status": "published",
+      "approvedOn": "2026-10-28",
+      "modifiedOn": "2026-10-28",
+      "publishedOn": "2026-10-28"
+    },
+    {
+      "id": "post",
+      "locale": "en",
+      "path": "/en/blog/why-ai-pilots-never-reach-production/",
+      "status": "published",
+      "approvedOn": "2026-10-28",
+      "modifiedOn": "2026-10-28",
+      "publishedOn": "2026-10-28"
     }
   ],
   "analytics": {

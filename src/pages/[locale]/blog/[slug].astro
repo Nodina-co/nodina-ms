@@ -15,6 +15,6 @@ const fr = await translationOf(post, 'fr');
 const en = await translationOf(post, 'en');
 // A post without a translation points both language alternates at itself.
 const alternates = { fr: fr ? postPath(fr) : path, en: en ? postPath(en) : path };
-const article = { headline: post.data.title, description: post.data.description, datePublished: post.data.date, url: origin + path, blog: origin + route(locale, 'blog') };
+const article = { headline: post.data.title, description: post.data.description, datePublished: post.data.date, url: origin + path, blog: origin + route(locale, 'blog'), author: post.data.author ? { name: post.data.author, url: origin + route(locale, 'home') + '#experience' } : undefined, faq: post.data.faq };
 ---
 <SiteLayout locale={locale} page="blog" path={path} title={post.data.title + ' | NODINA'} description={post.data.description} alternates={alternates} article={article}><PostPage locale={locale} post={post}/></SiteLayout>

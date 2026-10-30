@@ -25,6 +25,8 @@ Pour un article futur : recherche datée, requête et intention justifiées, sou
 
 Une demande enregistrée n’est pas une opportunité qualifiée. Toute donnée publiée doit préciser sa source, sa période et ses limites. Un rapport vide signifie indisponible, pas zéro. Les statistiques et les données Contact restent dans leurs espaces privés ; aucun export de coordonnées, message, clé ou chiffre analytique brut dans ce dépôt public.
 
+**Précision du 28 octobre 2026 après correction de JD :** « publier » ou « mettre en production » conserve toute la checklist §3b du plan, y compris la remise des URL brutes Search Console et des commandes IndexNow dans le chat, puis la proposition LinkedIn. Une demande d’aller directement en production ne signifie ni refus de ces étapes ni refus de LinkedIn. Si JD demande explicitement de lancer l’agent pour programmer les articles concernés, cette instruction vaut accord LinkedIn pour ces articles ; ne pas redemander le même accord.
+
 Le [PLAN](PLAN.md) distingue les seize pages publiées du travail éditorial restant. Les articles, le blog et leurs maquettes restent à préparer et à faire valider avant publication. Le site ne génère aucun article ou message externe automatiquement.
 
 ## Images de partage (Open Graph)

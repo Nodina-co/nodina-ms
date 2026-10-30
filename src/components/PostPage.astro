@@ -14,6 +14,7 @@ const index = posts.findIndex(p => p.id === post.id);
 const next = index > 0 ? posts[index - 1] : undefined;
 const previous = index >= 0 && index < posts.length - 1 ? posts[index + 1] : undefined;
 const neighbour = next ?? previous;
+const readingText = (post.body ?? '') + '\n' + (post.data.faq ?? []).map(item => item.question + ' ' + item.answer).join('\n');
 const share = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(origin + postPath(post));
 ---
 <main id="content" class="post-page">
@@ -23,9 +24,9 @@ const share = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURI
       <p class="label">{post.data.topic}</p>
       <h1>{post.data.title}</h1>
       <p class="post-lead">{post.data.description}</p>
-      <p class="blog-meta post-meta"><span class="blog-date">{formatDate(post.data.date, l)}</span><span>{c.minutes.replace('{n}', String(readMinutes(post.body)))}</span><span>NODINA</span></p>
+      <p class="blog-meta post-meta"><span class="blog-date">{formatDate(post.data.date, l)}</span><span>{c.minutes.replace('{n}', String(readMinutes(readingText)))}</span><span>{post.data.author ? <a href={route(l, 'home') + '#experience'}>{post.data.author}</a> : 'NODINA'}</span></p>
     </header>
-    <div class="post-body"><Content/></div>
+    <div class="post-body"><Content/>{post.data.faq && <section aria-labelledby="post-faq"><h2 id="post-faq">{l === 'fr' ? 'Questions fréquentes' : 'Frequently asked questions'}</h2>{post.data.faq.map(item => <><h3>{item.question}</h3><p>{item.answer}</p></>)}</section>}</div>
     <footer class="post-footer">
       <div class="post-neighbour">{neighbour ? <><span class="label">{next ? c.next : c.previous}</span><a href={postPath(neighbour)}>{neighbour.data.title}</a></> : <span class="post-none">{c.moreNone}</span>}</div>
       <a class="text-link" href={share} rel="noopener">{c.share}<span aria-hidden="true">↗</span></a>

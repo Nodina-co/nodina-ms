@@ -13,7 +13,7 @@ import '../styles/analytics.css';
 import '../styles/legal.css';
 import '../styles/offers.css';
 import '../styles/blog.css';
-interface Props { locale: Locale; page: PageId; title?: string; description?: string; path?: string; alternates?: Record<Locale, string>; article?: { headline: string; description: string; datePublished: string; url: string; blog: string } }
+interface Props { locale: Locale; page: PageId; title?: string; description?: string; path?: string; alternates?: Record<Locale, string>; article?: { headline: string; description: string; datePublished: string; url: string; blog: string; author?: { name: string; url: string }; faq?: { question: string; answer: string }[] } }
 const { locale, page, path = route(locale, page), alternates = { fr: route('fr', page), en: route('en', page) }, article } = Astro.props;
 const c = content[locale];
 const { title, description } = { ...metadata(locale, page), ...Astro.props };
@@ -27,7 +27,9 @@ const graph = {
     { '@type': 'WebPage', '@id': canonical + '#webpage', url: canonical, name: title, description, inLanguage: c.lang, isPartOf: { '@id': origin + '/#website' } },
     ...(['systems', 'teams'].includes(page) ? [{ '@type': 'Service', '@id': canonical + '#service', name: page === 'teams' ? 'AI-native Teams' : (locale === 'fr' ? 'Conseil et intégration IA' : 'AI Consulting & Integration'), description, url: canonical, provider: { '@id': origin + '/#organization' } }] : []),
     ...(page === 'blog' && !article ? [{ '@type': 'Blog', '@id': canonical + '#blog', url: canonical, name: title, description, inLanguage: c.lang, publisher: { '@id': origin + '/#organization' } }] : []),
-    ...(article ? [{ '@type': 'BlogPosting', '@id': canonical + '#article', headline: article.headline, description: article.description, datePublished: article.datePublished, dateModified: article.datePublished, url: canonical, inLanguage: c.lang, mainEntityOfPage: { '@id': canonical + '#webpage' }, isPartOf: { '@id': article.blog + '#blog' }, author: { '@id': origin + '/#organization' }, publisher: { '@id': origin + '/#organization' } }] : []),
+    ...(article?.author ? [{ '@type': 'Person', '@id': origin + '/#jean-david-collard', name: article.author.name, url: article.author.url, worksFor: { '@id': origin + '/#organization' } }] : []),
+    ...(article ? [{ '@type': 'BlogPosting', '@id': canonical + '#article', headline: article.headline, description: article.description, datePublished: article.datePublished, dateModified: article.datePublished, url: canonical, inLanguage: c.lang, mainEntityOfPage: { '@id': canonical + '#webpage' }, isPartOf: { '@id': article.blog + '#blog' }, author: { '@id': origin + (article.author ? '/#jean-david-collard' : '/#organization') }, publisher: { '@id': origin + '/#organization' } }] : []),
+    ...(article?.faq ? [{ '@type': 'FAQPage', '@id': canonical + '#faq', mainEntity: article.faq.map(item => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) }] : []),
   ],
 };
 ---
@@ -46,6 +48,7 @@ const graph = {
   <link rel="alternate" hreflang="en-US" href={origin + alternates.en}/>
   <link rel="alternate" hreflang="x-default" href={origin + '/'}/>
   <meta property="og:type" content={article ? 'article' : 'website'}/><meta property="og:site_name" content="NODINA"/>
+  {article && <><meta property="article:published_time" content={article.datePublished}/><meta property="article:modified_time" content={article.datePublished}/></>}
   <meta property="og:locale" content={c.lang.replace('-', '_')}/><meta property="og:url" content={canonical}/>
   <meta property="og:title" content={title}/><meta property="og:description" content={description}/>
   <meta property="og:image" content={ogImage}/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content={title}/>

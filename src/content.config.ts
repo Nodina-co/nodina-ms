@@ -14,6 +14,8 @@ const blog = defineCollection({
     slug: z.string().regex(/^[a-z0-9-]+$/),
     key: z.string(),
     draft: z.boolean().default(false),
+    author: z.literal('Jean-David Collard').optional(),
+    faq: z.array(z.object({ question: z.string(), answer: z.string() })).min(3).max(6).optional(),
   }),
 });
 
